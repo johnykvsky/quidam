@@ -1,7 +1,7 @@
 {
   "name": "johnykvsky/quidam",
   "type": "library",
-  "description": "Dummy / fake data generator for PHP 8.4+ - DummyGenerator architecture (container, interfaces, strategies, language packs) without magic",
+  "description": "Modern fake / dummy data generator for PHP 8.4+ - typed, seedable and extensible, with no magic",
   "keywords": [
     "dummy",
     "generator",
