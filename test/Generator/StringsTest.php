@@ -65,7 +65,6 @@ final class StringsTest extends GeneratorTestCase
         yield 'class with escapes, dash and bracket' => ['[\d\-_.]{4}[]a]{2}[a-]'];
         yield 'anchors' => ['^\A[a-c]{2}\z$'];
         yield 'brace without quantifier is literal' => ['a{x}b{}c{,}'];
-        yield 'quantifier without min' => ['a{,2}b'];
         yield 'hex and unicode' => ['\x41\x{1F600}[ąęł]{3}[\x{3B1}-\x{3C9}]'];
         yield 'empty alternative' => ['a(|b)c'];
         yield 'empty pattern' => [''];
@@ -81,6 +80,16 @@ final class StringsTest extends GeneratorTestCase
             $string = $strings->regexify($pattern);
             self::assertTrue(mb_check_encoding($string, 'UTF-8'));
             self::assertMatchesRegularExpression($regex, $string);
+        }
+    }
+
+    public function testRegexifyQuantifierWithoutMin(): void
+    {
+        $strings = $this->dummy->ext(StringsExtensionInterface::class);
+
+        // checked against {0,2} - PCRE2 before 10.43 treats {,2} as a literal
+        for ($i = 0; $i < self::REPEAT; ++$i) {
+            self::assertMatchesRegularExpression('#^a{0,2}b$#', $strings->regexify('a{,2}b'));
         }
     }
 
