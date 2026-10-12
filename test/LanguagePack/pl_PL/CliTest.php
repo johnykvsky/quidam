@@ -68,7 +68,7 @@ final class CliTest extends TestCase
         [, $core] = $this->cli('--list');
 
         self::assertStringContainsString('nationalId   Quidam\LanguagePack\pl_PL\NationalIdInterface', $aliases);
-        self::assertStringContainsString('Languages (-l <code>): pl_PL', $core);
+        self::assertMatchesRegularExpression('/Languages \(-l <code>\): .*\bpl_PL\b/', $core);
         self::assertStringNotContainsString('nationalId', $core, 'the alias comes with the pack');
         self::assertStringContainsString('phoneNumber.tollFreePhoneNumber()', $phone, 'methods of the pack class');
     }

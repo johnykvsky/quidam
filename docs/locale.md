@@ -1,6 +1,6 @@
 # Locale
 
-The core has no locale - its defaults are neutral, and languages come as packs. One complete pack is included as an example: [pl_PL](../src/LanguagePack/pl_PL/README.md). Data is split in two:
+The core has no locale - its defaults are neutral, and languages come as packs. One complete pack is included as an example: [pl_PL](../src/LanguagePack/pl_PL/README.md). A small one for fun as well: [la_VA](../src/LanguagePack/la_VA/README.md), classical Latin. Data is split in two:
 
 | | What | Where | Default |
 |---|---|---|---|

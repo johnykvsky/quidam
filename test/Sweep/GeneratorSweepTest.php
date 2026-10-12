@@ -13,6 +13,7 @@ use Quidam\Core\Payment;
 use Quidam\Core\PhoneNumber;
 use Quidam\Definitions\Addon\TemplateInterface;
 use Quidam\LanguagePack\pl_PL\PlPlGenerator;
+use Quidam\ProviderPack\ProviderPackInterface;
 use Quidam\Quidam;
 use ReflectionClass;
 use ReflectionClassConstant;
@@ -65,7 +66,7 @@ final class GeneratorSweepTest extends TestCase
         restore_error_handler();
     }
 
-    /** @return iterable<string, array{class-string, string, bool}> */
+    /** @return iterable<string, array{class-string, string, ?string}> */
     public static function generatorMethods(): iterable
     {
         $src = dirname(__DIR__, 2) . '/src/';
@@ -79,7 +80,7 @@ final class GeneratorSweepTest extends TestCase
             }
 
             $reflection = new ReflectionClass($class);
-            $polish = str_contains($class, '\\pl_PL\\');
+            $pack = preg_match('/\\\\LanguagePack\\\\(\w+)\\\\/', $class, $match) === 1 ? $match[1] : null;
 
             if (!$reflection->isInstantiable() || str_ends_with($class, 'Generator') || str_ends_with($class, 'ProviderPack')) {
                 continue;
@@ -91,11 +92,11 @@ final class GeneratorSweepTest extends TestCase
                 }
 
                 $name = $reflection->getShortName() . '::' . $method->getName();
-                yield ($polish ? 'pl_PL ' : '') . $name . (str_contains($class, '\\Addon\\') ? ' (add-on)' : '') => [$class, $method->getName(), $polish];
+                yield ($pack !== null ? $pack . ' ' : '') . $name . (str_contains($class, '\\Addon\\') ? ' (add-on)' : '') => [$class, $method->getName(), $pack];
 
                 // core classes also run inside the Polish pack - its locale and data reach them
-                if (!$polish && !str_contains($class, '\\Addon\\')) {
-                    yield 'in pl_PL ' . $name => [$class, $method->getName(), true];
+                if ($pack === null && !str_contains($class, '\\Addon\\')) {
+                    yield 'in pl_PL ' . $name => [$class, $method->getName(), 'pl_PL'];
                 }
             }
         }
@@ -103,7 +104,7 @@ final class GeneratorSweepTest extends TestCase
 
     /** @param class-string $class */
     #[DataProvider('generatorMethods')]
-    public function testEveryMethodGivesCleanValues(string $class, string $method, bool $polish): void
+    public function testEveryMethodGivesCleanValues(string $class, string $method, ?string $pack): void
     {
         $raw = false;
 
@@ -112,7 +113,11 @@ final class GeneratorSweepTest extends TestCase
         }
 
         foreach (self::SEEDS as $seed) {
-            $generator = $polish ? PlPlGenerator::create(seed: $seed) : Quidam::create(seed: $seed);
+            $generator = match ($pack) {
+                null => Quidam::create(seed: $seed),
+                'pl_PL' => PlPlGenerator::create(seed: $seed),
+                default => Quidam::create(seed: $seed)->withProvider(self::providerPack($pack)),
+            };
             $extension = $generator->ext($class);
 
             for ($i = 0; $i < self::SAMPLES; ++$i) {
@@ -121,6 +126,17 @@ final class GeneratorSweepTest extends TestCase
                 $this->addToAssertionCount(1);
             }
         }
+    }
+
+    /** Provider pack of a pack code - the CLI's naming convention, la_VA -> LanguagePack\la_VA\LaVaProviderPack */
+    private static function providerPack(string $pack): ProviderPackInterface
+    {
+        [$language, $country] = explode('_', $pack);
+        $class = sprintf('Quidam\\LanguagePack\\%s\\%s%sProviderPack', $pack, ucfirst($language), ucfirst(strtolower($country)));
+        $provider = new $class();
+        self::assertInstanceOf(ProviderPackInterface::class, $provider);
+
+        return $provider;
     }
 
     public function testIbanHasRegistryLengthForEveryCountry(): void

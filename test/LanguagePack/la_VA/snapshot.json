@@ -1,0 +1,932 @@
+{
+    "1 Person::lastName()": [
+        "Lucretia",
+        "Horatia"
+    ],
+    "1 Person::cognomen()": [
+        "Caesar",
+        "Scipio"
+    ],
+    "1 Person::name()": [
+        "Priscilla Horatia",
+        "Postuma Valeria"
+    ],
+    "1 Person::firstName()": [
+        "Priscilla",
+        "Numerius"
+    ],
+    "1 Person::middleName()": [
+        "Priscilla",
+        "Numerius"
+    ],
+    "1 Person::age()": [
+        76,
+        42
+    ],
+    "1 Person::initials()": [
+        "PH",
+        "PV"
+    ],
+    "1 Person::suffix()": [
+        "Minor",
+        "Senior"
+    ],
+    "1 Person::title()": [
+        "Virgo Vestalis",
+        "Dominus"
+    ],
+    "1 Person::gender()": [
+        "Quidam\\Definitions\\Enum\\Gender::Female",
+        "Quidam\\Definitions\\Enum\\Gender::Female"
+    ],
+    "1 Address::city()": [
+        "Italica",
+        "Miletus"
+    ],
+    "1 Address::streetName()": [
+        "Via Flaminia",
+        "Via Tiburtina"
+    ],
+    "1 Address::buildingNumber()": [
+        "XXI",
+        "XXII"
+    ],
+    "1 Address::secondaryAddress()": [
+        "cenaculum VII",
+        "cenaculum XII"
+    ],
+    "1 Address::county()": [
+        "tribus Arnensis",
+        "tribus Falerna"
+    ],
+    "1 Address::cityData()": [
+        {
+            "city": "Italica",
+            "state": "Baetica",
+            "stateCode": "BA",
+            "county": "tribus Falerna",
+            "postcode": "00120",
+            "latitude": 37.441371,
+            "longitude": -6.046427
+        },
+        {
+            "city": "Gades",
+            "state": "Baetica",
+            "stateCode": "BA",
+            "county": "tribus Pupinia",
+            "postcode": "00120",
+            "latitude": 36.52878,
+            "longitude": -6.289679
+        }
+    ],
+    "1 Address::cityPrefix()": [
+        "Augusta",
+        "Aquae"
+    ],
+    "1 Address::citySuffix()": [
+        "um",
+        "ium"
+    ],
+    "1 Address::streetSuffix()": [
+        "Vicus",
+        "Via"
+    ],
+    "1 Address::state()": [
+        "Achaia",
+        "Gallia Narbonensis"
+    ],
+    "1 Address::stateCode()": [
+        "AC",
+        "GN"
+    ],
+    "1 Address::stateData()": [
+        {
+            "code": "AC",
+            "name": "Achaia"
+        },
+        {
+            "code": "GN",
+            "name": "Gallia Narbonensis"
+        }
+    ],
+    "1 Address::streetAddress()": [
+        "Via Flaminia V",
+        "Via Latina XXI"
+    ],
+    "1 Address::postcode()": [
+        "00120",
+        "00120"
+    ],
+    "1 Address::address()": [
+        "Via Flaminia V, Sparta",
+        "Clivus Suburanus CLXXXVIII, Traiectum"
+    ],
+    "1 Address::addressData()": [
+        {
+            "street": "Via Flaminia V",
+            "city": "Hadrumetum",
+            "state": "Africa Proconsularis",
+            "stateCode": "AF",
+            "county": "tribus Quirina",
+            "postcode": "00120",
+            "latitude": 35.824638,
+            "longitude": 10.638524,
+            "address": "Via Flaminia V, Hadrumetum"
+        },
+        {
+            "street": "Forum Boarium CXXXVI",
+            "city": "Delphi",
+            "state": "Achaia",
+            "stateCode": "AC",
+            "county": "tribus Collina",
+            "postcode": "00120",
+            "latitude": 38.479533,
+            "longitude": 22.501662,
+            "address": "Forum Boarium CXXXVI, Delphi"
+        }
+    ],
+    "1 Address::country()": [
+        "Bosnia and Herzegovina",
+        "Lebanon"
+    ],
+    "1 Address::countryCode()": [
+        "BA",
+        "LB"
+    ],
+    "1 Address::countryCodeAlpha3()": [
+        "BIH",
+        "LBN"
+    ],
+    "1 Address::countryData()": [
+        {
+            "alpha2": "BA",
+            "alpha3": "BIH",
+            "name": "Bosnia and Herzegovina"
+        },
+        {
+            "alpha2": "LB",
+            "alpha3": "LBN",
+            "name": "Lebanon"
+        }
+    ],
+    "1 Address::latitude()": [
+        -35.726328,
+        -58.671206
+    ],
+    "1 Address::longitude()": [
+        -73.482063,
+        -158.674595
+    ],
+    "1 Address::coordinates()": [
+        {
+            "latitude": -35.726328,
+            "longitude": -158.674595
+        },
+        {
+            "latitude": -50.21702,
+            "longitude": -148.890107
+        }
+    ],
+    "1 DateTime::longDate()": [
+        "Non. Iun. MCMLXXXIV",
+        "a.d. VIII Kal. Dec. MMXIII"
+    ],
+    "1 DateTime::dateTime()": [
+        "1984-06-05T03:26:37.000000+00:00",
+        "2013-11-24T10:59:30.000000+00:00"
+    ],
+    "1 DateTime::dateTimeBetween()": [
+        "2004-06-05T03:26:37.000000+00:00",
+        "2003-11-24T10:59:29.000000+00:00"
+    ],
+    "1 DateTime::dateTimeRange()": [
+        [
+            "2003-11-24T10:59:29.000000+00:00",
+            "2004-06-05T03:26:37.000000+00:00"
+        ],
+        [
+            "2000-05-18T22:42:04.000000+00:00",
+            "2009-05-21T08:31:08.000000+00:00"
+        ]
+    ],
+    "1 DateTime::dateTimePast()": [
+        "2025-12-20T03:24:55.000000+00:00",
+        "2026-01-13T10:51:50.000000+00:00"
+    ],
+    "1 DateTime::dateTimeFuture()": [
+        "2026-01-19T03:24:55.000000+00:00",
+        "2026-02-12T10:51:50.000000+00:00"
+    ],
+    "1 DateTime::dateOfBirth()": [
+        "1953-06-06T00:00:00.000000+00:00",
+        "1982-11-26T00:00:00.000000+00:00"
+    ],
+    "1 DateTime::date()": [
+        "1984-06-05",
+        "2013-11-24"
+    ],
+    "1 DateTime::time()": [
+        "03:26:37",
+        "10:59:30"
+    ],
+    "1 DateTime::unixTime()": [
+        455253997,
+        1385290770
+    ],
+    "1 DateTime::monthName()": [
+        "Iunius",
+        "November"
+    ],
+    "1 DateTime::dayOfWeek()": [
+        "dies Martis",
+        "dies Solis"
+    ],
+    "1 DateTime::localDate()": [
+        "05/06/1984",
+        "24/11/2013"
+    ],
+    "1 DateTime::localDateTime()": [
+        "05/06/1984 03:26",
+        "24/11/2013 10:59"
+    ],
+    "1 DateTime::century()": [
+        "XVII",
+        "IV"
+    ],
+    "1 DateTime::timezone()": [
+        "Europe/Vatican",
+        "Europe/Vatican"
+    ],
+    "1 Company::company()": [
+        "Lucretius et Octavius",
+        "Valerius et Octavius"
+    ],
+    "1 Company::companySuffix()": [
+        "et Socii",
+        "et Fratres"
+    ],
+    "1 Company::jobTitle()": [
+        "Tonsor",
+        "Lictor"
+    ],
+    "1 Company::industry()": [
+        "Architectura",
+        "Ludi"
+    ],
+    "1 Company::catchPhrase()": [
+        "Primus inter pares",
+        "Carpe diem"
+    ],
+    "1 Address::cityData(\"BR\")": [
+        {
+            "city": "Lindum",
+            "state": "Britannia",
+            "stateCode": "BR",
+            "county": "tribus Falerna",
+            "postcode": "00120",
+            "latitude": 53.232371,
+            "longitude": -0.538427
+        },
+        {
+            "city": "Deva",
+            "state": "Britannia",
+            "stateCode": "BR",
+            "county": "tribus Pupinia",
+            "postcode": "00120",
+            "latitude": 53.19178,
+            "longitude": -2.891679
+        }
+    ],
+    "1 DateTime::dateTimesBetween(3, \"-1 year\")": [
+        [
+            "2025-05-20T22:42:00.000000+00:00",
+            "2025-06-08T03:26:29.000000+00:00",
+            "2025-12-04T10:58:53.000000+00:00"
+        ],
+        [
+            "2025-01-15T23:31:21.000000+00:00",
+            "2025-06-18T08:29:28.000000+00:00",
+            "2025-08-14T21:35:11.000000+00:00"
+        ]
+    ],
+    "42 Person::lastName()": [
+        "Ulpius Gracchus",
+        "Valeria"
+    ],
+    "42 Person::cognomen()": [
+        "Agrippa",
+        "Niger"
+    ],
+    "42 Person::name()": [
+        "Marcus Sulpicius Regulus",
+        "Priscilla Servilia"
+    ],
+    "42 Person::firstName()": [
+        "Marcus",
+        "Manius"
+    ],
+    "42 Person::middleName()": [
+        "Marcus",
+        "Manius"
+    ],
+    "42 Person::age()": [
+        72,
+        64
+    ],
+    "42 Person::initials()": [
+        "MSR",
+        "PS"
+    ],
+    "42 Person::suffix()": [
+        "Senior",
+        "Senior"
+    ],
+    "42 Person::title()": [
+        "Senator",
+        "Praetor"
+    ],
+    "42 Person::gender()": [
+        "Quidam\\Definitions\\Enum\\Gender::Male",
+        "Quidam\\Definitions\\Enum\\Gender::Male"
+    ],
+    "42 Address::city()": [
+        "Pompeii",
+        "Antinoopolis"
+    ],
+    "42 Address::streetName()": [
+        "Via Lata",
+        "Via Nomentana"
+    ],
+    "42 Address::buildingNumber()": [
+        "XI",
+        "CXXVI"
+    ],
+    "42 Address::secondaryAddress()": [
+        "insula XI",
+        "taberna II"
+    ],
+    "42 Address::county()": [
+        "tribus Pollia",
+        "tribus Sabatina"
+    ],
+    "42 Address::cityData()": [
+        {
+            "city": "Pompeii",
+            "state": "Italia",
+            "stateCode": "IT",
+            "county": "tribus Sabatina",
+            "postcode": "00120",
+            "latitude": 40.746456,
+            "longitude": 14.485569
+        },
+        {
+            "city": "Corduba",
+            "state": "Baetica",
+            "stateCode": "BA",
+            "county": "tribus Falerna",
+            "postcode": "00120",
+            "latitude": 37.887005,
+            "longitude": -4.780794
+        }
+    ],
+    "42 Address::cityPrefix()": [
+        "Aquae",
+        "Forum"
+    ],
+    "42 Address::citySuffix()": [
+        "ium",
+        "acum"
+    ],
+    "42 Address::streetSuffix()": [
+        "Via",
+        "Vicus"
+    ],
+    "42 Address::state()": [
+        "Aegyptus",
+        "Gallia Lugdunensis"
+    ],
+    "42 Address::stateCode()": [
+        "AE",
+        "GL"
+    ],
+    "42 Address::stateData()": [
+        {
+            "code": "AE",
+            "name": "Aegyptus"
+        },
+        {
+            "code": "GL",
+            "name": "Gallia Lugdunensis"
+        }
+    ],
+    "42 Address::streetAddress()": [
+        "Via Lata L",
+        "Via Flaminia CLXXXII"
+    ],
+    "42 Address::postcode()": [
+        "00120",
+        "00120"
+    ],
+    "42 Address::address()": [
+        "Via Lata L, Antinoopolis",
+        "Via Tiburtina XII, Hippo Regius"
+    ],
+    "42 Address::addressData()": [
+        {
+            "street": "Via Lata L",
+            "city": "Italica",
+            "state": "Baetica",
+            "stateCode": "BA",
+            "county": "tribus Scaptia",
+            "postcode": "00120",
+            "latitude": 37.445931,
+            "longitude": -6.045068,
+            "address": "Via Lata L, Italica"
+        },
+        {
+            "street": "Via Nomentana XXIV",
+            "city": "Apamea",
+            "state": "Syria",
+            "stateCode": "SY",
+            "county": "tribus Pollia",
+            "postcode": "00120",
+            "latitude": 35.4198,
+            "longitude": 36.398862,
+            "address": "Via Nomentana XXIV, Apamea"
+        }
+    ],
+    "42 Address::country()": [
+        "Eritrea",
+        "Malaysia"
+    ],
+    "42 Address::countryCode()": [
+        "ER",
+        "MY"
+    ],
+    "42 Address::countryCodeAlpha3()": [
+        "ERI",
+        "MYS"
+    ],
+    "42 Address::countryData()": [
+        {
+            "alpha2": "ER",
+            "alpha3": "ERI",
+            "name": "Eritrea"
+        },
+        {
+            "alpha2": "MY",
+            "alpha3": "MYS",
+            "name": "Malaysia"
+        }
+    ],
+    "42 Address::latitude()": [
+        -48.708734,
+        58.043118
+    ],
+    "42 Address::longitude()": [
+        131.650629,
+        -154.797659
+    ],
+    "42 Address::coordinates()": [
+        {
+            "latitude": -48.708734,
+            "longitude": -154.797659
+        },
+        {
+            "latitude": 15.729389,
+            "longitude": -65.414919
+        }
+    ],
+    "42 DateTime::longDate()": [
+        "a.d. VIII Id. Iul. MCMLXXXII",
+        "a.d. V Id. Ian. MCMLXXXIV"
+    ],
+    "42 DateTime::dateTime()": [
+        "1982-07-08T02:06:54.000000+00:00",
+        "1984-01-09T04:57:09.000000+00:00"
+    ],
+    "42 DateTime::dateTimeBetween()": [
+        "2002-07-08T02:06:54.000000+00:00",
+        "2024-01-09T04:57:09.000000+00:00"
+    ],
+    "42 DateTime::dateTimeRange()": [
+        [
+            "2002-07-08T02:06:54.000000+00:00",
+            "2024-01-09T04:57:09.000000+00:00"
+        ],
+        [
+            "1996-10-25T03:17:28.000000+00:00",
+            "1998-01-03T00:58:49.000000+00:00"
+        ]
+    ],
+    "42 DateTime::dateTimePast()": [
+        "2026-01-11T02:05:36.000000+00:00",
+        "2026-01-14T04:45:25.000000+00:00"
+    ],
+    "42 DateTime::dateTimeFuture()": [
+        "2026-02-10T02:05:36.000000+00:00",
+        "2026-02-13T04:45:25.000000+00:00"
+    ],
+    "42 DateTime::dateOfBirth()": [
+        "1951-07-09T00:00:00.000000+00:00",
+        "2003-01-10T00:00:00.000000+00:00"
+    ],
+    "42 DateTime::date()": [
+        "1982-07-08",
+        "1984-01-09"
+    ],
+    "42 DateTime::time()": [
+        "02:06:54",
+        "04:57:09"
+    ],
+    "42 DateTime::unixTime()": [
+        394942014,
+        442472229
+    ],
+    "42 DateTime::monthName()": [
+        "Iulius",
+        "Ianuarius"
+    ],
+    "42 DateTime::dayOfWeek()": [
+        "dies Iovis",
+        "dies Lunae"
+    ],
+    "42 DateTime::localDate()": [
+        "08/07/1982",
+        "09/01/1984"
+    ],
+    "42 DateTime::localDateTime()": [
+        "08/07/1982 02:06",
+        "09/01/1984 04:57"
+    ],
+    "42 DateTime::century()": [
+        "XIII",
+        "V"
+    ],
+    "42 DateTime::timezone()": [
+        "Europe/Vatican",
+        "Europe/Vatican"
+    ],
+    "42 Company::company()": [
+        "Thermopolium Ulpii",
+        "Officina Ovidii"
+    ],
+    "42 Company::companySuffix()": [
+        "et Fratres",
+        "et Fratres"
+    ],
+    "42 Company::jobTitle()": [
+        "Grammaticus",
+        "Caupo"
+    ],
+    "42 Company::industry()": [
+        "Ludi",
+        "Res metallica"
+    ],
+    "42 Company::catchPhrase()": [
+        "Non ducor, duco",
+        "Citius, altius, fortius"
+    ],
+    "42 Address::cityData(\"BR\")": [
+        {
+            "city": "Isca",
+            "state": "Britannia",
+            "stateCode": "BR",
+            "county": "tribus Sabatina",
+            "postcode": "00120",
+            "latitude": 50.719456,
+            "longitude": -3.530431
+        },
+        {
+            "city": "Londinium",
+            "state": "Britannia",
+            "stateCode": "BR",
+            "county": "tribus Falerna",
+            "postcode": "00120",
+            "latitude": 51.514005,
+            "longitude": -0.092794
+        }
+    ],
+    "42 DateTime::dateTimesBetween(3, \"-1 year\")": [
+        [
+            "2025-01-24T04:56:12.000000+00:00",
+            "2025-07-10T02:06:48.000000+00:00",
+            "2025-11-03T03:16:59.000000+00:00"
+        ],
+        [
+            "2025-10-06T13:45:56.000000+00:00",
+            "2025-10-28T15:25:20.000000+00:00",
+            "2026-01-04T00:58:48.000000+00:00"
+        ]
+    ],
+    "2026 Person::lastName()": [
+        "Tullius Scipio",
+        "Sempronia"
+    ],
+    "2026 Person::cognomen()": [
+        "Cicero",
+        "Maximus"
+    ],
+    "2026 Person::name()": [
+        "Quarta Flavia",
+        "Publia Furia"
+    ],
+    "2026 Person::firstName()": [
+        "Quarta",
+        "Paulla"
+    ],
+    "2026 Person::middleName()": [
+        "Quarta",
+        "Paulla"
+    ],
+    "2026 Person::age()": [
+        63,
+        41
+    ],
+    "2026 Person::initials()": [
+        "QF",
+        "PF"
+    ],
+    "2026 Person::suffix()": [
+        "Minor",
+        "Maior"
+    ],
+    "2026 Person::title()": [
+        "Domina",
+        "Virgo Vestalis"
+    ],
+    "2026 Person::gender()": [
+        "Quidam\\Definitions\\Enum\\Gender::Female",
+        "Quidam\\Definitions\\Enum\\Gender::Male"
+    ],
+    "2026 Address::city()": [
+        "Narbo",
+        "Thebae"
+    ],
+    "2026 Address::streetName()": [
+        "Via Salaria",
+        "Via Aemilia"
+    ],
+    "2026 Address::buildingNumber()": [
+        "IX",
+        "III"
+    ],
+    "2026 Address::secondaryAddress()": [
+        "insula IX",
+        "insula III"
+    ],
+    "2026 Address::county()": [
+        "tribus Camilia",
+        "tribus Quirina"
+    ],
+    "2026 Address::cityData()": [
+        {
+            "city": "Narbo",
+            "state": "Gallia Narbonensis",
+            "stateCode": "GN",
+            "county": "tribus Quirina",
+            "postcode": "00120",
+            "latitude": 43.183603,
+            "longitude": 3.002718
+        },
+        {
+            "city": "Miletus",
+            "state": "Asia",
+            "stateCode": "AS",
+            "county": "tribus Maecia",
+            "postcode": "00120",
+            "latitude": 37.532899,
+            "longitude": 27.280028
+        }
+    ],
+    "2026 Address::cityPrefix()": [
+        "Colonia",
+        "Castra"
+    ],
+    "2026 Address::citySuffix()": [
+        "ae",
+        "ia"
+    ],
+    "2026 Address::streetSuffix()": [
+        "Via",
+        "Clivus"
+    ],
+    "2026 Address::state()": [
+        "Gallia Narbonensis",
+        "Britannia"
+    ],
+    "2026 Address::stateCode()": [
+        "GN",
+        "BR"
+    ],
+    "2026 Address::stateData()": [
+        {
+            "code": "GN",
+            "name": "Gallia Narbonensis"
+        },
+        {
+            "code": "BR",
+            "name": "Britannia"
+        }
+    ],
+    "2026 Address::streetAddress()": [
+        "Via Salaria CXXXVI",
+        "Vicus Tuscus XXIX"
+    ],
+    "2026 Address::postcode()": [
+        "00120",
+        "00120"
+    ],
+    "2026 Address::address()": [
+        "Via Salaria CXXXVI, Syracusae",
+        "Via Aurelia X, Hadrumetum"
+    ],
+    "2026 Address::addressData()": [
+        {
+            "street": "Via Salaria CXXXVI",
+            "city": "Gades",
+            "state": "Baetica",
+            "stateCode": "BA",
+            "county": "tribus Arnensis",
+            "postcode": "00120",
+            "latitude": 36.526297,
+            "longitude": -6.287116,
+            "address": "Via Salaria CXXXVI, Gades"
+        },
+        {
+            "street": "Via Cassia XXVI",
+            "city": "Ravenna",
+            "state": "Italia",
+            "stateCode": "IT",
+            "county": "tribus Teretina",
+            "postcode": "00120",
+            "latitude": 44.420535,
+            "longitude": 12.201336,
+            "address": "Via Cassia XXVI, Ravenna"
+        }
+    ],
+    "2026 Address::country()": [
+        "Estonia",
+        "Belarus"
+    ],
+    "2026 Address::countryCode()": [
+        "EE",
+        "BY"
+    ],
+    "2026 Address::countryCodeAlpha3()": [
+        "EST",
+        "BLR"
+    ],
+    "2026 Address::countryData()": [
+        {
+            "alpha2": "EE",
+            "alpha3": "EST",
+            "name": "Estonia"
+        },
+        {
+            "alpha2": "BY",
+            "alpha3": "BLR",
+            "name": "Belarus"
+        }
+    ],
+    "2026 Address::latitude()": [
+        -0.121337,
+        1.401902
+    ],
+    "2026 Address::longitude()": [
+        -20.542136,
+        130.263131
+    ],
+    "2026 Address::coordinates()": [
+        {
+            "latitude": -0.121337,
+            "longitude": 130.263131
+        },
+        {
+            "latitude": 78.723224,
+            "longitude": -2.89545
+        }
+    ],
+    "2026 DateTime::longDate()": [
+        "a.d. X Kal. Nov. MM",
+        "a.d. XV Kal. Apr. MCMLXXXIV"
+    ],
+    "2026 DateTime::dateTime()": [
+        "2000-10-23T13:29:33.000000+00:00",
+        "1984-03-18T21:22:07.000000+00:00"
+    ],
+    "2026 DateTime::dateTimeBetween()": [
+        "2020-10-23T13:29:33.000000+00:00",
+        "2024-03-18T21:22:07.000000+00:00"
+    ],
+    "2026 DateTime::dateTimeRange()": [
+        [
+            "2020-10-23T13:29:33.000000+00:00",
+            "2024-03-18T21:22:07.000000+00:00"
+        ],
+        [
+            "2007-09-20T12:38:00.000000+00:00",
+            "2019-10-30T19:16:16.000000+00:00"
+        ]
+    ],
+    "2026 DateTime::dateTimePast()": [
+        "2026-01-03T13:24:32.000000+00:00",
+        "2025-12-24T21:10:20.000000+00:00"
+    ],
+    "2026 DateTime::dateTimeFuture()": [
+        "2026-02-02T13:24:32.000000+00:00",
+        "2026-01-23T21:10:20.000000+00:00"
+    ],
+    "2026 DateTime::dateOfBirth()": [
+        "1969-10-25T00:00:00.000000+00:00",
+        "2003-03-21T00:00:00.000000+00:00"
+    ],
+    "2026 DateTime::date()": [
+        "2000-10-23",
+        "1984-03-18"
+    ],
+    "2026 DateTime::time()": [
+        "13:29:33",
+        "21:22:07"
+    ],
+    "2026 DateTime::unixTime()": [
+        972307773,
+        448492927
+    ],
+    "2026 DateTime::monthName()": [
+        "October",
+        "Martius"
+    ],
+    "2026 DateTime::dayOfWeek()": [
+        "dies Lunae",
+        "dies Solis"
+    ],
+    "2026 DateTime::localDate()": [
+        "23/10/2000",
+        "18/03/1984"
+    ],
+    "2026 DateTime::localDateTime()": [
+        "23/10/2000 13:29",
+        "18/03/1984 21:22"
+    ],
+    "2026 DateTime::century()": [
+        "IV",
+        "III"
+    ],
+    "2026 DateTime::timezone()": [
+        "Europe/Vatican",
+        "Europe/Vatican"
+    ],
+    "2026 Company::company()": [
+        "Tullius et Fratres",
+        "Officina Cornelii"
+    ],
+    "2026 Company::companySuffix()": [
+        "et Socii",
+        "et Filii"
+    ],
+    "2026 Company::jobTitle()": [
+        "Lictor",
+        "Librarius"
+    ],
+    "2026 Company::industry()": [
+        "Navigatio",
+        "Mercatura"
+    ],
+    "2026 Company::catchPhrase()": [
+        "Carpe diem",
+        "Aut viam inveniam aut faciam"
+    ],
+    "2026 Address::cityData(\"BR\")": [
+        {
+            "city": "Lindum",
+            "state": "Britannia",
+            "stateCode": "BR",
+            "county": "tribus Quirina",
+            "postcode": "00120",
+            "latitude": 53.233603,
+            "longitude": -0.539282
+        },
+        {
+            "city": "Londinium",
+            "state": "Britannia",
+            "stateCode": "BR",
+            "county": "tribus Maecia",
+            "postcode": "00120",
+            "latitude": 51.514899,
+            "longitude": -0.088972
+        }
+    ],
+    "2026 DateTime::dateTimesBetween(3, \"-1 year\")": [
+        [
+            "2025-04-03T21:21:10.000000+00:00",
+            "2025-10-30T13:29:09.000000+00:00",
+            "2025-11-21T19:14:55.000000+00:00"
+        ],
+        [
+            "2025-09-03T16:46:36.000000+00:00",
+            "2025-10-09T12:36:51.000000+00:00",
+            "2025-10-15T06:47:40.000000+00:00"
+        ]
+    ]
+}

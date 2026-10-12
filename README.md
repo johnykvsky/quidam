@@ -13,6 +13,14 @@ It also brings:
 
 It keeps the architecture of [DummyGenerator](https://github.com/johnykvsky/dummygenerator) - interfaces in a container, language providers, strategies - **without the magic**: no `__call()`, no string templates in the core, no PHP-DI dependency. English words by default, country conventions in one replaceable locale service.
 
+## The name
+
+*Quidam* is Latin for "a certain someone". In English it means an unnamed, ordinary person, a nobody in particular. That's exactly what the library makes: people who look real but aren't anyone.
+
+Pronounced **KWEE-dahm** (/ˈkwiː.dam/), as in Latin. The anglicized **KWY-dəm** (/ˈkwaɪ.dəm/) is fine too.
+
+And since the name is Latin, there's a [Latin language pack](src/LanguagePack/la_VA/README.md) too: `vendor/bin/quidam -l la_VA person.name` gives you a Roman citizen, `longDate()` dates in the Roman calendar.
+
 # Installation
 
 ```shell
