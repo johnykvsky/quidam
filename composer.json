@@ -1,12 +1,16 @@
 {
   "name": "johnykvsky/quidam",
   "type": "library",
-  "description": "Modern fake / dummy data generator for PHP 8.4+ - typed, seedable and extensible, with no magic",
+  "description": "Modern, fast and seedable fake / dummy data generator for PHP 8.4+",
   "keywords": [
-    "dummy",
-    "generator",
+    "fake data",
+    "dummy data",
     "faker",
-    "fake data"
+    "generator",
+    "test data",
+    "fixtures",
+    "seed",
+    "cli"
   ],
   "homepage": "https://github.com/johnykvsky/quidam",
   "license": "MIT",
