@@ -2,7 +2,7 @@
 
 QuidamPHP (`Quidam` in code) is a dummy / fake data generator for PHP 8.4+ with the architecture of [DummyGenerator](https://github.com/johnykvsky/dummygenerator) - every part behind an interface in a container, language providers, strategies - without its magic: no `__call()`, no string templates, no PHP-DI dependency. Defaults are English words with neutral, country-less formats; country conventions live in one [locale](locale.md) service.
 
-Coming from Faker or DummyGenerator? See [Quidam vs FakerPHP](comparison.md) and the [Migration guide](migration.md). Using Laravel or Symfony? See [Integrations](integrations.md). Speed compared with Faker and DummyGenerator: [Performance](performance.md).
+Coming from Faker or DummyGenerator? See [Quidam vs FakerPHP](comparison.md) and the [Migration guide](migration.md). Using Laravel, Symfony or Slim? See [Integrations](integrations.md). Speed compared with Faker and DummyGenerator: [Performance](performance.md).
 
 ```php
 use Quidam\Quidam;

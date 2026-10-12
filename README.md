@@ -44,7 +44,7 @@ Accessors (`person()`, `internet()`, ...) are typed shortcuts of `ext(PersonExte
 
 **Coming from FakerPHP: [why switch](#why-switch-from-fakerphp), [comparison](docs/comparison.md) and [migration guide](docs/migration.md)** - also from DummyGenerator.
 
-**PHPUnit, Laravel, Symfony, Doctrine fixtures, Foundry: [docs/integrations.md](docs/integrations.md)**
+**PHPUnit, Laravel, Symfony, Doctrine fixtures, Foundry, Slim: [docs/integrations.md](docs/integrations.md)**
 
 **Command line: `vendor/bin/quidam internet.email -n 5` - [docs/cli.md](docs/cli.md)**
 
@@ -108,7 +108,7 @@ $generator = Quidam::create(seed: 1, clock: $frozenClock);   // the same birth d
 | `$faker->dateTimeBetween('-1 year')` | `$generator->dateTime()->dateTimeBetween('-1 year')` |
 | `$faker->numerify('###-###')` | `$generator->strings()->numerify('###-###')` |
 
-Every Faker method has its counterpart in the [migration guide](docs/migration.md); Laravel factories, Symfony, Doctrine fixtures and Foundry are wired in [docs/integrations.md](docs/integrations.md).
+Every Faker method has its counterpart in the [migration guide](docs/migration.md); Laravel factories, Symfony, Doctrine fixtures, Foundry and Slim are wired in [docs/integrations.md](docs/integrations.md).
 
 **Faker's one advantage: more locales.** Faker ships 75 locales, Quidam one complete pack (pl_PL). A Faker locale is mostly data - name lists, street names, phone formats - and it ports to Quidam as `protected const` arrays in subclasses of the core extensions; pl_PL started exactly that way, from Faker's pl_PL. See [Override data - language packs](docs/extending.md#override-data---language-packs).
 
