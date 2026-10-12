@@ -1,0 +1,2528 @@
+{
+    "1 Person::lastName()": [
+        "Borowska",
+        "Górski"
+    ],
+    "1 Person::name()": [
+        "Dorota Konieczna",
+        "Olga Tomczyk"
+    ],
+    "1 Person::firstName()": [
+        "Dorota",
+        "Zbigniew"
+    ],
+    "1 Person::middleName()": [
+        "Dorota",
+        "Zbigniew"
+    ],
+    "1 Person::age()": [
+        76,
+        42
+    ],
+    "1 Person::initials()": [
+        "DK",
+        "OT"
+    ],
+    "1 Person::suffix()": [
+        "junior",
+        "senior"
+    ],
+    "1 Person::title()": [
+        "dr",
+        "prof."
+    ],
+    "1 Person::gender()": [
+        "Quidam\\Definitions\\Enum\\Gender::Female",
+        "Quidam\\Definitions\\Enum\\Gender::Female"
+    ],
+    "1 Address::city()": [
+        "Brodnica",
+        "Myszków"
+    ],
+    "1 Address::streetName()": [
+        "ul. Rolnicza",
+        "ul. Stalowa"
+    ],
+    "1 Address::postcode()": [
+        "87-302",
+        "11-200"
+    ],
+    "1 Address::address()": [
+        "ul. Rolnicza 21A, 05-102 Nowy Dwór Mazowiecki",
+        "ul. Grota-Roweckiego 41/8, 37-420 Przędzel"
+    ],
+    "1 Address::county()": [
+        "powiat brodnicki",
+        "powiat myszkowski"
+    ],
+    "1 Address::cityData()": [
+        {
+            "city": "Brodnica",
+            "state": "kujawsko-pomorskie",
+            "stateCode": "PL-04",
+            "county": "powiat brodnicki",
+            "postcode": "87-302",
+            "latitude": 53.261454,
+            "longitude": 19.382171
+        },
+        {
+            "city": "Bartoszyce",
+            "state": "warmińsko-mazurskie",
+            "stateCode": "PL-28",
+            "county": "powiat bartoszycki",
+            "postcode": "11-200",
+            "latitude": 54.251438,
+            "longitude": 20.816624
+        }
+    ],
+    "1 Address::cityPrefix()": [
+        "Dolny",
+        "Stary"
+    ],
+    "1 Address::citySuffix()": [
+        "ew",
+        "ice"
+    ],
+    "1 Address::streetSuffix()": [
+        "al.",
+        "pl."
+    ],
+    "1 Address::secondaryAddress()": [
+        "m. 50",
+        "lok. 23"
+    ],
+    "1 Address::state()": [
+        "małopolskie",
+        "pomorskie"
+    ],
+    "1 Address::stateCode()": [
+        "PL-12",
+        "PL-22"
+    ],
+    "1 Address::stateData()": [
+        {
+            "code": "PL-12",
+            "name": "małopolskie"
+        },
+        {
+            "code": "PL-22",
+            "name": "pomorskie"
+        }
+    ],
+    "1 Address::buildingNumber()": [
+        "50B",
+        "93/20"
+    ],
+    "1 Address::streetAddress()": [
+        "ul. Rolnicza 21A",
+        "ul. Różana 69B"
+    ],
+    "1 Address::addressData()": [
+        {
+            "street": "ul. Rolnicza 21A",
+            "city": "Nowy Dwór Mazowiecki",
+            "state": "mazowieckie",
+            "stateCode": "PL-14",
+            "county": "powiat nowodworski",
+            "postcode": "05-102",
+            "latitude": 52.448224,
+            "longitude": 20.70418,
+            "address": "ul. Rolnicza 21A, 05-102 Nowy Dwór Mazowiecki"
+        },
+        {
+            "street": "ul. Grota-Roweckiego 41/8",
+            "city": "Przędzel",
+            "state": "podkarpackie",
+            "stateCode": "PL-18",
+            "county": "powiat niżański",
+            "postcode": "37-420",
+            "latitude": 50.490321,
+            "longitude": 22.226539,
+            "address": "ul. Grota-Roweckiego 41/8, 37-420 Przędzel"
+        }
+    ],
+    "1 Address::country()": [
+        "Bośnia i Hercegowina",
+        "Liban"
+    ],
+    "1 Address::countryCode()": [
+        "BA",
+        "LB"
+    ],
+    "1 Address::countryCodeAlpha3()": [
+        "BIH",
+        "LBN"
+    ],
+    "1 Address::countryData()": [
+        {
+            "alpha2": "BA",
+            "alpha3": "BIH",
+            "name": "Bośnia i Hercegowina"
+        },
+        {
+            "alpha2": "LB",
+            "alpha3": "LBN",
+            "name": "Liban"
+        }
+    ],
+    "1 Address::latitude()": [
+        -35.726328,
+        -58.671206
+    ],
+    "1 Address::longitude()": [
+        -73.482063,
+        -158.674595
+    ],
+    "1 Address::coordinates()": [
+        {
+            "latitude": -35.726328,
+            "longitude": -158.674595
+        },
+        {
+            "latitude": -50.21702,
+            "longitude": -148.890107
+        }
+    ],
+    "1 PhoneNumber::tollFreePhoneNumber()": [
+        "800-041-302",
+        "800-987-411"
+    ],
+    "1 PhoneNumber::phoneNumber()": [
+        "55 204 13 02",
+        "76 787 41 11"
+    ],
+    "1 PhoneNumber::mobilePhoneNumber()": [
+        "570 413 027",
+        "738 741 117"
+    ],
+    "1 PhoneNumber::internationalPhoneNumber()": [
+        "+48 694 130 279",
+        "+48 574 111 717"
+    ],
+    "1 PhoneNumber::e164PhoneNumber()": [
+        "+48694130279",
+        "+48574111717"
+    ],
+    "1 PhoneNumber::imei()": [
+        "860413027987415",
+        "861717433178644"
+    ],
+    "1 DateTime::dateTime()": [
+        "1984-06-05T03:26:37.000000+00:00",
+        "2013-11-24T10:59:30.000000+00:00"
+    ],
+    "1 DateTime::dateTimeBetween()": [
+        "2004-06-05T03:26:37.000000+00:00",
+        "2003-11-24T10:59:29.000000+00:00"
+    ],
+    "1 DateTime::dateTimeRange()": [
+        [
+            "2003-11-24T10:59:29.000000+00:00",
+            "2004-06-05T03:26:37.000000+00:00"
+        ],
+        [
+            "2000-05-18T22:42:04.000000+00:00",
+            "2009-05-21T08:31:08.000000+00:00"
+        ]
+    ],
+    "1 DateTime::dateTimePast()": [
+        "2025-12-20T03:24:55.000000+00:00",
+        "2026-01-13T10:51:50.000000+00:00"
+    ],
+    "1 DateTime::dateTimeFuture()": [
+        "2026-01-19T03:24:55.000000+00:00",
+        "2026-02-12T10:51:50.000000+00:00"
+    ],
+    "1 DateTime::dateOfBirth()": [
+        "1953-06-06T00:00:00.000000+00:00",
+        "1982-11-26T00:00:00.000000+00:00"
+    ],
+    "1 DateTime::date()": [
+        "1984-06-05",
+        "2013-11-24"
+    ],
+    "1 DateTime::time()": [
+        "03:26:37",
+        "10:59:30"
+    ],
+    "1 DateTime::unixTime()": [
+        455253997,
+        1385290770
+    ],
+    "1 DateTime::monthName()": [
+        "czerwiec",
+        "listopad"
+    ],
+    "1 DateTime::dayOfWeek()": [
+        "wtorek",
+        "niedziela"
+    ],
+    "1 DateTime::localDate()": [
+        "05.06.1984",
+        "24.11.2013"
+    ],
+    "1 DateTime::localDateTime()": [
+        "05.06.1984 03:26",
+        "24.11.2013 10:59"
+    ],
+    "1 DateTime::longDate()": [
+        "5 czerwca 1984",
+        "24 listopada 2013"
+    ],
+    "1 DateTime::century()": [
+        "XVII",
+        "IV"
+    ],
+    "1 DateTime::timezone()": [
+        "Europe/Warsaw",
+        "Europe/Warsaw"
+    ],
+    "1 Internet::email()": [
+        "gorski.dorota@example.org",
+        "musial.bronislaw@example.org"
+    ],
+    "1 Internet::freeEmail()": [
+        "gorski.dorota@onet.pl",
+        "musial.bronislaw@gazeta.pl"
+    ],
+    "1 Internet::companyEmail()": [
+        "gorski.dorota@sikorska-media.com",
+        "dobrowolska.anastazja@stepien.com"
+    ],
+    "1 Internet::safeEmailDomain()": [
+        "example.org",
+        "example.com"
+    ],
+    "1 Internet::freeEmailDomain()": [
+        "op.pl",
+        "onet.pl"
+    ],
+    "1 Internet::userName()": [
+        "gorski.dorota",
+        "marzena_czerwinska"
+    ],
+    "1 Internet::password()": [
+        "s*fNIJK$K4",
+        "w_!jrHWf$rhU8"
+    ],
+    "1 Internet::domainName()": [
+        "borowska-online.com.pl",
+        "sikorska-media.com"
+    ],
+    "1 Internet::domainWord()": [
+        "borowska-online",
+        "tomczyktech"
+    ],
+    "1 Internet::tld()": [
+        "pl",
+        "com.pl"
+    ],
+    "1 Internet::url()": [
+        "http://gorski-net.pl/earum-placeat-voluptates-illo-exercitationem-soluta-ex",
+        "https://www.michalska.eu/"
+    ],
+    "1 Internet::protocol()": [
+        "http",
+        "http"
+    ],
+    "1 Internet::hostname()": [
+        "srv-61.gorski-net.pl",
+        "srv-14.kruk-cloud.eu"
+    ],
+    "1 Internet::hashtag()": [
+        "#assumendaSaepe",
+        "#laudantiumReprehenderitCupiditate"
+    ],
+    "1 Internet::socialHandle()": [
+        "@gorski_dorota",
+        "@marzena_czerwin"
+    ],
+    "1 Internet::urlPath()": [
+        "/assumenda-saepe/laudantium-reprehenderit",
+        "/deserunt/earum-placeat"
+    ],
+    "1 Internet::slug()": [
+        "assumenda-saepe-amet-laudantium",
+        "cupiditate-deserunt-error-earum-placeat-voluptates-illo-exercitationem"
+    ],
+    "1 Internet::ipv4()": [
+        "16.199.16.197",
+        "72.54.76.234"
+    ],
+    "1 Internet::ipv4Cidr()": [
+        "72.32.0.0/11",
+        "195.102.163.0/24"
+    ],
+    "1 Internet::localIpv4()": [
+        "172.22.76.234",
+        "172.22.163.167"
+    ],
+    "1 Internet::ipv6()": [
+        "2510:c70f:6daf:f2b3:ea4c:3647:9655:3b85",
+        "2445:2a08:5697:f892:a7a3:66c2:7b1c:2e64"
+    ],
+    "1 Internet::ipv6Cidr()": [
+        "2a4c:3647:9600::/39",
+        "2336:239a:e240::/43"
+    ],
+    "1 Internet::macAddress()": [
+        "C6:10:C7:0F:6D:AF",
+        "EA:4C:36:47:96:55"
+    ],
+    "1 Internet::port()": [
+        12485,
+        44266
+    ],
+    "1 Internet::httpMethod()": [
+        "PUT",
+        "PATCH"
+    ],
+    "1 Internet::httpStatusCode()": [
+        301,
+        302
+    ],
+    "1 Company::company()": [
+        "Borowski-Konieczny sp. z o.o.",
+        "Studio Tomczyk"
+    ],
+    "1 Company::companyPrefix()": [
+        "P.H.U.",
+        "Zakład"
+    ],
+    "1 Company::companySuffix()": [
+        "i Wspólnicy",
+        "sp. k."
+    ],
+    "1 Company::jobTitle()": [
+        "Murarz",
+        "Asystent zarządu"
+    ],
+    "1 Company::industry()": [
+        "Edukacja",
+        "Handel detaliczny"
+    ],
+    "1 Company::catchPhrase()": [
+        "Niezawodne pakiety w chmurze",
+        "Strategiczne programy w czasie rzeczywistym"
+    ],
+    "1 Commerce::productName()": [
+        "Praktyczna ceramiczna butelka",
+        "Odnowione lniane biurko"
+    ],
+    "1 Commerce::productAdjective()": [
+        "Nowoczesny",
+        "Praktyczny"
+    ],
+    "1 Commerce::productMaterial()": [
+        "Szklany",
+        "Lniany"
+    ],
+    "1 Commerce::product()": [
+        "Butelka",
+        "Zegarek"
+    ],
+    "1 Commerce::department()": [
+        "Zabawki",
+        "Muzyka"
+    ],
+    "1 Commerce::sku()": [
+        "CG-0413-IB",
+        "FHP-74111"
+    ],
+    "1 Commerce::promotionCode()": [
+        "BLACKFRIDAY15",
+        "ZIMA50"
+    ],
+    "1 Payment::localCurrency()": [
+        {
+            "code": "PLN",
+            "name": "złoty",
+            "symbol": "zł"
+        },
+        {
+            "code": "PLN",
+            "name": "złoty",
+            "symbol": "zł"
+        }
+    ],
+    "1 Payment::bank()": [
+        "AS Inbank Spółka Akcyjna - Oddział w Polsce",
+        "Bank Polska Kasa Opieki Spółka Akcyjna"
+    ],
+    "1 Payment::iban()": [
+        "PL51272041350279874111717433",
+        "PL46255786417411749144685987"
+    ],
+    "1 Payment::bankAccountNumber()": [
+        "51272041350279874111717433",
+        "46255786417411749144685987"
+    ],
+    "1 Payment::sortCode()": [
+        "27204135",
+        "24927985"
+    ],
+    "1 Payment::creditCardType()": [
+        "Visa",
+        "MasterCard"
+    ],
+    "1 Payment::creditCardNumber()": [
+        "4130279874111714",
+        "3565317864741177"
+    ],
+    "1 Payment::maskedCreditCardNumber()": [
+        "**** **** **** 1714",
+        "**** **** **** 1177"
+    ],
+    "1 Payment::creditCardExpirationDate()": [
+        "05/26",
+        "10/28"
+    ],
+    "1 Payment::creditCardCvv()": [
+        "704",
+        "130"
+    ],
+    "1 Payment::creditCardDetails()": [
+        {
+            "type": "Visa",
+            "number": "4130279874111714",
+            "name": "Bartłomiej Michalski",
+            "expirationDate": "02/27",
+            "cvv": "178"
+        },
+        {
+            "type": "MasterCard",
+            "number": "5341174914468590",
+            "name": "Zenon Majewski",
+            "expirationDate": "06/28",
+            "cvv": "574"
+        }
+    ],
+    "1 Payment::swiftBicNumber()": [
+        "FKUHBYCQ",
+        "BQRGGTVX"
+    ],
+    "1 Payment::currencyCode()": [
+        "KGS",
+        "ERN"
+    ],
+    "1 Payment::currencyName()": [
+        "Som",
+        "Nakfa"
+    ],
+    "1 Payment::currencySymbol()": [
+        "$",
+        "NZ$"
+    ],
+    "1 Payment::currencyData()": [
+        {
+            "code": "KGS",
+            "name": "Som",
+            "symbol": "KGS"
+        },
+        {
+            "code": "ERN",
+            "name": "Nakfa",
+            "symbol": "ERN"
+        }
+    ],
+    "1 Payment::price()": [
+        15.5,
+        290.23
+    ],
+    "1 Payment::priceInMinorUnits()": [
+        1550,
+        29023
+    ],
+    "1 Payment::localPrice()": [
+        "15,50 zł",
+        "290,23 zł"
+    ],
+    "1 Payment::transactionType()": [
+        "invoice",
+        "payment"
+    ],
+    "1 Payment::bitcoinAddress()": [
+        "3P3sLjge3sbag4zPFD9jYVQKWUobyLG3jw",
+        "34rG9DNf66WJNej9wKsSf1YjujUcrSHzrx"
+    ],
+    "1 Payment::ethereumAddress()": [
+        "0xc510C70f6Daff2B3ea4c364796553B8514452A08",
+        "0xA7A366c27b1C2E647336239ae2487AB222A7Fd6f"
+    ],
+    "1 Vehicle::licensePlate()": [
+        "JPR V79N",
+        "CTR 17J4"
+    ],
+    "1 Vehicle::vehicle()": [
+        "Toyota Corolla",
+        "Subaru Impreza"
+    ],
+    "1 Vehicle::manufacturer()": [
+        "Toyota",
+        "Skoda"
+    ],
+    "1 Vehicle::model()": [
+        "Corolla",
+        "Impreza"
+    ],
+    "1 Vehicle::type()": [
+        "Pickup",
+        "Sedan"
+    ],
+    "1 Vehicle::fuel()": [
+        "Gasoline",
+        "Hybrid"
+    ],
+    "1 Vehicle::vin()": [
+        "4T1XFJZ04H3027987",
+        "5NPGK0PA1FH743317"
+    ],
+    "1 Profile::citizen()": [
+        {
+            "gender": "Quidam\\Definitions\\Enum\\Gender::Female",
+            "title": "inż.",
+            "firstName": "Dorota",
+            "lastName": "Konieczna",
+            "name": "Dorota Konieczna",
+            "userName": "dkonieczna27",
+            "email": "dkonieczna27@example.org",
+            "dateOfBirth": "1985-05-24T00:00:00.000000+00:00",
+            "age": 40,
+            "phone": "507 411 171",
+            "address": {
+                "street": "pl. Żołnierska 73/61",
+                "city": "Świdwin",
+                "state": "zachodniopomorskie",
+                "stateCode": "PL-32",
+                "county": "powiat świdwiński",
+                "postcode": "78-300",
+                "latitude": 53.772541,
+                "longitude": 15.77715,
+                "address": "pl. Żołnierska 73/61, 78-300 Świdwin"
+            },
+            "pesel": "85052411781",
+            "idCardNumber": "TXU114468",
+            "passportNumber": "EH1987275",
+            "language": "pl"
+        },
+        {
+            "gender": "Quidam\\Definitions\\Enum\\Gender::Male",
+            "title": "mgr inż.",
+            "firstName": "Ireneusz",
+            "lastName": "Gajda",
+            "name": "Ireneusz Gajda",
+            "userName": "ireneusz791",
+            "email": "ireneusz791@example.com",
+            "dateOfBirth": "1976-10-12T00:00:00.000000+00:00",
+            "age": 49,
+            "phone": "501 658 351",
+            "address": {
+                "street": "ul. Główna 72",
+                "city": "Sulejówek",
+                "state": "mazowieckie",
+                "stateCode": "PL-14",
+                "county": "powiat miński",
+                "postcode": "05-070",
+                "latitude": 52.236375,
+                "longitude": 21.269598,
+                "address": "ul. Główna 72, 05-070 Sulejówek"
+            },
+            "pesel": "76101249491",
+            "idCardNumber": "IML117457",
+            "passportNumber": "EF2241231",
+            "language": "pl"
+        }
+    ],
+    "1 Profile::person()": [
+        {
+            "gender": "Quidam\\Definitions\\Enum\\Gender::Female",
+            "title": "inż.",
+            "firstName": "Dorota",
+            "lastName": "Konieczna",
+            "name": "Dorota Konieczna",
+            "userName": "dkonieczna27",
+            "email": "dkonieczna27@example.org",
+            "dateOfBirth": "1985-05-24T00:00:00.000000+00:00",
+            "age": 40,
+            "phone": "507 411 171",
+            "address": {
+                "street": "pl. Żołnierska 73/61",
+                "city": "Świdwin",
+                "state": "zachodniopomorskie",
+                "stateCode": "PL-32",
+                "county": "powiat świdwiński",
+                "postcode": "78-300",
+                "latitude": 53.772541,
+                "longitude": 15.77715,
+                "address": "pl. Żołnierska 73/61, 78-300 Świdwin"
+            }
+        },
+        {
+            "gender": "Quidam\\Definitions\\Enum\\Gender::Male",
+            "title": "mgr inż.",
+            "firstName": "Mariusz",
+            "lastName": "Szymczak",
+            "name": "Mariusz Szymczak",
+            "userName": "szymczak.mariusz",
+            "email": "szymczak.mariusz@example.com",
+            "dateOfBirth": "1980-09-07T00:00:00.000000+00:00",
+            "age": 45,
+            "phone": "786 859 872",
+            "address": {
+                "street": "ul. Osiedlowa 147",
+                "city": "Koszalin",
+                "state": "zachodniopomorskie",
+                "stateCode": "PL-32",
+                "county": "powiat m. Koszalin",
+                "postcode": "75-697",
+                "latitude": 54.192236,
+                "longitude": 16.228172,
+                "address": "ul. Osiedlowa 147, 75-697 Koszalin"
+            }
+        }
+    ],
+    "1 NationalId::pesel()": [
+        "34060641303",
+        "01270698786"
+    ],
+    "1 NationalId::nip()": [
+        "9257041309",
+        "7218741119"
+    ],
+    "1 NationalId::regon()": [
+        "470413028",
+        "959874110"
+    ],
+    "1 NationalId::regonLocal()": [
+        "47041302879878",
+        "11111717643310"
+    ],
+    "1 NationalId::idCardNumber()": [
+        "FSH004130",
+        "GSX479874"
+    ],
+    "1 NationalId::passportNumber()": [
+        "EF3041302",
+        "EI2987411"
+    ],
+    "1 NationalId::landRegistryNumber()": [
+        "KZ1E/00742165/9",
+        "RZ1A/00509733/9"
+    ],
+    "1 NationalId::doctorLicenceNumber()": [
+        "5704130",
+        "2279874"
+    ],
+    "1 NationalId::krs()": [
+        "0000704198",
+        "0000140971"
+    ],
+    "1 NationalId::euVatNumber()": [
+        "PL9257041309",
+        "PL7218741119"
+    ],
+    "1 Text::realText()": [
+        "Przestaliśmy zwracać uwagę na którąś - a jednak czy mamy zdradzić ostatnią tajemnicę tej dzielnicy, troskliwie ukrywany sekret Ulicy Krokodyli?",
+        "Lineatura jego zmarszczek rozwijała się i rozpadanie fantastycznych oleandrów, które napełniły pokój rzadką, leniwą śnieżycą wielkich, różowych kiści kwietnych."
+    ],
+    "1 Address::cityData(\"PL-14\")": [
+        {
+            "city": "Legionowo",
+            "state": "mazowieckie",
+            "stateCode": "PL-14",
+            "county": "powiat legionowski",
+            "postcode": "05-119",
+            "latitude": 52.413754,
+            "longitude": 20.937371
+        },
+        {
+            "city": "Nowy Dwór Mazowiecki",
+            "state": "mazowieckie",
+            "stateCode": "PL-14",
+            "county": "powiat nowodworski",
+            "postcode": "05-102",
+            "latitude": 52.445338,
+            "longitude": 20.703924
+        }
+    ],
+    "1 DateTime::dateTimesBetween(3, \"-1 year\")": [
+        [
+            "2025-05-20T22:42:00.000000+00:00",
+            "2025-06-08T03:26:29.000000+00:00",
+            "2025-12-04T10:58:53.000000+00:00"
+        ],
+        [
+            "2025-01-15T23:31:21.000000+00:00",
+            "2025-06-18T08:29:28.000000+00:00",
+            "2025-08-14T21:35:11.000000+00:00"
+        ]
+    ],
+    "1 PhoneNumber::e164PhoneNumber(\"DE\")": [
+        "+4987041302798",
+        "+4974111717433"
+    ],
+    "1 Payment::iban(\"DE\")": [
+        "DE50704130279874111717",
+        "DE74433178647411749144"
+    ],
+    "1 Payment::sortCode(\"102\")": [
+        "10270413",
+        "10230273"
+    ],
+    "1 Payment::bankAccountNumber(12)": [
+        "704130279874",
+        "111717433178"
+    ],
+    "1 Vehicle::licensePlate(\"mazowieckie\", true)": [
+        "WWL 02H5",
+        "WR 1717J"
+    ],
+    "1 NationalId::pesel({\"date\":\"2004-02-29 00:00:00.000000\",\"timezone_type\":3,\"timezone\":\"UTC\"}, \"female\")": [
+        "04222970428",
+        "04222930242"
+    ],
+    "1 NationalId::nip(true)": [
+        "925-704-13-09",
+        "721-874-11-19"
+    ],
+    "1 Profile::citizen(\"male\", 30, 40)": [
+        {
+            "gender": "Quidam\\Definitions\\Enum\\Gender::Male",
+            "title": "prof.",
+            "firstName": "Olaf",
+            "lastName": "Borowski",
+            "name": "Olaf Borowski",
+            "userName": "borowski.olaf",
+            "email": "borowski.olaf@example.org",
+            "dateOfBirth": "1989-05-20T00:00:00.000000+00:00",
+            "age": 36,
+            "phone": "517 987 411",
+            "address": {
+                "street": "ul. Hallera 47/44",
+                "city": "Lubliniec",
+                "state": "śląskie",
+                "stateCode": "PL-24",
+                "county": "powiat lubliniecki",
+                "postcode": "42-700",
+                "latitude": 50.669969,
+                "longitude": 18.685173,
+                "address": "ul. Hallera 47/44, 42-700 Lubliniec"
+            },
+            "pesel": "89052047434",
+            "idCardNumber": "RBJ074914",
+            "passportNumber": "EP6685987",
+            "language": "pl"
+        },
+        {
+            "gender": "Quidam\\Definitions\\Enum\\Gender::Male",
+            "title": "dr",
+            "firstName": "Adam",
+            "lastName": "Bielecki",
+            "name": "Adam Bielecki",
+            "userName": "adam.bielecki",
+            "email": "adam.bielecki@example.com",
+            "dateOfBirth": "1994-06-17T00:00:00.000000+00:00",
+            "age": 31,
+            "phone": "535 579 122",
+            "address": {
+                "street": "ul. Majowa 98B",
+                "city": "Zielona Góra",
+                "state": "lubuskie",
+                "stateCode": "PL-08",
+                "county": "powiat m. Zielona Góra",
+                "postcode": "65-324",
+                "latitude": 51.927762,
+                "longitude": 15.51083,
+                "address": "ul. Majowa 98B, 65-324 Zielona Góra"
+            },
+            "pesel": "94061742359",
+            "idCardNumber": "WFB988494",
+            "passportNumber": "EL1217457",
+            "language": "pl"
+        }
+    ],
+    "42 Person::lastName()": [
+        "Tomczyk",
+        "Nawrocki"
+    ],
+    "42 Person::name()": [
+        "Eugeniusz Markowski",
+        "Mikołaj Mazur"
+    ],
+    "42 Person::firstName()": [
+        "Eugeniusz",
+        "Arkadiusz"
+    ],
+    "42 Person::middleName()": [
+        "Eugeniusz",
+        "Arkadiusz"
+    ],
+    "42 Person::age()": [
+        72,
+        64
+    ],
+    "42 Person::initials()": [
+        "EM",
+        "MM"
+    ],
+    "42 Person::suffix()": [
+        "senior",
+        "senior"
+    ],
+    "42 Person::title()": [
+        "dr inż.",
+        "dr"
+    ],
+    "42 Person::gender()": [
+        "Quidam\\Definitions\\Enum\\Gender::Male",
+        "Quidam\\Definitions\\Enum\\Gender::Male"
+    ],
+    "42 Address::city()": [
+        "Jeziorna",
+        "Płazów"
+    ],
+    "42 Address::streetName()": [
+        "ul. Górnicza",
+        "ul. Bursztynowa"
+    ],
+    "42 Address::postcode()": [
+        "67-100",
+        "12-100"
+    ],
+    "42 Address::address()": [
+        "ul. Górnicza 69, 08-110 Siedlce",
+        "ul. Środkowa 94B, 82-224 Malbork"
+    ],
+    "42 Address::county()": [
+        "powiat nowosolski",
+        "powiat lubaczowski"
+    ],
+    "42 Address::cityData()": [
+        {
+            "city": "Jeziorna",
+            "state": "lubuskie",
+            "stateCode": "PL-08",
+            "county": "powiat nowosolski",
+            "postcode": "67-100",
+            "latitude": 51.886853,
+            "longitude": 15.945956
+        },
+        {
+            "city": "Szczytno",
+            "state": "warmińsko-mazurskie",
+            "stateCode": "PL-28",
+            "county": "powiat szczycieński",
+            "postcode": "12-100",
+            "latitude": 53.564331,
+            "longitude": 20.992732
+        }
+    ],
+    "42 Address::cityPrefix()": [
+        "Wielki",
+        "Wielki"
+    ],
+    "42 Address::citySuffix()": [
+        "ki",
+        "ki"
+    ],
+    "42 Address::streetSuffix()": [
+        "pl.",
+        "pl."
+    ],
+    "42 Address::secondaryAddress()": [
+        "lok. 2",
+        "m. 69"
+    ],
+    "42 Address::state()": [
+        "mazowieckie",
+        "wielkopolskie"
+    ],
+    "42 Address::stateCode()": [
+        "PL-14",
+        "PL-30"
+    ],
+    "42 Address::stateData()": [
+        {
+            "code": "PL-14",
+            "name": "mazowieckie"
+        },
+        {
+            "code": "PL-30",
+            "name": "wielkopolskie"
+        }
+    ],
+    "42 Address::buildingNumber()": [
+        "60/2",
+        "60A"
+    ],
+    "42 Address::streetAddress()": [
+        "ul. Górnicza 69",
+        "ul. Rybacka 72/13"
+    ],
+    "42 Address::addressData()": [
+        {
+            "street": "ul. Górnicza 69",
+            "city": "Siedlce",
+            "state": "mazowieckie",
+            "stateCode": "PL-14",
+            "county": "powiat m. Siedlce",
+            "postcode": "08-110",
+            "latitude": 52.166532,
+            "longitude": 22.275105,
+            "address": "ul. Górnicza 69, 08-110 Siedlce"
+        },
+        {
+            "street": "ul. Środkowa 94B",
+            "city": "Malbork",
+            "state": "pomorskie",
+            "stateCode": "PL-22",
+            "county": "powiat malborski",
+            "postcode": "82-224",
+            "latitude": 54.040608,
+            "longitude": 19.020479,
+            "address": "ul. Środkowa 94B, 82-224 Malbork"
+        }
+    ],
+    "42 Address::country()": [
+        "Erytrea",
+        "Malezja"
+    ],
+    "42 Address::countryCode()": [
+        "ER",
+        "MY"
+    ],
+    "42 Address::countryCodeAlpha3()": [
+        "ERI",
+        "MYS"
+    ],
+    "42 Address::countryData()": [
+        {
+            "alpha2": "ER",
+            "alpha3": "ERI",
+            "name": "Erytrea"
+        },
+        {
+            "alpha2": "MY",
+            "alpha3": "MYS",
+            "name": "Malezja"
+        }
+    ],
+    "42 Address::latitude()": [
+        -48.708734,
+        58.043118
+    ],
+    "42 Address::longitude()": [
+        131.650629,
+        -154.797659
+    ],
+    "42 Address::coordinates()": [
+        {
+            "latitude": -48.708734,
+            "longitude": -154.797659
+        },
+        {
+            "latitude": 15.729389,
+            "longitude": -65.414919
+        }
+    ],
+    "42 PhoneNumber::tollFreePhoneNumber()": [
+        "800 099 600",
+        "800-233-344"
+    ],
+    "42 PhoneNumber::phoneNumber()": [
+        "71 109 96 00",
+        "85 633 34 43"
+    ],
+    "42 PhoneNumber::mobilePhoneNumber()": [
+        "450 996 005",
+        "533 334 436"
+    ],
+    "42 PhoneNumber::internationalPhoneNumber()": [
+        "+48 44 299 60 05",
+        "+48 62 634 43 67"
+    ],
+    "42 PhoneNumber::e164PhoneNumber()": [
+        "+48442996005",
+        "+48626344367"
+    ],
+    "42 PhoneNumber::imei()": [
+        "010996005233348",
+        "013672943151267"
+    ],
+    "42 DateTime::dateTime()": [
+        "1982-07-08T02:06:54.000000+00:00",
+        "1984-01-09T04:57:09.000000+00:00"
+    ],
+    "42 DateTime::dateTimeBetween()": [
+        "2002-07-08T02:06:54.000000+00:00",
+        "2024-01-09T04:57:09.000000+00:00"
+    ],
+    "42 DateTime::dateTimeRange()": [
+        [
+            "2002-07-08T02:06:54.000000+00:00",
+            "2024-01-09T04:57:09.000000+00:00"
+        ],
+        [
+            "1996-10-25T03:17:28.000000+00:00",
+            "1998-01-03T00:58:49.000000+00:00"
+        ]
+    ],
+    "42 DateTime::dateTimePast()": [
+        "2026-01-11T02:05:36.000000+00:00",
+        "2026-01-14T04:45:25.000000+00:00"
+    ],
+    "42 DateTime::dateTimeFuture()": [
+        "2026-02-10T02:05:36.000000+00:00",
+        "2026-02-13T04:45:25.000000+00:00"
+    ],
+    "42 DateTime::dateOfBirth()": [
+        "1951-07-09T00:00:00.000000+00:00",
+        "2003-01-10T00:00:00.000000+00:00"
+    ],
+    "42 DateTime::date()": [
+        "1982-07-08",
+        "1984-01-09"
+    ],
+    "42 DateTime::time()": [
+        "02:06:54",
+        "04:57:09"
+    ],
+    "42 DateTime::unixTime()": [
+        394942014,
+        442472229
+    ],
+    "42 DateTime::monthName()": [
+        "lipiec",
+        "styczeń"
+    ],
+    "42 DateTime::dayOfWeek()": [
+        "czwartek",
+        "poniedziałek"
+    ],
+    "42 DateTime::localDate()": [
+        "08.07.1982",
+        "09.01.1984"
+    ],
+    "42 DateTime::localDateTime()": [
+        "08.07.1982 02:06",
+        "09.01.1984 04:57"
+    ],
+    "42 DateTime::longDate()": [
+        "8 lipca 1982",
+        "9 stycznia 1984"
+    ],
+    "42 DateTime::century()": [
+        "XIII",
+        "V"
+    ],
+    "42 DateTime::timezone()": [
+        "Europe/Warsaw",
+        "Europe/Warsaw"
+    ],
+    "42 Internet::email()": [
+        "eugeniusz_nawrocki@example.net",
+        "patryk.siwiec34@example.net"
+    ],
+    "42 Internet::freeEmail()": [
+        "eugeniusz_nawrocki@gmail.com",
+        "patryk.siwiec34@onet.pl"
+    ],
+    "42 Internet::companyEmail()": [
+        "eugeniusz_nawrocki@maj.net.pl",
+        "tadeusz_mikolajczyk@wawrzyniak.com"
+    ],
+    "42 Internet::safeEmailDomain()": [
+        "example.com",
+        "example.org"
+    ],
+    "42 Internet::freeEmailDomain()": [
+        "gazeta.pl",
+        "gazeta.pl"
+    ],
+    "42 Internet::userName()": [
+        "eugeniusz_nawrocki",
+        "koziel.maksymilian"
+    ],
+    "42 Internet::password()": [
+        "wRf,LHY1b4@<*n4X",
+        "7uv}j#td.!X4a}0I&="
+    ],
+    "42 Internet::domainName()": [
+        "tomczykmedia.com",
+        "maj.net.pl"
+    ],
+    "42 Internet::domainWord()": [
+        "tomczykmedia",
+        "mazurstudio"
+    ],
+    "42 Internet::tld()": [
+        "com.pl",
+        "net.pl"
+    ],
+    "42 Internet::url()": [
+        "https://www.nawrockiapps.pl/",
+        "https://www.nowickasolutions.eu/accusantium-repudiandae-voluptatum-quod-in-quibusdam-dicta.html"
+    ],
+    "42 Internet::protocol()": [
+        "https",
+        "https"
+    ],
+    "42 Internet::hostname()": [
+        "mail-20.nawrockiapps.pl",
+        "node-92.pietrzak.pl"
+    ],
+    "42 Internet::hashtag()": [
+        "#at",
+        "#doloresOptioMinus"
+    ],
+    "42 Internet::socialHandle()": [
+        "@eugeniusz_nawro",
+        "@koziel_maksymil"
+    ],
+    "42 Internet::urlPath()": [
+        "/at/dolores-optio",
+        "/dolorem/consectetur-ut"
+    ],
+    "42 Internet::slug()": [
+        "at-a-dolores-optio-minus-dolorem-eligendi",
+        "ut-tempora-quo-magnam-tenetur"
+    ],
+    "42 Internet::ipv4()": [
+        "13.46.199.22",
+        "110.17.58.126"
+    ],
+    "42 Internet::ipv4Cidr()": [
+        "110.0.0.0/8",
+        "4.128.0.0/10"
+    ],
+    "42 Internet::localIpv4()": [
+        "10.17.58.126",
+        "192.168.96.161"
+    ],
+    "42 Internet::ipv6()": [
+        "26c7:2e0c:2e0b:7815:7e3a:116d:86d9:461",
+        "2199:e439:3253:17ae:a160:b303:47ad:b8ec"
+    ],
+    "42 Internet::ipv6Cidr()": [
+        "2e3a:116d:86d9::/49",
+        "245e:ece2::/33"
+    ],
+    "42 Internet::macAddress()": [
+        "16:C7:2E:0C:2E:0B",
+        "7E:3A:11:6D:86:D9"
+    ],
+    "42 Internet::port()": [
+        19222,
+        28286
+    ],
+    "42 Internet::httpMethod()": [
+        "HEAD",
+        "DELETE"
+    ],
+    "42 Internet::httpStatusCode()": [
+        503,
+        405
+    ],
+    "42 Company::company()": [
+        "Trans-Mar i Syn",
+        "Bąk sp. z o.o."
+    ],
+    "42 Company::companyPrefix()": [
+        "Grupa",
+        "Fundacja"
+    ],
+    "42 Company::companySuffix()": [
+        "sp. j.",
+        "s.c."
+    ],
+    "42 Company::jobTitle()": [
+        "Architekt",
+        "Magazynier"
+    ],
+    "42 Company::industry()": [
+        "Przemysł motoryzacyjny",
+        "Ubezpieczenia"
+    ],
+    "42 Company::catchPhrase()": [
+        "Kreatywne inwestycje na każdą kieszeń",
+        "Zaawansowane metody od podstaw"
+    ],
+    "42 Commerce::productName()": [
+        "Wyjątkowa jedwabna poduszka",
+        "Ekologiczne aluminiowe biurko"
+    ],
+    "42 Commerce::productAdjective()": [
+        "Designerski",
+        "Wyjątkowy"
+    ],
+    "42 Commerce::productMaterial()": [
+        "Plastikowy",
+        "Lniany"
+    ],
+    "42 Commerce::product()": [
+        "Poduszka",
+        "Kapelusz"
+    ],
+    "42 Commerce::department()": [
+        "Odzież",
+        "Ogród"
+    ],
+    "42 Commerce::sku()": [
+        "EYS099",
+        "23-CNX-334"
+    ],
+    "42 Commerce::promotionCode()": [
+        "DOSTAWA40",
+        "SUPER10"
+    ],
+    "42 Payment::localCurrency()": [
+        {
+            "code": "PLN",
+            "name": "złoty",
+            "symbol": "zł"
+        },
+        {
+            "code": "PLN",
+            "name": "złoty",
+            "symbol": "zł"
+        }
+    ],
+    "42 Payment::bank()": [
+        "ING Bank Hipoteczny Spółka Akcyjna",
+        "Alior Bank Spółka Akcyjna"
+    ],
+    "42 Payment::iban()": [
+        "PL69278099650052333443672943",
+        "PL75203512652042542086538377"
+    ],
+    "42 Payment::bankAccountNumber()": [
+        "69278099650052333443672943",
+        "75203512652042542086538377"
+    ],
+    "42 Payment::sortCode()": [
+        "27809965",
+        "27505232"
+    ],
+    "42 Payment::creditCardType()": [
+        "Visa",
+        "MasterCard"
+    ],
+    "42 Payment::creditCardNumber()": [
+        "4960052333443670",
+        "4315126204254200"
+    ],
+    "42 Payment::maskedCreditCardNumber()": [
+        "**** **** **** 3670",
+        "**** **** **** 4200"
+    ],
+    "42 Payment::creditCardExpirationDate()": [
+        "03/26",
+        "10/27"
+    ],
+    "42 Payment::creditCardCvv()": [
+        "409",
+        "960"
+    ],
+    "42 Payment::creditCardDetails()": [
+        {
+            "type": "Visa",
+            "number": "4960052333443670",
+            "name": "Ireneusz Krajewski",
+            "expirationDate": "12/27",
+            "cvv": "151"
+        },
+        {
+            "type": "Discover",
+            "number": "6504254208653833",
+            "name": "Władysław Bąk",
+            "expirationDate": "10/29",
+            "cvv": "936"
+        }
+    ],
+    "42 Payment::swiftBicNumber()": [
+        "WRBBLIY4Y55",
+        "RFWCCYXV"
+    ],
+    "42 Payment::currencyCode()": [
+        "CLP",
+        "LBP"
+    ],
+    "42 Payment::currencyName()": [
+        "Chilean Peso",
+        "Lebanese Pound"
+    ],
+    "42 Payment::currencySymbol()": [
+        "₫",
+        "Kč"
+    ],
+    "42 Payment::currencyData()": [
+        {
+            "code": "CLP",
+            "name": "Chilean Peso",
+            "symbol": "$"
+        },
+        {
+            "code": "LBP",
+            "name": "Lebanese Pound",
+            "symbol": "LBP"
+        }
+    ],
+    "42 Payment::price()": [
+        901.71,
+        273.32
+    ],
+    "42 Payment::priceInMinorUnits()": [
+        90171,
+        27332
+    ],
+    "42 Payment::localPrice()": [
+        "901,71 zł",
+        "273,32 zł"
+    ],
+    "42 Payment::transactionType()": [
+        "fee",
+        "fee"
+    ],
+    "42 Payment::bitcoinAddress()": [
+        "1CWRhp4WnRPZJW8HQXtawpu7g6NnhxG5Qz",
+        "bc1q8pf8jqf355xutvkav4dg24pphzrspehtf9c85l"
+    ],
+    "42 Payment::ethereumAddress()": [
+        "0x16C72E0c2E0B78157E3A116D86D90461a199e439",
+        "0xA160B30347AdB8Ec645eeCe27fDcE6Fd38527901"
+    ],
+    "42 Vehicle::licensePlate()": [
+        "ABR 05233",
+        "JOL 294BV"
+    ],
+    "42 Vehicle::vehicle()": [
+        "Volvo XC90",
+        "Volvo XC60"
+    ],
+    "42 Vehicle::manufacturer()": [
+        "Volvo",
+        "Subaru"
+    ],
+    "42 Vehicle::model()": [
+        "XC90",
+        "XC60"
+    ],
+    "42 Vehicle::type()": [
+        "Coupe",
+        "Sedan"
+    ],
+    "42 Vehicle::fuel()": [
+        "Gasoline",
+        "Diesel"
+    ],
+    "42 Vehicle::vin()": [
+        "YV12W09D8EV052333",
+        "VF1PH1P351X943151"
+    ],
+    "42 Profile::citizen()": [
+        {
+            "gender": "Quidam\\Definitions\\Enum\\Gender::Male",
+            "title": "dr hab.",
+            "firstName": "Eugeniusz",
+            "lastName": "Markowski",
+            "name": "Eugeniusz Markowski",
+            "userName": "eugeniusz_markowski",
+            "email": "eugeniusz_markowski@example.net",
+            "dateOfBirth": "1947-01-04T00:00:00.000000+00:00",
+            "age": 79,
+            "phone": "692 333 443",
+            "address": {
+                "street": "os. Siewna 19A",
+                "city": "Iława",
+                "state": "warmińsko-mazurskie",
+                "stateCode": "PL-28",
+                "county": "powiat iławski",
+                "postcode": "14-200",
+                "latitude": 53.594929,
+                "longitude": 19.567183,
+                "address": "os. Siewna 19A, 14-200 Iława"
+            },
+            "pesel": "47010426211",
+            "idCardNumber": "VRR225420",
+            "passportNumber": "EK8653837",
+            "language": "pl"
+        },
+        {
+            "gender": "Quidam\\Definitions\\Enum\\Gender::Male",
+            "title": "dr hab.",
+            "firstName": "Dariusz",
+            "lastName": "Woźniak",
+            "name": "Dariusz Woźniak",
+            "userName": "dariusz_wozniak",
+            "email": "dariusz_wozniak@example.org",
+            "dateOfBirth": "1988-06-13T00:00:00.000000+00:00",
+            "age": 37,
+            "phone": "889 746 243",
+            "address": {
+                "street": "ul. Bałtycka 64",
+                "city": "Gliwice",
+                "state": "śląskie",
+                "stateCode": "PL-24",
+                "county": "powiat m. Gliwice",
+                "postcode": "44-114",
+                "latitude": 50.276471,
+                "longitude": 18.65316,
+                "address": "ul. Bałtycka 64, 44-114 Gliwice"
+            },
+            "pesel": "88061374771",
+            "idCardNumber": "UCA639048",
+            "passportNumber": "EA6498467",
+            "language": "pl"
+        }
+    ],
+    "42 Profile::person()": [
+        {
+            "gender": "Quidam\\Definitions\\Enum\\Gender::Male",
+            "title": "dr hab.",
+            "firstName": "Eugeniusz",
+            "lastName": "Markowski",
+            "name": "Eugeniusz Markowski",
+            "userName": "eugeniusz_markowski",
+            "email": "eugeniusz_markowski@example.net",
+            "dateOfBirth": "1947-01-04T00:00:00.000000+00:00",
+            "age": 79,
+            "phone": "692 333 443",
+            "address": {
+                "street": "os. Siewna 19A",
+                "city": "Iława",
+                "state": "warmińsko-mazurskie",
+                "stateCode": "PL-28",
+                "county": "powiat iławski",
+                "postcode": "14-200",
+                "latitude": 53.594929,
+                "longitude": 19.567183,
+                "address": "os. Siewna 19A, 14-200 Iława"
+            }
+        },
+        {
+            "gender": "Quidam\\Definitions\\Enum\\Gender::Female",
+            "title": "dr",
+            "firstName": "Marika",
+            "lastName": "Kołodziej",
+            "name": "Marika Kołodziej",
+            "userName": "mkolodziej54",
+            "email": "mkolodziej54@example.net",
+            "dateOfBirth": "1956-08-09T00:00:00.000000+00:00",
+            "age": 69,
+            "phone": "608 653 837",
+            "address": {
+                "street": "ul. Długa 89",
+                "city": "Ostrów Wielkopolski",
+                "state": "wielkopolskie",
+                "stateCode": "PL-30",
+                "county": "powiat ostrowski",
+                "postcode": "63-401",
+                "latitude": 51.644717,
+                "longitude": 17.81503,
+                "address": "ul. Długa 89, 63-401 Ostrów Wielkopolski"
+            }
+        }
+    ],
+    "42 NationalId::pesel()": [
+        "32070899611",
+        "74020623363"
+    ],
+    "42 NationalId::nip()": [
+        "6124099604",
+        "6463334433"
+    ],
+    "42 NationalId::regon()": [
+        "670996006",
+        "092333448"
+    ],
+    "42 NationalId::regonLocal()": [
+        "67099600652330",
+        "73443672394310"
+    ],
+    "42 NationalId::idCardNumber()": [
+        "YHP209960",
+        "UFF452333"
+    ],
+    "42 NationalId::passportNumber()": [
+        "EY6099600",
+        "EH4233344"
+    ],
+    "42 NationalId::landRegistryNumber()": [
+        "PT1O/00847460/6",
+        "LU1A/00087392/7"
+    ],
+    "42 NationalId::doctorLicenceNumber()": [
+        "9409960",
+        "6052333"
+    ],
+    "42 NationalId::krs()": [
+        "0000892215",
+        "0000545631"
+    ],
+    "42 NationalId::euVatNumber()": [
+        "PL6124099604",
+        "PL6463334433"
+    ],
+    "42 Text::realText()": [
+        "Ach! jak mało wymagały one od rzeczywistości. Miały wszystko w sobie, miały nadmiar wszystkiego w sobie. Ach!",
+        "Wszedłem i znalazłem się znów w sobie, zgęstniały plącząc się w niej i począł rozwijać w stosunku do niej niejasne poczucie przynależności, ojczyzny."
+    ],
+    "42 Address::cityData(\"PL-14\")": [
+        {
+            "city": "Sochaczew",
+            "state": "mazowieckie",
+            "stateCode": "PL-14",
+            "county": "powiat sochaczewski",
+            "postcode": "96-500",
+            "latitude": 52.231753,
+            "longitude": 20.243356
+        },
+        {
+            "city": "Warszawa",
+            "state": "mazowieckie",
+            "stateCode": "PL-14",
+            "county": "powiat m. st. Warszawa",
+            "postcode": "02-348",
+            "latitude": 52.217831,
+            "longitude": 20.972932
+        }
+    ],
+    "42 DateTime::dateTimesBetween(3, \"-1 year\")": [
+        [
+            "2025-01-24T04:56:12.000000+00:00",
+            "2025-07-10T02:06:48.000000+00:00",
+            "2025-11-03T03:16:59.000000+00:00"
+        ],
+        [
+            "2025-10-06T13:45:56.000000+00:00",
+            "2025-10-28T15:25:20.000000+00:00",
+            "2026-01-04T00:58:48.000000+00:00"
+        ]
+    ],
+    "42 PhoneNumber::e164PhoneNumber(\"DE\")": [
+        "+4974099600523",
+        "+4983443672943"
+    ],
+    "42 Payment::iban(\"DE\")": [
+        "DE39409960052333443672",
+        "DE88943151262042542086"
+    ],
+    "42 Payment::sortCode(\"102\")": [
+        "10240995",
+        "10260052"
+    ],
+    "42 Payment::bankAccountNumber(12)": [
+        "409960052333",
+        "443672943151"
+    ],
+    "42 Vehicle::licensePlate(\"mazowieckie\", true)": [
+        "ALI 0052N",
+        "WPI WM94"
+    ],
+    "42 NationalId::pesel({\"date\":\"2004-02-29 00:00:00.000000\",\"timezone_type\":3,\"timezone\":\"UTC\"}, \"female\")": [
+        "04222940986",
+        "04222960005"
+    ],
+    "42 NationalId::nip(true)": [
+        "612-409-96-04",
+        "646-333-44-33"
+    ],
+    "42 Profile::citizen(\"male\", 30, 40)": [
+        {
+            "gender": "Quidam\\Definitions\\Enum\\Gender::Male",
+            "title": "dr",
+            "firstName": "Wacław",
+            "lastName": "Tomczyk",
+            "name": "Wacław Tomczyk",
+            "userName": "waclaw_tomczyk",
+            "email": "waclaw_tomczyk@example.net",
+            "dateOfBirth": "1993-10-28T00:00:00.000000+00:00",
+            "age": 32,
+            "phone": "885 233 344",
+            "address": {
+                "street": "ul. Kossaka 32B",
+                "city": "Łowicz",
+                "state": "łódzkie",
+                "stateCode": "PL-10",
+                "county": "powiat łowicki",
+                "postcode": "99-400",
+                "latitude": 52.104818,
+                "longitude": 19.937729,
+                "address": "ul. Kossaka 32B, 99-400 Łowicz"
+            },
+            "pesel": "93102812653",
+            "idCardNumber": "EAX442542",
+            "passportNumber": "EU1865383",
+            "language": "pl"
+        },
+        {
+            "gender": "Quidam\\Definitions\\Enum\\Gender::Male",
+            "title": "inż.",
+            "firstName": "Olaf",
+            "lastName": "Bielecki",
+            "name": "Olaf Bielecki",
+            "userName": "olaf363",
+            "email": "olaf363@example.org",
+            "dateOfBirth": "1990-06-25T00:00:00.000000+00:00",
+            "age": 35,
+            "phone": "667 462 437",
+            "address": {
+                "street": "ul. Orzeszkowej 6",
+                "city": "Gliwice",
+                "state": "śląskie",
+                "stateCode": "PL-24",
+                "county": "powiat m. Gliwice",
+                "postcode": "44-114",
+                "latitude": 50.276471,
+                "longitude": 18.65316,
+                "address": "ul. Orzeszkowej 6, 44-114 Gliwice"
+            },
+            "pesel": "90062574777",
+            "idCardNumber": "UCA639048",
+            "passportNumber": "EA6498467",
+            "language": "pl"
+        }
+    ],
+    "2026 Person::lastName()": [
+        "Ryba",
+        "Piątek"
+    ],
+    "2026 Person::name()": [
+        "Kazimiera Wójtowicz",
+        "Antonina Markiewicz"
+    ],
+    "2026 Person::firstName()": [
+        "Kazimiera",
+        "Zuzanna"
+    ],
+    "2026 Person::middleName()": [
+        "Kazimiera",
+        "Zuzanna"
+    ],
+    "2026 Person::age()": [
+        63,
+        41
+    ],
+    "2026 Person::initials()": [
+        "KW",
+        "AM"
+    ],
+    "2026 Person::suffix()": [
+        "junior",
+        "senior"
+    ],
+    "2026 Person::title()": [
+        "inż.",
+        "mgr inż."
+    ],
+    "2026 Person::gender()": [
+        "Quidam\\Definitions\\Enum\\Gender::Female",
+        "Quidam\\Definitions\\Enum\\Gender::Male"
+    ],
+    "2026 Address::city()": [
+        "Jelcz-Laskowice",
+        "Dębica"
+    ],
+    "2026 Address::streetName()": [
+        "os. Toruńska",
+        "al. Niepodległości"
+    ],
+    "2026 Address::postcode()": [
+        "55-220",
+        "96-300"
+    ],
+    "2026 Address::address()": [
+        "os. Toruńska 22, 71-220 Bezrzecze",
+        "ul. Narutowicza 1, 42-287 Babienica"
+    ],
+    "2026 Address::county()": [
+        "powiat oławski",
+        "powiat dębicki"
+    ],
+    "2026 Address::cityData()": [
+        {
+            "city": "Jelcz-Laskowice",
+            "state": "dolnośląskie",
+            "stateCode": "PL-02",
+            "county": "powiat oławski",
+            "postcode": "55-220",
+            "latitude": 51.034425,
+            "longitude": 17.334803
+        },
+        {
+            "city": "Żyrardów",
+            "state": "mazowieckie",
+            "stateCode": "PL-14",
+            "county": "powiat żyrardowski",
+            "postcode": "96-300",
+            "latitude": 52.056297,
+            "longitude": 20.444784
+        }
+    ],
+    "2026 Address::cityPrefix()": [
+        "Dolny",
+        "Nowy"
+    ],
+    "2026 Address::citySuffix()": [
+        "ew",
+        "ów"
+    ],
+    "2026 Address::streetSuffix()": [
+        "al.",
+        "ul."
+    ],
+    "2026 Address::secondaryAddress()": [
+        "m. 78",
+        "lok. 2"
+    ],
+    "2026 Address::state()": [
+        "małopolskie",
+        "podkarpackie"
+    ],
+    "2026 Address::stateCode()": [
+        "PL-12",
+        "PL-18"
+    ],
+    "2026 Address::stateData()": [
+        {
+            "code": "PL-12",
+            "name": "małopolskie"
+        },
+        {
+            "code": "PL-18",
+            "name": "podkarpackie"
+        }
+    ],
+    "2026 Address::buildingNumber()": [
+        "78B",
+        "42"
+    ],
+    "2026 Address::streetAddress()": [
+        "os. Toruńska 22",
+        "ul. Żytnia 23/41"
+    ],
+    "2026 Address::addressData()": [
+        {
+            "street": "os. Toruńska 22",
+            "city": "Bezrzecze",
+            "state": "zachodniopomorskie",
+            "stateCode": "PL-32",
+            "county": "powiat policki",
+            "postcode": "71-220",
+            "latitude": 53.462284,
+            "longitude": 14.463799,
+            "address": "os. Toruńska 22, 71-220 Bezrzecze"
+        },
+        {
+            "street": "ul. Narutowicza 1",
+            "city": "Babienica",
+            "state": "śląskie",
+            "stateCode": "PL-24",
+            "county": "powiat lubliniecki",
+            "postcode": "42-287",
+            "latitude": 50.621936,
+            "longitude": 18.972575,
+            "address": "ul. Narutowicza 1, 42-287 Babienica"
+        }
+    ],
+    "2026 Address::country()": [
+        "Estonia",
+        "Białoruś"
+    ],
+    "2026 Address::countryCode()": [
+        "EE",
+        "BY"
+    ],
+    "2026 Address::countryCodeAlpha3()": [
+        "EST",
+        "BLR"
+    ],
+    "2026 Address::countryData()": [
+        {
+            "alpha2": "EE",
+            "alpha3": "EST",
+            "name": "Estonia"
+        },
+        {
+            "alpha2": "BY",
+            "alpha3": "BLR",
+            "name": "Białoruś"
+        }
+    ],
+    "2026 Address::latitude()": [
+        -0.121337,
+        1.401902
+    ],
+    "2026 Address::longitude()": [
+        -20.542136,
+        130.263131
+    ],
+    "2026 Address::coordinates()": [
+        {
+            "latitude": -0.121337,
+            "longitude": 130.263131
+        },
+        {
+            "latitude": 78.723224,
+            "longitude": -2.89545
+        }
+    ],
+    "2026 PhoneNumber::tollFreePhoneNumber()": [
+        "800-882-284",
+        "800-315-408"
+    ],
+    "2026 PhoneNumber::phoneNumber()": [
+        "43 188 22 84",
+        "54 515 40 89"
+    ],
+    "2026 PhoneNumber::mobilePhoneNumber()": [
+        "738 822 845",
+        "881 540 893"
+    ],
+    "2026 PhoneNumber::internationalPhoneNumber()": [
+        "+48 788 228 453",
+        "+48 74 840 89 39"
+    ],
+    "2026 PhoneNumber::e164PhoneNumber()": [
+        "+48788228453",
+        "+48748408939"
+    ],
+    "2026 PhoneNumber::imei()": [
+        "868822845315405",
+        "019397198406208"
+    ],
+    "2026 DateTime::dateTime()": [
+        "2000-10-23T13:29:33.000000+00:00",
+        "1984-03-18T21:22:07.000000+00:00"
+    ],
+    "2026 DateTime::dateTimeBetween()": [
+        "2020-10-23T13:29:33.000000+00:00",
+        "2024-03-18T21:22:07.000000+00:00"
+    ],
+    "2026 DateTime::dateTimeRange()": [
+        [
+            "2020-10-23T13:29:33.000000+00:00",
+            "2024-03-18T21:22:07.000000+00:00"
+        ],
+        [
+            "2007-09-20T12:38:00.000000+00:00",
+            "2019-10-30T19:16:16.000000+00:00"
+        ]
+    ],
+    "2026 DateTime::dateTimePast()": [
+        "2026-01-03T13:24:32.000000+00:00",
+        "2025-12-24T21:10:20.000000+00:00"
+    ],
+    "2026 DateTime::dateTimeFuture()": [
+        "2026-02-02T13:24:32.000000+00:00",
+        "2026-01-23T21:10:20.000000+00:00"
+    ],
+    "2026 DateTime::dateOfBirth()": [
+        "1969-10-25T00:00:00.000000+00:00",
+        "2003-03-21T00:00:00.000000+00:00"
+    ],
+    "2026 DateTime::date()": [
+        "2000-10-23",
+        "1984-03-18"
+    ],
+    "2026 DateTime::time()": [
+        "13:29:33",
+        "21:22:07"
+    ],
+    "2026 DateTime::unixTime()": [
+        972307773,
+        448492927
+    ],
+    "2026 DateTime::monthName()": [
+        "październik",
+        "marzec"
+    ],
+    "2026 DateTime::dayOfWeek()": [
+        "poniedziałek",
+        "niedziela"
+    ],
+    "2026 DateTime::localDate()": [
+        "23.10.2000",
+        "18.03.1984"
+    ],
+    "2026 DateTime::localDateTime()": [
+        "23.10.2000 13:29",
+        "18.03.1984 21:22"
+    ],
+    "2026 DateTime::longDate()": [
+        "23 października 2000",
+        "18 marca 1984"
+    ],
+    "2026 DateTime::century()": [
+        "IV",
+        "III"
+    ],
+    "2026 DateTime::timezone()": [
+        "Europe/Warsaw",
+        "Europe/Warsaw"
+    ],
+    "2026 Internet::email()": [
+        "kpiatek84@example.com",
+        "kornel.duda@example.com"
+    ],
+    "2026 Internet::freeEmail()": [
+        "kpiatek84@outlook.com",
+        "kornel.duda@gazeta.pl"
+    ],
+    "2026 Internet::companyEmail()": [
+        "kpiatek84@wlodarczyk-studio.pl",
+        "danuta719@duda.pl"
+    ],
+    "2026 Internet::safeEmailDomain()": [
+        "example.com",
+        "example.net"
+    ],
+    "2026 Internet::freeEmailDomain()": [
+        "op.pl",
+        "gmail.com"
+    ],
+    "2026 Internet::userName()": [
+        "kpiatek84",
+        "klaudia.zawadzki"
+    ],
+    "2026 Internet::password()": [
+        "L7-J_SYv#}X{0",
+        "}I0HQ*_kt(?G}3u+m"
+    ],
+    "2026 Internet::domainName()": [
+        "ryba.pl",
+        "markiewiczstudio.org.pl"
+    ],
+    "2026 Internet::domainWord()": [
+        "ryba",
+        "koziel"
+    ],
+    "2026 Internet::tld()": [
+        "eu",
+        "com"
+    ],
+    "2026 Internet::url()": [
+        "http://www.piatek-labs.com/",
+        "https://www.duda.com.pl/a-placeat-neque-ipsam.html"
+    ],
+    "2026 Internet::protocol()": [
+        "http",
+        "https"
+    ],
+    "2026 Internet::hostname()": [
+        "db-33.piatek-labs.com",
+        "node-12.zawadzki.pl"
+    ],
+    "2026 Internet::hashtag()": [
+        "#similique",
+        "#ullam"
+    ],
+    "2026 Internet::socialHandle()": [
+        "@kpiatek84",
+        "@klaudia_zawadzk"
+    ],
+    "2026 Internet::urlPath()": [
+        "/similique-atque/velit",
+        "/impedit/fugiat-quisquam"
+    ],
+    "2026 Internet::slug()": [
+        "similique-atque-ullam-velit",
+        "impedit-odit-fugiat-quisquam-harum-ea-molestiae"
+    ],
+    "2026 Internet::ipv4()": [
+        "47.152.174.21",
+        "110.109.24.216"
+    ],
+    "2026 Internet::ipv4Cidr()": [
+        "110.64.0.0/10",
+        "135.213.103.0/26"
+    ],
+    "2026 Internet::localIpv4()": [
+        "10.109.24.216",
+        "10.213.103.2"
+    ],
+    "2026 Internet::ipv6()": [
+        "25ae:982e:5911:e092:d818:6d6d:9437:9f48",
+        "2ade:9c9d:279e:d0:267:d586:a7dc:c7e4"
+    ],
+    "2026 Internet::ipv6Cidr()": [
+        "2818:6d6d:8000::/33",
+        "2a3a::/17"
+    ],
+    "2026 Internet::macAddress()": [
+        "16:AE:98:2E:59:11",
+        "DA:18:6D:6D:94:37"
+    ],
+    "2026 Internet::port()": [
+        2581,
+        49368
+    ],
+    "2026 Internet::httpMethod()": [
+        "PATCH",
+        "PUT"
+    ],
+    "2026 Internet::httpStatusCode()": [
+        404,
+        403
+    ],
+    "2026 Company::company()": [
+        "Zakład Ryba",
+        "Kozieł-Markiewicz i Syn"
+    ],
+    "2026 Company::companyPrefix()": [
+        "Grupa",
+        "F.H.U."
+    ],
+    "2026 Company::companySuffix()": [
+        "S.K.A.",
+        "i Wspólnicy"
+    ],
+    "2026 Company::jobTitle()": [
+        "Kierowca",
+        "Recepcjonista"
+    ],
+    "2026 Company::industry()": [
+        "Przemysł drzewny",
+        "Reklama i marketing"
+    ],
+    "2026 Company::catchPhrase()": [
+        "Zaawansowane produkty dla profesjonalistów",
+        "Globalne projekty dla biznesu"
+    ],
+    "2026 Commerce::productName()": [
+        "Smukła wełniana butelka",
+        "Kompaktowy gumowy zegarek"
+    ],
+    "2026 Commerce::productAdjective()": [
+        "Rustykalny",
+        "Smukły"
+    ],
+    "2026 Commerce::productMaterial()": [
+        "Miedziany",
+        "Gumowy"
+    ],
+    "2026 Commerce::product()": [
+        "Butelka",
+        "Torba"
+    ],
+    "2026 Commerce::department()": [
+        "Gry",
+        "Zdrowie"
+    ],
+    "2026 Commerce::sku()": [
+        "IM-8822-XA",
+        "BP-5408-BD"
+    ],
+    "2026 Commerce::promotionCode()": [
+        "LATO5",
+        "LATO15"
+    ],
+    "2026 Payment::localCurrency()": [
+        {
+            "code": "PLN",
+            "name": "złoty",
+            "symbol": "zł"
+        },
+        {
+            "code": "PLN",
+            "name": "złoty",
+            "symbol": "zł"
+        }
+    ],
+    "2026 Payment::bank()": [
+        "AS Inbank Spółka Akcyjna - Oddział w Polsce",
+        "Société Générale Spółka Akcyjna Oddział w Polsce"
+    ],
+    "2026 Payment::iban()": [
+        "PL43272882238453154089397198",
+        "PL77212062051748724631813196"
+    ],
+    "2026 Payment::bankAccountNumber()": [
+        "43272882238453154089397198",
+        "77212062051748724631813196"
+    ],
+    "2026 Payment::sortCode()": [
+        "27288223",
+        "19345312"
+    ],
+    "2026 Payment::creditCardType()": [
+        "Diners Club",
+        "Visa"
+    ],
+    "2026 Payment::creditCardNumber()": [
+        "38228453154083",
+        "4719840620174873"
+    ],
+    "2026 Payment::maskedCreditCardNumber()": [
+        "**** ****** 4083",
+        "**** **** **** 4873"
+    ],
+    "2026 Payment::creditCardExpirationDate()": [
+        "06/28",
+        "08/27"
+    ],
+    "2026 Payment::creditCardCvv()": [
+        "388",
+        "228"
+    ],
+    "2026 Payment::creditCardDetails()": [
+        {
+            "type": "Diners Club",
+            "number": "38228453154083",
+            "name": "Ireneusz Markowski",
+            "expirationDate": "03/27",
+            "cvv": "198"
+        },
+        {
+            "type": "Discover",
+            "number": "6011201748724638",
+            "name": "Teodor Majchrzak",
+            "expirationDate": "09/27",
+            "cvv": "196"
+        }
+    ],
+    "2026 Payment::swiftBicNumber()": [
+        "VYHCADI27VO",
+        "JIIOUAP8859"
+    ],
+    "2026 Payment::currencyCode()": [
+        "LAK",
+        "VND"
+    ],
+    "2026 Payment::currencyName()": [
+        "Lao Kip",
+        "Dong"
+    ],
+    "2026 Payment::currencySymbol()": [
+        "kr",
+        "₩"
+    ],
+    "2026 Payment::currencyData()": [
+        {
+            "code": "LAK",
+            "name": "Lao Kip",
+            "symbol": "LAK"
+        },
+        {
+            "code": "VND",
+            "name": "Dong",
+            "symbol": "₫"
+        }
+    ],
+    "2026 Payment::price()": [
+        501.56,
+        479.7
+    ],
+    "2026 Payment::priceInMinorUnits()": [
+        50156,
+        47970
+    ],
+    "2026 Payment::localPrice()": [
+        "501,56 zł",
+        "479,70 zł"
+    ],
+    "2026 Payment::transactionType()": [
+        "invoice",
+        "deposit"
+    ],
+    "2026 Payment::bitcoinAddress()": [
+        "1LhcDghvoqxjEa3RFVqMkuWNhmravK1Yg8",
+        "38J4KSS9Fsq3CoRJ3FVMDtym72HEsjvnMy"
+    ],
+    "2026 Payment::ethereumAddress()": [
+        "0x15AE982e5911e092d8186D6d94379F48DADe9c9D",
+        "0x0267d586a7DCC7E4ca3a22c1798be1CF48714ff9"
+    ],
+    "2026 Vehicle::licensePlate()": [
+        "KMI 453AZ",
+        "YSR 19840"
+    ],
+    "2026 Vehicle::vehicle()": [
+        "Mercedes-Benz S-Class",
+        "Nissan Leaf"
+    ],
+    "2026 Vehicle::manufacturer()": [
+        "Mercedes-Benz",
+        "Peugeot"
+    ],
+    "2026 Vehicle::model()": [
+        "S-Class",
+        "Leaf"
+    ],
+    "2026 Vehicle::type()": [
+        "Crossover",
+        "Van"
+    ],
+    "2026 Vehicle::fuel()": [
+        "LPG",
+        "Gasoline"
+    ],
+    "2026 Vehicle::vin()": [
+        "4JG375676CL845315",
+        "WAUR6R9B7SZ719840"
+    ],
+    "2026 Profile::citizen()": [
+        {
+            "gender": "Quidam\\Definitions\\Enum\\Gender::Female",
+            "title": "inż.",
+            "firstName": "Kazimiera",
+            "lastName": "Wójtowicz",
+            "name": "Kazimiera Wójtowicz",
+            "userName": "kazimiera.wojtowicz",
+            "email": "kazimiera.wojtowicz@example.net",
+            "dateOfBirth": "1953-09-23T00:00:00.000000+00:00",
+            "age": 72,
+            "phone": "883 154 089",
+            "address": {
+                "street": "os. Świdnicka 519",
+                "city": "Postęp",
+                "state": "śląskie",
+                "stateCode": "PL-24",
+                "county": "powiat myszkowski",
+                "postcode": "42-350",
+                "latitude": 50.593066,
+                "longitude": 19.274171,
+                "address": "os. Świdnicka 519, 42-350 Postęp"
+            },
+            "pesel": "53092301784",
+            "idCardNumber": "EWR172463",
+            "passportNumber": "EJ1813196",
+            "language": "pl"
+        },
+        {
+            "gender": "Quidam\\Definitions\\Enum\\Gender::Female",
+            "title": "dr hab.",
+            "firstName": "Liliana",
+            "lastName": "Piotrowska",
+            "name": "Liliana Piotrowska",
+            "userName": "liliana_piotrowska",
+            "email": "liliana_piotrowska@example.org",
+            "dateOfBirth": "2004-12-08T00:00:00.000000+00:00",
+            "age": 21,
+            "phone": "664 029 908",
+            "address": {
+                "street": "ul. Jagodowa 261",
+                "city": "Pruszków",
+                "state": "mazowieckie",
+                "stateCode": "PL-14",
+                "county": "powiat pruszkowski",
+                "postcode": "05-800",
+                "latitude": 52.171167,
+                "longitude": 20.808127,
+                "address": "ul. Jagodowa 261, 05-800 Pruszków"
+            },
+            "pesel": "04320877201",
+            "idCardNumber": "GAI275143",
+            "passportNumber": "EU1867314",
+            "language": "pl"
+        }
+    ],
+    "2026 Profile::person()": [
+        {
+            "gender": "Quidam\\Definitions\\Enum\\Gender::Female",
+            "title": "inż.",
+            "firstName": "Kazimiera",
+            "lastName": "Wójtowicz",
+            "name": "Kazimiera Wójtowicz",
+            "userName": "kazimiera.wojtowicz",
+            "email": "kazimiera.wojtowicz@example.net",
+            "dateOfBirth": "1953-09-23T00:00:00.000000+00:00",
+            "age": 72,
+            "phone": "883 154 089",
+            "address": {
+                "street": "os. Świdnicka 519",
+                "city": "Postęp",
+                "state": "śląskie",
+                "stateCode": "PL-24",
+                "county": "powiat myszkowski",
+                "postcode": "42-350",
+                "latitude": 50.593066,
+                "longitude": 19.274171,
+                "address": "os. Świdnicka 519, 42-350 Postęp"
+            }
+        },
+        {
+            "gender": "Quidam\\Definitions\\Enum\\Gender::Male",
+            "title": "inż.",
+            "firstName": "Dominik",
+            "lastName": "Sowa",
+            "name": "Dominik Sowa",
+            "userName": "dominik246",
+            "email": "dominik246@example.org",
+            "dateOfBirth": "2003-05-31T00:00:00.000000+00:00",
+            "age": 22,
+            "phone": "608 131 963",
+            "address": {
+                "street": "ul. Słonecznikowa 35A",
+                "city": "Tomaszów Mazowiecki",
+                "state": "łódzkie",
+                "stateCode": "PL-10",
+                "county": "powiat tomaszowski",
+                "postcode": "97-204",
+                "latitude": 51.519925,
+                "longitude": 20.012404,
+                "address": "ul. Słonecznikowa 35A, 97-204 Tomaszów Mazowiecki"
+            }
+        }
+    ],
+    "2026 NationalId::pesel()": [
+        "50102582274",
+        "73041331589"
+    ],
+    "2026 NationalId::nip()": [
+        "6133882284",
+        "5981540890"
+    ],
+    "2026 NationalId::regon()": [
+        "358822845",
+        "933154086"
+    ],
+    "2026 NationalId::regonLocal()": [
+        "35882284553154",
+        "09089397619849"
+    ],
+    "2026 NationalId::idCardNumber()": [
+        "XPP188228",
+        "MFP653154"
+    ],
+    "2026 NationalId::passportNumber()": [
+        "EX7882284",
+        "EZ6315408"
+    ],
+    "2026 NationalId::landRegistryNumber()": [
+        "SR1W/00868164/6",
+        "TR2T/00134745/5"
+    ],
+    "2026 NationalId::doctorLicenceNumber()": [
+        "7198406",
+        "2201748"
+    ],
+    "2026 NationalId::krs()": [
+        "0000757974",
+        "0001066329"
+    ],
+    "2026 NationalId::euVatNumber()": [
+        "PL6133882284",
+        "PL5981540890"
+    ],
+    "2026 Text::realText()": [
+        "Potem szedł do kuchni i znajdował tam w cienistym kącie wiaderko z wodą, ugniatał ją i miesił ciałem, jak ogromną dzieżę ciasta, w którą się zapadał, i budził się o szarym świcie przypomnieć sobie.",
+        "Sztuczny dzień zabarwiał się już powoli kolorami zwyczajnego poranka. W spustoszałym sklepie najwyższe półki syciły się barwami rannego nieba."
+    ],
+    "2026 Address::cityData(\"PL-14\")": [
+        {
+            "city": "Jaroszowa Wola",
+            "state": "mazowieckie",
+            "stateCode": "PL-14",
+            "county": "powiat piaseczyński",
+            "postcode": "05-505",
+            "latitude": 51.962725,
+            "longitude": 21.001103
+        },
+        {
+            "city": "Radom",
+            "state": "mazowieckie",
+            "stateCode": "PL-14",
+            "county": "powiat m. Radom",
+            "postcode": "26-600",
+            "latitude": 51.398597,
+            "longitude": 21.154484
+        }
+    ],
+    "2026 DateTime::dateTimesBetween(3, \"-1 year\")": [
+        [
+            "2025-04-03T21:21:10.000000+00:00",
+            "2025-10-30T13:29:09.000000+00:00",
+            "2025-11-21T19:14:55.000000+00:00"
+        ],
+        [
+            "2025-09-03T16:46:36.000000+00:00",
+            "2025-10-09T12:36:51.000000+00:00",
+            "2025-10-15T06:47:40.000000+00:00"
+        ]
+    ],
+    "2026 PhoneNumber::e164PhoneNumber(\"DE\")": [
+        "+4923882284531",
+        "+4924089397198"
+    ],
+    "2026 Payment::iban(\"DE\")": [
+        "DE91388228453154089397",
+        "DE51198406201748724631"
+    ],
+    "2026 Payment::sortCode(\"102\")": [
+        "10238820",
+        "10228456"
+    ],
+    "2026 Payment::bankAccountNumber(12)": [
+        "388228453154",
+        "089397198406"
+    ],
+    "2026 Vehicle::licensePlate(\"mazowieckie\", true)": [
+        "WS 845BA",
+        "WOS 97B5"
+    ],
+    "2026 NationalId::pesel({\"date\":\"2004-02-29 00:00:00.000000\",\"timezone_type\":3,\"timezone\":\"UTC\"}, \"female\")": [
+        "04222938844",
+        "04222928407"
+    ],
+    "2026 NationalId::nip(true)": [
+        "613-388-22-84",
+        "598-154-08-90"
+    ],
+    "2026 Profile::citizen(\"male\", 30, 40)": [
+        {
+            "gender": "Quidam\\Definitions\\Enum\\Gender::Male",
+            "title": "mgr inż.",
+            "firstName": "Bogdan",
+            "lastName": "Ryba",
+            "name": "Bogdan Ryba",
+            "userName": "bryba84",
+            "email": "bryba84@example.com",
+            "dateOfBirth": "1991-11-07T00:00:00.000000+00:00",
+            "age": 34,
+            "phone": "881 540 893",
+            "address": {
+                "street": "ul. Odrodzenia 298",
+                "city": "Tczew",
+                "state": "pomorskie",
+                "stateCode": "PL-22",
+                "county": "powiat tczewski",
+                "postcode": "83-110",
+                "latitude": 54.088571,
+                "longitude": 18.785805,
+                "address": "ul. Odrodzenia 298, 83-110 Tczew"
+            },
+            "pesel": "91110717476",
+            "idCardNumber": "RVF324631",
+            "passportNumber": "ES7131963",
+            "language": "pl"
+        },
+        {
+            "gender": "Quidam\\Definitions\\Enum\\Gender::Male",
+            "title": "dr hab.",
+            "firstName": "Gabriel",
+            "lastName": "Piotrowski",
+            "name": "Gabriel Piotrowski",
+            "userName": "gabriel_piotrowski",
+            "email": "gabriel_piotrowski@example.org",
+            "dateOfBirth": "1986-12-16T00:00:00.000000+00:00",
+            "age": 39,
+            "phone": "664 029 908",
+            "address": {
+                "street": "ul. Jagodowa 261",
+                "city": "Pruszków",
+                "state": "mazowieckie",
+                "stateCode": "PL-14",
+                "county": "powiat pruszkowski",
+                "postcode": "05-800",
+                "latitude": 52.171167,
+                "longitude": 20.808127,
+                "address": "ul. Jagodowa 261, 05-800 Pruszków"
+            },
+            "pesel": "86121677213",
+            "idCardNumber": "GAI275143",
+            "passportNumber": "EU1867314",
+            "language": "pl"
+        }
+    ]
+}

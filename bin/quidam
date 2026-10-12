@@ -1,0 +1,15 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types = 1);
+
+// Composer bin proxy sets $_composer_autoload_path; fallbacks: installed as a dependency, or this repository
+$autoload = $GLOBALS['_composer_autoload_path'] ?? null;
+foreach ([$autoload, __DIR__ . '/../../../autoload.php', __DIR__ . '/../vendor/autoload.php'] as $file) {
+    if (is_string($file) && is_file($file)) {
+        require $file;
+        break;
+    }
+}
+
+exit(new Quidam\Cli\Application()->run($argv, STDOUT, STDERR));

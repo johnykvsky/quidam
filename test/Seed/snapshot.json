@@ -1,0 +1,4202 @@
+{
+    "1 Address::city()": [
+        "West Nancyfield",
+        "South Holly"
+    ],
+    "1 Address::streetName()": [
+        "Dawson Drive",
+        "Fisher Court"
+    ],
+    "1 Address::streetSuffix()": [
+        "Terrace",
+        "Square"
+    ],
+    "1 Address::secondaryAddress()": [
+        "Suite 904",
+        "Unit 90"
+    ],
+    "1 Address::state()": [
+        "Capital District",
+        "Eastern Region"
+    ],
+    "1 Address::stateCode()": [
+        "CD",
+        "ER"
+    ],
+    "1 Address::stateData()": [
+        {
+            "code": "CD",
+            "name": "Capital District"
+        },
+        {
+            "code": "ER",
+            "name": "Eastern Region"
+        }
+    ],
+    "1 Address::buildingNumber()": [
+        "50",
+        "2"
+    ],
+    "1 Address::streetAddress()": [
+        "Dawson Drive 2",
+        "White Avenue 88"
+    ],
+    "1 Address::postcode()": [
+        "0413",
+        "27987"
+    ],
+    "1 Address::address()": [
+        "Dawson Drive 2, 27987 Lake Joel",
+        "Jonathan Park 7, 8647 Collinsdale"
+    ],
+    "1 Address::country()": [
+        "Bosnia and Herzegovina",
+        "Lebanon"
+    ],
+    "1 Address::countryCode()": [
+        "BA",
+        "LB"
+    ],
+    "1 Address::countryCodeAlpha3()": [
+        "BIH",
+        "LBN"
+    ],
+    "1 Address::countryData()": [
+        {
+            "alpha2": "BA",
+            "alpha3": "BIH",
+            "name": "Bosnia and Herzegovina"
+        },
+        {
+            "alpha2": "LB",
+            "alpha3": "LBN",
+            "name": "Lebanon"
+        }
+    ],
+    "1 Address::latitude()": [
+        -35.726328,
+        -58.671206
+    ],
+    "1 Address::longitude()": [
+        -73.482063,
+        -158.674595
+    ],
+    "1 Address::coordinates()": [
+        {
+            "latitude": -35.726328,
+            "longitude": -158.674595
+        },
+        {
+            "latitude": -50.21702,
+            "longitude": -148.890107
+        }
+    ],
+    "1 Address::latitude(49, 54.9)": [
+        54.868035,
+        49.310786
+    ],
+    "1 Address::county()": [
+        "Stewart District",
+        "Dawson District"
+    ],
+    "1 Address::cityData()": [
+        {
+            "city": "Skylerford",
+            "state": "Capital District",
+            "stateCode": "CD",
+            "county": "Barnes District",
+            "postcode": "74111",
+            "latitude": -58.671206,
+            "longitude": 143.270748
+        },
+        {
+            "city": "New Oliver",
+            "state": "Capital District",
+            "stateCode": "CD",
+            "county": "Stone District",
+            "postcode": "47411",
+            "latitude": 13.074998,
+            "longitude": -34.118018
+        }
+    ],
+    "1 Address::addressData()": [
+        {
+            "street": "Dawson Drive 2",
+            "city": "East Monica",
+            "state": "Eastern Region",
+            "stateCode": "ER",
+            "county": "Wright District",
+            "postcode": "7174",
+            "latitude": -30.03987,
+            "longitude": 129.568813,
+            "address": "Dawson Drive 2, 7174 East Monica"
+        },
+        {
+            "street": "Christine Close 46",
+            "city": "South Samanthaport",
+            "state": "Highlands",
+            "stateCode": "HL",
+            "county": "Butler District",
+            "postcode": "68598",
+            "latitude": -61.070854,
+            "longitude": -155.31056,
+            "address": "Christine Close 46, 68598 South Samanthaport"
+        }
+    ],
+    "1 Address::addressData(\"cr\")": [
+        {
+            "street": "Dawson Drive 2",
+            "city": "Lake Daisyton",
+            "state": "Central Region",
+            "stateCode": "CR",
+            "county": "Phillips District",
+            "postcode": "1717",
+            "latitude": 74.680758,
+            "longitude": 11.845758,
+            "address": "Dawson Drive 2, 1717 Lake Daisyton"
+        },
+        {
+            "street": "Scott Park 7",
+            "city": "Lake Victorbrook",
+            "state": "Central Region",
+            "stateCode": "CR",
+            "county": "Collins District",
+            "postcode": "91446",
+            "latitude": 42.716284,
+            "longitude": 176.488174,
+            "address": "Scott Park 7, 91446 Lake Victorbrook"
+        }
+    ],
+    "1 Address::cityPrefix()": [
+        "West",
+        "South"
+    ],
+    "1 Address::citySuffix()": [
+        "chester",
+        "field"
+    ],
+    "1 Barcode::ean13()": [
+        "8704130279870",
+        "5711171743317"
+    ],
+    "1 Barcode::ean8()": [
+        "59941309",
+        "56098747"
+    ],
+    "1 Barcode::upcA()": [
+        "604130279871",
+        "811171743319"
+    ],
+    "1 Barcode::isbn13()": [
+        "9798413027981",
+        "9791311171749"
+    ],
+    "1 Barcode::isbn10()": [
+        "8904130271",
+        "7874111710"
+    ],
+    "1 Barcode::ismn()": [
+        "9790704130271",
+        "9790987411173"
+    ],
+    "1 Blood::bloodType()": [
+        "O",
+        "A"
+    ],
+    "1 Blood::bloodRh()": [
+        "+",
+        "+"
+    ],
+    "1 Blood::bloodGroup()": [
+        "O+",
+        "A+"
+    ],
+    "1 Color::hexColor()": [
+        "#c710c5",
+        "#364cea"
+    ],
+    "1 Color::safeHexColor()": [
+        "#00cc55",
+        "#cceeaa"
+    ],
+    "1 Color::rgbColorAsArray()": [
+        [
+            197,
+            234,
+            20
+        ],
+        [
+            167,
+            115,
+            34
+        ]
+    ],
+    "1 Color::rgbColor()": [
+        "197,234,20",
+        "167,115,34"
+    ],
+    "1 Color::rgbCssColor()": [
+        "rgb(197,234,20)",
+        "rgb(167,115,34)"
+    ],
+    "1 Color::rgbaCssColor()": [
+        "rgba(197,234,20,0.56)",
+        "rgba(115,34,230,0.33)"
+    ],
+    "1 Color::hslColorAsArray()": [
+        [
+            157,
+            52,
+            8
+        ],
+        [
+            71,
+            13,
+            56
+        ]
+    ],
+    "1 Color::hslColor()": [
+        "157,52,8",
+        "71,13,56"
+    ],
+    "1 Color::hslCssColor()": [
+        "hsl(157, 52%, 8%)",
+        "hsl(71, 13%, 56%)"
+    ],
+    "1 Color::safeColorName()": [
+        "green",
+        "purple"
+    ],
+    "1 Color::colorName()": [
+        "Silver",
+        "Cornsilk"
+    ],
+    "1 Commerce::productName()": [
+        "Elegant Linen Knife",
+        "Vintage Ceramic Bag"
+    ],
+    "1 Commerce::productAdjective()": [
+        "Elegant",
+        "Modern"
+    ],
+    "1 Commerce::productMaterial()": [
+        "Steel",
+        "Linen"
+    ],
+    "1 Commerce::product()": [
+        "Wallet",
+        "Keyboard"
+    ],
+    "1 Commerce::department()": [
+        "Toys",
+        "Music"
+    ],
+    "1 Commerce::sku()": [
+        "CG-0413-IB",
+        "FHP-74111"
+    ],
+    "1 Commerce::promotionCode()": [
+        "DEAL15",
+        "NEWYEAR50"
+    ],
+    "1 Company::company()": [
+        "Dawson & Ford",
+        "Fisher Logistics Holding"
+    ],
+    "1 Company::companySuffix()": [
+        "International",
+        "Partners"
+    ],
+    "1 Company::jobTitle()": [
+        "Marketing Manager",
+        "Project Manager"
+    ],
+    "1 Company::industry()": [
+        "Energy",
+        "Technology"
+    ],
+    "1 Company::catchPhrase()": [
+        "Total empowering firmware",
+        "Switchable user-facing website"
+    ],
+    "1 DateTime::dateTime()": [
+        "1984-06-05T03:26:37.000000+00:00",
+        "2013-11-24T10:59:30.000000+00:00"
+    ],
+    "1 DateTime::dateTimeBetween()": [
+        "2004-06-05T03:26:37.000000+00:00",
+        "2003-11-24T10:59:29.000000+00:00"
+    ],
+    "1 DateTime::dateTimeRange()": [
+        [
+            "2003-11-24T10:59:29.000000+00:00",
+            "2004-06-05T03:26:37.000000+00:00"
+        ],
+        [
+            "2000-05-18T22:42:04.000000+00:00",
+            "2009-05-21T08:31:08.000000+00:00"
+        ]
+    ],
+    "1 DateTime::dateTimePast()": [
+        "2025-12-20T03:24:55.000000+00:00",
+        "2026-01-13T10:51:50.000000+00:00"
+    ],
+    "1 DateTime::dateTimeFuture()": [
+        "2026-01-19T03:24:55.000000+00:00",
+        "2026-02-12T10:51:50.000000+00:00"
+    ],
+    "1 DateTime::dateOfBirth()": [
+        "1953-06-06T00:00:00.000000+00:00",
+        "1982-11-26T00:00:00.000000+00:00"
+    ],
+    "1 DateTime::date()": [
+        "1984-06-05",
+        "2013-11-24"
+    ],
+    "1 DateTime::time()": [
+        "03:26:37",
+        "10:59:30"
+    ],
+    "1 DateTime::unixTime()": [
+        455253997,
+        1385290770
+    ],
+    "1 DateTime::timezone()": [
+        "America/Grenada",
+        "America/St_Barthelemy"
+    ],
+    "1 DateTime::dateTimeRange(\"now\", \"+1 year\", \"14 days\")": [
+        [
+            "2026-06-08T03:26:29.000000+00:00",
+            "2026-06-18T03:39:32.000000+00:00"
+        ],
+        [
+            "2026-05-20T22:42:00.000000+00:00",
+            "2026-05-25T19:58:15.000000+00:00"
+        ]
+    ],
+    "1 DateTime::dateTimesBetween(3, \"-1 year\")": [
+        [
+            "2025-05-20T22:42:00.000000+00:00",
+            "2025-06-08T03:26:29.000000+00:00",
+            "2025-12-04T10:58:53.000000+00:00"
+        ],
+        [
+            "2025-01-15T23:31:21.000000+00:00",
+            "2025-06-18T08:29:28.000000+00:00",
+            "2025-08-14T21:35:11.000000+00:00"
+        ]
+    ],
+    "1 DateTime::timezone(\"US\")": [
+        "America/Yakutat",
+        "America/Juneau"
+    ],
+    "1 DateTime::century()": [
+        "XVII",
+        "IV"
+    ],
+    "1 DateTime::monthName()": [
+        "June",
+        "November"
+    ],
+    "1 DateTime::dayOfWeek()": [
+        "Tuesday",
+        "Sunday"
+    ],
+    "1 DateTime::localDate()": [
+        "1984-06-05",
+        "2013-11-24"
+    ],
+    "1 DateTime::localDateTime()": [
+        "1984-06-05 03:26",
+        "2013-11-24 10:59"
+    ],
+    "1 DateTime::longDate()": [
+        "5 June 1984",
+        "24 November 2013"
+    ],
+    "1 Enum::enumCase(\"Quidam\\\\Test\\\\Fixtures\\\\Suit\")": [
+        "Quidam\\Test\\Fixtures\\Suit::Spades",
+        "Quidam\\Test\\Fixtures\\Suit::Hearts"
+    ],
+    "1 Enum::enumValue(\"Quidam\\\\Test\\\\Fixtures\\\\Suit\")": [
+        "S",
+        "H"
+    ],
+    "1 File::mimeType()": [
+        "video/3gpp",
+        "application/rtf"
+    ],
+    "1 File::extension()": [
+        "3gp",
+        "json"
+    ],
+    "1 File::fileName()": [
+        "movie_new.3gp",
+        "notes-14.rtf"
+    ],
+    "1 File::directoryPath()": [
+        "/var/log/assets",
+        "/var/log/uploads/reports"
+    ],
+    "1 File::filePath()": [
+        "/var/log/assets/config-74.vcf",
+        "/var/www/html/assets/scan-2.tiff"
+    ],
+    "1 File::fileSize()": [
+        2586796,
+        9966713
+    ],
+    "1 File::fileSizeFormatted()": [
+        "2.5 MB",
+        "9.5 MB"
+    ],
+    "1 File::mimeType(\"image\")": [
+        "image/bmp",
+        "image/jpeg"
+    ],
+    "1 File::mimeTypeForExtension(\"pdf\")": [
+        "application/pdf",
+        "application/pdf"
+    ],
+    "1 File::filePath(\"pdf\", \"windows\")": [
+        "C:\\Users\\Anna\\Assets\\budget_2025.pdf",
+        "C:\\inetpub\\wwwroot\\Downloads\\Reports\\presentation.pdf"
+    ],
+    "1 File::csv(3)": [
+        "id,name,email,city,amount,created_at\n1,\"Morgan Ford\",morgan302@example.org,\"East Monica\",366.61,\"2024-07-11 16:08:08\"\n2,\"David Collins\",david_collins@example.com,\"North Madison\",185.44,\"2025-04-13 19:04:45\"\n3,\"Colin Smith\",colin.smith49@example.org,\"East Joanborough\",142.69,\"2025-05-25 12:20:56\"\n",
+        "id,name,email,city,amount,created_at\n1,\"Eric Matthews\",eric747@example.com,\"East Alan\",898.12,\"2025-01-28 22:39:08\"\n2,\"Sophie Reed\",sophie.reed@example.net,Peterville,725.92,\"2025-05-21 01:55:44\"\n3,\"Drew Sanders\",drew_sanders@example.org,Murraymouth,886.91,\"2025-04-25 01:33:58\"\n"
+    ],
+    "1 File::json(2)": [
+        "sha256:b0add11fab3782e8cb21c1c99a932597743791446eef8456f5094cac6519996a (418 bytes)",
+        "sha256:a13cab0eddc71b22b8753d14a93e20b830080d54822f3ee31054540e05a6fbd3 (417 bytes)"
+    ],
+    "1 Hash::md5()": [
+        "c510c70f6daff2b3ea4c364796553b85",
+        "14452a085697f892a7a366c27b1c2e64"
+    ],
+    "1 Hash::sha1()": [
+        "c510c70f6daff2b3ea4c364796553b8514452a08",
+        "a7a366c27b1c2e647336239ae2487ab222a7fd6f"
+    ],
+    "1 Hash::sha256()": [
+        "c510c70f6daff2b3ea4c364796553b8514452a085697f892a7a366c27b1c2e64",
+        "7336239ae2487ab222a7fd6f1223c124e610f58def0430129de8b147cc4d9561"
+    ],
+    "1 Hash::sha512()": [
+        "c510c70f6daff2b3ea4c364796553b8514452a085697f892a7a366c27b1c2e647336239ae2487ab222a7fd6f1223c124e610f58def0430129de8b147cc4d9561",
+        "214aedb98ab4fdddd0b1a53a8cdb3c8dd12672d84b11bdeea6e8d7e7f13f0cf5f1c83be21531caee3564c6b43ded49abd78d80576c3c9599259321051b94fae3"
+    ],
+    "1 Hash::base64()": [
+        "xRDHD22v8rPqTDZHllU7hRRFKghWl/iSp6NmwnscLmQ=",
+        "czYjmuJIerIip/1vEiPBJOYQ9Y3vBDASneixR8xNlWE="
+    ],
+    "1 Hash::base64Url()": [
+        "xRDHD22v8rPqTDZHllU7hRRFKghWl_iSp6NmwnscLmQ",
+        "czYjmuJIerIip_1vEiPBJOYQ9Y3vBDASneixR8xNlWE"
+    ],
+    "1 Hash::jwt()": [
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI3MDQ0NjIiLCJpYXQiOjE3Njg0NzMwMDAsImV4cCI6MTc2ODQ3NjYwMH0.6kw2R5ZVO4UURSoIVpf4kqejZsJ7HC5kczYjmuJIerI",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI4OTYyNDkiLCJpYXQiOjE3Njg0NzMwMDAsImV4cCI6MTc2ODQ3NjYwMH0.5hD1je8EMBKd6LFHzE2VYSFK7bmKtP3d0LGlOozbPI0"
+    ],
+    "1 Hash::apiKey()": [
+        "5G7FjlopgCs7MLx5K5g8MNuIdZc2xSka",
+        "psZQY8woYdzlIZ1acGrDl4mITen7CDLX"
+    ],
+    "1 Hash::apiKey(\"sk_test_\", 16)": [
+        "sk_test_5G7FjlopgCs7MLx5",
+        "sk_test_K5g8MNuIdZc2xSka"
+    ],
+    "1 Internet::email()": [
+        "morgan302@example.org",
+        "hstewart11@example.org"
+    ],
+    "1 Internet::freeEmail()": [
+        "morgan302@outlook.com",
+        "hstewart11@hotmail.com"
+    ],
+    "1 Internet::companyEmail()": [
+        "morgan302@thompson-labs.info",
+        "wright.monica@richards-hub.com"
+    ],
+    "1 Internet::freeEmailDomain()": [
+        "outlook.com",
+        "yahoo.com"
+    ],
+    "1 Internet::userName()": [
+        "morgan302",
+        "fox.skyler"
+    ],
+    "1 Internet::password()": [
+        "s*fNIJK$K4",
+        "w_!jrHWf$rhU8"
+    ],
+    "1 Internet::domainName()": [
+        "stewart.com",
+        "morris-net.com"
+    ],
+    "1 Internet::domainWord()": [
+        "stewart",
+        "forddata"
+    ],
+    "1 Internet::tld()": [
+        "info",
+        "com"
+    ],
+    "1 Internet::url()": [
+        "http://forddata.com/error-earum-placeat-voluptates-illo.html",
+        "https://www.richards-hub.com/"
+    ],
+    "1 Internet::protocol()": [
+        "http",
+        "http"
+    ],
+    "1 Internet::hostname()": [
+        "srv-61.forddata.com",
+        "cache-74.barnestech.com"
+    ],
+    "1 Internet::hashtag()": [
+        "#assumendaSaepe",
+        "#laudantiumReprehenderitCupiditate"
+    ],
+    "1 Internet::socialHandle()": [
+        "@morgan302",
+        "@fox_skyler"
+    ],
+    "1 Internet::slug()": [
+        "assumenda-saepe-amet-laudantium",
+        "cupiditate-deserunt-error-earum-placeat-voluptates-illo-exercitationem"
+    ],
+    "1 Internet::ipv4()": [
+        "16.199.16.197",
+        "72.54.76.234"
+    ],
+    "1 Internet::ipv4Cidr()": [
+        "72.32.0.0/11",
+        "195.102.163.0/24"
+    ],
+    "1 Internet::localIpv4()": [
+        "172.22.76.234",
+        "172.22.163.167"
+    ],
+    "1 Internet::ipv6()": [
+        "2510:c70f:6daf:f2b3:ea4c:3647:9655:3b85",
+        "2445:2a08:5697:f892:a7a3:66c2:7b1c:2e64"
+    ],
+    "1 Internet::ipv6Cidr()": [
+        "2a4c:3647:9600::/39",
+        "2336:239a:e240::/43"
+    ],
+    "1 Internet::macAddress()": [
+        "C6:10:C7:0F:6D:AF",
+        "EA:4C:36:47:96:55"
+    ],
+    "1 Internet::port()": [
+        12485,
+        44266
+    ],
+    "1 Internet::httpMethod()": [
+        "PUT",
+        "PATCH"
+    ],
+    "1 Internet::httpStatusCode()": [
+        301,
+        302
+    ],
+    "1 Internet::email(\"Anna\", \"Kowalski\")": [
+        "kowalski.anna@example.com",
+        "akowalski13@example.org"
+    ],
+    "1 Internet::url(true)": [
+        "http://forddata.com/error-earum-placeat-voluptates-illo.html?soluta=12",
+        "https://scott.com/?impedit=88&recusandae=52&eius=consequuntur"
+    ],
+    "1 Internet::urlPath()": [
+        "/assumenda-saepe/laudantium-reprehenderit",
+        "/deserunt/earum-placeat"
+    ],
+    "1 Internet::safeEmailDomain()": [
+        "example.org",
+        "example.com"
+    ],
+    "1 Language::language()": [
+        "Ganda",
+        "Kuanyama"
+    ],
+    "1 Language::languageCode()": [
+        "lg",
+        "kj"
+    ],
+    "1 Language::languageData()": [
+        {
+            "code": "lg",
+            "name": "Ganda"
+        },
+        {
+            "code": "kj",
+            "name": "Kuanyama"
+        }
+    ],
+    "1 Language::locale()": [
+        "vi_VN",
+        "pl_PL"
+    ],
+    "1 Lorem::word()": [
+        "est",
+        "assumenda"
+    ],
+    "1 Lorem::words()": [
+        [
+            "est",
+            "assumenda",
+            "saepe"
+        ],
+        [
+            "amet",
+            "laudantium",
+            "reprehenderit"
+        ]
+    ],
+    "1 Lorem::sentence()": [
+        "Assumenda saepe amet laudantium.",
+        "Cupiditate deserunt error earum placeat voluptates illo exercitationem."
+    ],
+    "1 Lorem::sentences()": [
+        [
+            "Assumenda saepe amet laudantium.",
+            "Cupiditate deserunt error earum placeat voluptates illo exercitationem.",
+            "Ex eaque delectus eos esse."
+        ],
+        [
+            "Dignissimos quod omnis impedit temporibus quis recusandae.",
+            "Minima eius saepe consequuntur sequi id similique.",
+            "Nostrum est cumque cum deleniti ducimus commodi tempora."
+        ]
+    ],
+    "1 Lorem::paragraph()": [
+        "Saepe amet laudantium reprehenderit cupiditate deserunt error. Placeat voluptates illo exercitationem soluta ex.",
+        "Eos esse exercitationem dignissimos quod. Impedit temporibus quis recusandae commodi minima eius. Consequuntur sequi id similique quia nostrum est cumque cum."
+    ],
+    "1 Lorem::paragraphs()": [
+        [
+            "Saepe amet laudantium reprehenderit cupiditate deserunt error. Placeat voluptates illo exercitationem soluta ex.",
+            "Eos esse exercitationem dignissimos quod. Impedit temporibus quis recusandae commodi minima eius. Consequuntur sequi id similique quia nostrum est cumque cum.",
+            "Commodi tempora quas perspiciatis voluptatibus maxime. Repellendus eveniet dignissimos rem voluptas minus beatae quidem. Alias repudiandae commodi aliquam ducimus minima. Quaerat soluta et quia inventore maxime impedit iure ducimus."
+        ],
+        [
+            "Delectus quis aliquid eligendi quisquam dicta minus reprehenderit. Reprehenderit vel eveniet modi. Similique fuga corporis omnis adipisci. Assumenda provident quibusdam amet deleniti laboriosam.",
+            "Ut quaerat error alias cupiditate magnam velit. Voluptate reiciendis ratione beatae ut praesentium. Iste perspiciatis impedit architecto deleniti vero dolorum eum.",
+            "Ex quis architecto beatae provident voluptatem cupiditate alias. Harum ratione suscipit id accusamus ipsam quia eaque. Molestiae natus ipsa nesciunt culpa error expedita aperiam maxime."
+        ]
+    ],
+    "1 Lorem::text()": [
+        "Saepe amet laudantium reprehenderit cupiditate deserunt error. Placeat voluptates illo exercitationem soluta ex.",
+        "Delectus quis aliquid eligendi quisquam dicta minus reprehenderit. Reprehenderit vel eveniet modi. Similique fuga corporis omnis adipisci. Assumenda provident quibusdam amet deleniti laboriosam."
+    ],
+    "1 Number::numberBetween()": [
+        3743247123249303749,
+        376989097743764714
+    ],
+    "1 Number::randomDigit()": [
+        7,
+        0
+    ],
+    "1 Number::randomDigitNotZero()": [
+        5,
+        7
+    ],
+    "1 Number::randomNumber()": [
+        40970,
+        6471
+    ],
+    "1 Number::randomFloat()": [
+        15.5,
+        290.23
+    ],
+    "1 Number::gaussian()": [
+        0.81,
+        -1.59
+    ],
+    "1 Number::gaussianInt()": [
+        1,
+        -2
+    ],
+    "1 Number::boolean()": [
+        false,
+        false
+    ],
+    "1 Number::numberBetween(1, 10)": [
+        8,
+        1
+    ],
+    "1 Number::gaussian(170, 10, 140, 210, 1)": [
+        178.1,
+        154.1
+    ],
+    "1 Number::percentage()": [
+        64,
+        52
+    ],
+    "1 Payment::creditCardType()": [
+        "Visa",
+        "MasterCard"
+    ],
+    "1 Payment::creditCardNumber()": [
+        "4130279874111714",
+        "3565317864741177"
+    ],
+    "1 Payment::maskedCreditCardNumber()": [
+        "**** **** **** 1714",
+        "**** **** **** 1177"
+    ],
+    "1 Payment::creditCardExpirationDate()": [
+        "05/26",
+        "10/28"
+    ],
+    "1 Payment::creditCardCvv()": [
+        "704",
+        "130"
+    ],
+    "1 Payment::creditCardDetails()": [
+        {
+            "type": "Visa",
+            "number": "4130279874111714",
+            "name": "Jonathan Scott",
+            "expirationDate": "02/27",
+            "cvv": "178"
+        },
+        {
+            "type": "MasterCard",
+            "number": "5341174914468590",
+            "name": "Dakota Jackson",
+            "expirationDate": "06/28",
+            "cvv": "574"
+        }
+    ],
+    "1 Payment::iban()": [
+        "JO47KUHT0279QRXIGXTHNAURRBCKB4",
+        "VA73117491446859872757"
+    ],
+    "1 Payment::swiftBicNumber()": [
+        "FKUHBYCQ",
+        "BQRGGTVX"
+    ],
+    "1 Payment::currencyCode()": [
+        "KGS",
+        "ERN"
+    ],
+    "1 Payment::currencyName()": [
+        "Som",
+        "Nakfa"
+    ],
+    "1 Payment::currencySymbol()": [
+        "$",
+        "NZ$"
+    ],
+    "1 Payment::currencyData()": [
+        {
+            "code": "KGS",
+            "name": "Som",
+            "symbol": "KGS"
+        },
+        {
+            "code": "ERN",
+            "name": "Nakfa",
+            "symbol": "ERN"
+        }
+    ],
+    "1 Payment::price()": [
+        15.5,
+        290.23
+    ],
+    "1 Payment::priceInMinorUnits()": [
+        1550,
+        29023
+    ],
+    "1 Payment::bankAccountNumber()": [
+        "7041302798",
+        "7411171743"
+    ],
+    "1 Payment::transactionType()": [
+        "invoice",
+        "payment"
+    ],
+    "1 Payment::bitcoinAddress()": [
+        "3P3sLjge3sbag4zPFD9jYVQKWUobyLG3jw",
+        "34rG9DNf66WJNej9wKsSf1YjujUcrSHzrx"
+    ],
+    "1 Payment::ethereumAddress()": [
+        "0xc510C70f6Daff2B3ea4c364796553B8514452A08",
+        "0xA7A366c27b1C2E647336239ae2487AB222A7Fd6f"
+    ],
+    "1 Payment::iban(\"PL\", \"\", true)": [
+        "PL60 7041 3027 9874 1117 1743 3178",
+        "PL71 6474 1174 9144 6859 8727 5747"
+    ],
+    "1 Payment::priceInMinorUnits(10, 50, \"JPY\")": [
+        48,
+        37
+    ],
+    "1 Payment::ethereumAddress(false)": [
+        "0xc510c70f6daff2b3ea4c364796553b8514452a08",
+        "0xa7a366c27b1c2e647336239ae2487ab222a7fd6f"
+    ],
+    "1 Payment::localPrice()": [
+        "15.50 EUR",
+        "290.23 EUR"
+    ],
+    "1 Person::name()": [
+        "Morgan Ford",
+        "Nancy Moore"
+    ],
+    "1 Person::firstName()": [
+        "Morgan",
+        "Vernon"
+    ],
+    "1 Person::middleName()": [
+        "Morgan",
+        "Vernon"
+    ],
+    "1 Person::suffix()": [
+        "Sr.",
+        "Jr."
+    ],
+    "1 Person::lastName()": [
+        "Stewart",
+        "Dawson"
+    ],
+    "1 Person::title()": [
+        "Mrs.",
+        "Prof."
+    ],
+    "1 Person::gender()": [
+        "Quidam\\Definitions\\Enum\\Gender::Female",
+        "Quidam\\Definitions\\Enum\\Gender::Female"
+    ],
+    "1 Person::name(\"female\")": [
+        "Margaret Dawson",
+        "Kendall Morris"
+    ],
+    "1 Person::age()": [
+        76,
+        42
+    ],
+    "1 Person::initials()": [
+        "MF",
+        "NM"
+    ],
+    "1 PhoneNumber::phoneNumber()": [
+        "0604 130 279",
+        "0441 117 174"
+    ],
+    "1 PhoneNumber::mobilePhoneNumber()": [
+        "0650 413 027",
+        "0167 411 1717"
+    ],
+    "1 PhoneNumber::internationalPhoneNumber()": [
+        "+688 904 130",
+        "+500 798 74"
+    ],
+    "1 PhoneNumber::e164PhoneNumber()": [
+        "+688904130",
+        "+50079874"
+    ],
+    "1 PhoneNumber::imei()": [
+        "860413027987415",
+        "861717433178644"
+    ],
+    "1 PhoneNumber::e164PhoneNumber(\"PL\")": [
+        "+48570413027",
+        "+48187411171"
+    ],
+    "1 Profile::person()": [
+        {
+            "gender": "Quidam\\Definitions\\Enum\\Gender::Female",
+            "title": "Dr.",
+            "firstName": "Morgan",
+            "lastName": "Ford",
+            "name": "Morgan Ford",
+            "userName": "mford27",
+            "email": "mford27@example.org",
+            "dateOfBirth": "1985-05-24T00:00:00.000000+00:00",
+            "age": 40,
+            "phone": "0167 411 1717",
+            "address": {
+                "street": "Christine Close 46",
+                "city": "South Samanthaport",
+                "state": "Highlands",
+                "stateCode": "HL",
+                "county": "Butler District",
+                "postcode": "68598",
+                "latitude": -61.070854,
+                "longitude": -155.31056,
+                "address": "Christine Close 46, 68598 South Samanthaport"
+            }
+        },
+        {
+            "gender": "Quidam\\Definitions\\Enum\\Gender::Male",
+            "title": "Dr.",
+            "firstName": "Eric",
+            "lastName": "Matthews",
+            "name": "Eric Matthews",
+            "userName": "eric.matthews",
+            "email": "eric.matthews@example.com",
+            "dateOfBirth": "1990-06-11T00:00:00.000000+00:00",
+            "age": 35,
+            "phone": "07255 791221",
+            "address": {
+                "street": "Wilson Row 31",
+                "city": "Joanland",
+                "state": "Western Region",
+                "stateCode": "WR",
+                "county": "Ford District",
+                "postcode": "4921",
+                "latitude": 44.175886,
+                "longitude": -40.609971,
+                "address": "Wilson Row 31, 4921 Joanland"
+            }
+        }
+    ],
+    "1 Strings::string()": [
+        "kmwh",
+        "hdgcoet"
+    ],
+    "1 Strings::numerify(\"%##-###\")": [
+        "270-413",
+        "527-987"
+    ],
+    "1 Strings::lexify(\"??-??\")": [
+        "fk-uh",
+        "tc-gi"
+    ],
+    "1 Strings::bothify(\"??-##-**\")": [
+        "tc-41-gi",
+        "rv-74-xf"
+    ],
+    "1 Strings::regexify(\"(INV|FV)/20(2[4-6])/\\\\d{5}[a-z]*\")": [
+        "FV/2024/13027or",
+        "INV/2024/17174llpgkwjmxh"
+    ],
+    "1 Strings::hexadecimal()": [
+        "507fdf",
+        "ac6765"
+    ],
+    "1 System::cronExpression()": [
+        "0 * * * 1-5",
+        "* 1-13 * * 1"
+    ],
+    "1 System::logLevel()": [
+        "info",
+        "notice"
+    ],
+    "1 System::environmentVariable()": [
+        "REDIS_DEBUG",
+        "S3_SECRET"
+    ],
+    "1 UserAgent::userAgent()": [
+        "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36",
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    ],
+    "1 UserAgent::chrome()": [
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+    ],
+    "1 UserAgent::edge()": [
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0",
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+    ],
+    "1 UserAgent::opera()": [
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 OPR/126.0.0.0",
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 OPR/126.0.0.0"
+    ],
+    "1 UserAgent::firefox()": [
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0",
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0"
+    ],
+    "1 UserAgent::safari()": [
+        "Mozilla/5.0 (iPhone; CPU iPhone OS 18_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Mobile/15E148 Safari/604.1",
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.2 Safari/605.1.15"
+    ],
+    "1 UserAgent::botUserAgent()": [
+        "Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)",
+        "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.1; +https://openai.com/gptbot)"
+    ],
+    "1 UserAgent::userAgent(true)": [
+        "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36",
+        "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36"
+    ],
+    "1 Uuid::uuid4()": [
+        "c510c70f-6daf-42b3-aa4c-364796553b85",
+        "14452a08-5697-4892-a7a3-66c27b1c2e64"
+    ],
+    "1 Uuid::nanoid()": [
+        "3e5dHJMNEaQ5kjV3i3E6k",
+        "BxA0VqIyNQxow6UMwBXJg"
+    ],
+    "1 Uuid::snowflake()": [
+        2011747688764955882,
+        2011747688765277095
+    ],
+    "1 Uuid::uuid7()": [
+        "019bc134-78bb-70c5-aa4c-364796553b85",
+        "019bc134-78bb-70c6-9445-2a085697f892"
+    ],
+    "1 Uuid::ulid()": [
+        "01KF0K8Y5V5AM7K26X1GH6HNQ5",
+        "01KF0K8Y5V5AM7K26X1GH6HNQ6"
+    ],
+    "1 Uuid::uuid3(\"6ba7b810-9dad-11d1-80b4-00c04fd430c8\", \"example.com\")": [
+        "9073926b-929f-31c2-abc9-fad77ae3e8eb",
+        "9073926b-929f-31c2-abc9-fad77ae3e8eb"
+    ],
+    "1 Uuid::uuid5(\"6ba7b811-9dad-11d1-80b4-00c04fd430c8\", \"https://example.com/users/42\")": [
+        "38fcaf6d-63bc-5c9f-8a4f-de8cf4e651ed",
+        "38fcaf6d-63bc-5c9f-8a4f-de8cf4e651ed"
+    ],
+    "1 Vehicle::vehicle()": [
+        "Toyota Corolla",
+        "Subaru Impreza"
+    ],
+    "1 Vehicle::manufacturer()": [
+        "Toyota",
+        "Skoda"
+    ],
+    "1 Vehicle::model()": [
+        "Corolla",
+        "Impreza"
+    ],
+    "1 Vehicle::type()": [
+        "Pickup",
+        "Sedan"
+    ],
+    "1 Vehicle::fuel()": [
+        "Gasoline",
+        "Hybrid"
+    ],
+    "1 Vehicle::vin()": [
+        "4T1XFJZ04H3027987",
+        "5NPGK0PA1FH743317"
+    ],
+    "1 Vehicle::licensePlate()": [
+        "CG 0413I",
+        "VX 8741F"
+    ],
+    "1 Version::semver()": [
+        "7.70.24",
+        "1.63.70"
+    ],
+    "1 Version::gitCommitHash()": [
+        "c510c70f6daff2b3ea4c364796553b8514452a08",
+        "a7a366c27b1c2e647336239ae2487ab222a7fd6f"
+    ],
+    "1 Version::gitBranchName()": [
+        "refactor/handle-user-avatar",
+        "test/IRH-7934-validate-api-rate-limit"
+    ],
+    "1 Version::gitCommitMessage()": [
+        "docs: handle user avatar",
+        "refactor: update login timeout"
+    ],
+    "1 Version::semverConstraint()": [
+        "7.3.*",
+        "1.16.*"
+    ],
+    "1 Version::semver(true, true)": [
+        "7.70.24-rc+20260115103000",
+        "2.57.69-rc+20260115103000"
+    ],
+    "1 RandomizerInterface::getBool()": [
+        false,
+        false
+    ],
+    "1 RandomizerInterface::getBytes()": [
+        "sha256:f21561e3dc0bb1b01d18f3818e73a2123305b2d459c2e6e69c005b04d21b7318 (16 bytes)",
+        "sha256:bac977c7a15c68c332a987c297cf8f1af9150271e27c58a25287cef5748173fb (16 bytes)"
+    ],
+    "1 RandomizerInterface::randomLetter()": [
+        "f",
+        "k"
+    ],
+    "1 RandomizerInterface::getInt(1, 1000)": [
+        198,
+        971
+    ],
+    "1 RandomizerInterface::getFloat(0, 1)": [
+        0.4160856906743462,
+        0.14580236522099443
+    ],
+    "1 RandomizerInterface::getBytesFromString(\"abc123\", 10)": [
+        "3a3c1c2313",
+        "23caac1c12"
+    ],
+    "1 RandomizerInterface::randomElement([\"a\",\"b\",\"c\",\"d\"])": [
+        "b",
+        "c"
+    ],
+    "1 RandomizerInterface::randomElements([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20], 5, true)": [
+        [
+            18,
+            12,
+            5,
+            11,
+            4
+        ],
+        [
+            9,
+            18,
+            2,
+            15,
+            12
+        ]
+    ],
+    "1 RandomizerInterface::randomKey({\"x\":1,\"y\":2,\"z\":3})": [
+        "y",
+        "x"
+    ],
+    "1 RandomizerInterface::weightedElement({\"new\":70,\"paid\":25,\"cancelled\":5})": [
+        "new",
+        "paid"
+    ],
+    "1 RandomizerInterface::shuffleElements([1,2,3,4,5,6,7,8,9,10])": [
+        [
+            10,
+            4,
+            6,
+            3,
+            1,
+            2,
+            9,
+            5,
+            7,
+            8
+        ],
+        [
+            1,
+            3,
+            6,
+            5,
+            2,
+            4,
+            10,
+            7,
+            8,
+            9
+        ]
+    ],
+    "1 EdgeCasesInterface::string()": [
+        "Infinity",
+        "-9223372036854775809"
+    ],
+    "1 EdgeCasesInterface::longString()": [
+        "sha256:823708be9805100d2d4a8fe7e8be16e78610d91d156e946379ff6cbe5710d585 (10000 bytes)",
+        "sha256:ff3746c458719ff8ba88cfc6d617dbaecbcf076a466d315b405f5660234378aa (10000 bytes)"
+    ],
+    "1 EdgeCasesInterface::string(\"injection\")": [
+        "<script>alert(1)</script>",
+        "header\r\nX-Injected: 1"
+    ],
+    "1 FillerInterface::make(\"Quidam\\\\Test\\\\Fixtures\\\\Filler\\\\FillerUser\")": [
+        {
+            "class": "Quidam\\Test\\Fixtures\\Filler\\FillerUser",
+            "nickname": "fisher.vernon",
+            "bio": "Assumenda provident quibusdam amet deleniti laboriosam. Sequi ut quaerat error alias cupiditate. Velit voluptate voluptate reiciendis ratione beatae.",
+            "year": 2001,
+            "untouched": "default",
+            "id": "c510c70f-6daf-42b3-aa4c-364796553b85",
+            "firstName": "Vernon",
+            "lastName": "Fisher",
+            "email": "fisher.vernon@example.org",
+            "age": 21,
+            "suit": "Quidam\\Test\\Fixtures\\Suit::Spades",
+            "unitSuit": "Quidam\\Test\\Fixtures\\UnitSuit::Hearts",
+            "address": {
+                "class": "Quidam\\Test\\Fixtures\\Filler\\FillerAddress",
+                "street": "Barbara Square",
+                "city": "Lake Jane",
+                "zipCode": "2412",
+                "country": "Philippines"
+            },
+            "createdAt": "2025-02-05T18:47:38.000000+00:00",
+            "updatedAt": "2026-01-02T03:06:19.000000+00:00",
+            "publishedAt": "2025-11-27 02:59:46",
+            "isAdmin": true,
+            "balance": 470.49,
+            "mixedNumber": "corporis",
+            "tags": [],
+            "role": "user",
+            "deletedAt": "2025-06-18T07:14:00.000000+00:00",
+            "billingAddress": null
+        },
+        {
+            "class": "Quidam\\Test\\Fixtures\\Filler\\FillerUser",
+            "nickname": "parker308",
+            "bio": "Adipisci nostrum placeat aliquid explicabo fugiat. Cum fugit illo nemo deserunt quaerat unde doloribus.",
+            "year": 2028,
+            "untouched": "default",
+            "id": "56d87ece-a389-4a7a-950d-5d3ee65bcb37",
+            "firstName": "Parker",
+            "lastName": "Wells",
+            "email": "parker308@example.org",
+            "age": 23,
+            "suit": "Quidam\\Test\\Fixtures\\Suit::Spades",
+            "unitSuit": "Quidam\\Test\\Fixtures\\UnitSuit::Spades",
+            "address": {
+                "class": "Quidam\\Test\\Fixtures\\Filler\\FillerAddress",
+                "street": "Alice Park",
+                "city": "West Reese",
+                "zipCode": "94105",
+                "country": "Christmas Island"
+            },
+            "createdAt": "2024-09-14T11:06:34.000000+00:00",
+            "updatedAt": "2025-09-12T01:48:46.000000+00:00",
+            "publishedAt": "2024-12-22 13:09:37",
+            "isAdmin": false,
+            "balance": 371.12,
+            "mixedNumber": "ex",
+            "tags": [],
+            "role": "user",
+            "deletedAt": "2025-03-15T15:51:30.000000+00:00",
+            "billingAddress": null
+        }
+    ],
+    "1 FillerInterface::array([\"id\",\"firstName\",\"email\",\"city\",\"postcode\",\"phone\",\"createdAt\",\"isActive\",\"price\",\"whatever\"])": [
+        {
+            "id": "c510c70f-6daf-42b3-aa4c-364796553b85",
+            "firstName": "Vernon",
+            "email": "fisher.vernon@example.org",
+            "city": "South Samanthaport",
+            "postcode": "68598",
+            "phone": "0167 411 1717",
+            "createdAt": "2025-12-14T19:00:46.000000+00:00",
+            "isActive": false,
+            "price": 390.57,
+            "whatever": "tempora"
+        },
+        {
+            "id": "73ec766c-383b-4970-bc78-993a1d4a4d81",
+            "firstName": "Daniel",
+            "email": "daniel122@example.org",
+            "city": "Lake Jane",
+            "postcode": "2412",
+            "phone": "0655 835 103",
+            "createdAt": "2024-08-16T10:18:48.000000+00:00",
+            "isActive": false,
+            "price": 344.3,
+            "whatever": "quasi"
+        }
+    ],
+    "1 RichTextInterface::html()": [
+        "sha256:6e741b9171ef0b371229401a697d40d475146d6cc357a6badaab7946defe0069 (1525 bytes)",
+        "sha256:f44d2bfccfef9f726febcdafc6b123b93f5e5890b32d13682a9ee6caa441df7b (916 bytes)"
+    ],
+    "1 RichTextInterface::htmlDocument()": [
+        "sha256:f13d4e3b1eff38a49fc8ce5773e44cbe0dbc51786107ba2efb6a98ecead651e3 (1478 bytes)",
+        "sha256:edfa3f534c1cfcaa81af638f697c6d9d3ee785f9c317ef2226085d99e9ec1e29 (1375 bytes)"
+    ],
+    "1 RichTextInterface::markdown()": [
+        "sha256:da3ff1e5055ce3395f91347743a6abc8733cbd1c343ebcd9bf75a34a57b28261 (1388 bytes)",
+        "sha256:98d111d987949c78e258b1fd7fa37f8ac5c605db5330fd01bb8a938c1939d62a (781 bytes)"
+    ],
+    "1 TextInterface::realText()": [
+        "As I thought that with my growing knowledge would lead me back to us began to recognise our own age, it seemed clear as daylight to me even then, that in this old familiar room looking into your.",
+        "So watching, I began to appreciate. The next night I was so much surprised by this slowing down of its voice was too horrible! I looked at the gates of bronze. It was very clear."
+    ],
+    "1 TemplateInterface::parse(\"{{ person.name }} <{{ internet.email }}> {{ number.numberBetween(1, 9) }}\")": [
+        "Morgan Ford <nancy_moore@example.org> 5",
+        "Amy Shaw <drew.lee17@example.net> 4"
+    ],
+    "1 TemplateInterface::evaluate(\"profile.person\")": [
+        {
+            "gender": "Quidam\\Definitions\\Enum\\Gender::Female",
+            "title": "Dr.",
+            "firstName": "Morgan",
+            "lastName": "Ford",
+            "name": "Morgan Ford",
+            "userName": "mford27",
+            "email": "mford27@example.org",
+            "dateOfBirth": "1985-05-24T00:00:00.000000+00:00",
+            "age": 40,
+            "phone": "0167 411 1717",
+            "address": {
+                "street": "Christine Close 46",
+                "city": "South Samanthaport",
+                "state": "Highlands",
+                "stateCode": "HL",
+                "county": "Butler District",
+                "postcode": "68598",
+                "latitude": -61.070854,
+                "longitude": -155.31056,
+                "address": "Christine Close 46, 68598 South Samanthaport"
+            }
+        },
+        {
+            "gender": "Quidam\\Definitions\\Enum\\Gender::Male",
+            "title": "Dr.",
+            "firstName": "Eric",
+            "lastName": "Matthews",
+            "name": "Eric Matthews",
+            "userName": "eric.matthews",
+            "email": "eric.matthews@example.com",
+            "dateOfBirth": "1990-06-11T00:00:00.000000+00:00",
+            "age": 35,
+            "phone": "07255 791221",
+            "address": {
+                "street": "Wilson Row 31",
+                "city": "Joanland",
+                "state": "Western Region",
+                "stateCode": "WR",
+                "county": "Ford District",
+                "postcode": "4921",
+                "latitude": 44.175886,
+                "longitude": -40.609971,
+                "address": "Wilson Row 31, 4921 Joanland"
+            }
+        }
+    ],
+    "1 Quidam optional": [
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null
+    ],
+    "1 Quidam unique": [
+        7,
+        0,
+        4,
+        1,
+        3,
+        2,
+        9,
+        8,
+        6,
+        5
+    ],
+    "1 Quidam valid": 9,
+    "1 Quidam strategy": [
+        null,
+        null,
+        "nancy_moore@example.org",
+        null,
+        null
+    ],
+    "1 Quidam locale": {
+        "name": "Anna Kowalczyk",
+        "email": "malgorzata_nowak@example.org",
+        "phone": "+48 574 111 717",
+        "e164": "+48831786474",
+        "iban": "PL88117491446859872757474557",
+        "price": "361,55 zł",
+        "date": "4 lutego 2005",
+        "timezone": "Europe/Warsaw"
+    },
+    "1 Quidam fork": [
+        "Luke Wright",
+        "Port Felix"
+    ],
+    "42 Address::city()": [
+        "Lake Jesse",
+        "Brooksland"
+    ],
+    "42 Address::streetName()": [
+        "Martin Avenue",
+        "Bell Crescent"
+    ],
+    "42 Address::streetSuffix()": [
+        "Street",
+        "Court"
+    ],
+    "42 Address::secondaryAddress()": [
+        "Floor 2",
+        "Floor 2"
+    ],
+    "42 Address::state()": [
+        "Coastal Region",
+        "Coastal Region"
+    ],
+    "42 Address::stateCode()": [
+        "CO",
+        "CO"
+    ],
+    "42 Address::stateData()": [
+        {
+            "code": "CO",
+            "name": "Coastal Region"
+        },
+        {
+            "code": "CO",
+            "name": "Coastal Region"
+        }
+    ],
+    "42 Address::buildingNumber()": [
+        "209",
+        "60"
+    ],
+    "42 Address::streetAddress()": [
+        "Martin Avenue 60",
+        "Brooks Terrace 1"
+    ],
+    "42 Address::postcode()": [
+        "09960",
+        "52333"
+    ],
+    "42 Address::address()": [
+        "Martin Avenue 60, 2333 Lake Gabriel",
+        "Jackie Lane 35, 62042 East Sylvialand"
+    ],
+    "42 Address::country()": [
+        "Eritrea",
+        "Malaysia"
+    ],
+    "42 Address::countryCode()": [
+        "ER",
+        "MY"
+    ],
+    "42 Address::countryCodeAlpha3()": [
+        "ERI",
+        "MYS"
+    ],
+    "42 Address::countryData()": [
+        {
+            "alpha2": "ER",
+            "alpha3": "ERI",
+            "name": "Eritrea"
+        },
+        {
+            "alpha2": "MY",
+            "alpha3": "MYS",
+            "name": "Malaysia"
+        }
+    ],
+    "42 Address::latitude()": [
+        -48.708734,
+        58.043118
+    ],
+    "42 Address::longitude()": [
+        131.650629,
+        -154.797659
+    ],
+    "42 Address::coordinates()": [
+        {
+            "latitude": -48.708734,
+            "longitude": -154.797659
+        },
+        {
+            "latitude": 15.729389,
+            "longitude": -65.414919
+        }
+    ],
+    "42 Address::latitude(49, 54.9)": [
+        53.057245,
+        52.488853
+    ],
+    "42 Address::county()": [
+        "Barker District",
+        "Lynch District"
+    ],
+    "42 Address::cityData()": [
+        {
+            "city": "South Hankwood",
+            "state": "Coastal Region",
+            "stateCode": "CO",
+            "county": "Brooks District",
+            "postcode": "3344",
+            "latitude": 58.043118,
+            "longitude": 41.400119
+        },
+        {
+            "city": "Isabelbrook",
+            "state": "Capital District",
+            "stateCode": "CD",
+            "county": "Simpson District",
+            "postcode": "2620",
+            "latitude": -41.857961,
+            "longitude": 99.324359
+        }
+    ],
+    "42 Address::addressData()": [
+        {
+            "street": "Martin Avenue 60",
+            "city": "Angeladale",
+            "state": "Highlands",
+            "stateCode": "HL",
+            "county": "Whitaker District",
+            "postcode": "2943",
+            "latitude": -17.141486,
+            "longitude": -23.042904,
+            "address": "Martin Avenue 60, 2943 Angeladale"
+        },
+        {
+            "street": "Simpson Place 462",
+            "city": "Harryview",
+            "state": "Eastern Region",
+            "stateCode": "ER",
+            "county": "Bradley District",
+            "postcode": "8377",
+            "latitude": -50.635624,
+            "longitude": 62.734218,
+            "address": "Simpson Place 462, 8377 Harryview"
+        }
+    ],
+    "42 Address::addressData(\"cr\")": [
+        {
+            "street": "Martin Avenue 60",
+            "city": "West Ella",
+            "state": "Central Region",
+            "stateCode": "CR",
+            "county": "Lloyd District",
+            "postcode": "72943",
+            "latitude": 10.527467,
+            "longitude": -119.451469,
+            "address": "Martin Avenue 60, 72943 West Ella"
+        },
+        {
+            "street": "Simpson Place 462",
+            "city": "East Sylvialand",
+            "state": "Central Region",
+            "stateCode": "CR",
+            "county": "Palmer District",
+            "postcode": "3837",
+            "latitude": 23.814121,
+            "longitude": -145.920786,
+            "address": "Simpson Place 462, 3837 East Sylvialand"
+        }
+    ],
+    "42 Address::cityPrefix()": [
+        "Lake",
+        "New"
+    ],
+    "42 Address::citySuffix()": [
+        "borough",
+        "bridge"
+    ],
+    "42 Barcode::ean13()": [
+        "3859960052331",
+        "5694367294315"
+    ],
+    "42 Barcode::ean8()": [
+        "48999601",
+        "45523335"
+    ],
+    "42 Barcode::upcA()": [
+        "809960052339",
+        "744367294312"
+    ],
+    "42 Barcode::isbn13()": [
+        "9789819960057",
+        "9786163344366"
+    ],
+    "42 Barcode::isbn10()": [
+        "9730996008",
+        "9532333444"
+    ],
+    "42 Barcode::ismn()": [
+        "9790409960050",
+        "9790233344361"
+    ],
+    "42 Blood::bloodType()": [
+        "O",
+        "A"
+    ],
+    "42 Blood::bloodRh()": [
+        "+",
+        "+"
+    ],
+    "42 Blood::bloodGroup()": [
+        "O+",
+        "A+"
+    ],
+    "42 Color::hexColor()": [
+        "#2ec716",
+        "#113a7e"
+    ],
+    "42 Color::safeHexColor()": [
+        "#771166",
+        "#aa77ee"
+    ],
+    "42 Color::rgbColorAsArray()": [
+        [
+            22,
+            126,
+            161
+        ],
+        [
+            161,
+            100,
+            56
+        ]
+    ],
+    "42 Color::rgbColor()": [
+        "22,126,161",
+        "161,100,56"
+    ],
+    "42 Color::rgbCssColor()": [
+        "rgb(22,126,161)",
+        "rgb(161,100,56)"
+    ],
+    "42 Color::rgbaCssColor()": [
+        "rgba(22,126,161,0.23)",
+        "rgba(100,56,178,0.18)"
+    ],
+    "42 Color::hslColorAsArray()": [
+        [
+            54,
+            47,
+            88
+        ],
+        [
+            289,
+            6,
+            88
+        ]
+    ],
+    "42 Color::hslColor()": [
+        "54,47,88",
+        "289,6,88"
+    ],
+    "42 Color::hslCssColor()": [
+        "hsl(54, 47%, 88%)",
+        "hsl(289, 6%, 88%)"
+    ],
+    "42 Color::safeColorName()": [
+        "lime",
+        "white"
+    ],
+    "42 Color::colorName()": [
+        "LightGoldenRodYellow",
+        "RoyalBlue"
+    ],
+    "42 Commerce::productName()": [
+        "Awesome Linen Bag",
+        "Refined Silk Shoes"
+    ],
+    "42 Commerce::productAdjective()": [
+        "Awesome",
+        "Heavy Duty"
+    ],
+    "42 Commerce::productMaterial()": [
+        "Plastic",
+        "Linen"
+    ],
+    "42 Commerce::product()": [
+        "Gloves",
+        "Bottle"
+    ],
+    "42 Commerce::department()": [
+        "Clothing",
+        "Garden"
+    ],
+    "42 Commerce::sku()": [
+        "EYS099",
+        "23-CNX-334"
+    ],
+    "42 Commerce::promotionCode()": [
+        "EXTRA40",
+        "SPRING10"
+    ],
+    "42 Company::company()": [
+        "Lynch-Bishop Partners",
+        "Bell Partners"
+    ],
+    "42 Company::companySuffix()": [
+        "Enterprises",
+        "Associates"
+    ],
+    "42 Company::jobTitle()": [
+        "Data Scientist",
+        "Lawyer"
+    ],
+    "42 Company::industry()": [
+        "Media & Entertainment",
+        "Real Estate"
+    ],
+    "42 Company::catchPhrase()": [
+        "Fully-configurable needs-based database",
+        "Fundamental responsive artificial intelligence"
+    ],
+    "42 DateTime::dateTime()": [
+        "1982-07-08T02:06:54.000000+00:00",
+        "1984-01-09T04:57:09.000000+00:00"
+    ],
+    "42 DateTime::dateTimeBetween()": [
+        "2002-07-08T02:06:54.000000+00:00",
+        "2024-01-09T04:57:09.000000+00:00"
+    ],
+    "42 DateTime::dateTimeRange()": [
+        [
+            "2002-07-08T02:06:54.000000+00:00",
+            "2024-01-09T04:57:09.000000+00:00"
+        ],
+        [
+            "1996-10-25T03:17:28.000000+00:00",
+            "1998-01-03T00:58:49.000000+00:00"
+        ]
+    ],
+    "42 DateTime::dateTimePast()": [
+        "2026-01-11T02:05:36.000000+00:00",
+        "2026-01-14T04:45:25.000000+00:00"
+    ],
+    "42 DateTime::dateTimeFuture()": [
+        "2026-02-10T02:05:36.000000+00:00",
+        "2026-02-13T04:45:25.000000+00:00"
+    ],
+    "42 DateTime::dateOfBirth()": [
+        "1951-07-09T00:00:00.000000+00:00",
+        "2003-01-10T00:00:00.000000+00:00"
+    ],
+    "42 DateTime::date()": [
+        "1982-07-08",
+        "1984-01-09"
+    ],
+    "42 DateTime::time()": [
+        "02:06:54",
+        "04:57:09"
+    ],
+    "42 DateTime::unixTime()": [
+        394942014,
+        442472229
+    ],
+    "42 DateTime::timezone()": [
+        "Asia/Karachi",
+        "America/Menominee"
+    ],
+    "42 DateTime::dateTimeRange(\"now\", \"+1 year\", \"14 days\")": [
+        [
+            "2026-07-10T02:06:48.000000+00:00",
+            "2026-07-20T20:08:46.000000+00:00"
+        ],
+        [
+            "2026-11-03T03:16:59.000000+00:00",
+            "2026-11-07T17:44:57.000000+00:00"
+        ]
+    ],
+    "42 DateTime::dateTimesBetween(3, \"-1 year\")": [
+        [
+            "2025-01-24T04:56:12.000000+00:00",
+            "2025-07-10T02:06:48.000000+00:00",
+            "2025-11-03T03:16:59.000000+00:00"
+        ],
+        [
+            "2025-10-06T13:45:56.000000+00:00",
+            "2025-10-28T15:25:20.000000+00:00",
+            "2026-01-04T00:58:48.000000+00:00"
+        ]
+    ],
+    "42 DateTime::timezone(\"US\")": [
+        "America/Indiana/Vevay",
+        "America/Detroit"
+    ],
+    "42 DateTime::century()": [
+        "XIII",
+        "V"
+    ],
+    "42 DateTime::monthName()": [
+        "July",
+        "January"
+    ],
+    "42 DateTime::dayOfWeek()": [
+        "Thursday",
+        "Monday"
+    ],
+    "42 DateTime::localDate()": [
+        "1982-07-08",
+        "1984-01-09"
+    ],
+    "42 DateTime::localDateTime()": [
+        "1982-07-08 02:06",
+        "1984-01-09 04:57"
+    ],
+    "42 DateTime::longDate()": [
+        "8 July 1982",
+        "9 January 1984"
+    ],
+    "42 Enum::enumCase(\"Quidam\\\\Test\\\\Fixtures\\\\Suit\")": [
+        "Quidam\\Test\\Fixtures\\Suit::Hearts",
+        "Quidam\\Test\\Fixtures\\Suit::Hearts"
+    ],
+    "42 Enum::enumValue(\"Quidam\\\\Test\\\\Fixtures\\\\Suit\")": [
+        "H",
+        "H"
+    ],
+    "42 File::mimeType()": [
+        "application/yaml",
+        "text/html"
+    ],
+    "42 File::extension()": [
+        "yaml",
+        "avi"
+    ],
+    "42 File::fileName()": [
+        "script_v3.yaml",
+        "footage.mov"
+    ],
+    "42 File::directoryPath()": [
+        "/usr/local/share/uploads/projects",
+        "/mnt/backup/documents"
+    ],
+    "42 File::filePath()": [
+        "/usr/local/share/uploads/projects/receipt-41.rtf",
+        "/usr/local/share/documents/projects/background_old.bmp"
+    ],
+    "42 File::fileSize()": [
+        5183235,
+        5502416
+    ],
+    "42 File::fileSizeFormatted()": [
+        "4.9 MB",
+        "5.2 MB"
+    ],
+    "42 File::mimeType(\"image\")": [
+        "image/avif",
+        "image/jpeg"
+    ],
+    "42 File::mimeTypeForExtension(\"pdf\")": [
+        "application/pdf",
+        "application/pdf"
+    ],
+    "42 File::filePath(\"pdf\", \"windows\")": [
+        "C:\\Users\\John\\Uploads\\Projects\\resume.pdf",
+        "C:\\Windows\\Temp\\report_2004.pdf"
+    ],
+    "42 File::csv(3)": [
+        "id,name,email,city,amount,created_at\n1,\"Casey Bishop\",bishop.casey@example.net,Brooksland,676.13,\"2024-06-12 21:54:30\"\n2,\"Vincent Watson\",vincent.watson67@example.net,\"Port Sylvia\",652.71,\"2024-02-24 16:12:27\"\n3,\"Paula Rogers\",paula_rogers@example.org,\"East Sylvialand\",673.76,\"2025-08-07 09:26:12\"\n",
+        "id,name,email,city,amount,created_at\n1,\"Brenda Atkinson\",brenda756@example.net,Douglasland,701.49,\"2025-05-09 13:23:05\"\n2,\"Lawrence Hall\",lawrence_hall@example.com,\"South Sandra\",515.31,\"2024-12-19 02:20:47\"\n3,\"Jordan Chapman\",jordan.chapman@example.net,Grahamstad,35.4,\"2025-10-09 07:23:06\"\n"
+    ],
+    "42 File::json(2)": [
+        "sha256:b097cc4b96a53be8ddc7afc1257ca6aecfa39513e41b3672f663ba7c0ad48ddd (423 bytes)",
+        "sha256:59cf63227295bc01ba22314a9125d67806e97ba0681e306dcdf6856ceedcf882 (422 bytes)"
+    ],
+    "42 Hash::md5()": [
+        "16c72e0c2e0b78157e3a116d86d90461",
+        "a199e439325317aea160b30347adb8ec"
+    ],
+    "42 Hash::sha1()": [
+        "16c72e0c2e0b78157e3a116d86d90461a199e439",
+        "a160b30347adb8ec645eece27fdce6fd38527901"
+    ],
+    "42 Hash::sha256()": [
+        "16c72e0c2e0b78157e3a116d86d90461a199e439325317aea160b30347adb8ec",
+        "645eece27fdce6fd3852790131a50dc5b2dd655a855421b88700e6eb43279ad9"
+    ],
+    "42 Hash::sha512()": [
+        "16c72e0c2e0b78157e3a116d86d90461a199e439325317aea160b30347adb8ec645eece27fdce6fd3852790131a50dc5b2dd655a855421b88700e6eb43279ad9",
+        "7e64976e726ee9c23dbc5f775f6156957139100c343bb5ae6589af7398db694ab6c60630a9ed0fcd4227b4a465084852cd87d8f23bec0db6fa7766b9685ab5e0"
+    ],
+    "42 Hash::base64()": [
+        "FscuDC4LeBV+OhFthtkEYaGZ5DkyUxeuoWCzA0etuOw=",
+        "ZF7s4n/c5v04UnkBMaUNxbLdZVqFVCG4hwDm60Mnmtk="
+    ],
+    "42 Hash::base64Url()": [
+        "FscuDC4LeBV-OhFthtkEYaGZ5DkyUxeuoWCzA0etuOw",
+        "ZF7s4n_c5v04UnkBMaUNxbLdZVqFVCG4hwDm60Mnmtk"
+    ],
+    "42 Hash::jwt()": [
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzOTI0MTkiLCJpYXQiOjE3Njg0NzMwMDAsImV4cCI6MTc2ODQ3NjYwMH0.fjoRbYbZBGGhmeQ5MlMXrqFgswNHrbjsZF7s4n_c5v0",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI3MjgxNDUiLCJpYXQiOjE3Njg0NzMwMDAsImV4cCI6MTc2ODQ3NjYwMH0.st1lWoVUIbiHAObrQyea2X5kl25ybunCPbxfd19hVpU"
+    ],
+    "42 Hash::apiKey()": [
+        "M7kCkBuLwHj6P4XXPavoJNkXWp37juia",
+        "uIv1nbD5oTbQ5KXu70ch3dQPaNkokf2z"
+    ],
+    "42 Hash::apiKey(\"sk_test_\", 16)": [
+        "sk_test_M7kCkBuLwHj6P4XX",
+        "sk_test_XWp37juiaUiYSczu"
+    ],
+    "42 Internet::email()": [
+        "bishop.casey@example.net",
+        "sowen33@example.com"
+    ],
+    "42 Internet::freeEmail()": [
+        "bishop.casey@gmail.com",
+        "sowen33@outlook.com"
+    ],
+    "42 Internet::companyEmail()": [
+        "bishop.casey@clarknet.com",
+        "olivier.fletcher44@lloydtech.com"
+    ],
+    "42 Internet::freeEmailDomain()": [
+        "yahoo.com",
+        "yahoo.com"
+    ],
+    "42 Internet::userName()": [
+        "bishop.casey",
+        "finley.perry23"
+    ],
+    "42 Internet::password()": [
+        "wRf,LHY1b4@<*n4X",
+        "7uv}j#td.!X4a}0I&="
+    ],
+    "42 Internet::domainName()": [
+        "barker-media.org",
+        "clarknet.com"
+    ],
+    "42 Internet::domainWord()": [
+        "barker-media",
+        "payneapps"
+    ],
+    "42 Internet::tld()": [
+        "com",
+        "com"
+    ],
+    "42 Internet::url()": [
+        "https://www.bishop-systems.com/consectetur-ut-tempora-quo-magnam-tenetur-quis.html",
+        "https://www.lewissolutions.com/dicta-ab-aut-ipsa-quia"
+    ],
+    "42 Internet::protocol()": [
+        "https",
+        "https"
+    ],
+    "42 Internet::hostname()": [
+        "mail-20.bishop-systems.com",
+        "api-37.brooks-soft.com"
+    ],
+    "42 Internet::hashtag()": [
+        "#at",
+        "#doloresOptioMinus"
+    ],
+    "42 Internet::socialHandle()": [
+        "@bishop_casey",
+        "@finley_perry23"
+    ],
+    "42 Internet::slug()": [
+        "at-a-dolores-optio-minus-dolorem-eligendi",
+        "ut-tempora-quo-magnam-tenetur"
+    ],
+    "42 Internet::ipv4()": [
+        "13.46.199.22",
+        "110.17.58.126"
+    ],
+    "42 Internet::ipv4Cidr()": [
+        "110.0.0.0/8",
+        "4.128.0.0/10"
+    ],
+    "42 Internet::localIpv4()": [
+        "10.17.58.126",
+        "192.168.96.161"
+    ],
+    "42 Internet::ipv6()": [
+        "26c7:2e0c:2e0b:7815:7e3a:116d:86d9:461",
+        "2199:e439:3253:17ae:a160:b303:47ad:b8ec"
+    ],
+    "42 Internet::ipv6Cidr()": [
+        "2e3a:116d:86d9::/49",
+        "245e:ece2::/33"
+    ],
+    "42 Internet::macAddress()": [
+        "16:C7:2E:0C:2E:0B",
+        "7E:3A:11:6D:86:D9"
+    ],
+    "42 Internet::port()": [
+        19222,
+        28286
+    ],
+    "42 Internet::httpMethod()": [
+        "HEAD",
+        "DELETE"
+    ],
+    "42 Internet::httpStatusCode()": [
+        503,
+        405
+    ],
+    "42 Internet::email(\"Anna\", \"Kowalski\")": [
+        "anna.kowalski@example.org",
+        "anna960@example.net"
+    ],
+    "42 Internet::url(true)": [
+        "https://www.bishop-systems.com/consectetur-ut-tempora-quo-magnam-tenetur-quis.html?eveniet=80&voluptatum=in&quibusdam=ab",
+        "https://www.rogersconsulting.com/velit-aperiam-nesciunt-dolores-minima-id-ipsum-vero.html?unde=100&voluptatem=64&vel=28"
+    ],
+    "42 Internet::urlPath()": [
+        "/at/dolores-optio",
+        "/dolorem/consectetur-ut"
+    ],
+    "42 Internet::safeEmailDomain()": [
+        "example.com",
+        "example.org"
+    ],
+    "42 Language::language()": [
+        "Tsonga",
+        "English"
+    ],
+    "42 Language::languageCode()": [
+        "ts",
+        "en"
+    ],
+    "42 Language::languageData()": [
+        {
+            "code": "ts",
+            "name": "Tsonga"
+        },
+        {
+            "code": "en",
+            "name": "English"
+        }
+    ],
+    "42 Language::locale()": [
+        "nr_ZA",
+        "ce_RU"
+    ],
+    "42 Lorem::word()": [
+        "fugit",
+        "at"
+    ],
+    "42 Lorem::words()": [
+        [
+            "fugit",
+            "at",
+            "a"
+        ],
+        [
+            "dolores",
+            "optio",
+            "minus"
+        ]
+    ],
+    "42 Lorem::sentence()": [
+        "At a dolores optio minus dolorem eligendi.",
+        "Ut tempora quo magnam tenetur."
+    ],
+    "42 Lorem::sentences()": [
+        [
+            "At a dolores optio minus dolorem eligendi.",
+            "Ut tempora quo magnam tenetur.",
+            "Velit eveniet accusantium repudiandae voluptatum quod in quibusdam."
+        ],
+        [
+            "Ab aut ipsa quia labore quam adipisci ea debitis.",
+            "Aperiam nesciunt dolores minima.",
+            "Ipsum vero consequatur unde quos placeat voluptatem."
+        ]
+    ],
+    "42 Lorem::paragraph()": [
+        "A dolores optio minus dolorem eligendi consectetur ut. Quo magnam tenetur quis velit eveniet. Repudiandae voluptatum quod in quibusdam dicta ab. Ipsa quia labore quam adipisci ea.",
+        "Aperiam nesciunt dolores minima. Ipsum vero consequatur unde quos placeat voluptatem. Repellat vel non placeat perspiciatis reprehenderit. Quidem rerum perferendis autem vero maxime cupiditate soluta."
+    ],
+    "42 Lorem::paragraphs()": [
+        [
+            "A dolores optio minus dolorem eligendi consectetur ut. Quo magnam tenetur quis velit eveniet. Repudiandae voluptatum quod in quibusdam dicta ab. Ipsa quia labore quam adipisci ea.",
+            "Aperiam nesciunt dolores minima. Ipsum vero consequatur unde quos placeat voluptatem. Repellat vel non placeat perspiciatis reprehenderit. Quidem rerum perferendis autem vero maxime cupiditate soluta.",
+            "Mollitia est laborum itaque optio rerum eaque exercitationem. Alias velit quaerat quos aliquam aliquid. Quam iusto nesciunt cupiditate animi. Inventore assumenda harum itaque nesciunt praesentium."
+        ],
+        [
+            "Repellendus odit tempora in id sed iusto incidunt sint. Nostrum aspernatur repellat eum nulla porro quis reprehenderit. Ut provident nulla nam amet quibusdam neque. Quis ratione incidunt eveniet quae molestias. Error maxime nulla molestias ea.",
+            "Explicabo praesentium molestiae similique ab doloribus. Nihil assumenda ad veritatis porro sit inventore quidem. Quo pariatur enim iusto sunt delectus. Nulla doloribus nam perspiciatis eligendi.",
+            "Veritatis nulla est temporibus. Fugit qui omnis aut illo. A aliquid accusamus doloremque eos eligendi."
+        ]
+    ],
+    "42 Lorem::text()": [
+        "A dolores optio minus dolorem eligendi consectetur ut. Quo magnam tenetur quis velit eveniet. Repudiandae voluptatum quod in quibusdam dicta ab. Ipsa quia labore quam adipisci ea.",
+        "Mollitia est laborum itaque optio rerum eaque exercitationem. Alias velit quaerat quos aliquam aliquid. Quam iusto nesciunt cupiditate animi. Inventore assumenda harum itaque nesciunt praesentium."
+    ],
+    "42 Number::numberBetween()": [
+        1546998764402558742,
+        6990951692964543102
+    ],
+    "42 Number::randomDigit()": [
+        4,
+        0
+    ],
+    "42 Number::randomDigitNotZero()": [
+        1,
+        2
+    ],
+    "42 Number::randomNumber()": [
+        0,
+        87329
+    ],
+    "42 Number::randomFloat()": [
+        901.71,
+        273.32
+    ],
+    "42 Number::gaussian()": [
+        0.97,
+        0.21
+    ],
+    "42 Number::gaussianInt()": [
+        1,
+        0
+    ],
+    "42 Number::boolean()": [
+        true,
+        true
+    ],
+    "42 Number::numberBetween(1, 10)": [
+        5,
+        1
+    ],
+    "42 Number::gaussian(170, 10, 140, 210, 1)": [
+        179.7,
+        172.1
+    ],
+    "42 Number::percentage()": [
+        29,
+        47
+    ],
+    "42 Payment::creditCardType()": [
+        "Visa",
+        "MasterCard"
+    ],
+    "42 Payment::creditCardNumber()": [
+        "4960052333443670",
+        "4315126204254200"
+    ],
+    "42 Payment::maskedCreditCardNumber()": [
+        "**** **** **** 3670",
+        "**** **** **** 4200"
+    ],
+    "42 Payment::creditCardExpirationDate()": [
+        "03/26",
+        "10/27"
+    ],
+    "42 Payment::creditCardCvv()": [
+        "409",
+        "960"
+    ],
+    "42 Payment::creditCardDetails()": [
+        {
+            "type": "Visa",
+            "number": "4960052333443670",
+            "name": "Gordon Jenkins",
+            "expirationDate": "12/27",
+            "cvv": "151"
+        },
+        {
+            "type": "Discover",
+            "number": "6504254208653833",
+            "name": "Emerson Hayes",
+            "expirationDate": "10/29",
+            "cvv": "936"
+        }
+    ],
+    "42 Payment::iban()": [
+        "PS33RBBES3HX5QJGCN0VU0PZ4FX2A",
+        "OM42042JQRSKMP7KLFCN81Y"
+    ],
+    "42 Payment::swiftBicNumber()": [
+        "WRBBLIY4Y55",
+        "RFWCCYXV"
+    ],
+    "42 Payment::currencyCode()": [
+        "CLP",
+        "LBP"
+    ],
+    "42 Payment::currencyName()": [
+        "Chilean Peso",
+        "Lebanese Pound"
+    ],
+    "42 Payment::currencySymbol()": [
+        "₫",
+        "Kč"
+    ],
+    "42 Payment::currencyData()": [
+        {
+            "code": "CLP",
+            "name": "Chilean Peso",
+            "symbol": "$"
+        },
+        {
+            "code": "LBP",
+            "name": "Lebanese Pound",
+            "symbol": "LBP"
+        }
+    ],
+    "42 Payment::price()": [
+        901.71,
+        273.32
+    ],
+    "42 Payment::priceInMinorUnits()": [
+        90171,
+        27332
+    ],
+    "42 Payment::bankAccountNumber()": [
+        "4099600523",
+        "3344367294"
+    ],
+    "42 Payment::transactionType()": [
+        "fee",
+        "fee"
+    ],
+    "42 Payment::bitcoinAddress()": [
+        "1CWRhp4WnRPZJW8HQXtawpu7g6NnhxG5Qz",
+        "bc1q8pf8jqf355xutvkav4dg24pphzrspehtf9c85l"
+    ],
+    "42 Payment::ethereumAddress()": [
+        "0x16C72E0c2E0B78157E3A116D86D90461a199e439",
+        "0xA160B30347AdB8Ec645eeCe27fDcE6Fd38527901"
+    ],
+    "42 Payment::iban(\"PL\", \"\", true)": [
+        "PL30 4099 6005 2333 4436 7294 3151",
+        "PL94 2620 4254 2086 5383 7756 9363"
+    ],
+    "42 Payment::priceInMinorUnits(10, 50, \"JPY\")": [
+        49,
+        19
+    ],
+    "42 Payment::ethereumAddress(false)": [
+        "0x16c72e0c2e0b78157e3a116d86d90461a199e439",
+        "0xa160b30347adb8ec645eece27fdce6fd38527901"
+    ],
+    "42 Payment::localPrice()": [
+        "901.71 EUR",
+        "273.32 EUR"
+    ],
+    "42 Person::name()": [
+        "Casey Bishop",
+        "Jesse Bell"
+    ],
+    "42 Person::firstName()": [
+        "Casey",
+        "Garett"
+    ],
+    "42 Person::middleName()": [
+        "Casey",
+        "Garett"
+    ],
+    "42 Person::suffix()": [
+        "Jr.",
+        "IV"
+    ],
+    "42 Person::lastName()": [
+        "Barker",
+        "Lynch"
+    ],
+    "42 Person::title()": [
+        "Dr.",
+        "Dr."
+    ],
+    "42 Person::gender()": [
+        "Quidam\\Definitions\\Enum\\Gender::Male",
+        "Quidam\\Definitions\\Enum\\Gender::Male"
+    ],
+    "42 Person::name(\"female\")": [
+        "Ivy Lynch",
+        "Jasmine Payne"
+    ],
+    "42 Person::age()": [
+        72,
+        64
+    ],
+    "42 Person::initials()": [
+        "CB",
+        "JB"
+    ],
+    "42 PhoneNumber::phoneNumber()": [
+        "070 9960 0523",
+        "0644 367 294"
+    ],
+    "42 PhoneNumber::mobilePhoneNumber()": [
+        "07509 960052",
+        "07134 436729"
+    ],
+    "42 PhoneNumber::internationalPhoneNumber()": [
+        "+95 209 960 05",
+        "+374 633 443 67"
+    ],
+    "42 PhoneNumber::e164PhoneNumber()": [
+        "+9520996005",
+        "+37463344367"
+    ],
+    "42 PhoneNumber::imei()": [
+        "010996005233348",
+        "013672943151267"
+    ],
+    "42 PhoneNumber::e164PhoneNumber(\"PL\")": [
+        "+48240996005",
+        "+48633344367"
+    ],
+    "42 Profile::person()": [
+        {
+            "gender": "Quidam\\Definitions\\Enum\\Gender::Male",
+            "title": "Prof.",
+            "firstName": "Casey",
+            "lastName": "Bishop",
+            "name": "Casey Bishop",
+            "userName": "casey_bishop",
+            "email": "casey_bishop@example.net",
+            "dateOfBirth": "1947-01-04T00:00:00.000000+00:00",
+            "age": 79,
+            "phone": "07423 334436",
+            "address": {
+                "street": "Jackie Lane 35",
+                "city": "Noahland",
+                "state": "Northern Region",
+                "stateCode": "NR",
+                "county": "White District",
+                "postcode": "86538",
+                "latitude": -59.850288,
+                "longitude": 153.392657,
+                "address": "Jackie Lane 35, 86538 Noahland"
+            }
+        },
+        {
+            "gender": "Quidam\\Definitions\\Enum\\Gender::Female",
+            "title": "Ms.",
+            "firstName": "Finley",
+            "lastName": "Riley",
+            "name": "Finley Riley",
+            "userName": "finley363",
+            "email": "finley363@example.org",
+            "dateOfBirth": "1983-06-23T00:00:00.000000+00:00",
+            "age": 42,
+            "phone": "0127 462 4378",
+            "address": {
+                "street": "Green Lane 1",
+                "city": "Brownbridge",
+                "state": "Eastern Region",
+                "stateCode": "ER",
+                "county": "Graham District",
+                "postcode": "48449",
+                "latitude": 73.077285,
+                "longitude": 97.485103,
+                "address": "Green Lane 1, 48449 Brownbridge"
+            }
+        }
+    ],
+    "42 Strings::string()": [
+        "rng",
+        "batdhnym"
+    ],
+    "42 Strings::numerify(\"%##-###\")": [
+        "940-996",
+        "105-233"
+    ],
+    "42 Strings::lexify(\"??-??\")": [
+        "wr-bb",
+        "ey-sh"
+    ],
+    "42 Strings::bothify(\"??-##-**\")": [
+        "sh-99-60",
+        "nx-33-44"
+    ],
+    "42 Strings::regexify(\"(INV|FV)/20(2[4-6])/\\\\d{5}[a-z]*\")": [
+        "INV/2025/96005zxl",
+        "INV/2026/67294dxvmck"
+    ],
+    "42 Strings::hexadecimal()": [
+        "67eceb",
+        "ea1d69"
+    ],
+    "42 System::cronExpression()": [
+        "10 1 * * 0",
+        "* 1-21 27 * *"
+    ],
+    "42 System::logLevel()": [
+        "debug",
+        "info"
+    ],
+    "42 System::environmentVariable()": [
+        "SESSION_REGION",
+        "DATABASE_HOST"
+    ],
+    "42 UserAgent::userAgent()": [
+        "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36",
+        "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Mobile Safari/537.36"
+    ],
+    "42 UserAgent::chrome()": [
+        "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36",
+        "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Mobile Safari/537.36"
+    ],
+    "42 UserAgent::edge()": [
+        "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36 EdgA/137.0.0.0",
+        "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Mobile Safari/537.36 EdgA/142.0.0.0"
+    ],
+    "42 UserAgent::opera()": [
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 OPR/122.0.0.0",
+        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 OPR/127.0.0.0"
+    ],
+    "42 UserAgent::firefox()": [
+        "Mozilla/5.0 (Android 16; Mobile; rv:139.0) Gecko/139.0 Firefox/139.0",
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0"
+    ],
+    "42 UserAgent::safari()": [
+        "Mozilla/5.0 (iPhone; CPU iPhone OS 18_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.4 Mobile/15E148 Safari/604.1",
+        "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+    ],
+    "42 UserAgent::botUserAgent()": [
+        "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+        "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+    ],
+    "42 UserAgent::userAgent(true)": [
+        "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36",
+        "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36"
+    ],
+    "42 Uuid::uuid4()": [
+        "16c72e0c-2e0b-4815-be3a-116d86d90461",
+        "a199e439-3253-47ae-a160-b30347adb8ec"
+    ],
+    "42 Uuid::nanoid()": [
+        "k5IaI9SjYUfH4n2vvnyTM",
+        "vuN15HSGysGwZqAXSgT-L"
+    ],
+    "42 Uuid::snowflake()": [
+        2011747688767384190,
+        2011747688765853857
+    ],
+    "42 Uuid::uuid7()": [
+        "019bc134-78bb-7716-be3a-116d86d90461",
+        "019bc134-78bb-7717-a199-e439325317ae"
+    ],
+    "42 Uuid::ulid()": [
+        "01KF0K8Y5VPY114RJ7YXH5P2DT",
+        "01KF0K8Y5VPY114RJ7YXH5P2DV"
+    ],
+    "42 Uuid::uuid3(\"6ba7b810-9dad-11d1-80b4-00c04fd430c8\", \"example.com\")": [
+        "9073926b-929f-31c2-abc9-fad77ae3e8eb",
+        "9073926b-929f-31c2-abc9-fad77ae3e8eb"
+    ],
+    "42 Uuid::uuid5(\"6ba7b811-9dad-11d1-80b4-00c04fd430c8\", \"https://example.com/users/42\")": [
+        "38fcaf6d-63bc-5c9f-8a4f-de8cf4e651ed",
+        "38fcaf6d-63bc-5c9f-8a4f-de8cf4e651ed"
+    ],
+    "42 Vehicle::vehicle()": [
+        "Volvo XC90",
+        "Volvo XC60"
+    ],
+    "42 Vehicle::manufacturer()": [
+        "Volvo",
+        "Subaru"
+    ],
+    "42 Vehicle::model()": [
+        "XC90",
+        "XC60"
+    ],
+    "42 Vehicle::type()": [
+        "Coupe",
+        "Sedan"
+    ],
+    "42 Vehicle::fuel()": [
+        "Gasoline",
+        "Diesel"
+    ],
+    "42 Vehicle::vin()": [
+        "YV12W09D8EV052333",
+        "VF1PH1P351X943151"
+    ],
+    "42 Vehicle::licensePlate()": [
+        "EY-099-SH",
+        "WC-333-NX"
+    ],
+    "42 Version::semver()": [
+        "4.30.49",
+        "9.76.20"
+    ],
+    "42 Version::gitCommitHash()": [
+        "16c72e0c2e0b78157e3a116d86d90461a199e439",
+        "a160b30347adb8ec645eece27fdce6fd38527901"
+    ],
+    "42 Version::gitBranchName()": [
+        "chore/cache-login-timeout",
+        "docs/support-order-status"
+    ],
+    "42 Version::gitCommitMessage()": [
+        "test(search): cache webhook signature",
+        "feat(deps): update audit log"
+    ],
+    "42 Version::semverConstraint()": [
+        "^4.0 || ^5.0",
+        "~9.5.17"
+    ],
+    "42 Version::semver(true, true)": [
+        "4.30.49-beta+b2dd655",
+        "3.73.13-rc+fa7766b"
+    ],
+    "42 RandomizerInterface::getBool()": [
+        true,
+        true
+    ],
+    "42 RandomizerInterface::getBytes()": [
+        "sha256:a5fb03680facd53de6b69cbbf5f48f29d70620336a186035757f3215a88d72e5 (16 bytes)",
+        "sha256:5674e6b9653af423f528fd6eb47b21c708e7c7038db2f3c505ca1f263ed2e974 (16 bytes)"
+    ],
+    "42 RandomizerInterface::randomLetter()": [
+        "w",
+        "r"
+    ],
+    "42 RandomizerInterface::getInt(1, 1000)": [
+        215,
+        631
+    ],
+    "42 RandomizerInterface::getFloat(0, 1)": [
+        0.24863526936114744,
+        0.8484466428547119
+    ],
+    "42 RandomizerInterface::getBytesFromString(\"abc123\", 10)": [
+        "21a3cb3b2b",
+        "bb2bc1ba11"
+    ],
+    "42 RandomizerInterface::randomElement([\"a\",\"b\",\"c\",\"d\"])": [
+        "c",
+        "c"
+    ],
+    "42 RandomizerInterface::randomElements([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20], 5, true)": [
+        [
+            17,
+            11,
+            10,
+            15,
+            1
+        ],
+        [
+            7,
+            13,
+            15,
+            14,
+            18
+        ]
+    ],
+    "42 RandomizerInterface::randomKey({\"x\":1,\"y\":2,\"z\":3})": [
+        "x",
+        "y"
+    ],
+    "42 RandomizerInterface::weightedElement({\"new\":70,\"paid\":25,\"cancelled\":5})": [
+        "new",
+        "new"
+    ],
+    "42 RandomizerInterface::shuffleElements([1,2,3,4,5,6,7,8,9,10])": [
+        [
+            8,
+            7,
+            10,
+            6,
+            1,
+            3,
+            4,
+            9,
+            2,
+            5
+        ],
+        [
+            2,
+            5,
+            1,
+            9,
+            10,
+            3,
+            8,
+            6,
+            7,
+            4
+        ]
+    ],
+    "42 EdgeCasesInterface::string()": [
+        "ＡＢＣ１２３",
+        "."
+    ],
+    "42 EdgeCasesInterface::longString()": [
+        "sha256:0dce1463d3a42b193c57323b34c7b1baeb2732870619d493b8f7c6006ed4437c (10000 bytes)",
+        "sha256:c2b01ee7e06b1cb846989b671bdb832d9d43c94d22c259668dfed2e9a94f4d49 (10000 bytes)"
+    ],
+    "42 EdgeCasesInterface::string(\"injection\")": [
+        "' OR '1'='1",
+        "@SUM(1+1)"
+    ],
+    "42 FillerInterface::make(\"Quidam\\\\Test\\\\Fixtures\\\\Filler\\\\FillerUser\")": [
+        {
+            "class": "Quidam\\Test\\Fixtures\\Filler\\FillerUser",
+            "nickname": "garett.clark23",
+            "bio": "Tempora in id sed. Incidunt sint commodi nostrum aspernatur repellat eum nulla.",
+            "year": 2027,
+            "untouched": "default",
+            "id": "16c72e0c-2e0b-4815-be3a-116d86d90461",
+            "firstName": "Garett",
+            "lastName": "Clark",
+            "email": "garett.clark23@example.com",
+            "age": 80,
+            "suit": "Quidam\\Test\\Fixtures\\Suit::Spades",
+            "unitSuit": "Quidam\\Test\\Fixtures\\UnitSuit::Hearts",
+            "address": {
+                "class": "Quidam\\Test\\Fixtures\\Filler\\FillerAddress",
+                "street": "Fisher Alley",
+                "city": "West Ryanview",
+                "zipCode": "70434",
+                "country": "Sint Maarten"
+            },
+            "createdAt": "2024-09-30T10:27:47.000000+00:00",
+            "updatedAt": "2025-12-28T17:07:45.000000+00:00",
+            "publishedAt": "2024-05-06 23:28:09",
+            "isAdmin": true,
+            "balance": 192.04,
+            "mixedNumber": "omnis",
+            "tags": [],
+            "role": "user",
+            "deletedAt": "2025-05-02T18:55:58.000000+00:00",
+            "billingAddress": null
+        },
+        {
+            "class": "Quidam\\Test\\Fixtures\\Filler\\FillerUser",
+            "nickname": "jessica912",
+            "bio": "Nostrum ea voluptatibus culpa exercitationem quos consequatur eveniet. Vitae perferendis error quod accusamus. Consequuntur consequatur voluptas voluptatum ad.",
+            "year": 2026,
+            "untouched": "default",
+            "id": "a3dc3bed-1b07-47ca-b428-961bed11c999",
+            "firstName": "Jessica",
+            "lastName": "Simpson",
+            "email": "jessica912@example.org",
+            "age": 53,
+            "suit": "Quidam\\Test\\Fixtures\\Suit::Spades",
+            "unitSuit": "Quidam\\Test\\Fixtures\\UnitSuit::Spades",
+            "address": {
+                "class": "Quidam\\Test\\Fixtures\\Filler\\FillerAddress",
+                "street": "Joel Drive",
+                "city": "Robertsmouth",
+                "zipCode": "5431",
+                "country": "Vatican City"
+            },
+            "createdAt": "2025-03-07T21:14:18.000000+00:00",
+            "updatedAt": "2025-05-15T06:36:00.000000+00:00",
+            "publishedAt": "2024-09-10 08:46:08",
+            "isAdmin": false,
+            "balance": 462.06,
+            "mixedNumber": "vel",
+            "tags": [],
+            "role": "user",
+            "deletedAt": "2024-04-09T22:24:16.000000+00:00",
+            "billingAddress": null
+        }
+    ],
+    "42 FillerInterface::array([\"id\",\"firstName\",\"email\",\"city\",\"postcode\",\"phone\",\"createdAt\",\"isActive\",\"price\",\"whatever\"])": [
+        {
+            "id": "16c72e0c-2e0b-4815-be3a-116d86d90461",
+            "firstName": "Garett",
+            "email": "garett.clark23@example.com",
+            "city": "Harryview",
+            "postcode": "8377",
+            "phone": "07644 367294",
+            "createdAt": "2024-06-12T03:10:26.000000+00:00",
+            "isActive": true,
+            "price": 145.87,
+            "whatever": "voluptatem"
+        },
+        {
+            "id": "32815796-56b6-4290-97f7-c7e2cf44e38d",
+            "firstName": "Douglas",
+            "email": "douglas.parker@example.net",
+            "city": "West Ryanview",
+            "postcode": "70434",
+            "phone": "07578 744156",
+            "createdAt": "2024-09-18T21:04:20.000000+00:00",
+            "isActive": true,
+            "price": 179.12,
+            "whatever": "itaque"
+        }
+    ],
+    "42 RichTextInterface::html()": [
+        "sha256:eb0e6cfd83d73c4fdde63c2b208549b8650a26ead900bb0dc4d05ffe4f560f94 (1589 bytes)",
+        "sha256:0a213133f43574a6754f254cbdb64a9ab4f5a1d12d247fc575d4e15f1a634ef0 (1698 bytes)"
+    ],
+    "42 RichTextInterface::htmlDocument()": [
+        "sha256:691aa79ce9f839f3d6f35a8aeacadd39915637d8ad0535f7320e6cf3a9132540 (2063 bytes)",
+        "sha256:bde0359cb59159f819186dc1286a85f6a6965fd715015e88d75b86de9f847149 (1268 bytes)"
+    ],
+    "42 RichTextInterface::markdown()": [
+        "sha256:07164a733f93e036d28c0f2519692173e7f3a860762fdf9913d5caa0193ed964 (1368 bytes)",
+        "sha256:d2798ac8f1dee7d7801e60f6670b125e9edb387ea36089d843ccfa89da9f719e (1568 bytes)"
+    ],
+    "42 TextInterface::realText()": [
+        "It was that dim grey hour when things are mere militant necessities of an extensive system of today.",
+        "Glancing upward, I saw some black object was merely a rock. The stars in the things. Only my disinclination to leave Weena, and we heard his slippers shuffling down the well."
+    ],
+    "42 TemplateInterface::parse(\"{{ person.name }} <{{ internet.email }}> {{ number.numberBetween(1, 9) }}\")": [
+        "Casey Bishop <jesse_bell@example.com> 2",
+        "Graham Lloyd <ella_lloyd@example.com> 6"
+    ],
+    "42 TemplateInterface::evaluate(\"profile.person\")": [
+        {
+            "gender": "Quidam\\Definitions\\Enum\\Gender::Male",
+            "title": "Prof.",
+            "firstName": "Casey",
+            "lastName": "Bishop",
+            "name": "Casey Bishop",
+            "userName": "casey_bishop",
+            "email": "casey_bishop@example.net",
+            "dateOfBirth": "1947-01-04T00:00:00.000000+00:00",
+            "age": 79,
+            "phone": "07423 334436",
+            "address": {
+                "street": "Jackie Lane 35",
+                "city": "Noahland",
+                "state": "Northern Region",
+                "stateCode": "NR",
+                "county": "White District",
+                "postcode": "86538",
+                "latitude": -59.850288,
+                "longitude": 153.392657,
+                "address": "Jackie Lane 35, 86538 Noahland"
+            }
+        },
+        {
+            "gender": "Quidam\\Definitions\\Enum\\Gender::Female",
+            "title": "Ms.",
+            "firstName": "Finley",
+            "lastName": "Riley",
+            "name": "Finley Riley",
+            "userName": "finley363",
+            "email": "finley363@example.org",
+            "dateOfBirth": "1983-06-23T00:00:00.000000+00:00",
+            "age": 42,
+            "phone": "0127 462 4378",
+            "address": {
+                "street": "Green Lane 1",
+                "city": "Brownbridge",
+                "state": "Eastern Region",
+                "stateCode": "ER",
+                "county": "Graham District",
+                "postcode": "48449",
+                "latitude": 73.077285,
+                "longitude": 97.485103,
+                "address": "Green Lane 1, 48449 Brownbridge"
+            }
+        }
+    ],
+    "42 Quidam optional": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1
+    ],
+    "42 Quidam unique": [
+        4,
+        0,
+        9,
+        6,
+        5,
+        2,
+        3,
+        7,
+        1,
+        8
+    ],
+    "42 Quidam valid": 9,
+    "42 Quidam strategy": [
+        "martin_payne@example.net",
+        "donna.fisher34@example.net",
+        "gabriel431@example.net",
+        null,
+        null
+    ],
+    "42 Quidam locale": {
+        "name": "Jan Kowalczyk",
+        "email": "piotr_nowak@example.com",
+        "phone": "+48 33 344 36 72",
+        "e164": "+48615126204",
+        "iban": "PL49254208653837756936319746",
+        "price": "693,34 zł",
+        "date": "9 sierpnia 2014",
+        "timezone": "Europe/Warsaw"
+    },
+    "42 Quidam fork": [
+        "Charlie Mitchell",
+        "Millerbrook"
+    ],
+    "2026 Address::city()": [
+        "Irisview",
+        "Brownwood"
+    ],
+    "2026 Address::streetName()": [
+        "Hunter Square",
+        "Young Boulevard"
+    ],
+    "2026 Address::streetSuffix()": [
+        "Way",
+        "Crescent"
+    ],
+    "2026 Address::secondaryAddress()": [
+        "Unit 78",
+        "Suite 628"
+    ],
+    "2026 Address::state()": [
+        "Capital District",
+        "Northern Region"
+    ],
+    "2026 Address::stateCode()": [
+        "CD",
+        "NR"
+    ],
+    "2026 Address::stateData()": [
+        {
+            "code": "CD",
+            "name": "Capital District"
+        },
+        {
+            "code": "NR",
+            "name": "Northern Region"
+        }
+    ],
+    "2026 Address::buildingNumber()": [
+        "6",
+        "422"
+    ],
+    "2026 Address::streetAddress()": [
+        "Hunter Square 42",
+        "Rose Hill 14"
+    ],
+    "2026 Address::postcode()": [
+        "8822",
+        "45315"
+    ],
+    "2026 Address::address()": [
+        "Hunter Square 42, 53154 West Vincent",
+        "Isabel Drive 1, 20174 West Lilybrook"
+    ],
+    "2026 Address::country()": [
+        "Estonia",
+        "Belarus"
+    ],
+    "2026 Address::countryCode()": [
+        "EE",
+        "BY"
+    ],
+    "2026 Address::countryCodeAlpha3()": [
+        "EST",
+        "BLR"
+    ],
+    "2026 Address::countryData()": [
+        {
+            "alpha2": "EE",
+            "alpha3": "EST",
+            "name": "Estonia"
+        },
+        {
+            "alpha2": "BY",
+            "alpha3": "BLR",
+            "name": "Belarus"
+        }
+    ],
+    "2026 Address::latitude()": [
+        -0.121337,
+        1.401902
+    ],
+    "2026 Address::longitude()": [
+        -20.542136,
+        130.263131
+    ],
+    "2026 Address::coordinates()": [
+        {
+            "latitude": -0.121337,
+            "longitude": 130.263131
+        },
+        {
+            "latitude": 78.723224,
+            "longitude": -2.89545
+        }
+    ],
+    "2026 Address::latitude(49, 54.9)": [
+        52.261564,
+        49.813797
+    ],
+    "2026 Address::county()": [
+        "Fletcher District",
+        "Hunter District"
+    ],
+    "2026 Address::cityData()": [
+        {
+            "city": "East Jonathanmouth",
+            "state": "Capital District",
+            "stateCode": "CD",
+            "county": "Brown District",
+            "postcode": "5408",
+            "latitude": 1.401902,
+            "longitude": 71.057664
+        },
+        {
+            "city": "Cookstad",
+            "state": "Southern Region",
+            "stateCode": "SR",
+            "county": "Ford District",
+            "postcode": "62017",
+            "latitude": 38.471916,
+            "longitude": 141.683454
+        }
+    ],
+    "2026 Address::addressData()": [
+        {
+            "street": "Hunter Square 42",
+            "city": "South Ameliabury",
+            "state": "Central Region",
+            "stateCode": "CR",
+            "county": "King District",
+            "postcode": "9719",
+            "latitude": -34.450977,
+            "longitude": -158.591162,
+            "address": "Hunter Square 42, 9719 South Ameliabury"
+        },
+        {
+            "street": "Drew Boulevard 7",
+            "city": "West Lilybrook",
+            "state": "Western Region",
+            "stateCode": "WR",
+            "county": "Ward District",
+            "postcode": "8131",
+            "latitude": -11.63227,
+            "longitude": -161.730578,
+            "address": "Drew Boulevard 7, 8131 West Lilybrook"
+        }
+    ],
+    "2026 Address::addressData(\"cr\")": [
+        {
+            "street": "Hunter Square 42",
+            "city": "Butlerchester",
+            "state": "Central Region",
+            "stateCode": "CR",
+            "county": "Knight District",
+            "postcode": "93971",
+            "latitude": -26.352024,
+            "longitude": 123.180569,
+            "address": "Hunter Square 42, 93971 Butlerchester"
+        },
+        {
+            "street": "Cook Court 762",
+            "city": "Jacksonwood",
+            "state": "Central Region",
+            "stateCode": "CR",
+            "county": "Edwards District",
+            "postcode": "31813",
+            "latitude": 4.911829,
+            "longitude": -159.61718,
+            "address": "Cook Court 762, 31813 Jacksonwood"
+        }
+    ],
+    "2026 Address::cityPrefix()": [
+        "South",
+        "West"
+    ],
+    "2026 Address::citySuffix()": [
+        "dale",
+        "view"
+    ],
+    "2026 Barcode::ean13()": [
+        "5698228453156",
+        "5948939719844"
+    ],
+    "2026 Barcode::ean8()": [
+        "56982282",
+        "53531544"
+    ],
+    "2026 Barcode::upcA()": [
+        "788228453159",
+        "808939719846"
+    ],
+    "2026 Barcode::isbn13()": [
+        "9786148228452",
+        "9789525408935"
+    ],
+    "2026 Barcode::isbn10()": [
+        "9708822841",
+        "7315408932"
+    ],
+    "2026 Barcode::ismn()": [
+        "9790388228455",
+        "9790315408936"
+    ],
+    "2026 Blood::bloodType()": [
+        "AB",
+        "O"
+    ],
+    "2026 Blood::bloodRh()": [
+        "-",
+        "+"
+    ],
+    "2026 Blood::bloodGroup()": [
+        "AB-",
+        "O+"
+    ],
+    "2026 Color::hexColor()": [
+        "#98ae15",
+        "#6d18d8"
+    ],
+    "2026 Color::safeHexColor()": [
+        "#ee1155",
+        "#88dd88"
+    ],
+    "2026 Color::rgbColorAsArray()": [
+        [
+            21,
+            216,
+            218
+        ],
+        [
+            2,
+            202,
+            72
+        ]
+    ],
+    "2026 Color::rgbColor()": [
+        "21,216,218",
+        "2,202,72"
+    ],
+    "2026 Color::rgbCssColor()": [
+        "rgb(21,216,218)",
+        "rgb(2,202,72)"
+    ],
+    "2026 Color::rgbaCssColor()": [
+        "rgba(21,216,218,0.75)",
+        "rgba(202,72,172,0.43)"
+    ],
+    "2026 Color::hslColorAsArray()": [
+        [
+            333,
+            34,
+            55
+        ],
+        [
+            122,
+            19,
+            29
+        ]
+    ],
+    "2026 Color::hslColor()": [
+        "333,34,55",
+        "122,19,29"
+    ],
+    "2026 Color::hslCssColor()": [
+        "hsl(333, 34%, 55%)",
+        "hsl(122, 19%, 29%)"
+    ],
+    "2026 Color::safeColorName()": [
+        "green",
+        "navy"
+    ],
+    "2026 Color::colorName()": [
+        "LightCyan",
+        "DarkRed"
+    ],
+    "2026 Commerce::productName()": [
+        "Awesome Granite Backpack",
+        "Luxurious Bronze Sofa"
+    ],
+    "2026 Commerce::productAdjective()": [
+        "Awesome",
+        "Ergonomic"
+    ],
+    "2026 Commerce::productMaterial()": [
+        "Oak",
+        "Granite"
+    ],
+    "2026 Commerce::product()": [
+        "Keyboard",
+        "Headphones"
+    ],
+    "2026 Commerce::department()": [
+        "Games",
+        "Health"
+    ],
+    "2026 Commerce::sku()": [
+        "IM-8822-XA",
+        "BP-5408-BD"
+    ],
+    "2026 Commerce::promotionCode()": [
+        "SUMMER5",
+        "SALE15"
+    ],
+    "2026 Company::company()": [
+        "Hunter & Patterson",
+        "Young-Patterson Group"
+    ],
+    "2026 Company::companySuffix()": [
+        "Partners",
+        "International"
+    ],
+    "2026 Company::jobTitle()": [
+        "UX Researcher",
+        "Recruiter"
+    ],
+    "2026 Company::industry()": [
+        "Manufacturing",
+        "Transportation"
+    ],
+    "2026 Company::catchPhrase()": [
+        "Front-line impactful benchmark",
+        "Diverse motivating task-force"
+    ],
+    "2026 DateTime::dateTime()": [
+        "2000-10-23T13:29:33.000000+00:00",
+        "1984-03-18T21:22:07.000000+00:00"
+    ],
+    "2026 DateTime::dateTimeBetween()": [
+        "2020-10-23T13:29:33.000000+00:00",
+        "2024-03-18T21:22:07.000000+00:00"
+    ],
+    "2026 DateTime::dateTimeRange()": [
+        [
+            "2020-10-23T13:29:33.000000+00:00",
+            "2024-03-18T21:22:07.000000+00:00"
+        ],
+        [
+            "2007-09-20T12:38:00.000000+00:00",
+            "2019-10-30T19:16:16.000000+00:00"
+        ]
+    ],
+    "2026 DateTime::dateTimePast()": [
+        "2026-01-03T13:24:32.000000+00:00",
+        "2025-12-24T21:10:20.000000+00:00"
+    ],
+    "2026 DateTime::dateTimeFuture()": [
+        "2026-02-02T13:24:32.000000+00:00",
+        "2026-01-23T21:10:20.000000+00:00"
+    ],
+    "2026 DateTime::dateOfBirth()": [
+        "1969-10-25T00:00:00.000000+00:00",
+        "2003-03-21T00:00:00.000000+00:00"
+    ],
+    "2026 DateTime::date()": [
+        "2000-10-23",
+        "1984-03-18"
+    ],
+    "2026 DateTime::time()": [
+        "13:29:33",
+        "21:22:07"
+    ],
+    "2026 DateTime::unixTime()": [
+        972307773,
+        448492927
+    ],
+    "2026 DateTime::timezone()": [
+        "Europe/Moscow",
+        "Asia/Dushanbe"
+    ],
+    "2026 DateTime::dateTimeRange(\"now\", \"+1 year\", \"14 days\")": [
+        [
+            "2026-10-30T13:29:09.000000+00:00",
+            "2026-11-09T23:56:00.000000+00:00"
+        ],
+        [
+            "2026-11-21T19:14:55.000000+00:00",
+            "2026-11-23T20:51:47.000000+00:00"
+        ]
+    ],
+    "2026 DateTime::dateTimesBetween(3, \"-1 year\")": [
+        [
+            "2025-04-03T21:21:10.000000+00:00",
+            "2025-10-30T13:29:09.000000+00:00",
+            "2025-11-21T19:14:55.000000+00:00"
+        ],
+        [
+            "2025-09-03T16:46:36.000000+00:00",
+            "2025-10-09T12:36:51.000000+00:00",
+            "2025-10-15T06:47:40.000000+00:00"
+        ]
+    ],
+    "2026 DateTime::timezone(\"US\")": [
+        "America/Juneau",
+        "America/Indiana/Winamac"
+    ],
+    "2026 DateTime::century()": [
+        "IV",
+        "III"
+    ],
+    "2026 DateTime::monthName()": [
+        "October",
+        "March"
+    ],
+    "2026 DateTime::dayOfWeek()": [
+        "Monday",
+        "Sunday"
+    ],
+    "2026 DateTime::localDate()": [
+        "2000-10-23",
+        "1984-03-18"
+    ],
+    "2026 DateTime::localDateTime()": [
+        "2000-10-23 13:29",
+        "1984-03-18 21:22"
+    ],
+    "2026 DateTime::longDate()": [
+        "23 October 2000",
+        "18 March 1984"
+    ],
+    "2026 Enum::enumCase(\"Quidam\\\\Test\\\\Fixtures\\\\Suit\")": [
+        "Quidam\\Test\\Fixtures\\Suit::Spades",
+        "Quidam\\Test\\Fixtures\\Suit::Hearts"
+    ],
+    "2026 Enum::enumValue(\"Quidam\\\\Test\\\\Fixtures\\\\Suit\")": [
+        "S",
+        "H"
+    ],
+    "2026 File::mimeType()": [
+        "text/plain",
+        "image/webp"
+    ],
+    "2026 File::extension()": [
+        "txt",
+        "rar"
+    ],
+    "2026 File::fileName()": [
+        "styles_2017.txt",
+        "contract.pdf"
+    ],
+    "2026 File::directoryPath()": [
+        "/home/deploy",
+        "/var/log"
+    ],
+    "2026 File::filePath()": [
+        "/home/deploy/export_2021.ics",
+        "/srv/data/downloads/thumbnail_new.webp"
+    ],
+    "2026 File::fileSize()": [
+        5888459,
+        1038377
+    ],
+    "2026 File::fileSizeFormatted()": [
+        "5.6 MB",
+        "1014 KB"
+    ],
+    "2026 File::mimeType(\"image\")": [
+        "image/webp",
+        "image/tiff"
+    ],
+    "2026 File::mimeTypeForExtension(\"pdf\")": [
+        "application/pdf",
+        "application/pdf"
+    ],
+    "2026 File::filePath(\"pdf\", \"windows\")": [
+        "C:\\Windows\\Temp\\notes-20.pdf",
+        "C:\\Users\\Admin\\Export\\Assets\\summary.pdf"
+    ],
+    "2026 File::csv(3)": [
+        "id,name,email,city,amount,created_at\n1,\"Peyton Patterson\",peyton_patterson@example.org,Brownwood,916.01,\"2024-08-27 16:12:24\"\n2,\"Felix Holmes\",felix397@example.net,\"New Leoside\",789.92,\"2024-01-30 03:18:33\"\n3,\"Patricia Pearson\",patricia_pearson@example.net,Janeside,104.08,\"2025-11-06 18:41:50\"\n",
+        "id,name,email,city,amount,created_at\n1,\"Leonard Harris\",leonard_harris@example.com,\"West Christopherborough\",634.43,\"2025-07-28 14:44:51\"\n2,\"Wendy Wallace\",wallace.wendy@example.net,Bakerberg,953.67,\"2025-03-11 12:43:39\"\n3,\"Abigail Stewart\",abigail.stewart26@example.com,\"East Jamiefurt\",540.35,\"2025-08-29 16:42:16\"\n"
+    ],
+    "2026 File::json(2)": [
+        "sha256:835ebda0019748eb038204f80e6416f7b7cdcb70ef48b9288dde075675221701 (420 bytes)",
+        "sha256:ba0e7b1fdb17c93fb95b2894adfaa86884bfd54472c272ac1cceb5a3e4acecfc (439 bytes)"
+    ],
+    "2026 Hash::md5()": [
+        "15ae982e5911e092d8186d6d94379f48",
+        "dade9c9d279e00d00267d586a7dcc7e4"
+    ],
+    "2026 Hash::sha1()": [
+        "15ae982e5911e092d8186d6d94379f48dade9c9d",
+        "0267d586a7dcc7e4ca3a22c1798be1cf48714ff9"
+    ],
+    "2026 Hash::sha256()": [
+        "15ae982e5911e092d8186d6d94379f48dade9c9d279e00d00267d586a7dcc7e4",
+        "ca3a22c1798be1cf48714ff9a3b1edc9aca5db584e346ed5577e81c6381a32d4"
+    ],
+    "2026 Hash::sha512()": [
+        "15ae982e5911e092d8186d6d94379f48dade9c9d279e00d00267d586a7dcc7e4ca3a22c1798be1cf48714ff9a3b1edc9aca5db584e346ed5577e81c6381a32d4",
+        "7ba05bccea526bdcd58e3ea98d25e53c5f49dc752e5349f70846cdfb1269d5518851fe54127041df0e9d2aff8ea077bbc1130ad452068d792ffb7bcf8017ccbf"
+    ],
+    "2026 Hash::base64()": [
+        "Fa6YLlkR4JLYGG1tlDefSNrenJ0nngDQAmfVhqfcx+Q=",
+        "yjoiwXmL4c9IcU/5o7Htyayl21hONG7VV36BxjgaMtQ="
+    ],
+    "2026 Hash::base64Url()": [
+        "Fa6YLlkR4JLYGG1tlDefSNrenJ0nngDQAmfVhqfcx-Q",
+        "yjoiwXmL4c9IcU_5o7Htyayl21hONG7VV36BxjgaMtQ"
+    ],
+    "2026 Hash::jwt()": [
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI3NTg3NTUiLCJpYXQiOjE3Njg0NzMwMDAsImV4cCI6MTc2ODQ3NjYwMH0.2BhtbZQ3n0ja3pydJ54A0AJn1Yan3MfkyjoiwXmL4c8",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI3MzczMTEiLCJpYXQiOjE3Njg0NzMwMDAsImV4cCI6MTc2ODQ3NjYwMH0.rKXbWE40btVXfoHGOBoy1HugW8zqUmvc1Y4-qY0l5Tw"
+    ],
+    "2026 Hash::apiKey()": [
+        "LkOkPHWIOOjjKtV8QUSTdU0G2dL6dS7a",
+        "AwY1vBXF8nFvZnj9ibROEqkLN16uQoKx"
+    ],
+    "2026 Hash::apiKey(\"sk_test_\", 16)": [
+        "sk_test_LkOkPHWIOOjjKtV8",
+        "sk_test_QUSTdU0G2dL6dS7a"
+    ],
+    "2026 Internet::email()": [
+        "peyton_patterson@example.org",
+        "kendall154@example.com"
+    ],
+    "2026 Internet::freeEmail()": [
+        "peyton_patterson@yahoo.com",
+        "kendall154@gmail.com"
+    ],
+    "2026 Internet::companyEmail()": [
+        "peyton_patterson@young.com",
+        "smith.rose@butler.net"
+    ],
+    "2026 Internet::freeEmailDomain()": [
+        "outlook.com",
+        "gmail.com"
+    ],
+    "2026 Internet::userName()": [
+        "peyton_patterson",
+        "casey.watson31"
+    ],
+    "2026 Internet::password()": [
+        "L7-J_SYv#}X{0",
+        "}I0HQ*_kt(?G}3u+m"
+    ],
+    "2026 Internet::domainName()": [
+        "fletcherweb.com",
+        "young.com"
+    ],
+    "2026 Internet::domainWord()": [
+        "fletcherweb",
+        "davis-labs"
+    ],
+    "2026 Internet::tld()": [
+        "com",
+        "net"
+    ],
+    "2026 Internet::url()": [
+        "http://www.pattersonconsulting.net/fugiat-quisquam-harum-ea-molestiae-praesentium-repellendus-cumque.html",
+        "https://www.turner-labs.com/"
+    ],
+    "2026 Internet::protocol()": [
+        "http",
+        "https"
+    ],
+    "2026 Internet::hostname()": [
+        "db-33.pattersonconsulting.net",
+        "mail-10.brown-studio.com"
+    ],
+    "2026 Internet::hashtag()": [
+        "#similique",
+        "#ullam"
+    ],
+    "2026 Internet::socialHandle()": [
+        "@peyton_patterso",
+        "@casey_watson31"
+    ],
+    "2026 Internet::slug()": [
+        "similique-atque-ullam-velit",
+        "impedit-odit-fugiat-quisquam-harum-ea-molestiae"
+    ],
+    "2026 Internet::ipv4()": [
+        "47.152.174.21",
+        "110.109.24.216"
+    ],
+    "2026 Internet::ipv4Cidr()": [
+        "110.64.0.0/10",
+        "135.213.103.0/26"
+    ],
+    "2026 Internet::localIpv4()": [
+        "10.109.24.216",
+        "10.213.103.2"
+    ],
+    "2026 Internet::ipv6()": [
+        "25ae:982e:5911:e092:d818:6d6d:9437:9f48",
+        "2ade:9c9d:279e:d0:267:d586:a7dc:c7e4"
+    ],
+    "2026 Internet::ipv6Cidr()": [
+        "2818:6d6d:8000::/33",
+        "2a3a::/17"
+    ],
+    "2026 Internet::macAddress()": [
+        "16:AE:98:2E:59:11",
+        "DA:18:6D:6D:94:37"
+    ],
+    "2026 Internet::port()": [
+        2581,
+        49368
+    ],
+    "2026 Internet::httpMethod()": [
+        "PATCH",
+        "PUT"
+    ],
+    "2026 Internet::httpStatusCode()": [
+        404,
+        403
+    ],
+    "2026 Internet::email(\"Anna\", \"Kowalski\")": [
+        "anna.kowalski88@example.net",
+        "akowalski84@example.com"
+    ],
+    "2026 Internet::url(true)": [
+        "http://www.pattersonconsulting.net/fugiat-quisquam-harum-ea-molestiae-praesentium-repellendus-cumque.html?placeat=ipsam&voluptates=41&ea=atque",
+        "https://pearsonhub.com/tempore-unde-nulla-iste-quibusdam-qui-officiis?deleniti=officia&dolor=13&in=55"
+    ],
+    "2026 Internet::urlPath()": [
+        "/similique-atque/velit",
+        "/impedit/fugiat-quisquam"
+    ],
+    "2026 Internet::safeEmailDomain()": [
+        "example.com",
+        "example.net"
+    ],
+    "2026 Language::language()": [
+        "Tahitian",
+        "Twi"
+    ],
+    "2026 Language::languageCode()": [
+        "ty",
+        "tw"
+    ],
+    "2026 Language::languageData()": [
+        {
+            "code": "ty",
+            "name": "Tahitian"
+        },
+        {
+            "code": "tw",
+            "name": "Twi"
+        }
+    ],
+    "2026 Language::locale()": [
+        "si_LK",
+        "lg_UG"
+    ],
+    "2026 Lorem::word()": [
+        "iusto",
+        "similique"
+    ],
+    "2026 Lorem::words()": [
+        [
+            "iusto",
+            "similique",
+            "atque"
+        ],
+        [
+            "ullam",
+            "velit",
+            "quia"
+        ]
+    ],
+    "2026 Lorem::sentence()": [
+        "Similique atque ullam velit.",
+        "Impedit odit fugiat quisquam harum ea molestiae."
+    ],
+    "2026 Lorem::sentences()": [
+        [
+            "Similique atque ullam velit.",
+            "Impedit odit fugiat quisquam harum ea molestiae.",
+            "Repellendus cumque a placeat neque ipsam."
+        ],
+        [
+            "Aspernatur inventore ea nulla atque est dolore vitae et.",
+            "Fuga nobis impedit tempore unde nulla.",
+            "Quibusdam qui officiis totam."
+        ]
+    ],
+    "2026 Lorem::paragraph()": [
+        "Atque ullam velit quia impedit odit. Quisquam harum ea molestiae praesentium.",
+        "A placeat neque ipsam. Aspernatur inventore ea nulla atque est dolore vitae et. Fuga nobis impedit tempore unde nulla."
+    ],
+    "2026 Lorem::paragraphs()": [
+        [
+            "Atque ullam velit quia impedit odit. Quisquam harum ea molestiae praesentium.",
+            "A placeat neque ipsam. Aspernatur inventore ea nulla atque est dolore vitae et. Fuga nobis impedit tempore unde nulla.",
+            "Qui officiis totam deleniti. Officia dolor vero eos in non."
+        ],
+        [
+            "Nemo culpa suscipit praesentium modi. Quidem neque vitae odit. Exercitationem placeat recusandae maiores sed veritatis odio veniam. Hic adipisci quae maxime deleniti odio aut.",
+            "Eius voluptatibus voluptatum commodi. Dolorem reiciendis facere perspiciatis cupiditate.",
+            "Omnis magni minus illum porro quibusdam. Aspernatur maiores at sit porro. Et dolor harum asperiores omnis. Perspiciatis a eius iste unde illum cupiditate."
+        ]
+    ],
+    "2026 Lorem::text()": [
+        "Atque ullam velit quia impedit odit. Quisquam harum ea molestiae praesentium. A placeat neque ipsam. Aspernatur inventore ea nulla atque est dolore vitae et. Fuga nobis impedit tempore unde nulla.",
+        "Nemo culpa suscipit praesentium modi. Quidem neque vitae odit. Exercitationem placeat recusandae maiores sed veritatis odio veniam. Hic adipisci quae maxime deleniti odio aut."
+    ],
+    "2026 Number::numberBetween()": [
+        1360106162197409301,
+        5232962402658359512
+    ],
+    "2026 Number::randomDigit()": [
+        3,
+        8
+    ],
+    "2026 Number::randomDigitNotZero()": [
+        1,
+        6
+    ],
+    "2026 Number::randomNumber()": [
+        8,
+        2132482
+    ],
+    "2026 Number::randomFloat()": [
+        501.56,
+        479.7
+    ],
+    "2026 Number::gaussian()": [
+        0.06,
+        0.01
+    ],
+    "2026 Number::gaussianInt()": [
+        0,
+        0
+    ],
+    "2026 Number::boolean()": [
+        false,
+        true
+    ],
+    "2026 Number::numberBetween(1, 10)": [
+        4,
+        9
+    ],
+    "2026 Number::gaussian(170, 10, 140, 210, 1)": [
+        170.6,
+        170.1
+    ],
+    "2026 Number::percentage()": [
+        96,
+        34
+    ],
+    "2026 Payment::creditCardType()": [
+        "Diners Club",
+        "Visa"
+    ],
+    "2026 Payment::creditCardNumber()": [
+        "38228453154083",
+        "4719840620174873"
+    ],
+    "2026 Payment::maskedCreditCardNumber()": [
+        "**** ****** 4083",
+        "**** **** **** 4873"
+    ],
+    "2026 Payment::creditCardExpirationDate()": [
+        "06/28",
+        "08/27"
+    ],
+    "2026 Payment::creditCardCvv()": [
+        "388",
+        "228"
+    ],
+    "2026 Payment::creditCardDetails()": [
+        {
+            "type": "Diners Club",
+            "number": "38228453154083",
+            "name": "Matthew Crawford",
+            "expirationDate": "03/27",
+            "cvv": "198"
+        },
+        {
+            "type": "Discover",
+            "number": "6011201748724638",
+            "name": "David Bennett",
+            "expirationDate": "09/27",
+            "cvv": "196"
+        }
+    ],
+    "2026 Payment::iban()": [
+        "IT67Y8228453154IOBP797585M2",
+        "LY83017487246318131963746"
+    ],
+    "2026 Payment::swiftBicNumber()": [
+        "VYHCADI27VO",
+        "JIIOUAP8859"
+    ],
+    "2026 Payment::currencyCode()": [
+        "LAK",
+        "VND"
+    ],
+    "2026 Payment::currencyName()": [
+        "Lao Kip",
+        "Dong"
+    ],
+    "2026 Payment::currencySymbol()": [
+        "kr",
+        "₩"
+    ],
+    "2026 Payment::currencyData()": [
+        {
+            "code": "LAK",
+            "name": "Lao Kip",
+            "symbol": "LAK"
+        },
+        {
+            "code": "VND",
+            "name": "Dong",
+            "symbol": "₫"
+        }
+    ],
+    "2026 Payment::price()": [
+        501.56,
+        479.7
+    ],
+    "2026 Payment::priceInMinorUnits()": [
+        50156,
+        47970
+    ],
+    "2026 Payment::bankAccountNumber()": [
+        "3882284531",
+        "5408939719"
+    ],
+    "2026 Payment::transactionType()": [
+        "invoice",
+        "deposit"
+    ],
+    "2026 Payment::bitcoinAddress()": [
+        "1LhcDghvoqxjEa3RFVqMkuWNhmravK1Yg8",
+        "38J4KSS9Fsq3CoRJ3FVMDtym72HEsjvnMy"
+    ],
+    "2026 Payment::ethereumAddress()": [
+        "0x15AE982e5911e092d8186D6d94379F48DADe9c9D",
+        "0x0267d586a7DCC7E4ca3a22c1798be1CF48714ff9"
+    ],
+    "2026 Payment::iban(\"PL\", \"\", true)": [
+        "PL91 3882 2845 3154 0893 9719 8406",
+        "PL90 2017 4872 4631 8131 9637 4652"
+    ],
+    "2026 Payment::priceInMinorUnits(10, 50, \"JPY\")": [
+        36,
+        31
+    ],
+    "2026 Payment::ethereumAddress(false)": [
+        "0x15ae982e5911e092d8186d6d94379f48dade9c9d",
+        "0x0267d586a7dcc7e4ca3a22c1798be1cf48714ff9"
+    ],
+    "2026 Payment::localPrice()": [
+        "501.56 EUR",
+        "479.70 EUR"
+    ],
+    "2026 Person::name()": [
+        "Peyton Patterson",
+        "Iris Patterson"
+    ],
+    "2026 Person::firstName()": [
+        "Peyton",
+        "Valerie"
+    ],
+    "2026 Person::middleName()": [
+        "Peyton",
+        "Valerie"
+    ],
+    "2026 Person::suffix()": [
+        "III",
+        "II"
+    ],
+    "2026 Person::lastName()": [
+        "Fletcher",
+        "Hunter"
+    ],
+    "2026 Person::title()": [
+        "Dr.",
+        "Miss"
+    ],
+    "2026 Person::gender()": [
+        "Quidam\\Definitions\\Enum\\Gender::Female",
+        "Quidam\\Definitions\\Enum\\Gender::Male"
+    ],
+    "2026 Person::name(\"female\")": [
+        "Emma Hunter",
+        "Evelyn Davis"
+    ],
+    "2026 Person::age()": [
+        63,
+        41
+    ],
+    "2026 Person::initials()": [
+        "PP",
+        "IP"
+    ],
+    "2026 PhoneNumber::phoneNumber()": [
+        "0888 228 453",
+        "05 40 89 39 71"
+    ],
+    "2026 PhoneNumber::mobilePhoneNumber()": [
+        "07888 228453",
+        "0694 089 397"
+    ],
+    "2026 PhoneNumber::internationalPhoneNumber()": [
+        "+383 388 228 45",
+        "+267 854 089 39"
+    ],
+    "2026 PhoneNumber::e164PhoneNumber()": [
+        "+38338822845",
+        "+26785408939"
+    ],
+    "2026 PhoneNumber::imei()": [
+        "868822845315405",
+        "019397198406208"
+    ],
+    "2026 PhoneNumber::e164PhoneNumber(\"PL\")": [
+        "+48338822845",
+        "+48815408939"
+    ],
+    "2026 Profile::person()": [
+        {
+            "gender": "Quidam\\Definitions\\Enum\\Gender::Female",
+            "title": "Miss",
+            "firstName": "Peyton",
+            "lastName": "Patterson",
+            "name": "Peyton Patterson",
+            "userName": "peyton.patterson",
+            "email": "peyton.patterson@example.net",
+            "dateOfBirth": "1953-09-23T00:00:00.000000+00:00",
+            "age": 72,
+            "phone": "07931 540893",
+            "address": {
+                "street": "Isabel Drive 1",
+                "city": "Peytonville",
+                "state": "Central Region",
+                "stateCode": "CR",
+                "county": "Jackson District",
+                "postcode": "63181",
+                "latitude": 57.370294,
+                "longitude": -22.728442,
+                "address": "Isabel Drive 1, 63181 Peytonville"
+            }
+        },
+        {
+            "gender": "Quidam\\Definitions\\Enum\\Gender::Male",
+            "title": "Mr.",
+            "firstName": "Leonard",
+            "lastName": "Harris",
+            "name": "Leonard Harris",
+            "userName": "leonard.harris46",
+            "email": "leonard.harris46@example.com",
+            "dateOfBirth": "1948-01-06T00:00:00.000000+00:00",
+            "age": 78,
+            "phone": "0183 940 2990",
+            "address": {
+                "street": "Rowan Court 2",
+                "city": "Murrayhaven",
+                "state": "Highlands",
+                "stateCode": "HL",
+                "county": "Dawson District",
+                "postcode": "75143",
+                "latitude": -18.29977,
+                "longitude": 13.108007,
+                "address": "Rowan Court 2, 75143 Murrayhaven"
+            }
+        }
+    ],
+    "2026 Strings::string()": [
+        "yynnux",
+        "chv"
+    ],
+    "2026 Strings::numerify(\"%##-###\")": [
+        "438-822",
+        "445-315"
+    ],
+    "2026 Strings::lexify(\"??-??\")": [
+        "vy-hc",
+        "ki-mx"
+    ],
+    "2026 Strings::bothify(\"??-##-**\")": [
+        "im-82-x2",
+        "bp-54-08"
+    ],
+    "2026 Strings::regexify(\"(INV|FV)/20(2[4-6])/\\\\d{5}[a-z]*\")": [
+        "FV/2026/22845",
+        "FV/2025/08939lpkyow"
+    ],
+    "2026 Strings::hexadecimal()": [
+        "5e8e91",
+        "88dd47"
+    ],
+    "2026 System::cronExpression()": [
+        "8 2 * * *",
+        "* 13 * * 1-5"
+    ],
+    "2026 System::logLevel()": [
+        "emergency",
+        "info"
+    ],
+    "2026 System::environmentVariable()": [
+        "CACHE_PASSWORD",
+        "APP_ENABLED"
+    ],
+    "2026 UserAgent::userAgent()": [
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Safari/605.1.15",
+        "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
+    ],
+    "2026 UserAgent::chrome()": [
+        "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36",
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+    ],
+    "2026 UserAgent::edge()": [
+        "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36 EdgA/137.0.0.0",
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+    ],
+    "2026 UserAgent::opera()": [
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 OPR/122.0.0.0",
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 OPR/128.0.0.0"
+    ],
+    "2026 UserAgent::firefox()": [
+        "Mozilla/5.0 (Android 15; Mobile; rv:139.0) Gecko/139.0 Firefox/139.0",
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0"
+    ],
+    "2026 UserAgent::safari()": [
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.2 Safari/605.1.15",
+        "Mozilla/5.0 (iPhone; CPU iPhone OS 18_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Mobile/15E148 Safari/604.1"
+    ],
+    "2026 UserAgent::botUserAgent()": [
+        "Twitterbot/1.0",
+        "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)"
+    ],
+    "2026 UserAgent::userAgent(true)": [
+        "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Mobile Safari/537.36",
+        "Mozilla/5.0 (iPhone; CPU iPhone OS 18_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Mobile/15E148 Safari/604.1"
+    ],
+    "2026 Uuid::uuid4()": [
+        "15ae982e-5911-4092-9818-6d6d94379f48",
+        "dade9c9d-279e-40d0-8267-d586a7dcc7e4"
+    ],
+    "2026 Uuid::nanoid()": [
+        "jImInfugmmHHiRt6osqrB",
+        "0Bj4Bq5y8Uw-T9vd6LdTx"
+    ],
+    "2026 Uuid::snowflake()": [
+        2011747688766331096,
+        2011747688767137538
+    ],
+    "2026 Uuid::uuid7()": [
+        "019bc134-78bb-7615-9818-6d6d94379f48",
+        "019bc134-78bb-7616-9ade-9c9d279e00d0"
+    ],
+    "2026 Uuid::ulid()": [
+        "01KF0K8Y5VNRT2A8CQVNZ88E1F",
+        "01KF0K8Y5VNRT2A8CQVNZ88E1G"
+    ],
+    "2026 Uuid::uuid3(\"6ba7b810-9dad-11d1-80b4-00c04fd430c8\", \"example.com\")": [
+        "9073926b-929f-31c2-abc9-fad77ae3e8eb",
+        "9073926b-929f-31c2-abc9-fad77ae3e8eb"
+    ],
+    "2026 Uuid::uuid5(\"6ba7b811-9dad-11d1-80b4-00c04fd430c8\", \"https://example.com/users/42\")": [
+        "38fcaf6d-63bc-5c9f-8a4f-de8cf4e651ed",
+        "38fcaf6d-63bc-5c9f-8a4f-de8cf4e651ed"
+    ],
+    "2026 Vehicle::vehicle()": [
+        "Mercedes-Benz S-Class",
+        "Nissan Leaf"
+    ],
+    "2026 Vehicle::manufacturer()": [
+        "Mercedes-Benz",
+        "Peugeot"
+    ],
+    "2026 Vehicle::model()": [
+        "S-Class",
+        "Leaf"
+    ],
+    "2026 Vehicle::type()": [
+        "Crossover",
+        "Van"
+    ],
+    "2026 Vehicle::fuel()": [
+        "LPG",
+        "Gasoline"
+    ],
+    "2026 Vehicle::vin()": [
+        "4JG375676CL845315",
+        "WAUR6R9B7SZ719840"
+    ],
+    "2026 Vehicle::licensePlate()": [
+        "IM 8822X",
+        "I15 IOB"
+    ],
+    "2026 Version::semver()": [
+        "3.28.78",
+        "2.62.28"
+    ],
+    "2026 Version::gitCommitHash()": [
+        "15ae982e5911e092d8186d6d94379f48dade9c9d",
+        "0267d586a7dcc7e4ca3a22c1798be1cf48714ff9"
+    ],
+    "2026 Version::gitBranchName()": [
+        "chore/HAQ-8718-update-dark-mode",
+        "test/VOJ-8732-handle-user-export"
+    ],
+    "2026 Version::gitCommitMessage()": [
+        "docs(ci): update order status",
+        "feat(deps): improve api rate limit"
+    ],
+    "2026 Version::semverConstraint()": [
+        "^3.2",
+        "^2.16"
+    ],
+    "2026 Version::semver(true, true)": [
+        "3.28.78-rc+aca5db5",
+        "1.75.24-alpha+2ffb7bc"
+    ],
+    "2026 RandomizerInterface::getBool()": [
+        false,
+        true
+    ],
+    "2026 RandomizerInterface::getBytes()": [
+        "sha256:cd9d47d6784939499a2b80ab4dec61d559ae681c8d645080d9bac6f6297a5e86 (16 bytes)",
+        "sha256:698aaa0ef82ab3e1d6c9e3e6ad9f60c99bc3e7ddca7b8257e2292b107e03f2da (16 bytes)"
+    ],
+    "2026 RandomizerInterface::randomLetter()": [
+        "v",
+        "y"
+    ],
+    "2026 RandomizerInterface::getInt(1, 1000)": [
+        974,
+        329
+    ],
+    "2026 RandomizerInterface::getFloat(0, 1)": [
+        0.9978822793879802,
+        0.024465357091043582
+    ],
+    "2026 RandomizerInterface::getBytesFromString(\"abc123\", 10)": [
+        "3abbacaa33",
+        "c23aac322c"
+    ],
+    "2026 RandomizerInterface::randomElement([\"a\",\"b\",\"c\",\"d\"])": [
+        "b",
+        "a"
+    ],
+    "2026 RandomizerInterface::randomElements([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20], 5, true)": [
+        [
+            19,
+            9,
+            5,
+            14,
+            3
+        ],
+        [
+            1,
+            4,
+            5,
+            10,
+            19
+        ]
+    ],
+    "2026 RandomizerInterface::randomKey({\"x\":1,\"y\":2,\"z\":3})": [
+        "x",
+        "z"
+    ],
+    "2026 RandomizerInterface::weightedElement({\"new\":70,\"paid\":25,\"cancelled\":5})": [
+        "cancelled",
+        "new"
+    ],
+    "2026 RandomizerInterface::shuffleElements([1,2,3,4,5,6,7,8,9,10])": [
+        [
+            8,
+            7,
+            9,
+            1,
+            10,
+            5,
+            2,
+            3,
+            6,
+            4
+        ],
+        [
+            6,
+            9,
+            7,
+            4,
+            5,
+            8,
+            3,
+            1,
+            10,
+            2
+        ]
+    ],
+    "2026 EdgeCasesInterface::string()": [
+        "\t",
+        "NUL"
+    ],
+    "2026 EdgeCasesInterface::longString()": [
+        "sha256:a1f4c05dce43a0b217ebbf650de8bdfd8ea98a9760ef5e4cc811c7d3814966a1 (10000 bytes)",
+        "sha256:0d9fdf063d41ae656532462fab70a1ca3a7192508909d9415c42bc55412134c1 (10000 bytes)"
+    ],
+    "2026 EdgeCasesInterface::string(\"injection\")": [
+        "\" OR \"\"=\"",
+        "<script>alert(1)</script>"
+    ],
+    "2026 FillerInterface::make(\"Quidam\\\\Test\\\\Fixtures\\\\Filler\\\\FillerUser\")": [
+        {
+            "class": "Quidam\\Test\\Fixtures\\Filler\\FillerUser",
+            "nickname": "valerie154",
+            "bio": "Minus illum porro quibusdam explicabo aspernatur maiores. Sit porro voluptates et dolor harum asperiores omnis. Perspiciatis a eius iste unde illum cupiditate.",
+            "year": 2022,
+            "untouched": "default",
+            "id": "15ae982e-5911-4092-9818-6d6d94379f48",
+            "firstName": "Valerie",
+            "lastName": "Young",
+            "email": "valerie154@example.com",
+            "age": 33,
+            "suit": "Quidam\\Test\\Fixtures\\Suit::Spades",
+            "unitSuit": "Quidam\\Test\\Fixtures\\UnitSuit::Hearts",
+            "address": {
+                "class": "Quidam\\Test\\Fixtures\\Filler\\FillerAddress",
+                "street": "Webb Alley",
+                "city": "East Cameronbrook",
+                "zipCode": "73141",
+                "country": "Cambodia"
+            },
+            "createdAt": "2024-11-26T07:47:27.000000+00:00",
+            "updatedAt": "2024-07-04T06:17:18.000000+00:00",
+            "publishedAt": "2025-08-13 06:04:22",
+            "isAdmin": true,
+            "balance": 612.11,
+            "mixedNumber": "aut",
+            "tags": [],
+            "role": "user",
+            "deletedAt": "2024-04-25T18:18:36.000000+00:00",
+            "billingAddress": null
+        },
+        {
+            "class": "Quidam\\Test\\Fixtures\\Filler\\FillerUser",
+            "nickname": "jbrooks82",
+            "bio": "Porro libero error molestias sit eveniet ipsam quos. Eum quisquam autem iste accusamus veritatis. Ullam nulla dolorem alias iure mollitia alias veritatis.",
+            "year": 2004,
+            "untouched": "default",
+            "id": "868de129-4ac8-462e-b281-5e1be7a80f1e",
+            "firstName": "John",
+            "lastName": "Brooks",
+            "email": "jbrooks82@example.org",
+            "age": 70,
+            "suit": "Quidam\\Test\\Fixtures\\Suit::Hearts",
+            "unitSuit": "Quidam\\Test\\Fixtures\\UnitSuit::Spades",
+            "address": {
+                "class": "Quidam\\Test\\Fixtures\\Filler\\FillerAddress",
+                "street": "Cox Alley",
+                "city": "Skylerview",
+                "zipCode": "00700",
+                "country": "Saint Pierre and Miquelon"
+            },
+            "createdAt": "2025-03-24T05:02:55.000000+00:00",
+            "updatedAt": "2025-06-21T10:35:11.000000+00:00",
+            "publishedAt": "2024-07-12 10:12:44",
+            "isAdmin": false,
+            "balance": 9.86,
+            "mixedNumber": "doloremque",
+            "tags": [],
+            "role": "user",
+            "deletedAt": "2025-11-17T06:24:05.000000+00:00",
+            "billingAddress": null
+        }
+    ],
+    "2026 FillerInterface::array([\"id\",\"firstName\",\"email\",\"city\",\"postcode\",\"phone\",\"createdAt\",\"isActive\",\"price\",\"whatever\"])": [
+        {
+            "id": "15ae982e-5911-4092-9818-6d6d94379f48",
+            "firstName": "Valerie",
+            "email": "valerie154@example.com",
+            "city": "South David",
+            "postcode": "1963",
+            "phone": "07193 971984",
+            "createdAt": "2024-05-06T00:58:56.000000+00:00",
+            "isActive": true,
+            "price": 263.56,
+            "whatever": "vero"
+        },
+        {
+            "id": "882aa95a-6a09-4124-9b8b-1c5588be27e0",
+            "firstName": "Garett",
+            "email": "garett085@example.com",
+            "city": "West Kenneth",
+            "postcode": "9082",
+            "phone": "0166 107 7267",
+            "createdAt": "2025-10-17T04:14:08.000000+00:00",
+            "isActive": false,
+            "price": 50,
+            "whatever": "magni"
+        }
+    ],
+    "2026 RichTextInterface::html()": [
+        "sha256:2a10d82c56b8db0836620b364b1811ae3813914a63c722c0fd782a6a96c73985 (975 bytes)",
+        "sha256:41524282f71b6563cdf4e97d7cfcbac3bbf30083f86b515ab83db42482187377 (1522 bytes)"
+    ],
+    "2026 RichTextInterface::htmlDocument()": [
+        "sha256:29a20d6fd71c3172da109771291528c94e95c3fe4e3422f5893dc5ec9a938f4f (1691 bytes)",
+        "sha256:a9364137609c03d4bd5101d6457660610f2e2c3de75c378e655e3d7cf69d435d (1566 bytes)"
+    ],
+    "2026 RichTextInterface::markdown()": [
+        "sha256:7c64cf38b319606c3cb16f5d30ca50974757cdbcbc600ab0b9701224a77193bb (876 bytes)",
+        "sha256:c39132417a70f992351687ae2fc5b608b3891d2262f6da098f669995359244cd (1119 bytes)"
+    ],
+    "2026 TextInterface::realText()": [
+        "The two species that had stopped me on the lever, and I felt then. I took my eyes grew accustomed to the well, and their numbers had rather diminished than kept stationary. That would account for it.",
+        "The German scholars have improved Greek so much. Then there is the drift of the palace, silhouetted black against the horrible death of little Weena."
+    ],
+    "2026 TemplateInterface::parse(\"{{ person.name }} <{{ internet.email }}> {{ number.numberBetween(1, 9) }}\")": [
+        "Peyton Patterson <iris_patterson@example.com> 3",
+        "Reese Butler <king.amelia@example.net> 8"
+    ],
+    "2026 TemplateInterface::evaluate(\"profile.person\")": [
+        {
+            "gender": "Quidam\\Definitions\\Enum\\Gender::Female",
+            "title": "Miss",
+            "firstName": "Peyton",
+            "lastName": "Patterson",
+            "name": "Peyton Patterson",
+            "userName": "peyton.patterson",
+            "email": "peyton.patterson@example.net",
+            "dateOfBirth": "1953-09-23T00:00:00.000000+00:00",
+            "age": 72,
+            "phone": "07931 540893",
+            "address": {
+                "street": "Isabel Drive 1",
+                "city": "Peytonville",
+                "state": "Central Region",
+                "stateCode": "CR",
+                "county": "Jackson District",
+                "postcode": "63181",
+                "latitude": 57.370294,
+                "longitude": -22.728442,
+                "address": "Isabel Drive 1, 63181 Peytonville"
+            }
+        },
+        {
+            "gender": "Quidam\\Definitions\\Enum\\Gender::Male",
+            "title": "Mr.",
+            "firstName": "Leonard",
+            "lastName": "Harris",
+            "name": "Leonard Harris",
+            "userName": "leonard.harris46",
+            "email": "leonard.harris46@example.com",
+            "dateOfBirth": "1948-01-06T00:00:00.000000+00:00",
+            "age": 78,
+            "phone": "0183 940 2990",
+            "address": {
+                "street": "Rowan Court 2",
+                "city": "Murrayhaven",
+                "state": "Highlands",
+                "stateCode": "HL",
+                "county": "Dawson District",
+                "postcode": "75143",
+                "latitude": -18.29977,
+                "longitude": 13.108007,
+                "address": "Rowan Court 2, 75143 Murrayhaven"
+            }
+        }
+    ],
+    "2026 Quidam optional": [
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1
+    ],
+    "2026 Quidam unique": [
+        3,
+        8,
+        2,
+        4,
+        5,
+        1,
+        0,
+        9,
+        7,
+        6
+    ],
+    "2026 Quidam valid": 8,
+    "2026 Quidam strategy": [
+        null,
+        "valerie.young@example.net",
+        null,
+        "reese.butler@example.com",
+        "vincent984@example.com"
+    ],
+    "2026 Quidam locale": {
+        "name": "Małgorzata Wójcik",
+        "email": "katarzyna_wojcik@example.com",
+        "phone": "+48 95 408 93 97",
+        "e164": "+48540620174",
+        "iban": "PL50872463181319637465239402",
+        "price": "203,37 zł",
+        "date": "19 października 1996",
+        "timezone": "Europe/Warsaw"
+    },
+    "2026 Quidam fork": [
+        "Roger Hunt",
+        "Wrightport"
+    ]
+}

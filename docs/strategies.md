@@ -1,0 +1,470 @@
+# Strategies
+
+Strategies wrap value generation with additional behaviour: **unique** values, **valid** values, values generated only with some **chance** - and any mix of them, plus your own strategies.
+
+Quidam has no magic calls, so nothing intercepts `$generator->ext(...)->email()` - a strategy wraps a **closure** which generates the value. There are three ways to use them:
+
+| | For | Example |
+|---|---|---|
+| [Shortcuts](#shortcuts) | one strategy, one value | `$generator->unique('users.email', fn ...)` |
+| [Strategy chain](#strategy-chain) | mixing strategies for one value | `$generator->strategy()->chance(70)->unique('k')->generate(fn ...)` |
+| [Generator-wide strategy](#generator-wide-strategy) | one strategy for many values, DummyGenerator style | `$generator->withStrategy(UniqueStrategy::class)->generate('k', fn ...)` |
+
+* [Shortcuts](#shortcuts)
+* [Strategy chain](#strategy-chain)
+* [Generator-wide strategy](#generator-wide-strategy)
+* [Order and short circuit](#order-and-short-circuit)
+* [Unique values and keys](#unique-values-and-keys)
+* [Valid values](#valid-values)
+* [Chance](#chance)
+* [Own strategies](#own-strategies)
+* [Types](#types)
+* [Reference](#reference)
+
+## Shortcuts
+
+For a single strategy use methods of `Quidam`. The generator is a closure receiving the generator:
+
+```php
+// unique - key is required, it's the scope of uniqueness (see below)
+$email = $generator->unique('users.email', fn (Quidam $g) => $g->internet()->email());
+
+// valid - retries until validator returns true
+$even = $generator->valid(
+    fn (Quidam $g) => $g->number()->randomDigit(),
+    fn (int $digit) => $digit % 2 === 0,
+);
+
+// optional - value with given chance, null otherwise
+$bio = $generator->optional(fn (Quidam $g) => $g->lorem()->paragraph(), 30);
+```
+
+## Strategy chain
+
+To mix strategies, build a chain with `strategy()` and finish it with `generate()`:
+
+```php
+$phone = $generator->strategy()
+    ->chance(70)                                            // 30% null
+    ->unique('contacts.phone')                              // never the same phone twice
+    ->valid(fn (string $phone) => !str_starts_with($phone, '+7'))
+    ->generate(fn (Quidam $g) => $g->phoneNumber()->e164PhoneNumber());
+```
+
+| Method | Strategy |
+|---|---|
+| `unique(string $key, int $retries = 10000)` | value different from all returned before under the key |
+| `valid(Closure $validator, int $retries = 10000)` | value accepted by validator |
+| `chance(int\|float $chance, mixed $default = null)` | value only with given chance, `$default` otherwise |
+| `add(StrategyInterface $strategy)` | your own strategy |
+| `generate(Closure $generator, string $name = '')` | runs the chain and returns the value; `$name` is passed to strategies |
+
+The chain is immutable - every method returns a new chain, so it can be prepared once and reused:
+
+```php
+$uniqueEmail = $generator->strategy()->unique('users.email');
+
+$users = [];
+for ($i = 0; $i < 100; ++$i) {
+    $users[] = [
+        'email' => $uniqueEmail->generate(fn (Quidam $g) => $g->internet()->email()),
+        'name' => $generator->person()->name(),
+    ];
+}
+```
+
+Unique memory doesn't live in the chain but in the generator - two chains (or shortcut calls) with the same key share it. A chain runs on its own - the generator-wide strategy (below) isn't applied to it.
+
+## Generator-wide strategy
+
+DummyGenerator kept one strategy in the container and applied it to every call. Quidam keeps the container part: `StrategyInterface` is a definition (`SimpleStrategy` by default, which just generates), `withStrategy()` replaces it and `generate(string $name, Closure $generator)` applies it. `$name` is the key - for `UniqueStrategy` the scope of uniqueness:
+
+```php
+use Quidam\Definitions\Randomizer\RandomizerInterface;
+use Quidam\Strategy\ChanceStrategy;
+use Quidam\Strategy\CompositeStrategy;
+use Quidam\Strategy\StrategyInterface;
+use Quidam\Strategy\UniqueMemory;
+use Quidam\Strategy\UniqueStrategy;
+
+$unique = $generator->withStrategy(UniqueStrategy::class);
+
+$users = $unique->many(100, fn (Quidam $g) => [
+    'email' => $g->generate('users.email', fn (Quidam $g) => $g->internet()->email()),
+    'login' => $g->generate('users.login', fn (Quidam $g) => $g->internet()->userName()),
+]);
+
+// many strategies - first one is the outermost; a factory gets the generator's randomizer and unique memory
+$generator = $generator->withDefinition(StrategyInterface::class, fn (RandomizerInterface $random, UniqueMemory $memory) => new CompositeStrategy([
+    new ChanceStrategy(70, $random),
+    new UniqueStrategy($memory),
+]));
+$generator->generate('contacts.phone', fn (Quidam $g) => $g->phoneNumber()->e164PhoneNumber());
+```
+
+What's different from DummyGenerator - and why:
+
+* only `generate()` is wrapped - `$generator->internet()->email()` is a plain method call, there's no `__call()` to intercept it. That's the price of a typed API
+* the key is explicit (`'users.email'`) instead of the method name - two fields generated by the same method can have separate scopes, two methods can share one
+* pass a class (`UniqueStrategy::class`) or a factory, not an object - the container builds the strategy for every generator, so it uses that generator's unique memory (shared with `unique()`, cleared by `resetUnique()`, shared by forks, empty after `with*()`) and randomizer (repeatable per fork). An object is kept as it is by `with*()` copies and forks: `new UniqueStrategy()` has its own memory, and a randomizer passed to it is the one of the generator it was taken from
+* `ChanceStrategy` without a randomizer uses its own unseeded one - in a factory, take `RandomizerInterface` for repeatable values
+
+Use the generator-wide strategy when many fields of a factory share one behaviour, the chain when one value needs its own mix.
+
+## Order and short circuit
+
+**The first strategy is the outermost one** - in the chain and in `CompositeStrategy`. It runs first and wraps everything after it:
+
+```
+strategy()->chance(70)->unique('k')->valid(...)->generate($generator)
+
+chance  ──►  unique  ──►  valid  ──►  $generator
+   │            ▲ retries   ▲ retries
+   └─ 30%: returns null immediately (short circuit) - unique, valid and generator don't run
+```
+
+(DummyGenerator's `CompositeStrategy` used the opposite order - the last strategy was the outermost.)
+
+**Short circuit** - a strategy can return a final value without generating (`chance()` returns its default). Such value goes back through outer strategies untouched:
+
+* `unique()` doesn't remember it - so `null` from chance never "uses up" a unique value and you can get many `null`s
+* `valid()` doesn't validate it - `null` isn't rejected by a validator expecting a string
+
+Thanks to this, `chance()` works the same before or after `unique()`:
+
+```php
+$phone = fn (Quidam $g) => $g->phoneNumber()->e164PhoneNumber();
+
+// chance outer - 30% null without generating at all
+$generator->strategy()->chance(70)->unique('users.phone')->generate($phone);
+
+// chance inner - unique asks for value, chance short circuits, unique passes null through
+$generator->strategy()->unique('users.phone')->chance(70)->generate($phone);
+```
+
+Order matters for strategies changing values - i.e. `valid()` outer checks values after inner strategies changed them, `valid()` inner checks raw generated values.
+
+## Unique values and keys
+
+```text
+$generator->unique(string $key, Closure $generator, int $retries = 10000);
+$generator->strategy()->unique(string $key, int $retries = 10000);
+new UniqueStrategy(?UniqueMemory $memory = null, ?string $key = null, int $retries = 10000);
+```
+
+### Key is the scope
+
+All `unique()` calls with **the same key share one memory** of returned values, different keys are independent. The key is required - you decide what has to be unique:
+
+```php
+// two factories inserting into the same table - same key, no collisions between them
+class UserFactory
+{
+    public function make(Quidam $generator): array
+    {
+        return ['email' => $generator->unique('users.email', fn (Quidam $g) => $g->internet()->email()), 'role' => 'user'];
+    }
+}
+
+class AdminFactory
+{
+    public function make(Quidam $generator): array
+    {
+        return ['email' => $generator->unique('users.email', fn (Quidam $g) => $g->internet()->email()), 'role' => 'admin'];
+    }
+}
+
+// different tables - different keys, the same email can appear in both
+$customer = $generator->unique('customers.email', fn (Quidam $g) => $g->internet()->email());
+$subscriber = $generator->unique('newsletter.email', fn (Quidam $g) => $g->internet()->email());
+```
+
+Tips:
+
+* name keys after what is unique - `table.column` works well for database fixtures (`users.email`, `products.ean`)
+* keep keys in constants when used in many places - a typo (`user.email` vs `users.email`) creates a separate scope silently
+* the key scopes **values**, not generators - two different generators under the same key must produce values different from each other (i.e. `users.login` from `userName()` and from `email()`)
+* `UniqueStrategy` with a fixed key uses it; without one it uses the `$name` given to `generate()`
+
+### Memory lifetime
+
+* memory belongs to the generator (`UniqueMemory` service) - every generator created by `create()` starts empty
+* `with*()` returns a generator with **empty** memory (like all services, nothing is carried over)
+* `fork()` returns a generator which **shares** memory with its parent - values stay unique across forks (see [Forks](quidam.md#forks---stable-records)). A retry inside a fork draws from the fork's stream, so a collision makes that record depend on what other forks generated
+* `resetUnique('users.email')` forgets one key, `resetUnique()` all of them - i.e. between tests
+* values are compared strictly by their serialized form - `1`, `'1'` and `1.0` are different values, objects are compared by content
+* every remembered value is kept in memory - fine for thousands or hundreds of thousands of values
+
+```php
+use PHPUnit\Framework\TestCase;
+
+final class ImportTest extends TestCase
+{
+    private Quidam $generator;
+
+    protected function setUp(): void
+    {
+        $this->generator = Quidam::create(seed: 1);    // fresh memory for every test
+    }
+}
+```
+
+### Running out of values
+
+When no new value is found in `$retries` attempts, `Quidam\Exception\OverflowException` is thrown:
+
+```php
+$digit = fn (Quidam $g) => $g->number()->randomDigit();
+
+for ($i = 0; $i < 10; ++$i) {
+    $generator->unique('digits', $digit);   // 0-9, each once
+}
+
+try {
+    $generator->unique('digits', $digit);
+} catch (\Quidam\Exception\OverflowException $e) {
+    echo $e->getMessage();
+    // 'Unique value for "digits" not found after 10000 retries (10 unique values generated)'
+}
+```
+
+Retries are cheap for big value spaces (emails, uuids) - for small ones (digits, enum cases) expect the exception once they are used up. Lower `$retries` to fail faster.
+
+## Valid values
+
+```text
+$generator->valid(Closure $generator, Closure $validator, int $retries = 10000);
+$generator->strategy()->valid(Closure $validator, int $retries = 10000);
+new ValidStrategy(callable $validator, int $retries = 10000);
+```
+
+The validator receives the generated value and returns `true` for valid ones (anything else means invalid - retry). After `$retries` failed attempts `OverflowException` is thrown.
+
+```php
+// adult born on weekday
+$birthDate = $generator->valid(
+    fn (Quidam $g) => $g->dateTime()->dateOfBirth(18, 65),
+    fn (DateTimeImmutable $date) => (int) $date->format('N') <= 5,
+);
+
+// company name not longer than DB column
+$company = $generator->valid(
+    fn (Quidam $g) => $g->company()->company(),
+    fn (string $name) => mb_strlen($name) <= 30,
+);
+```
+
+Prefer extension parameters when they exist (`numberBetween(1, 10)` instead of validating random numbers) - validation is for conditions extensions can't express.
+
+## Chance
+
+```text
+$generator->strategy()->chance(int|float $chance, mixed $default = null);
+new ChanceStrategy(int|float $chance, ?RandomizerInterface $randomizer = null, mixed $default = null);
+```
+
+* `int` is a percent (0-100), `float` a probability (0.0-1.0) - `chance(1)` is 1%, `chance(1.0)` is 100%
+* `$default` is returned instead of the value (short circuit) - `null` by default, can be anything:
+
+```php
+$middleName = $generator->strategy()
+    ->chance(20, '')
+    ->generate(fn (Quidam $g) => $g->person()->firstName());
+```
+
+For chance alone `$generator->optional(fn ..., 30)` is shorter.
+
+## Own strategies
+
+Implement `Quidam\Strategy\StrategyInterface` - the same contract as DummyGenerator, so its strategies work unchanged:
+
+```text
+interface StrategyInterface
+{
+    public function generate(string $name, callable $callback): mixed;
+}
+```
+
+`$name` is the key of the generated value (from `generate($name, ...)`, or the chain's `generate(fn, $name)`). `$callback()` generates the value - it runs inner strategies and the generator. Your strategy can:
+
+* call it once and **change** the value
+* call it many times to **retry**
+* not call it and return a final value to **stop** - mark the strategy with `ShortCircuitStrategyInterface` (then `CompositeStrategy` and the chain wrap the value in `ShortCircuitResult`), or return `new ShortCircuitResult($value)` yourself
+* pass through a `ShortCircuitResult` received from `$callback()` untouched - built-in strategies do so
+
+`Quidam::generate()` and the chain unwrap `ShortCircuitResult` - you always get the plain value.
+
+### Changing value
+
+```php
+use Quidam\Strategy\StrategyInterface;
+
+final readonly class UppercaseStrategy implements StrategyInterface
+{
+    public function generate(string $name, callable $callback): mixed
+    {
+        $value = $callback();
+
+        return is_string($value) ? mb_strtoupper($value) : $value;
+    }
+}
+
+$code = $generator->strategy()
+    ->add(new UppercaseStrategy())
+    ->generate(fn (Quidam $g) => $g->strings()->bothify('??-###'));   // 'KX-482'
+```
+
+### Retrying
+
+```php
+use Quidam\Exception\OverflowException;
+use Quidam\Strategy\ShortCircuitResult;
+use Quidam\Strategy\StrategyInterface;
+
+/**
+ * Value not present in given list, i.e. emails already existing in database
+ */
+final readonly class NotInStrategy implements StrategyInterface
+{
+    /** @param list<mixed> $excluded */
+    public function __construct(
+        private array $excluded,
+        private int $retries = 1000,
+    ) {
+    }
+
+    public function generate(string $name, callable $callback): mixed
+    {
+        for ($attempt = 0; $attempt < $this->retries; ++$attempt) {
+            $value = $callback();
+
+            if ($value instanceof ShortCircuitResult || !in_array($value, $this->excluded, true)) {
+                return $value;
+            }
+        }
+
+        throw new OverflowException(sprintf('No value for "%s" outside of excluded list found', $name));
+    }
+}
+
+$existingEmails = ['john.smith@example.com', 'jane.doe@example.org'];
+
+$email = $generator->strategy()
+    ->unique('users.email')
+    ->add(new NotInStrategy($existingEmails))
+    ->generate(fn (Quidam $g) => $g->internet()->email(), 'users.email');
+```
+
+### Short circuit
+
+```php
+use Quidam\Strategy\ShortCircuitStrategyInterface;
+
+/**
+ * Returns prepared values first (i.e. edge cases), then generates
+ */
+final class EdgeCasesFirstStrategy implements ShortCircuitStrategyInterface
+{
+    /** @param list<mixed> $cases */
+    public function __construct(
+        private array $cases,
+    ) {
+    }
+
+    public function generate(string $name, callable $callback): mixed
+    {
+        if ($this->cases !== []) {
+            return array_shift($this->cases);     // not generated - marked by the interface
+        }
+
+        return $callback();
+    }
+}
+
+$names = $generator->strategy()->add(new EdgeCasesFirstStrategy(['', "O'Brien", str_repeat('a', 255)]));
+$lastName = fn (Quidam $g) => $g->person()->lastName();
+
+$names->generate($lastName);   // ''
+$names->generate($lastName);   // "O'Brien"
+$names->generate($lastName);   // 'aaa...a'
+$names->generate($lastName);   // 'Butler' - generated from now on
+```
+
+Strategy objects are used as they are - a stateful one (like above) keeps its state as long as you reuse the same chain or generator. Short circuit values aren't remembered by `unique()`.
+
+### Using Quidam services
+
+Strategies are plain objects - pass what they need to the constructor, i.e. the randomizer to stay repeatable with seed (`$generator->random()`) or the clock (`$generator->ext(ClockInterface::class)`):
+
+```php
+use Quidam\Definitions\Randomizer\RandomizerInterface;
+use Quidam\Strategy\ShortCircuitResult;
+use Quidam\Strategy\StrategyInterface;
+
+/**
+ * Sometimes returns an empty string instead of the value - for "required field" validation tests
+ */
+final readonly class SometimesEmptyStrategy implements StrategyInterface
+{
+    public function __construct(
+        private RandomizerInterface $randomizer,
+        private int $percent,
+    ) {
+    }
+
+    public function generate(string $name, callable $callback): mixed
+    {
+        return $this->randomizer->getBool($this->percent) ? new ShortCircuitResult('') : $callback();
+    }
+}
+
+$title = $generator->strategy()
+    ->add(new SometimesEmptyStrategy($generator->random(), 10))
+    ->generate(fn (Quidam $g) => $g->lorem()->sentence());
+```
+
+### Sharing unique memory
+
+`unique()` shortcuts and chains use the `Quidam\Strategy\UniqueMemory` service - replace it with an object to share memory across `with*()` copies, or pass the same object to your `UniqueStrategy`:
+
+```php
+use Quidam\Strategy\UniqueMemory;
+
+$memory = new UniqueMemory();
+$generator = Quidam::create()->withDefinition(UniqueMemory::class, $memory);   // object - kept by with*()
+$polish = $generator->withProvider(new PlProviderPack());                           // shares $memory
+$wide = $generator->withStrategy(UniqueStrategy::class);                            // generate() shares it too
+```
+
+## Types
+
+With PHPStan or IDE the results are typed by the generator closure:
+
+| Call | Type |
+|---|---|
+| `$generator->unique('k', fn (Quidam $g) => $g->internet()->email())` | `string` |
+| `$generator->valid(fn (Quidam $g) => $g->number()->randomDigit(), fn (int $n) => $n > 1)` | `int` |
+| `$generator->strategy()->unique('k')->generate(fn (Quidam $g) => $g->number()->randomDigit())` | `int` |
+| `$generator->strategy()->chance(30)->generate(...)` | `int\|null` |
+| `$generator->strategy()->chance(30, 'n/a')->generate(...)` | `int\|string` |
+| `$generator->generate('k', fn (Quidam $g) => ...)` | type of the closure - the generator-wide strategy isn't tracked |
+
+* the closure parameter can be typed with your `Quidam` subclass (`fn (MyGenerator $g) => $g->car()`)
+* in `valid()` shortcut the validator parameter is typed by the generator, in the chain the validator isn't checked
+* values returned by own strategies without generating are not tracked by types - keep them of the generated type (or `null` together with `chance()`)
+
+## Reference
+
+| Class | Purpose |
+|---|---|
+| `Quidam\Strategy\StrategyInterface` | strategy contract: `generate(string $name, callable $callback): mixed` |
+| `Quidam\Strategy\ShortCircuitStrategyInterface` | marker - strategy may return without calling `$callback` |
+| `Quidam\Strategy\ShortCircuitResult` | final value returned without generating, passed through by other strategies |
+| `Quidam\Strategy\SimpleStrategy` | default generator-wide strategy - just generates |
+| `Quidam\Strategy\CompositeStrategy` | strategies one inside another, first is the outermost: `strategies()`, `with()` |
+| `Quidam\Strategy\StrategyChain` | immutable chain: `unique()`, `valid()`, `chance()`, `add()`, `generate()`, `strategies()` |
+| `Quidam\Strategy\UniqueStrategy` | unique values per key (fixed or `$name`), `DEFAULT_RETRIES = 10000` |
+| `Quidam\Strategy\ValidStrategy` | values accepted by validator, `DEFAULT_RETRIES = 10000` |
+| `Quidam\Strategy\ChanceStrategy` | value with chance, default otherwise (short circuit) |
+| `Quidam\Strategy\UniqueMemory` | remembered values per key: `add()`, `has()`, `count()`, `reset()` |
+| `Quidam\Exception\OverflowException` | retries exhausted (unique or valid) |

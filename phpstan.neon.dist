@@ -1,0 +1,21 @@
+parameters:
+    level: max
+    paths:
+        - src
+        - test
+    tmpDir: .build/phpstan/
+    ignoreErrors:
+        # PHP 8.4 only: PHPStan infers filter_var() with FILTER_FLAG_GLOBAL_RANGE as always passing, so it calls the
+        # retry loop and its fallback dead code. They aren't - tests cover both. Not reported on 8.5, hence unmatched is fine.
+        -
+            identifier: notIdentical.alwaysTrue
+            path: src/Core/Internet.php
+            reportUnmatched: false
+        -
+            identifier: smaller.alwaysTrue
+            path: src/Core/Internet.php
+            reportUnmatched: false
+        -
+            identifier: deadCode.unreachable
+            path: src/Core/Internet.php
+            reportUnmatched: false
