@@ -1,0 +1,1244 @@
+{
+    "1 Person::lastName()": [
+        "daughter of K'Tarq",
+        "son of Vorgh"
+    ],
+    "1 Person::name()": [
+        "Ghorra, daughter of Tarqon",
+        "Sorgha, daughter of K'Tarq"
+    ],
+    "1 Person::firstName()": [
+        "Ghorra",
+        "Vorgh"
+    ],
+    "1 Person::middleName()": [
+        "Ghorra",
+        "Vorgh"
+    ],
+    "1 Person::age()": [
+        76,
+        42
+    ],
+    "1 Person::initials()": [
+        "GDOT",
+        "SDOK"
+    ],
+    "1 Person::suffix()": [
+        "the Younger",
+        "the Bold"
+    ],
+    "1 Person::title()": [
+        "General",
+        "Dahar Master"
+    ],
+    "1 Person::gender()": [
+        "Quidam\\Definitions\\Enum\\Gender::Female",
+        "Quidam\\Definitions\\Enum\\Gender::Female"
+    ],
+    "1 Address::city()": [
+        "Drakkar",
+        "Mok'tal"
+    ],
+    "1 Address::streetName()": [
+        "Road of Blood",
+        "Bloodwine Alley"
+    ],
+    "1 Address::buildingNumber()": [
+        "cha'maH wa'",
+        "cha'maH cha'"
+    ],
+    "1 Address::secondaryAddress()": [
+        "Deck Soch",
+        "Deck wa'maH cha'"
+    ],
+    "1 Address::county()": [
+        "House of Jorvak",
+        "House of K'Tarq"
+    ],
+    "1 Address::cityData()": [
+        {
+            "city": "Drakkar",
+            "state": "Ghorvak IV",
+            "stateCode": "GV",
+            "county": "House of K'Tarq",
+            "postcode": "13027",
+            "latitude": -68.169623,
+            "longitude": 5.139132
+        },
+        {
+            "city": "Vel'tok",
+            "state": "Boreth",
+            "stateCode": "BO",
+            "county": "House of Varok",
+            "postcode": "1171",
+            "latitude": 44.015384,
+            "longitude": -82.964693
+        }
+    ],
+    "1 Address::cityPrefix()": [
+        "Old",
+        "Fort"
+    ],
+    "1 Address::citySuffix()": [
+        "esh",
+        "ath"
+    ],
+    "1 Address::streetSuffix()": [
+        "Street",
+        "Path"
+    ],
+    "1 Address::state()": [
+        "Kethrin",
+        "Qo'noS"
+    ],
+    "1 Address::stateCode()": [
+        "KT",
+        "QO"
+    ],
+    "1 Address::stateData()": [
+        {
+            "code": "KT",
+            "name": "Kethrin"
+        },
+        {
+            "code": "QO",
+            "name": "Qo'noS"
+        }
+    ],
+    "1 Address::streetAddress()": [
+        "Road of Blood vagh",
+        "Path of the Ancestors cha'maH wa'"
+    ],
+    "1 Address::postcode()": [
+        "0413",
+        "27987"
+    ],
+    "1 Address::address()": [
+        "Road of Blood vagh, Tar'Kesh",
+        "Road of Champions loSmaH vagh, First City"
+    ],
+    "1 Address::addressData()": [
+        {
+            "street": "Road of Blood vagh",
+            "city": "Vor'kesh Spires",
+            "state": "Vor'kesh",
+            "stateCode": "VK",
+            "county": "House of T'Gorr",
+            "postcode": "27987",
+            "latitude": 38.11153,
+            "longitude": 18.466079,
+            "address": "Road of Blood vagh, Vor'kesh Spires"
+        },
+        {
+            "street": "Glory Path wejmaH chorgh",
+            "city": "Drakkar",
+            "state": "Ghorvak IV",
+            "stateCode": "GV",
+            "county": "House of Grokh",
+            "postcode": "33178",
+            "latitude": 44.832124,
+            "longitude": -57.959196,
+            "address": "Glory Path wejmaH chorgh, Drakkar"
+        }
+    ],
+    "1 Address::country()": [
+        "Bosnia and Herzegovina",
+        "Lebanon"
+    ],
+    "1 Address::countryCode()": [
+        "BA",
+        "LB"
+    ],
+    "1 Address::countryCodeAlpha3()": [
+        "BIH",
+        "LBN"
+    ],
+    "1 Address::countryData()": [
+        {
+            "alpha2": "BA",
+            "alpha3": "BIH",
+            "name": "Bosnia and Herzegovina"
+        },
+        {
+            "alpha2": "LB",
+            "alpha3": "LBN",
+            "name": "Lebanon"
+        }
+    ],
+    "1 Address::latitude()": [
+        -35.726328,
+        -58.671206
+    ],
+    "1 Address::longitude()": [
+        -73.482063,
+        -158.674595
+    ],
+    "1 Address::coordinates()": [
+        {
+            "latitude": -35.726328,
+            "longitude": -158.674595
+        },
+        {
+            "latitude": -50.21702,
+            "longitude": -148.890107
+        }
+    ],
+    "1 DateTime::longDate()": [
+        "Stardate 1984.157",
+        "Stardate 2013.328"
+    ],
+    "1 DateTime::dateTime()": [
+        "1984-06-05T03:26:37.000000+00:00",
+        "2013-11-24T10:59:30.000000+00:00"
+    ],
+    "1 DateTime::dateTimeBetween()": [
+        "2004-06-05T03:26:37.000000+00:00",
+        "2003-11-24T10:59:29.000000+00:00"
+    ],
+    "1 DateTime::dateTimeRange()": [
+        [
+            "2003-11-24T10:59:29.000000+00:00",
+            "2004-06-05T03:26:37.000000+00:00"
+        ],
+        [
+            "2000-05-18T22:42:04.000000+00:00",
+            "2009-05-21T08:31:08.000000+00:00"
+        ]
+    ],
+    "1 DateTime::dateTimePast()": [
+        "2025-12-20T03:24:55.000000+00:00",
+        "2026-01-13T10:51:50.000000+00:00"
+    ],
+    "1 DateTime::dateTimeFuture()": [
+        "2026-01-19T03:24:55.000000+00:00",
+        "2026-02-12T10:51:50.000000+00:00"
+    ],
+    "1 DateTime::dateOfBirth()": [
+        "1953-06-06T00:00:00.000000+00:00",
+        "1982-11-26T00:00:00.000000+00:00"
+    ],
+    "1 DateTime::date()": [
+        "1984-06-05",
+        "2013-11-24"
+    ],
+    "1 DateTime::time()": [
+        "03:26:37",
+        "10:59:30"
+    ],
+    "1 DateTime::unixTime()": [
+        455253997,
+        1385290770
+    ],
+    "1 DateTime::monthName()": [
+        "June",
+        "November"
+    ],
+    "1 DateTime::dayOfWeek()": [
+        "Tuesday",
+        "Sunday"
+    ],
+    "1 DateTime::localDate()": [
+        "1984-06-05",
+        "2013-11-24"
+    ],
+    "1 DateTime::localDateTime()": [
+        "1984-06-05 03:26",
+        "2013-11-24 10:59"
+    ],
+    "1 DateTime::century()": [
+        "XVII",
+        "IV"
+    ],
+    "1 DateTime::timezone()": [
+        "America/Grenada",
+        "America/St_Barthelemy"
+    ],
+    "1 Company::company()": [
+        "Jorvak's Opera House",
+        "House of Vorgh Shipyards"
+    ],
+    "1 Company::companySuffix()": [
+        "Mining",
+        "Shipyards"
+    ],
+    "1 Company::jobTitle()": [
+        "Opera Singer",
+        "Chief Engineer"
+    ],
+    "1 Company::industry()": [
+        "Shipbuilding",
+        "Trophy Taxidermy"
+    ],
+    "1 Company::catchPhrase()": [
+        "Today is a good day to die",
+        "No retreat, no surrender"
+    ],
+    "1 Payment::creditCardType()": [
+        "Visa",
+        "MasterCard"
+    ],
+    "1 Payment::creditCardNumber()": [
+        "4130279874111714",
+        "3565317864741177"
+    ],
+    "1 Payment::maskedCreditCardNumber()": [
+        "**** **** **** 1714",
+        "**** **** **** 1177"
+    ],
+    "1 Payment::creditCardExpirationDate()": [
+        "05/26",
+        "10/28"
+    ],
+    "1 Payment::creditCardCvv()": [
+        "704",
+        "130"
+    ],
+    "1 Payment::creditCardDetails()": [
+        {
+            "type": "Visa",
+            "number": "4130279874111714",
+            "name": "Duvok, son of Vorgh",
+            "expirationDate": "02/27",
+            "cvv": "178"
+        },
+        {
+            "type": "MasterCard",
+            "number": "5341174914468590",
+            "name": "Vorgh, son of Qaxor",
+            "expirationDate": "06/28",
+            "cvv": "574"
+        }
+    ],
+    "1 Payment::iban()": [
+        "JO47KUHT0279QRXIGXTHNAURRBCKB4",
+        "VA73117491446859872757"
+    ],
+    "1 Payment::swiftBicNumber()": [
+        "FKUHBYCQ",
+        "BQRGGTVX"
+    ],
+    "1 Payment::currencyCode()": [
+        "ALL",
+        "EUR"
+    ],
+    "1 Payment::currencyName()": [
+        "Lek",
+        "Euro"
+    ],
+    "1 Payment::currencySymbol()": [
+        "$",
+        "NZ$"
+    ],
+    "1 Payment::currencyData()": [
+        {
+            "code": "ALL",
+            "name": "Lek",
+            "symbol": "ALL"
+        },
+        {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "€"
+        }
+    ],
+    "1 Payment::price()": [
+        15.5,
+        290.23
+    ],
+    "1 Payment::priceInMinorUnits()": [
+        758,
+        423
+    ],
+    "1 Payment::localCurrency()": [
+        {
+            "code": "XXX",
+            "name": "Darsek",
+            "symbol": "darsek"
+        },
+        {
+            "code": "XXX",
+            "name": "Darsek",
+            "symbol": "darsek"
+        }
+    ],
+    "1 Payment::localPrice()": [
+        "758 darsek",
+        "423 darsek"
+    ],
+    "1 Payment::bankAccountNumber()": [
+        "7041302798",
+        "7411171743"
+    ],
+    "1 Payment::transactionType()": [
+        "invoice",
+        "payment"
+    ],
+    "1 Payment::bitcoinAddress()": [
+        "3P3sLjge3sbag4zPFD9jYVQKWUobyLG3jw",
+        "34rG9DNf66WJNej9wKsSf1YjujUcrSHzrx"
+    ],
+    "1 Payment::ethereumAddress()": [
+        "0xc510C70f6Daff2B3ea4c364796553B8514452A08",
+        "0xA7A366c27b1C2E647336239ae2487AB222A7Fd6f"
+    ],
+    "1 Address::cityData(\"QO\")": [
+        {
+            "city": "Tar'Kesh",
+            "state": "Qo'noS",
+            "stateCode": "QO",
+            "county": "House of K'Tarq",
+            "postcode": "13027",
+            "latitude": -68.169623,
+            "longitude": 5.139132
+        },
+        {
+            "city": "Tar'Kesh",
+            "state": "Qo'noS",
+            "stateCode": "QO",
+            "county": "House of Varok",
+            "postcode": "1171",
+            "latitude": 44.015384,
+            "longitude": -82.964693
+        }
+    ],
+    "1 DateTime::dateTimesBetween(3, \"-1 year\")": [
+        [
+            "2025-05-20T22:42:00.000000+00:00",
+            "2025-06-08T03:26:29.000000+00:00",
+            "2025-12-04T10:58:53.000000+00:00"
+        ],
+        [
+            "2025-01-15T23:31:21.000000+00:00",
+            "2025-06-18T08:29:28.000000+00:00",
+            "2025-08-14T21:35:11.000000+00:00"
+        ]
+    ],
+    "42 Person::lastName()": [
+        "son of Morqath",
+        "son of Makh"
+    ],
+    "42 Person::name()": [
+        "Morqath, son of Ghorek",
+        "Kethor, son of Duvok"
+    ],
+    "42 Person::firstName()": [
+        "Morqath",
+        "Makh"
+    ],
+    "42 Person::middleName()": [
+        "Morqath",
+        "Makh"
+    ],
+    "42 Person::age()": [
+        72,
+        64
+    ],
+    "42 Person::initials()": [
+        "MSOG",
+        "KSOD"
+    ],
+    "42 Person::suffix()": [
+        "the Bold",
+        "the Bold"
+    ],
+    "42 Person::title()": [
+        "Councillor",
+        "Captain"
+    ],
+    "42 Person::gender()": [
+        "Quidam\\Definitions\\Enum\\Gender::Male",
+        "Quidam\\Definitions\\Enum\\Gender::Male"
+    ],
+    "42 Address::city()": [
+        "Ty'Gokor Citadel",
+        "Qeldar"
+    ],
+    "42 Address::streetName()": [
+        "Bloodwine Alley",
+        "Iron Gate Street"
+    ],
+    "42 Address::buildingNumber()": [
+        "wa'maH wa'",
+        "wa'vatlh cha'maH jav"
+    ],
+    "42 Address::secondaryAddress()": [
+        "Quarters wa'maH wa'",
+        "Barracks cha'"
+    ],
+    "42 Address::county()": [
+        "House of Varok",
+        "House of Morqath"
+    ],
+    "42 Address::cityData()": [
+        {
+            "city": "Ty'Gokor Citadel",
+            "state": "Ty'Gokor",
+            "stateCode": "TG",
+            "county": "House of Morqath",
+            "postcode": "9600",
+            "latitude": 10.527467,
+            "longitude": -119.451469
+        },
+        {
+            "city": "Drakkar",
+            "state": "Ghorvak IV",
+            "stateCode": "GV",
+            "county": "House of Qorvak",
+            "postcode": "4436",
+            "latitude": -7.333193,
+            "longitude": -153.604117
+        }
+    ],
+    "42 Address::cityPrefix()": [
+        "Low",
+        "Fort"
+    ],
+    "42 Address::citySuffix()": [
+        "tal",
+        "ath"
+    ],
+    "42 Address::streetSuffix()": [
+        "Alley",
+        "Path"
+    ],
+    "42 Address::state()": [
+        "Ty'Gokor",
+        "Qo'noS"
+    ],
+    "42 Address::stateCode()": [
+        "TG",
+        "QO"
+    ],
+    "42 Address::stateData()": [
+        {
+            "code": "TG",
+            "name": "Ty'Gokor"
+        },
+        {
+            "code": "QO",
+            "name": "Qo'noS"
+        }
+    ],
+    "42 Address::streetAddress()": [
+        "Bloodwine Alley vaghmaH",
+        "Road of Blood wa'vatlh chorghmaH cha'"
+    ],
+    "42 Address::postcode()": [
+        "09960",
+        "52333"
+    ],
+    "42 Address::address()": [
+        "Bloodwine Alley vaghmaH, Vel'tok",
+        "Road of Blood wa'maH loS, Vor'kesh Spires"
+    ],
+    "42 Address::addressData()": [
+        {
+            "street": "Bloodwine Alley vaghmaH",
+            "city": "Dilithium Mines",
+            "state": "Rura Penthe",
+            "stateCode": "RP",
+            "county": "House of Kethor",
+            "postcode": "05233",
+            "latitude": -17.942121,
+            "longitude": -27.426903,
+            "address": "Bloodwine Alley vaghmaH, Dilithium Mines"
+        },
+        {
+            "street": "Street of the Fallen Soch",
+            "city": "Qal'tor Keep",
+            "state": "Qal'tor",
+            "stateCode": "QT",
+            "county": "House of Qaxor",
+            "postcode": "4315",
+            "latitude": 4.239997,
+            "longitude": 79.388957,
+            "address": "Street of the Fallen Soch, Qal'tor Keep"
+        }
+    ],
+    "42 Address::country()": [
+        "Eritrea",
+        "Malaysia"
+    ],
+    "42 Address::countryCode()": [
+        "ER",
+        "MY"
+    ],
+    "42 Address::countryCodeAlpha3()": [
+        "ERI",
+        "MYS"
+    ],
+    "42 Address::countryData()": [
+        {
+            "alpha2": "ER",
+            "alpha3": "ERI",
+            "name": "Eritrea"
+        },
+        {
+            "alpha2": "MY",
+            "alpha3": "MYS",
+            "name": "Malaysia"
+        }
+    ],
+    "42 Address::latitude()": [
+        -48.708734,
+        58.043118
+    ],
+    "42 Address::longitude()": [
+        131.650629,
+        -154.797659
+    ],
+    "42 Address::coordinates()": [
+        {
+            "latitude": -48.708734,
+            "longitude": -154.797659
+        },
+        {
+            "latitude": 15.729389,
+            "longitude": -65.414919
+        }
+    ],
+    "42 DateTime::longDate()": [
+        "Stardate 1982.189",
+        "Stardate 1984.9"
+    ],
+    "42 DateTime::dateTime()": [
+        "1982-07-08T02:06:54.000000+00:00",
+        "1984-01-09T04:57:09.000000+00:00"
+    ],
+    "42 DateTime::dateTimeBetween()": [
+        "2002-07-08T02:06:54.000000+00:00",
+        "2024-01-09T04:57:09.000000+00:00"
+    ],
+    "42 DateTime::dateTimeRange()": [
+        [
+            "2002-07-08T02:06:54.000000+00:00",
+            "2024-01-09T04:57:09.000000+00:00"
+        ],
+        [
+            "1996-10-25T03:17:28.000000+00:00",
+            "1998-01-03T00:58:49.000000+00:00"
+        ]
+    ],
+    "42 DateTime::dateTimePast()": [
+        "2026-01-11T02:05:36.000000+00:00",
+        "2026-01-14T04:45:25.000000+00:00"
+    ],
+    "42 DateTime::dateTimeFuture()": [
+        "2026-02-10T02:05:36.000000+00:00",
+        "2026-02-13T04:45:25.000000+00:00"
+    ],
+    "42 DateTime::dateOfBirth()": [
+        "1951-07-09T00:00:00.000000+00:00",
+        "2003-01-10T00:00:00.000000+00:00"
+    ],
+    "42 DateTime::date()": [
+        "1982-07-08",
+        "1984-01-09"
+    ],
+    "42 DateTime::time()": [
+        "02:06:54",
+        "04:57:09"
+    ],
+    "42 DateTime::unixTime()": [
+        394942014,
+        442472229
+    ],
+    "42 DateTime::monthName()": [
+        "July",
+        "January"
+    ],
+    "42 DateTime::dayOfWeek()": [
+        "Thursday",
+        "Monday"
+    ],
+    "42 DateTime::localDate()": [
+        "1982-07-08",
+        "1984-01-09"
+    ],
+    "42 DateTime::localDateTime()": [
+        "1982-07-08 02:06",
+        "1984-01-09 04:57"
+    ],
+    "42 DateTime::century()": [
+        "XIII",
+        "V"
+    ],
+    "42 DateTime::timezone()": [
+        "Asia/Karachi",
+        "America/Menominee"
+    ],
+    "42 Company::company()": [
+        "House of Varok Holdings",
+        "Makh & Duvok"
+    ],
+    "42 Company::companySuffix()": [
+        "Holdings",
+        "Shipyards"
+    ],
+    "42 Company::jobTitle()": [
+        "Arbiter of Succession",
+        "First Officer"
+    ],
+    "42 Company::industry()": [
+        "Battle Poetry",
+        "Bloodwine Brewing"
+    ],
+    "42 Company::catchPhrase()": [
+        "No retreat, no surrender",
+        "A song for every battle"
+    ],
+    "42 Payment::creditCardType()": [
+        "Visa",
+        "MasterCard"
+    ],
+    "42 Payment::creditCardNumber()": [
+        "4960052333443670",
+        "4315126204254200"
+    ],
+    "42 Payment::maskedCreditCardNumber()": [
+        "**** **** **** 3670",
+        "**** **** **** 4200"
+    ],
+    "42 Payment::creditCardExpirationDate()": [
+        "03/26",
+        "10/27"
+    ],
+    "42 Payment::creditCardCvv()": [
+        "409",
+        "960"
+    ],
+    "42 Payment::creditCardDetails()": [
+        {
+            "type": "Visa",
+            "number": "4960052333443670",
+            "name": "Vorgh, son of Varok",
+            "expirationDate": "12/27",
+            "cvv": "151"
+        },
+        {
+            "type": "Discover",
+            "number": "6504254208653833",
+            "name": "Brakk, son of Torvek",
+            "expirationDate": "10/29",
+            "cvv": "936"
+        }
+    ],
+    "42 Payment::iban()": [
+        "PS33RBBES3HX5QJGCN0VU0PZ4FX2A",
+        "OM42042JQRSKMP7KLFCN81Y"
+    ],
+    "42 Payment::swiftBicNumber()": [
+        "WRBBLIY4Y55",
+        "RFWCCYXV"
+    ],
+    "42 Payment::currencyCode()": [
+        "KRW",
+        "PLN"
+    ],
+    "42 Payment::currencyName()": [
+        "Won",
+        "Zloty"
+    ],
+    "42 Payment::currencySymbol()": [
+        "₫",
+        "Kč"
+    ],
+    "42 Payment::currencyData()": [
+        {
+            "code": "KRW",
+            "name": "Won",
+            "symbol": "₩"
+        },
+        {
+            "code": "PLN",
+            "name": "Zloty",
+            "symbol": "zł"
+        }
+    ],
+    "42 Payment::price()": [
+        901.71,
+        273.32
+    ],
+    "42 Payment::priceInMinorUnits()": [
+        26,
+        613
+    ],
+    "42 Payment::localCurrency()": [
+        {
+            "code": "XXX",
+            "name": "Darsek",
+            "symbol": "darsek"
+        },
+        {
+            "code": "XXX",
+            "name": "Darsek",
+            "symbol": "darsek"
+        }
+    ],
+    "42 Payment::localPrice()": [
+        "26 darsek",
+        "613 darsek"
+    ],
+    "42 Payment::bankAccountNumber()": [
+        "4099600523",
+        "3344367294"
+    ],
+    "42 Payment::transactionType()": [
+        "fee",
+        "fee"
+    ],
+    "42 Payment::bitcoinAddress()": [
+        "1CWRhp4WnRPZJW8HQXtawpu7g6NnhxG5Qz",
+        "bc1q8pf8jqf355xutvkav4dg24pphzrspehtf9c85l"
+    ],
+    "42 Payment::ethereumAddress()": [
+        "0x16C72E0c2E0B78157E3A116D86D90461a199e439",
+        "0xA160B30347AdB8Ec645eeCe27fDcE6Fd38527901"
+    ],
+    "42 Address::cityData(\"QO\")": [
+        {
+            "city": "First City",
+            "state": "Qo'noS",
+            "stateCode": "QO",
+            "county": "House of Morqath",
+            "postcode": "9600",
+            "latitude": 10.527467,
+            "longitude": -119.451469
+        },
+        {
+            "city": "Tar'Kesh",
+            "state": "Qo'noS",
+            "stateCode": "QO",
+            "county": "House of Qorvak",
+            "postcode": "4436",
+            "latitude": -7.333193,
+            "longitude": -153.604117
+        }
+    ],
+    "42 DateTime::dateTimesBetween(3, \"-1 year\")": [
+        [
+            "2025-01-24T04:56:12.000000+00:00",
+            "2025-07-10T02:06:48.000000+00:00",
+            "2025-11-03T03:16:59.000000+00:00"
+        ],
+        [
+            "2025-10-06T13:45:56.000000+00:00",
+            "2025-10-28T15:25:20.000000+00:00",
+            "2026-01-04T00:58:48.000000+00:00"
+        ]
+    ],
+    "2026 Person::lastName()": [
+        "daughter of M'Rokh",
+        "daughter of Rakhar"
+    ],
+    "2026 Person::name()": [
+        "Ghessa, daughter of Kruvok",
+        "Sorgha, daughter of Akhor"
+    ],
+    "2026 Person::firstName()": [
+        "Ghessa",
+        "Kortha"
+    ],
+    "2026 Person::middleName()": [
+        "Ghessa",
+        "Kortha"
+    ],
+    "2026 Person::age()": [
+        63,
+        41
+    ],
+    "2026 Person::initials()": [
+        "GDOK",
+        "SDOA"
+    ],
+    "2026 Person::suffix()": [
+        "the Younger",
+        "the Elder"
+    ],
+    "2026 Person::title()": [
+        "Commander",
+        "Commander"
+    ],
+    "2026 Person::gender()": [
+        "Quidam\\Definitions\\Enum\\Gender::Female",
+        "Quidam\\Definitions\\Enum\\Gender::Male"
+    ],
+    "2026 Address::city()": [
+        "Mok'tal",
+        "Ghorvath"
+    ],
+    "2026 Address::streetName()": [
+        "Glory Path",
+        "Road of Champions"
+    ],
+    "2026 Address::buildingNumber()": [
+        "Hut",
+        "wej"
+    ],
+    "2026 Address::secondaryAddress()": [
+        "Quarters Hut",
+        "Quarters wej"
+    ],
+    "2026 Address::county()": [
+        "House of Makh",
+        "House of M'Rokh"
+    ],
+    "2026 Address::cityData()": [
+        {
+            "city": "Mok'tal",
+            "state": "Qo'noS",
+            "stateCode": "QO",
+            "county": "House of M'Rokh",
+            "postcode": "22845",
+            "latitude": -20.724311,
+            "longitude": 26.826457
+        },
+        {
+            "city": "Morath",
+            "state": "Morath Prime",
+            "stateCode": "MP",
+            "county": "House of Duvok",
+            "postcode": "89397",
+            "latitude": -6.266883,
+            "longitude": -37.348142
+        }
+    ],
+    "2026 Address::cityPrefix()": [
+        "High",
+        "High"
+    ],
+    "2026 Address::citySuffix()": [
+        "ar",
+        "ar"
+    ],
+    "2026 Address::streetSuffix()": [
+        "Way",
+        "Way"
+    ],
+    "2026 Address::state()": [
+        "Rura Penthe",
+        "Qal'tor"
+    ],
+    "2026 Address::stateCode()": [
+        "RP",
+        "QT"
+    ],
+    "2026 Address::stateData()": [
+        {
+            "code": "RP",
+            "name": "Rura Penthe"
+        },
+        {
+            "code": "QT",
+            "name": "Qal'tor"
+        }
+    ],
+    "2026 Address::streetAddress()": [
+        "Glory Path wa'vatlh wejmaH jav",
+        "Street of the Fallen cha'maH Hut"
+    ],
+    "2026 Address::postcode()": [
+        "8822",
+        "45315"
+    ],
+    "2026 Address::address()": [
+        "Glory Path wa'vatlh wejmaH jav, Dilithium Mines",
+        "Forge Street wa', Qeldar"
+    ],
+    "2026 Address::addressData()": [
+        {
+            "street": "Glory Path wa'vatlh wejmaH jav",
+            "city": "Tagrath",
+            "state": "Khitomer",
+            "stateCode": "KH",
+            "county": "House of D'Varak",
+            "postcode": "45315",
+            "latitude": 19.324842,
+            "longitude": 152.497762,
+            "address": "Glory Path wa'vatlh wejmaH jav, Tagrath"
+        },
+        {
+            "street": "Bloodwine Alley vaghmaH wa'",
+            "city": "Krennok",
+            "state": "Qo'noS",
+            "stateCode": "QO",
+            "county": "House of Grokh",
+            "postcode": "9840",
+            "latitude": 0.1432,
+            "longitude": -172.403724,
+            "address": "Bloodwine Alley vaghmaH wa', Krennok"
+        }
+    ],
+    "2026 Address::country()": [
+        "Estonia",
+        "Belarus"
+    ],
+    "2026 Address::countryCode()": [
+        "EE",
+        "BY"
+    ],
+    "2026 Address::countryCodeAlpha3()": [
+        "EST",
+        "BLR"
+    ],
+    "2026 Address::countryData()": [
+        {
+            "alpha2": "EE",
+            "alpha3": "EST",
+            "name": "Estonia"
+        },
+        {
+            "alpha2": "BY",
+            "alpha3": "BLR",
+            "name": "Belarus"
+        }
+    ],
+    "2026 Address::latitude()": [
+        -0.121337,
+        1.401902
+    ],
+    "2026 Address::longitude()": [
+        -20.542136,
+        130.263131
+    ],
+    "2026 Address::coordinates()": [
+        {
+            "latitude": -0.121337,
+            "longitude": 130.263131
+        },
+        {
+            "latitude": 78.723224,
+            "longitude": -2.89545
+        }
+    ],
+    "2026 DateTime::longDate()": [
+        "Stardate 2000.297",
+        "Stardate 1984.78"
+    ],
+    "2026 DateTime::dateTime()": [
+        "2000-10-23T13:29:33.000000+00:00",
+        "1984-03-18T21:22:07.000000+00:00"
+    ],
+    "2026 DateTime::dateTimeBetween()": [
+        "2020-10-23T13:29:33.000000+00:00",
+        "2024-03-18T21:22:07.000000+00:00"
+    ],
+    "2026 DateTime::dateTimeRange()": [
+        [
+            "2020-10-23T13:29:33.000000+00:00",
+            "2024-03-18T21:22:07.000000+00:00"
+        ],
+        [
+            "2007-09-20T12:38:00.000000+00:00",
+            "2019-10-30T19:16:16.000000+00:00"
+        ]
+    ],
+    "2026 DateTime::dateTimePast()": [
+        "2026-01-03T13:24:32.000000+00:00",
+        "2025-12-24T21:10:20.000000+00:00"
+    ],
+    "2026 DateTime::dateTimeFuture()": [
+        "2026-02-02T13:24:32.000000+00:00",
+        "2026-01-23T21:10:20.000000+00:00"
+    ],
+    "2026 DateTime::dateOfBirth()": [
+        "1969-10-25T00:00:00.000000+00:00",
+        "2003-03-21T00:00:00.000000+00:00"
+    ],
+    "2026 DateTime::date()": [
+        "2000-10-23",
+        "1984-03-18"
+    ],
+    "2026 DateTime::time()": [
+        "13:29:33",
+        "21:22:07"
+    ],
+    "2026 DateTime::unixTime()": [
+        972307773,
+        448492927
+    ],
+    "2026 DateTime::monthName()": [
+        "October",
+        "March"
+    ],
+    "2026 DateTime::dayOfWeek()": [
+        "Monday",
+        "Sunday"
+    ],
+    "2026 DateTime::localDate()": [
+        "2000-10-23",
+        "1984-03-18"
+    ],
+    "2026 DateTime::localDateTime()": [
+        "2000-10-23 13:29",
+        "1984-03-18 21:22"
+    ],
+    "2026 DateTime::century()": [
+        "IV",
+        "III"
+    ],
+    "2026 DateTime::timezone()": [
+        "Europe/Moscow",
+        "Asia/Dushanbe"
+    ],
+    "2026 Company::company()": [
+        "Makh & Kruvok",
+        "House of Rakhar Trading"
+    ],
+    "2026 Company::companySuffix()": [
+        "Trading",
+        "Trading"
+    ],
+    "2026 Company::jobTitle()": [
+        "Dilithium Miner",
+        "Ship Surgeon"
+    ],
+    "2026 Company::industry()": [
+        "Battle Poetry",
+        "Targ Breeding"
+    ],
+    "2026 Company::catchPhrase()": [
+        "Only the strong survive",
+        "Death before dishonor"
+    ],
+    "2026 Payment::creditCardType()": [
+        "Diners Club",
+        "Visa"
+    ],
+    "2026 Payment::creditCardNumber()": [
+        "38228453154083",
+        "4719840620174873"
+    ],
+    "2026 Payment::maskedCreditCardNumber()": [
+        "**** ****** 4083",
+        "**** **** **** 4873"
+    ],
+    "2026 Payment::creditCardExpirationDate()": [
+        "06/28",
+        "08/27"
+    ],
+    "2026 Payment::creditCardCvv()": [
+        "388",
+        "228"
+    ],
+    "2026 Payment::creditCardDetails()": [
+        {
+            "type": "Diners Club",
+            "number": "38228453154083",
+            "name": "Vorgh, son of Ghorek",
+            "expirationDate": "03/27",
+            "cvv": "198"
+        },
+        {
+            "type": "Discover",
+            "number": "6011201748724638",
+            "name": "M'Rokh, son of Vorgh",
+            "expirationDate": "09/27",
+            "cvv": "196"
+        }
+    ],
+    "2026 Payment::iban()": [
+        "IT67Y8228453154IOBP797585M2",
+        "LY83017487246318131963746"
+    ],
+    "2026 Payment::swiftBicNumber()": [
+        "VYHCADI27VO",
+        "JIIOUAP8859"
+    ],
+    "2026 Payment::currencyCode()": [
+        "TMT",
+        "UYU"
+    ],
+    "2026 Payment::currencyName()": [
+        "Turkmenistan New Manat",
+        "Peso Uruguayo"
+    ],
+    "2026 Payment::currencySymbol()": [
+        "kr",
+        "₩"
+    ],
+    "2026 Payment::currencyData()": [
+        {
+            "code": "TMT",
+            "name": "Turkmenistan New Manat",
+            "symbol": "TMT"
+        },
+        {
+            "code": "UYU",
+            "name": "Peso Uruguayo",
+            "symbol": "UYU"
+        }
+    ],
+    "2026 Payment::price()": [
+        501.56,
+        479.7
+    ],
+    "2026 Payment::priceInMinorUnits()": [
+        997,
+        296
+    ],
+    "2026 Payment::localCurrency()": [
+        {
+            "code": "XXX",
+            "name": "Darsek",
+            "symbol": "darsek"
+        },
+        {
+            "code": "XXX",
+            "name": "Darsek",
+            "symbol": "darsek"
+        }
+    ],
+    "2026 Payment::localPrice()": [
+        "997 darsek",
+        "296 darsek"
+    ],
+    "2026 Payment::bankAccountNumber()": [
+        "3882284531",
+        "5408939719"
+    ],
+    "2026 Payment::transactionType()": [
+        "invoice",
+        "deposit"
+    ],
+    "2026 Payment::bitcoinAddress()": [
+        "1LhcDghvoqxjEa3RFVqMkuWNhmravK1Yg8",
+        "38J4KSS9Fsq3CoRJ3FVMDtym72HEsjvnMy"
+    ],
+    "2026 Payment::ethereumAddress()": [
+        "0x15AE982e5911e092d8186D6d94379F48DADe9c9D",
+        "0x0267d586a7DCC7E4ca3a22c1798be1CF48714ff9"
+    ],
+    "2026 Address::cityData(\"QO\")": [
+        {
+            "city": "Mok'tal",
+            "state": "Qo'noS",
+            "stateCode": "QO",
+            "county": "House of M'Rokh",
+            "postcode": "22845",
+            "latitude": -20.724311,
+            "longitude": 26.826457
+        },
+        {
+            "city": "Tar'Kesh",
+            "state": "Qo'noS",
+            "stateCode": "QO",
+            "county": "House of Duvok",
+            "postcode": "89397",
+            "latitude": -6.266883,
+            "longitude": -37.348142
+        }
+    ],
+    "2026 DateTime::dateTimesBetween(3, \"-1 year\")": [
+        [
+            "2025-04-03T21:21:10.000000+00:00",
+            "2025-10-30T13:29:09.000000+00:00",
+            "2025-11-21T19:14:55.000000+00:00"
+        ],
+        [
+            "2025-09-03T16:46:36.000000+00:00",
+            "2025-10-09T12:36:51.000000+00:00",
+            "2025-10-15T06:47:40.000000+00:00"
+        ]
+    ]
+}

@@ -1,0 +1,1244 @@
+{
+    "1 Person::lastName()": [
+        "la Blonde",
+        "la Barbiere"
+    ],
+    "1 Person::name()": [
+        "Marie du Bois",
+        "Fenice de Chartres"
+    ],
+    "1 Person::firstName()": [
+        "Marie",
+        "Estienne"
+    ],
+    "1 Person::middleName()": [
+        "Marie",
+        "Estienne"
+    ],
+    "1 Person::age()": [
+        76,
+        42
+    ],
+    "1 Person::initials()": [
+        "MDB",
+        "FDC"
+    ],
+    "1 Person::suffix()": [
+        "le Jone",
+        "le Viel"
+    ],
+    "1 Person::title()": [
+        "suer",
+        "rois"
+    ],
+    "1 Person::gender()": [
+        "Quidam\\Definitions\\Enum\\Gender::Female",
+        "Quidam\\Definitions\\Enum\\Gender::Female"
+    ],
+    "1 Address::city()": [
+        "Amiens",
+        "Baieus"
+    ],
+    "1 Address::streetName()": [
+        "rue de la Mortelerie",
+        "rue aus Fevres"
+    ],
+    "1 Address::buildingNumber()": [
+        "de la Lune",
+        "du Soleil d'or"
+    ],
+    "1 Address::secondaryAddress()": [
+        "solier",
+        "ouvroir"
+    ],
+    "1 Address::county()": [
+        "la parroisse Saint Severin",
+        "la parroisse Saint Leu"
+    ],
+    "1 Address::cityData()": [
+        {
+            "city": "Amiens",
+            "state": "Picardie",
+            "stateCode": "PI",
+            "county": "la parroisse Saint Leu",
+            "postcode": "13027",
+            "latitude": 49.89578,
+            "longitude": 2.295321
+        },
+        {
+            "city": "Arle",
+            "state": "Provence",
+            "stateCode": "PR",
+            "county": "la parroisse Nostre Dame",
+            "postcode": "11717",
+            "latitude": 43.679439,
+            "longitude": 4.633805
+        }
+    ],
+    "1 Address::cityPrefix()": [
+        "Viez",
+        "Bel"
+    ],
+    "1 Address::citySuffix()": [
+        "val",
+        "ville"
+    ],
+    "1 Address::streetSuffix()": [
+        "ruele",
+        "rue"
+    ],
+    "1 Address::state()": [
+        "Champaigne",
+        "Picardie"
+    ],
+    "1 Address::stateCode()": [
+        "CH",
+        "PI"
+    ],
+    "1 Address::stateData()": [
+        {
+            "code": "CH",
+            "name": "Champaigne"
+        },
+        {
+            "code": "PI",
+            "name": "Picardie"
+        }
+    ],
+    "1 Address::streetAddress()": [
+        "rue de la Mortelerie, a l'ensaigne du Soleil d'or",
+        "rue aus Fevres, a l'ensaigne de la Cloche"
+    ],
+    "1 Address::postcode()": [
+        "04130",
+        "79874"
+    ],
+    "1 Address::address()": [
+        "rue de la Mortelerie, a l'ensaigne du Soleil d'or, Amiens",
+        "rue Saint Denis, a l'ensaigne du Paon, Bruges"
+    ],
+    "1 Address::addressData()": [
+        {
+            "street": "rue de la Mortelerie, a l'ensaigne du Soleil d'or",
+            "city": "Biauvais",
+            "state": "Picardie",
+            "stateCode": "PI",
+            "county": "la parroisse Sainte Genevieve",
+            "postcode": "02798",
+            "latitude": 49.43142,
+            "longitude": 2.082255,
+            "address": "rue de la Mortelerie, a l'ensaigne du Soleil d'or, Biauvais"
+        },
+        {
+            "street": "Petit Pont, a l'ensaigne du Paon",
+            "city": "Narbone",
+            "state": "Lengadoc",
+            "stateCode": "LA",
+            "county": "la parroisse Saint Martin",
+            "postcode": "74331",
+            "latitude": 43.184663,
+            "longitude": 3.004869,
+            "address": "Petit Pont, a l'ensaigne du Paon, Narbone"
+        }
+    ],
+    "1 Address::country()": [
+        "Bosnia and Herzegovina",
+        "Lebanon"
+    ],
+    "1 Address::countryCode()": [
+        "BA",
+        "LB"
+    ],
+    "1 Address::countryCodeAlpha3()": [
+        "BIH",
+        "LBN"
+    ],
+    "1 Address::countryData()": [
+        {
+            "alpha2": "BA",
+            "alpha3": "BIH",
+            "name": "Bosnia and Herzegovina"
+        },
+        {
+            "alpha2": "LB",
+            "alpha3": "LBN",
+            "name": "Lebanon"
+        }
+    ],
+    "1 Address::latitude()": [
+        -35.726328,
+        -58.671206
+    ],
+    "1 Address::longitude()": [
+        -73.482063,
+        -158.674595
+    ],
+    "1 Address::coordinates()": [
+        {
+            "latitude": -35.726328,
+            "longitude": -158.674595
+        },
+        {
+            "latitude": -50.21702,
+            "longitude": -148.890107
+        }
+    ],
+    "1 DateTime::longDate()": [
+        "le V jor de juing, l'an de grace mil CM et LXXXIV",
+        "le XXIV jor de novembre, l'an de grace deus mil et XIII"
+    ],
+    "1 DateTime::dateTime()": [
+        "1984-06-05T03:26:37.000000+00:00",
+        "2013-11-24T10:59:30.000000+00:00"
+    ],
+    "1 DateTime::dateTimeBetween()": [
+        "2004-06-05T03:26:37.000000+00:00",
+        "2003-11-24T10:59:29.000000+00:00"
+    ],
+    "1 DateTime::dateTimeRange()": [
+        [
+            "2003-11-24T10:59:29.000000+00:00",
+            "2004-06-05T03:26:37.000000+00:00"
+        ],
+        [
+            "2000-05-18T22:42:04.000000+00:00",
+            "2009-05-21T08:31:08.000000+00:00"
+        ]
+    ],
+    "1 DateTime::dateTimePast()": [
+        "2025-12-20T03:24:55.000000+00:00",
+        "2026-01-13T10:51:50.000000+00:00"
+    ],
+    "1 DateTime::dateTimeFuture()": [
+        "2026-01-19T03:24:55.000000+00:00",
+        "2026-02-12T10:51:50.000000+00:00"
+    ],
+    "1 DateTime::dateOfBirth()": [
+        "1953-06-06T00:00:00.000000+00:00",
+        "1982-11-26T00:00:00.000000+00:00"
+    ],
+    "1 DateTime::date()": [
+        "1984-06-05",
+        "2013-11-24"
+    ],
+    "1 DateTime::time()": [
+        "03:26:37",
+        "10:59:30"
+    ],
+    "1 DateTime::unixTime()": [
+        455253997,
+        1385290770
+    ],
+    "1 DateTime::monthName()": [
+        "juing",
+        "novembre"
+    ],
+    "1 DateTime::dayOfWeek()": [
+        "mardi",
+        "diemenche"
+    ],
+    "1 DateTime::localDate()": [
+        "05/06/1984",
+        "24/11/2013"
+    ],
+    "1 DateTime::localDateTime()": [
+        "05/06/1984 03:26",
+        "24/11/2013 10:59"
+    ],
+    "1 DateTime::century()": [
+        "XVII",
+        "IV"
+    ],
+    "1 DateTime::timezone()": [
+        "Europe/Paris",
+        "Europe/Paris"
+    ],
+    "1 Company::company()": [
+        "Aude la Barbiere et Laudine la Petite",
+        "le mestier des Tonneliers"
+    ],
+    "1 Company::companySuffix()": [
+        "et si compaignon",
+        "et si fil"
+    ],
+    "1 Company::jobTitle()": [
+        "talemelier",
+        "conestable"
+    ],
+    "1 Company::industry()": [
+        "Marcheandise",
+        "Sel"
+    ],
+    "1 Company::catchPhrase()": [
+        "Halt sunt li pui e li val tenebrus",
+        "Paien unt tort e chrestiens unt dreit"
+    ],
+    "1 Payment::creditCardType()": [
+        "Visa",
+        "MasterCard"
+    ],
+    "1 Payment::creditCardNumber()": [
+        "4130279874111714",
+        "3565317864741177"
+    ],
+    "1 Payment::maskedCreditCardNumber()": [
+        "**** **** **** 1714",
+        "**** **** **** 1177"
+    ],
+    "1 Payment::creditCardExpirationDate()": [
+        "05/26",
+        "10/28"
+    ],
+    "1 Payment::creditCardCvv()": [
+        "704",
+        "130"
+    ],
+    "1 Payment::creditCardDetails()": [
+        {
+            "type": "Visa",
+            "number": "4130279874111714",
+            "name": "Aimeri de Narbone",
+            "expirationDate": "03/27",
+            "cvv": "786"
+        },
+        {
+            "type": "Visa",
+            "number": "4117491446859871",
+            "name": "Agnes la Grant",
+            "expirationDate": "07/30",
+            "cvv": "745"
+        }
+    ],
+    "1 Payment::iban()": [
+        "FR767041302798RXIGXTHNAUR17",
+        "FR428647411749TEO21BBP3A757"
+    ],
+    "1 Payment::swiftBicNumber()": [
+        "FKUHBYCQ",
+        "BQRGGTVX"
+    ],
+    "1 Payment::currencyCode()": [
+        "KGS",
+        "ERN"
+    ],
+    "1 Payment::currencyName()": [
+        "Som",
+        "Nakfa"
+    ],
+    "1 Payment::currencySymbol()": [
+        "$",
+        "NZ$"
+    ],
+    "1 Payment::currencyData()": [
+        {
+            "code": "KGS",
+            "name": "Som",
+            "symbol": "KGS"
+        },
+        {
+            "code": "ERN",
+            "name": "Nakfa",
+            "symbol": "ERN"
+        }
+    ],
+    "1 Payment::price()": [
+        15.5,
+        290.23
+    ],
+    "1 Payment::priceInMinorUnits()": [
+        1550,
+        29023
+    ],
+    "1 Payment::localCurrency()": [
+        {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "€"
+        },
+        {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "€"
+        }
+    ],
+    "1 Payment::localPrice()": [
+        "XV livres X sous tornois",
+        "CCXC livres IV sous VII deniers tornois"
+    ],
+    "1 Payment::bankAccountNumber()": [
+        "7041302798",
+        "7411171743"
+    ],
+    "1 Payment::transactionType()": [
+        "invoice",
+        "payment"
+    ],
+    "1 Payment::bitcoinAddress()": [
+        "3P3sLjge3sbag4zPFD9jYVQKWUobyLG3jw",
+        "34rG9DNf66WJNej9wKsSf1YjujUcrSHzrx"
+    ],
+    "1 Payment::ethereumAddress()": [
+        "0xc510C70f6Daff2B3ea4c364796553B8514452A08",
+        "0xA7A366c27b1C2E647336239ae2487AB222A7Fd6f"
+    ],
+    "1 Address::cityData(\"CH\")": [
+        {
+            "city": "Rains",
+            "state": "Champaigne",
+            "stateCode": "CH",
+            "county": "la parroisse Saint Leu",
+            "postcode": "13027",
+            "latitude": 49.25978,
+            "longitude": 4.031321
+        },
+        {
+            "city": "Rains",
+            "state": "Champaigne",
+            "stateCode": "CH",
+            "county": "la parroisse Nostre Dame",
+            "postcode": "11717",
+            "latitude": 49.260439,
+            "longitude": 4.034805
+        }
+    ],
+    "1 DateTime::dateTimesBetween(3, \"-1 year\")": [
+        [
+            "2025-05-20T22:42:00.000000+00:00",
+            "2025-06-08T03:26:29.000000+00:00",
+            "2025-12-04T10:58:53.000000+00:00"
+        ],
+        [
+            "2025-01-15T23:31:21.000000+00:00",
+            "2025-06-18T08:29:28.000000+00:00",
+            "2025-08-14T21:35:11.000000+00:00"
+        ]
+    ],
+    "42 Person::lastName()": [
+        "de Chartres",
+        "le Mercier"
+    ],
+    "42 Person::name()": [
+        "Vivien de Rains",
+        "Enide du Pont"
+    ],
+    "42 Person::firstName()": [
+        "Vivien",
+        "Artus"
+    ],
+    "42 Person::middleName()": [
+        "Vivien",
+        "Artus"
+    ],
+    "42 Person::age()": [
+        72,
+        64
+    ],
+    "42 Person::initials()": [
+        "VDR",
+        "EDP"
+    ],
+    "42 Person::suffix()": [
+        "le Viel",
+        "le Viel"
+    ],
+    "42 Person::title()": [
+        "dus",
+        "messire"
+    ],
+    "42 Person::gender()": [
+        "Quidam\\Definitions\\Enum\\Gender::Male",
+        "Quidam\\Definitions\\Enum\\Gender::Male"
+    ],
+    "42 Address::city()": [
+        "Peitiers",
+        "Estampes"
+    ],
+    "42 Address::streetName()": [
+        "Grant Pont",
+        "rue Saint Honoré"
+    ],
+    "42 Address::buildingNumber()": [
+        "du Chapel Rouge",
+        "de la Rose"
+    ],
+    "42 Address::secondaryAddress()": [
+        "ouvroir",
+        "solier"
+    ],
+    "42 Address::county()": [
+        "la parroisse Saint Leu",
+        "la parroisse Nostre Dame"
+    ],
+    "42 Address::cityData()": [
+        {
+            "city": "Peitiers",
+            "state": "Poitou",
+            "stateCode": "PO",
+            "county": "la parroisse Nostre Dame",
+            "postcode": "96005",
+            "latitude": 46.582005,
+            "longitude": 0.338206
+        },
+        {
+            "city": "Nantes",
+            "state": "Bretaigne",
+            "stateCode": "BR",
+            "county": "la parroisse Saint Martin",
+            "postcode": "43672",
+            "latitude": 47.218676,
+            "longitude": -1.555634
+        }
+    ],
+    "42 Address::cityPrefix()": [
+        "Bel",
+        "Bel"
+    ],
+    "42 Address::citySuffix()": [
+        "fontaine",
+        "ville"
+    ],
+    "42 Address::streetSuffix()": [
+        "rue",
+        "ruele"
+    ],
+    "42 Address::state()": [
+        "Picardie",
+        "Lengadoc"
+    ],
+    "42 Address::stateCode()": [
+        "PI",
+        "LA"
+    ],
+    "42 Address::stateData()": [
+        {
+            "code": "PI",
+            "name": "Picardie"
+        },
+        {
+            "code": "LA",
+            "name": "Lengadoc"
+        }
+    ],
+    "42 Address::streetAddress()": [
+        "Grant Pont, a l'ensaigne de la Rose",
+        "rue Quiquenpoit, a l'ensaigne de la Corone"
+    ],
+    "42 Address::postcode()": [
+        "09960",
+        "52333"
+    ],
+    "42 Address::address()": [
+        "Grant Pont, a l'ensaigne de la Rose, Monpellier",
+        "rue de la Mortelerie, a l'ensaigne du Paon, Monpellier"
+    ],
+    "42 Address::addressData()": [
+        {
+            "street": "Grant Pont, a l'ensaigne de la Rose",
+            "city": "Loon",
+            "state": "Picardie",
+            "stateCode": "PI",
+            "county": "la parroisse Saint Severin",
+            "postcode": "00523",
+            "latitude": 49.561377,
+            "longitude": 3.619578,
+            "address": "Grant Pont, a l'ensaigne de la Rose, Loon"
+        },
+        {
+            "street": "Grant Pont, a l'ensaigne de la Rose",
+            "city": "Arle",
+            "state": "Provence",
+            "stateCode": "PR",
+            "county": "la parroisse Saint Jaque",
+            "postcode": "29431",
+            "latitude": 43.676429,
+            "longitude": 4.629883,
+            "address": "Grant Pont, a l'ensaigne de la Rose, Arle"
+        }
+    ],
+    "42 Address::country()": [
+        "Eritrea",
+        "Malaysia"
+    ],
+    "42 Address::countryCode()": [
+        "ER",
+        "MY"
+    ],
+    "42 Address::countryCodeAlpha3()": [
+        "ERI",
+        "MYS"
+    ],
+    "42 Address::countryData()": [
+        {
+            "alpha2": "ER",
+            "alpha3": "ERI",
+            "name": "Eritrea"
+        },
+        {
+            "alpha2": "MY",
+            "alpha3": "MYS",
+            "name": "Malaysia"
+        }
+    ],
+    "42 Address::latitude()": [
+        -48.708734,
+        58.043118
+    ],
+    "42 Address::longitude()": [
+        131.650629,
+        -154.797659
+    ],
+    "42 Address::coordinates()": [
+        {
+            "latitude": -48.708734,
+            "longitude": -154.797659
+        },
+        {
+            "latitude": 15.729389,
+            "longitude": -65.414919
+        }
+    ],
+    "42 DateTime::longDate()": [
+        "le VIII jor de juignet, l'an de grace mil CM et LXXXII",
+        "le IX jor de jenvier, l'an de grace mil CM et LXXXIV"
+    ],
+    "42 DateTime::dateTime()": [
+        "1982-07-08T02:06:54.000000+00:00",
+        "1984-01-09T04:57:09.000000+00:00"
+    ],
+    "42 DateTime::dateTimeBetween()": [
+        "2002-07-08T02:06:54.000000+00:00",
+        "2024-01-09T04:57:09.000000+00:00"
+    ],
+    "42 DateTime::dateTimeRange()": [
+        [
+            "2002-07-08T02:06:54.000000+00:00",
+            "2024-01-09T04:57:09.000000+00:00"
+        ],
+        [
+            "1996-10-25T03:17:28.000000+00:00",
+            "1998-01-03T00:58:49.000000+00:00"
+        ]
+    ],
+    "42 DateTime::dateTimePast()": [
+        "2026-01-11T02:05:36.000000+00:00",
+        "2026-01-14T04:45:25.000000+00:00"
+    ],
+    "42 DateTime::dateTimeFuture()": [
+        "2026-02-10T02:05:36.000000+00:00",
+        "2026-02-13T04:45:25.000000+00:00"
+    ],
+    "42 DateTime::dateOfBirth()": [
+        "1951-07-09T00:00:00.000000+00:00",
+        "2003-01-10T00:00:00.000000+00:00"
+    ],
+    "42 DateTime::date()": [
+        "1982-07-08",
+        "1984-01-09"
+    ],
+    "42 DateTime::time()": [
+        "02:06:54",
+        "04:57:09"
+    ],
+    "42 DateTime::unixTime()": [
+        394942014,
+        442472229
+    ],
+    "42 DateTime::monthName()": [
+        "juignet",
+        "jenvier"
+    ],
+    "42 DateTime::dayOfWeek()": [
+        "jeudi",
+        "lundi"
+    ],
+    "42 DateTime::localDate()": [
+        "08/07/1982",
+        "09/01/1984"
+    ],
+    "42 DateTime::localDateTime()": [
+        "08/07/1982 02:06",
+        "09/01/1984 04:57"
+    ],
+    "42 DateTime::century()": [
+        "XIII",
+        "V"
+    ],
+    "42 DateTime::timezone()": [
+        "Europe/Paris",
+        "Europe/Paris"
+    ],
+    "42 Company::company()": [
+        "Vivien de Rains et si frere",
+        "le mestier des Talemeliers"
+    ],
+    "42 Company::companySuffix()": [
+        "et si fil",
+        "et si compaignon"
+    ],
+    "42 Company::jobTitle()": [
+        "mire",
+        "chamberlenc"
+    ],
+    "42 Company::industry()": [
+        "Chevalerie",
+        "Chevalerie"
+    ],
+    "42 Company::catchPhrase()": [
+        "Ne vus sanz mei, ne jo sanz vus",
+        "Rollant est proz e Oliver est sage"
+    ],
+    "42 Payment::creditCardType()": [
+        "Visa",
+        "MasterCard"
+    ],
+    "42 Payment::creditCardNumber()": [
+        "4960052333443670",
+        "4315126204254200"
+    ],
+    "42 Payment::maskedCreditCardNumber()": [
+        "**** **** **** 3670",
+        "**** **** **** 4200"
+    ],
+    "42 Payment::creditCardExpirationDate()": [
+        "03/26",
+        "10/27"
+    ],
+    "42 Payment::creditCardCvv()": [
+        "409",
+        "960"
+    ],
+    "42 Payment::creditCardDetails()": [
+        {
+            "type": "Visa",
+            "number": "4960052333443670",
+            "name": "Renart le Barbier",
+            "expirationDate": "11/30",
+            "cvv": "512"
+        },
+        {
+            "type": "MasterCard",
+            "number": "5142542086538377",
+            "name": "Huon de Narbone",
+            "expirationDate": "09/27",
+            "cvv": "631"
+        }
+    ],
+    "42 Payment::iban()": [
+        "FR144099600523QJGCN0VU0PZ15",
+        "FR911262042542SKMP7KLFCN893"
+    ],
+    "42 Payment::swiftBicNumber()": [
+        "WRBBLIY4Y55",
+        "RFWCCYXV"
+    ],
+    "42 Payment::currencyCode()": [
+        "CLP",
+        "LBP"
+    ],
+    "42 Payment::currencyName()": [
+        "Chilean Peso",
+        "Lebanese Pound"
+    ],
+    "42 Payment::currencySymbol()": [
+        "₫",
+        "Kč"
+    ],
+    "42 Payment::currencyData()": [
+        {
+            "code": "CLP",
+            "name": "Chilean Peso",
+            "symbol": "$"
+        },
+        {
+            "code": "LBP",
+            "name": "Lebanese Pound",
+            "symbol": "LBP"
+        }
+    ],
+    "42 Payment::price()": [
+        901.71,
+        273.32
+    ],
+    "42 Payment::priceInMinorUnits()": [
+        90171,
+        27332
+    ],
+    "42 Payment::localCurrency()": [
+        {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "€"
+        },
+        {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "€"
+        }
+    ],
+    "42 Payment::localPrice()": [
+        "CMI livres XIV sous II deniers tornois",
+        "CCLXXIII livres VI sous V deniers tornois"
+    ],
+    "42 Payment::bankAccountNumber()": [
+        "4099600523",
+        "3344367294"
+    ],
+    "42 Payment::transactionType()": [
+        "fee",
+        "fee"
+    ],
+    "42 Payment::bitcoinAddress()": [
+        "1CWRhp4WnRPZJW8HQXtawpu7g6NnhxG5Qz",
+        "bc1q8pf8jqf355xutvkav4dg24pphzrspehtf9c85l"
+    ],
+    "42 Payment::ethereumAddress()": [
+        "0x16C72E0c2E0B78157E3A116D86D90461a199e439",
+        "0xA160B30347AdB8Ec645eeCe27fDcE6Fd38527901"
+    ],
+    "42 Address::cityData(\"CH\")": [
+        {
+            "city": "Troies",
+            "state": "Champaigne",
+            "stateCode": "CH",
+            "county": "la parroisse Nostre Dame",
+            "postcode": "96005",
+            "latitude": 48.299005,
+            "longitude": 4.072206
+        },
+        {
+            "city": "Troies",
+            "state": "Champaigne",
+            "stateCode": "CH",
+            "county": "la parroisse Saint Martin",
+            "postcode": "43672",
+            "latitude": 48.297676,
+            "longitude": 4.072366
+        }
+    ],
+    "42 DateTime::dateTimesBetween(3, \"-1 year\")": [
+        [
+            "2025-01-24T04:56:12.000000+00:00",
+            "2025-07-10T02:06:48.000000+00:00",
+            "2025-11-03T03:16:59.000000+00:00"
+        ],
+        [
+            "2025-10-06T13:45:56.000000+00:00",
+            "2025-10-28T15:25:20.000000+00:00",
+            "2026-01-04T00:58:48.000000+00:00"
+        ]
+    ],
+    "2026 Person::lastName()": [
+        "de Troies",
+        "la Barbiere"
+    ],
+    "2026 Person::name()": [
+        "Enide la Sage",
+        "Aelis du Pont"
+    ],
+    "2026 Person::firstName()": [
+        "Enide",
+        "Alienor"
+    ],
+    "2026 Person::middleName()": [
+        "Enide",
+        "Alienor"
+    ],
+    "2026 Person::age()": [
+        63,
+        41
+    ],
+    "2026 Person::initials()": [
+        "ELS",
+        "ADP"
+    ],
+    "2026 Person::suffix()": [
+        "le Jone",
+        "le Viel"
+    ],
+    "2026 Person::title()": [
+        "damoisele",
+        "madame"
+    ],
+    "2026 Person::gender()": [
+        "Quidam\\Definitions\\Enum\\Gender::Female",
+        "Quidam\\Definitions\\Enum\\Gender::Male"
+    ],
+    "2026 Address::city()": [
+        "Amiens",
+        "Arras"
+    ],
+    "2026 Address::streetName()": [
+        "rue Saint Jaque",
+        "rue Saint Denis"
+    ],
+    "2026 Address::buildingNumber()": [
+        "de la Corone",
+        "de l'Estoile"
+    ],
+    "2026 Address::secondaryAddress()": [
+        "ouvroir",
+        "celier"
+    ],
+    "2026 Address::county()": [
+        "la parroisse Saint Martin",
+        "la parroisse Saint Denis"
+    ],
+    "2026 Address::cityData()": [
+        {
+            "city": "Amiens",
+            "state": "Picardie",
+            "stateCode": "PI",
+            "county": "la parroisse Saint Denis",
+            "postcode": "22845",
+            "latitude": 49.896899,
+            "longitude": 2.298028
+        },
+        {
+            "city": "Nymes",
+            "state": "Lengadoc",
+            "stateCode": "LA",
+            "county": "la parroisse Saint Germain",
+            "postcode": "89397",
+            "latitude": 43.835792,
+            "longitude": 4.360155
+        }
+    ],
+    "2026 Address::cityPrefix()": [
+        "Viez",
+        "Neuf"
+    ],
+    "2026 Address::citySuffix()": [
+        "chastel",
+        "chastel"
+    ],
+    "2026 Address::streetSuffix()": [
+        "rue",
+        "place"
+    ],
+    "2026 Address::state()": [
+        "Guienne",
+        "Poitou"
+    ],
+    "2026 Address::stateCode()": [
+        "GU",
+        "PO"
+    ],
+    "2026 Address::stateData()": [
+        {
+            "code": "GU",
+            "name": "Guienne"
+        },
+        {
+            "code": "PO",
+            "name": "Poitou"
+        }
+    ],
+    "2026 Address::streetAddress()": [
+        "rue Saint Jaque, a l'ensaigne de l'Estoile",
+        "rue de la Harpe, a l'ensaigne de l'Ange"
+    ],
+    "2026 Address::postcode()": [
+        "88228",
+        "53154"
+    ],
+    "2026 Address::address()": [
+        "rue Saint Jaque, a l'ensaigne de l'Estoile, Bruges",
+        "rue Saint Jaque, a l'ensaigne de la Cloche, Arle"
+    ],
+    "2026 Address::addressData()": [
+        {
+            "street": "rue Saint Jaque, a l'ensaigne de l'Estoile",
+            "city": "Angiers",
+            "state": "Anjou",
+            "stateCode": "AN",
+            "county": "la parroisse Saint Jaque",
+            "postcode": "84531",
+            "latitude": 47.470299,
+            "longitude": -0.549301,
+            "address": "rue Saint Jaque, a l'ensaigne de l'Estoile, Angiers"
+        },
+        {
+            "street": "rue Saint Denis, a l'ensaigne de l'Ange",
+            "city": "Caem",
+            "state": "Normendie",
+            "stateCode": "NO",
+            "county": "la parroisse Saint Gervais",
+            "postcode": "71984",
+            "latitude": 49.184048,
+            "longitude": -0.371834,
+            "address": "rue Saint Denis, a l'ensaigne de l'Ange, Caem"
+        }
+    ],
+    "2026 Address::country()": [
+        "Estonia",
+        "Belarus"
+    ],
+    "2026 Address::countryCode()": [
+        "EE",
+        "BY"
+    ],
+    "2026 Address::countryCodeAlpha3()": [
+        "EST",
+        "BLR"
+    ],
+    "2026 Address::countryData()": [
+        {
+            "alpha2": "EE",
+            "alpha3": "EST",
+            "name": "Estonia"
+        },
+        {
+            "alpha2": "BY",
+            "alpha3": "BLR",
+            "name": "Belarus"
+        }
+    ],
+    "2026 Address::latitude()": [
+        -0.121337,
+        1.401902
+    ],
+    "2026 Address::longitude()": [
+        -20.542136,
+        130.263131
+    ],
+    "2026 Address::coordinates()": [
+        {
+            "latitude": -0.121337,
+            "longitude": 130.263131
+        },
+        {
+            "latitude": 78.723224,
+            "longitude": -2.89545
+        }
+    ],
+    "2026 DateTime::longDate()": [
+        "le XXIII jor d'octobre, l'an de grace deus mil",
+        "le XVIII jor de marz, l'an de grace mil CM et LXXXIV"
+    ],
+    "2026 DateTime::dateTime()": [
+        "2000-10-23T13:29:33.000000+00:00",
+        "1984-03-18T21:22:07.000000+00:00"
+    ],
+    "2026 DateTime::dateTimeBetween()": [
+        "2020-10-23T13:29:33.000000+00:00",
+        "2024-03-18T21:22:07.000000+00:00"
+    ],
+    "2026 DateTime::dateTimeRange()": [
+        [
+            "2020-10-23T13:29:33.000000+00:00",
+            "2024-03-18T21:22:07.000000+00:00"
+        ],
+        [
+            "2007-09-20T12:38:00.000000+00:00",
+            "2019-10-30T19:16:16.000000+00:00"
+        ]
+    ],
+    "2026 DateTime::dateTimePast()": [
+        "2026-01-03T13:24:32.000000+00:00",
+        "2025-12-24T21:10:20.000000+00:00"
+    ],
+    "2026 DateTime::dateTimeFuture()": [
+        "2026-02-02T13:24:32.000000+00:00",
+        "2026-01-23T21:10:20.000000+00:00"
+    ],
+    "2026 DateTime::dateOfBirth()": [
+        "1969-10-25T00:00:00.000000+00:00",
+        "2003-03-21T00:00:00.000000+00:00"
+    ],
+    "2026 DateTime::date()": [
+        "2000-10-23",
+        "1984-03-18"
+    ],
+    "2026 DateTime::time()": [
+        "13:29:33",
+        "21:22:07"
+    ],
+    "2026 DateTime::unixTime()": [
+        972307773,
+        448492927
+    ],
+    "2026 DateTime::monthName()": [
+        "octobre",
+        "marz"
+    ],
+    "2026 DateTime::dayOfWeek()": [
+        "lundi",
+        "diemenche"
+    ],
+    "2026 DateTime::localDate()": [
+        "23/10/2000",
+        "18/03/1984"
+    ],
+    "2026 DateTime::localDateTime()": [
+        "23/10/2000 13:29",
+        "18/03/1984 21:22"
+    ],
+    "2026 DateTime::century()": [
+        "IV",
+        "III"
+    ],
+    "2026 DateTime::timezone()": [
+        "Europe/Paris",
+        "Europe/Paris"
+    ],
+    "2026 Company::company()": [
+        "Robert le Sage et si compaignon",
+        "Guillaume le Sage et si compaignon"
+    ],
+    "2026 Company::companySuffix()": [
+        "et si fil",
+        "et si frere"
+    ],
+    "2026 Company::jobTitle()": [
+        "conestable",
+        "seneschal"
+    ],
+    "2026 Company::industry()": [
+        "Marcheandise",
+        "Draperie"
+    ],
+    "2026 Company::catchPhrase()": [
+        "Paien unt tort e chrestiens unt dreit",
+        "Halt sunt li pui e li val tenebrus"
+    ],
+    "2026 Payment::creditCardType()": [
+        "Diners Club",
+        "Visa"
+    ],
+    "2026 Payment::creditCardNumber()": [
+        "38228453154083",
+        "4719840620174873"
+    ],
+    "2026 Payment::maskedCreditCardNumber()": [
+        "**** ****** 4083",
+        "**** **** **** 4873"
+    ],
+    "2026 Payment::creditCardExpirationDate()": [
+        "06/28",
+        "08/27"
+    ],
+    "2026 Payment::creditCardCvv()": [
+        "388",
+        "228"
+    ],
+    "2026 Payment::creditCardDetails()": [
+        {
+            "type": "Diners Club",
+            "number": "38228453154083",
+            "name": "Keu le Tisserant",
+            "expirationDate": "05/29",
+            "cvv": "984"
+        },
+        {
+            "type": "MasterCard",
+            "number": "5301748724631816",
+            "name": "Huon de Biauvais",
+            "expirationDate": "10/29",
+            "cvv": "746"
+        }
+    ],
+    "2026 Payment::iban()": [
+        "FR7638822845315IIOBP7975840",
+        "FR856201748724KMJQD1NS1PH46"
+    ],
+    "2026 Payment::swiftBicNumber()": [
+        "VYHCADI27VO",
+        "JIIOUAP8859"
+    ],
+    "2026 Payment::currencyCode()": [
+        "LAK",
+        "VND"
+    ],
+    "2026 Payment::currencyName()": [
+        "Lao Kip",
+        "Dong"
+    ],
+    "2026 Payment::currencySymbol()": [
+        "kr",
+        "₩"
+    ],
+    "2026 Payment::currencyData()": [
+        {
+            "code": "LAK",
+            "name": "Lao Kip",
+            "symbol": "LAK"
+        },
+        {
+            "code": "VND",
+            "name": "Dong",
+            "symbol": "₫"
+        }
+    ],
+    "2026 Payment::price()": [
+        501.56,
+        479.7
+    ],
+    "2026 Payment::priceInMinorUnits()": [
+        50156,
+        47970
+    ],
+    "2026 Payment::localCurrency()": [
+        {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "€"
+        },
+        {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "€"
+        }
+    ],
+    "2026 Payment::localPrice()": [
+        "DI livres XI sous II deniers tornois",
+        "CDLXXIX livres XIV sous tornois"
+    ],
+    "2026 Payment::bankAccountNumber()": [
+        "3882284531",
+        "5408939719"
+    ],
+    "2026 Payment::transactionType()": [
+        "invoice",
+        "deposit"
+    ],
+    "2026 Payment::bitcoinAddress()": [
+        "1LhcDghvoqxjEa3RFVqMkuWNhmravK1Yg8",
+        "38J4KSS9Fsq3CoRJ3FVMDtym72HEsjvnMy"
+    ],
+    "2026 Payment::ethereumAddress()": [
+        "0x15AE982e5911e092d8186D6d94379F48DADe9c9D",
+        "0x0267d586a7DCC7E4ca3a22c1798be1CF48714ff9"
+    ],
+    "2026 Address::cityData(\"CH\")": [
+        {
+            "city": "Troies",
+            "state": "Champaigne",
+            "stateCode": "CH",
+            "county": "la parroisse Saint Denis",
+            "postcode": "22845",
+            "latitude": 48.299899,
+            "longitude": 4.076028
+        },
+        {
+            "city": "Rains",
+            "state": "Champaigne",
+            "stateCode": "CH",
+            "county": "la parroisse Saint Germain",
+            "postcode": "89397",
+            "latitude": 49.256792,
+            "longitude": 4.032155
+        }
+    ],
+    "2026 DateTime::dateTimesBetween(3, \"-1 year\")": [
+        [
+            "2025-04-03T21:21:10.000000+00:00",
+            "2025-10-30T13:29:09.000000+00:00",
+            "2025-11-21T19:14:55.000000+00:00"
+        ],
+        [
+            "2025-09-03T16:46:36.000000+00:00",
+            "2025-10-09T12:36:51.000000+00:00",
+            "2025-10-15T06:47:40.000000+00:00"
+        ]
+    ]
+}

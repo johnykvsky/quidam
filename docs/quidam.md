@@ -179,7 +179,7 @@ To make your extension replaceable like the built-in ones, give it an interface 
 | closure | `->withDefinition(Car::class, fn (RandomizerInterface $r) => new Car(...))` | factory, parameters by type, called once per generator |
 | other value | `->withDefinition('app.prefix', 'TEST-')` | returned as is |
 
-`withDefinitions([...])` sets many at once, `withProvider(ProviderPackInterface $pack)` sets the definitions of a provider (language) pack - see [Extending](extending.md).
+`withDefinitions([...])` sets many at once, `withProvider(ProviderPackInterface $pack)` sets the definitions of a provider (language) pack - see [Extending](extending.md). `ancient()` does it for a random [dead language](dead-languages.md) - Latin, Old Norse, Akkadian...
 
 The replacement is used everywhere - also as a dependency of other extensions:
 

@@ -19,7 +19,7 @@ It keeps the architecture of [DummyGenerator](https://github.com/johnykvsky/dumm
 
 Pronounced **KWEE-dahm** (/ˈkwiː.dam/), as in Latin. The anglicized **KWY-dəm** (/ˈkwaɪ.dəm/) is fine too.
 
-And since the name is Latin, there's a [Latin language pack](src/LanguagePack/la_VA/README.md) too: `vendor/bin/quidam -l la_VA person.name` gives you a Roman citizen, `longDate()` dates in the Roman calendar.
+And since the name is Latin, there's a [Latin language pack](src/DeadLanguagePack/la_VA/README.md) too: `vendor/bin/quidam -l la_VA person.name` gives you a Roman citizen, `longDate()` dates in the Roman calendar. It has company: ten more [dead languages](docs/dead-languages.md), from the Akkadian of Babylon (names in cuneiform, prices in shekels of silver) through Gothic, Old Norse and Old French to Shakespeare's English (and insults) - and Klingon, for test data from further away.
 
 # Installation
 

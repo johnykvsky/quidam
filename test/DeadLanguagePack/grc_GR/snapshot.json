@@ -1,0 +1,944 @@
+{
+    "1 Person::lastName()": [
+        "Thrasybulou",
+        "Kritiou"
+    ],
+    "1 Person::patronymic()": [
+        "Thrasybulou",
+        "Kalliou"
+    ],
+    "1 Person::demotic()": [
+        "Cholargeus",
+        "Lamptreus"
+    ],
+    "1 Person::name()": [
+        "Agariste Kritiou",
+        "Korinna Chabriou"
+    ],
+    "1 Person::firstName()": [
+        "Agariste",
+        "Xenophon"
+    ],
+    "1 Person::middleName()": [
+        "Agariste",
+        "Xenophon"
+    ],
+    "1 Person::age()": [
+        76,
+        42
+    ],
+    "1 Person::initials()": [
+        "AK",
+        "KC"
+    ],
+    "1 Person::suffix()": [
+        "ho presbyteros",
+        "ho neoteros"
+    ],
+    "1 Person::title()": [
+        "Hiereia",
+        "Hoplites"
+    ],
+    "1 Person::gender()": [
+        "Quidam\\Definitions\\Enum\\Gender::Female",
+        "Quidam\\Definitions\\Enum\\Gender::Female"
+    ],
+    "1 Address::city()": [
+        "Philippoi",
+        "Trapezous"
+    ],
+    "1 Address::streetName()": [
+        "Koile",
+        "Agora"
+    ],
+    "1 Address::buildingNumber()": [
+        "καʹ",
+        "κβʹ"
+    ],
+    "1 Address::secondaryAddress()": [
+        "oikema ζʹ",
+        "oikema ιβʹ"
+    ],
+    "1 Address::county()": [
+        "phyle Hippothontis",
+        "phyle Erechtheis"
+    ],
+    "1 Address::cityData()": [
+        {
+            "city": "Philippoi",
+            "state": "Makedonia",
+            "stateCode": "MA",
+            "county": "phyle Erechtheis",
+            "postcode": "213 02",
+            "latitude": 41.01478,
+            "longitude": 24.283321
+        },
+        {
+            "city": "Thessalonike",
+            "state": "Makedonia",
+            "stateCode": "MA",
+            "county": "phyle Akamantis",
+            "postcode": "111 71",
+            "latitude": 40.642439,
+            "longitude": 22.946805
+        }
+    ],
+    "1 Address::cityPrefix()": [
+        "Palaia",
+        "Nea"
+    ],
+    "1 Address::citySuffix()": [
+        "ion",
+        "polis"
+    ],
+    "1 Address::streetSuffix()": [
+        "Stoa",
+        "Hodos"
+    ],
+    "1 Address::state()": [
+        "Kyrenaike",
+        "Thrake"
+    ],
+    "1 Address::stateCode()": [
+        "KY",
+        "TH"
+    ],
+    "1 Address::stateData()": [
+        {
+            "code": "KY",
+            "name": "Kyrenaike"
+        },
+        {
+            "code": "TH",
+            "name": "Thrake"
+        }
+    ],
+    "1 Address::streetAddress()": [
+        "Koile εʹ",
+        "Limnai καʹ"
+    ],
+    "1 Address::postcode()": [
+        "204 13",
+        "579 87"
+    ],
+    "1 Address::address()": [
+        "Koile εʹ, Neapolis",
+        "Stoa Poikile λβʹ, Eretria"
+    ],
+    "1 Address::addressData()": [
+        {
+            "street": "Koile εʹ",
+            "city": "Sinope",
+            "state": "Pontos",
+            "stateCode": "PO",
+            "county": "phyle Leontis",
+            "postcode": "827 98",
+            "latitude": 42.027255,
+            "longitude": 35.149818,
+            "address": "Koile εʹ, Sinope"
+        },
+        {
+            "street": "Hodos Peiraike ληʹ",
+            "city": "Chersonesos",
+            "state": "Pontos",
+            "stateCode": "PO",
+            "county": "phyle Hippothontis",
+            "postcode": "633 17",
+            "latitude": 44.612473,
+            "longitude": 33.492474,
+            "address": "Hodos Peiraike ληʹ, Chersonesos"
+        }
+    ],
+    "1 Address::country()": [
+        "Bosnia and Herzegovina",
+        "Lebanon"
+    ],
+    "1 Address::countryCode()": [
+        "BA",
+        "LB"
+    ],
+    "1 Address::countryCodeAlpha3()": [
+        "BIH",
+        "LBN"
+    ],
+    "1 Address::countryData()": [
+        {
+            "alpha2": "BA",
+            "alpha3": "BIH",
+            "name": "Bosnia and Herzegovina"
+        },
+        {
+            "alpha2": "LB",
+            "alpha3": "LBN",
+            "name": "Lebanon"
+        }
+    ],
+    "1 Address::latitude()": [
+        -35.726328,
+        -58.671206
+    ],
+    "1 Address::longitude()": [
+        -73.482063,
+        -158.674595
+    ],
+    "1 Address::coordinates()": [
+        {
+            "latitude": -35.726328,
+            "longitude": -158.674595
+        },
+        {
+            "latitude": -50.21702,
+            "longitude": -148.890107
+        }
+    ],
+    "1 DateTime::monthName()": [
+        "Skirophorion",
+        "Maimakterion"
+    ],
+    "1 DateTime::longDate()": [
+        "ϛʹ Skirophorionos, Ol. χϟʹ, etos γʹ",
+        "καʹ Maimakterionos, Ol. χϟηʹ, etos αʹ"
+    ],
+    "1 DateTime::dateTime()": [
+        "1984-06-05T03:26:37.000000+00:00",
+        "2013-11-24T10:59:30.000000+00:00"
+    ],
+    "1 DateTime::dateTimeBetween()": [
+        "2004-06-05T03:26:37.000000+00:00",
+        "2003-11-24T10:59:29.000000+00:00"
+    ],
+    "1 DateTime::dateTimeRange()": [
+        [
+            "2003-11-24T10:59:29.000000+00:00",
+            "2004-06-05T03:26:37.000000+00:00"
+        ],
+        [
+            "2000-05-18T22:42:04.000000+00:00",
+            "2009-05-21T08:31:08.000000+00:00"
+        ]
+    ],
+    "1 DateTime::dateTimePast()": [
+        "2025-12-20T03:24:55.000000+00:00",
+        "2026-01-13T10:51:50.000000+00:00"
+    ],
+    "1 DateTime::dateTimeFuture()": [
+        "2026-01-19T03:24:55.000000+00:00",
+        "2026-02-12T10:51:50.000000+00:00"
+    ],
+    "1 DateTime::dateOfBirth()": [
+        "1953-06-06T00:00:00.000000+00:00",
+        "1982-11-26T00:00:00.000000+00:00"
+    ],
+    "1 DateTime::date()": [
+        "1984-06-05",
+        "2013-11-24"
+    ],
+    "1 DateTime::time()": [
+        "03:26:37",
+        "10:59:30"
+    ],
+    "1 DateTime::unixTime()": [
+        455253997,
+        1385290770
+    ],
+    "1 DateTime::dayOfWeek()": [
+        "hemera Areos",
+        "hemera Heliou"
+    ],
+    "1 DateTime::localDate()": [
+        "05/06/1984",
+        "24/11/2013"
+    ],
+    "1 DateTime::localDateTime()": [
+        "05/06/1984 03:26",
+        "24/11/2013 10:59"
+    ],
+    "1 DateTime::century()": [
+        "XVII",
+        "IV"
+    ],
+    "1 DateTime::timezone()": [
+        "Europe/Athens",
+        "Europe/Athens"
+    ],
+    "1 Company::company()": [
+        "Thrasybulos kai Koinonoi",
+        "Xenophon kai Chabrias"
+    ],
+    "1 Company::companySuffix()": [
+        "kai Koinonoi",
+        "kai Hyioi"
+    ],
+    "1 Company::jobTitle()": [
+        "Toxotes",
+        "Sophistes"
+    ],
+    "1 Company::industry()": [
+        "Emporia",
+        "Mousike"
+    ],
+    "1 Company::catchPhrase()": [
+        "Metron ariston",
+        "Molon labe"
+    ],
+    "1 Address::cityData(\"SI\")": [
+        {
+            "city": "Akragas",
+            "state": "Sikelia",
+            "stateCode": "SI",
+            "county": "phyle Erechtheis",
+            "postcode": "213 02",
+            "latitude": 37.31278,
+            "longitude": 13.576321
+        },
+        {
+            "city": "Akragas",
+            "state": "Sikelia",
+            "stateCode": "SI",
+            "county": "phyle Akamantis",
+            "postcode": "111 71",
+            "latitude": 37.313439,
+            "longitude": 13.579805
+        }
+    ],
+    "1 DateTime::dateTimesBetween(3, \"-1 year\")": [
+        [
+            "2025-05-20T22:42:00.000000+00:00",
+            "2025-06-08T03:26:29.000000+00:00",
+            "2025-12-04T10:58:53.000000+00:00"
+        ],
+        [
+            "2025-01-15T23:31:21.000000+00:00",
+            "2025-06-18T08:29:28.000000+00:00",
+            "2025-08-14T21:35:11.000000+00:00"
+        ]
+    ],
+    "42 Person::lastName()": [
+        "Solonos Rhamnousios",
+        "Chabriou"
+    ],
+    "42 Person::patronymic()": [
+        "Solonos",
+        "Phaidrou"
+    ],
+    "42 Person::demotic()": [
+        "Acharneus",
+        "Kephisieus"
+    ],
+    "42 Person::name()": [
+        "Phaidros Antiphontos Pallenieus",
+        "Philinna Thukydidou"
+    ],
+    "42 Person::firstName()": [
+        "Phaidros",
+        "Chabrias"
+    ],
+    "42 Person::middleName()": [
+        "Phaidros",
+        "Chabrias"
+    ],
+    "42 Person::age()": [
+        72,
+        64
+    ],
+    "42 Person::initials()": [
+        "PAP",
+        "PT"
+    ],
+    "42 Person::suffix()": [
+        "ho neoteros",
+        "ho neoteros"
+    ],
+    "42 Person::title()": [
+        "Choregos",
+        "Bouleutes"
+    ],
+    "42 Person::gender()": [
+        "Quidam\\Definitions\\Enum\\Gender::Male",
+        "Quidam\\Definitions\\Enum\\Gender::Male"
+    ],
+    "42 Address::city()": [
+        "Syrakousai",
+        "Dion"
+    ],
+    "42 Address::streetName()": [
+        "Hodos Panathenaike",
+        "Kerameikos"
+    ],
+    "42 Address::buildingNumber()": [
+        "ιαʹ",
+        "ρκϛʹ"
+    ],
+    "42 Address::secondaryAddress()": [
+        "oikia ιαʹ",
+        "ergasterion βʹ"
+    ],
+    "42 Address::county()": [
+        "phyle Akamantis",
+        "phyle Erechtheis"
+    ],
+    "42 Address::cityData()": [
+        {
+            "city": "Syrakousai",
+            "state": "Sikelia",
+            "stateCode": "SI",
+            "county": "phyle Erechtheis",
+            "postcode": "196 00",
+            "latitude": 37.077005,
+            "longitude": 15.285206
+        },
+        {
+            "city": "Rhegion",
+            "state": "Megale Hellas",
+            "stateCode": "MH",
+            "county": "phyle Leontis",
+            "postcode": "643 67",
+            "latitude": 38.111676,
+            "longitude": 15.646366
+        }
+    ],
+    "42 Address::cityPrefix()": [
+        "Nea",
+        "Megale"
+    ],
+    "42 Address::citySuffix()": [
+        "polis",
+        "eia"
+    ],
+    "42 Address::streetSuffix()": [
+        "Hodos",
+        "Stoa"
+    ],
+    "42 Address::state()": [
+        "Keltike",
+        "Epeiros"
+    ],
+    "42 Address::stateCode()": [
+        "KE",
+        "EP"
+    ],
+    "42 Address::stateData()": [
+        {
+            "code": "KE",
+            "name": "Keltike"
+        },
+        {
+            "code": "EP",
+            "name": "Epeiros"
+        }
+    ],
+    "42 Address::streetAddress()": [
+        "Hodos Panathenaike νʹ",
+        "Hodos Hiera ρπβʹ"
+    ],
+    "42 Address::postcode()": [
+        "909 96",
+        "152 33"
+    ],
+    "42 Address::address()": [
+        "Hodos Panathenaike νʹ, Selinous",
+        "Kydathenaion ιεʹ, Delphoi"
+    ],
+    "42 Address::addressData()": [
+        {
+            "street": "Hodos Panathenaike νʹ",
+            "city": "Selinous",
+            "state": "Sikelia",
+            "stateCode": "SI",
+            "county": "phyle Kekropis",
+            "postcode": "705 23",
+            "latitude": 37.583578,
+            "longitude": 12.827806,
+            "address": "Hodos Panathenaike νʹ, Selinous"
+        },
+        {
+            "street": "Stoa Basileios ζʹ",
+            "city": "Amphissa",
+            "state": "Phokis",
+            "stateCode": "PH",
+            "county": "phyle Pandionis",
+            "postcode": "343 15",
+            "latitude": 38.527089,
+            "longitude": 22.378466,
+            "address": "Stoa Basileios ζʹ, Amphissa"
+        }
+    ],
+    "42 Address::country()": [
+        "Eritrea",
+        "Malaysia"
+    ],
+    "42 Address::countryCode()": [
+        "ER",
+        "MY"
+    ],
+    "42 Address::countryCodeAlpha3()": [
+        "ERI",
+        "MYS"
+    ],
+    "42 Address::countryData()": [
+        {
+            "alpha2": "ER",
+            "alpha3": "ERI",
+            "name": "Eritrea"
+        },
+        {
+            "alpha2": "MY",
+            "alpha3": "MYS",
+            "name": "Malaysia"
+        }
+    ],
+    "42 Address::latitude()": [
+        -48.708734,
+        58.043118
+    ],
+    "42 Address::longitude()": [
+        131.650629,
+        -154.797659
+    ],
+    "42 Address::coordinates()": [
+        {
+            "latitude": -48.708734,
+            "longitude": -154.797659
+        },
+        {
+            "latitude": 15.729389,
+            "longitude": -65.414919
+        }
+    ],
+    "42 DateTime::monthName()": [
+        "Hekatombaion",
+        "Gamelion"
+    ],
+    "42 DateTime::longDate()": [
+        "ιϛʹ Hekatombaionos, Ol. χϟʹ, etos βʹ",
+        "εʹ Gamelionos, Ol. χϟʹ, etos γʹ"
+    ],
+    "42 DateTime::dateTime()": [
+        "1982-07-08T02:06:54.000000+00:00",
+        "1984-01-09T04:57:09.000000+00:00"
+    ],
+    "42 DateTime::dateTimeBetween()": [
+        "2002-07-08T02:06:54.000000+00:00",
+        "2024-01-09T04:57:09.000000+00:00"
+    ],
+    "42 DateTime::dateTimeRange()": [
+        [
+            "2002-07-08T02:06:54.000000+00:00",
+            "2024-01-09T04:57:09.000000+00:00"
+        ],
+        [
+            "1996-10-25T03:17:28.000000+00:00",
+            "1998-01-03T00:58:49.000000+00:00"
+        ]
+    ],
+    "42 DateTime::dateTimePast()": [
+        "2026-01-11T02:05:36.000000+00:00",
+        "2026-01-14T04:45:25.000000+00:00"
+    ],
+    "42 DateTime::dateTimeFuture()": [
+        "2026-02-10T02:05:36.000000+00:00",
+        "2026-02-13T04:45:25.000000+00:00"
+    ],
+    "42 DateTime::dateOfBirth()": [
+        "1951-07-09T00:00:00.000000+00:00",
+        "2003-01-10T00:00:00.000000+00:00"
+    ],
+    "42 DateTime::date()": [
+        "1982-07-08",
+        "1984-01-09"
+    ],
+    "42 DateTime::time()": [
+        "02:06:54",
+        "04:57:09"
+    ],
+    "42 DateTime::unixTime()": [
+        394942014,
+        442472229
+    ],
+    "42 DateTime::dayOfWeek()": [
+        "hemera Dios",
+        "hemera Selenes"
+    ],
+    "42 DateTime::localDate()": [
+        "08/07/1982",
+        "09/01/1984"
+    ],
+    "42 DateTime::localDateTime()": [
+        "08/07/1982 02:06",
+        "09/01/1984 04:57"
+    ],
+    "42 DateTime::century()": [
+        "XIII",
+        "V"
+    ],
+    "42 DateTime::timezone()": [
+        "Europe/Athens",
+        "Europe/Athens"
+    ],
+    "42 Company::company()": [
+        "Solon kai Antiphon",
+        "Bibliopoleion Chabriou"
+    ],
+    "42 Company::companySuffix()": [
+        "kai Hyioi",
+        "kai Koinonoi"
+    ],
+    "42 Company::jobTitle()": [
+        "Mageiros",
+        "Georgos"
+    ],
+    "42 Company::industry()": [
+        "Mousike",
+        "Rhetorike"
+    ],
+    "42 Company::catchPhrase()": [
+        "Speude bradeos",
+        "Gnothi seauton"
+    ],
+    "42 Address::cityData(\"SI\")": [
+        {
+            "city": "Syrakousai",
+            "state": "Sikelia",
+            "stateCode": "SI",
+            "county": "phyle Erechtheis",
+            "postcode": "196 00",
+            "latitude": 37.077005,
+            "longitude": 15.285206
+        },
+        {
+            "city": "Selinous",
+            "state": "Sikelia",
+            "stateCode": "SI",
+            "county": "phyle Leontis",
+            "postcode": "643 67",
+            "latitude": 37.584676,
+            "longitude": 12.823366
+        }
+    ],
+    "42 DateTime::dateTimesBetween(3, \"-1 year\")": [
+        [
+            "2025-01-24T04:56:12.000000+00:00",
+            "2025-07-10T02:06:48.000000+00:00",
+            "2025-11-03T03:16:59.000000+00:00"
+        ],
+        [
+            "2025-10-06T13:45:56.000000+00:00",
+            "2025-10-28T15:25:20.000000+00:00",
+            "2026-01-04T00:58:48.000000+00:00"
+        ]
+    ],
+    "2026 Person::lastName()": [
+        "Perikleous Lamptreus",
+        "Platonos"
+    ],
+    "2026 Person::patronymic()": [
+        "Perikleous",
+        "Isokratous"
+    ],
+    "2026 Person::demotic()": [
+        "Acharneus",
+        "Eleusinios"
+    ],
+    "2026 Person::name()": [
+        "Hegeso Nikeratou",
+        "Praxagora Hypereidou"
+    ],
+    "2026 Person::firstName()": [
+        "Hegeso",
+        "Arete"
+    ],
+    "2026 Person::middleName()": [
+        "Hegeso",
+        "Arete"
+    ],
+    "2026 Person::age()": [
+        63,
+        41
+    ],
+    "2026 Person::initials()": [
+        "HN",
+        "PH"
+    ],
+    "2026 Person::suffix()": [
+        "ho presbyteros",
+        "ho neoteros"
+    ],
+    "2026 Person::title()": [
+        "Pythia",
+        "Pythia"
+    ],
+    "2026 Person::gender()": [
+        "Quidam\\Definitions\\Enum\\Gender::Female",
+        "Quidam\\Definitions\\Enum\\Gender::Male"
+    ],
+    "2026 Address::city()": [
+        "Emporion",
+        "Pantikapaion"
+    ],
+    "2026 Address::streetName()": [
+        "Stoa tou Dios",
+        "Skambonidai"
+    ],
+    "2026 Address::buildingNumber()": [
+        "θʹ",
+        "γʹ"
+    ],
+    "2026 Address::secondaryAddress()": [
+        "oikia θʹ",
+        "oikia γʹ"
+    ],
+    "2026 Address::county()": [
+        "phyle Leontis",
+        "phyle Aiantis"
+    ],
+    "2026 Address::cityData()": [
+        {
+            "city": "Emporion",
+            "state": "Keltike",
+            "stateCode": "KE",
+            "county": "phyle Aiantis",
+            "postcode": "122 84",
+            "latitude": 42.136899,
+            "longitude": 3.122028
+        },
+        {
+            "city": "Thessalonike",
+            "state": "Makedonia",
+            "stateCode": "MA",
+            "county": "phyle Akamantis",
+            "postcode": "889 39",
+            "latitude": 40.638792,
+            "longitude": 22.944155
+        }
+    ],
+    "2026 Address::cityPrefix()": [
+        "Kato",
+        "Ano"
+    ],
+    "2026 Address::citySuffix()": [
+        "os",
+        "ai"
+    ],
+    "2026 Address::streetSuffix()": [
+        "Hodos",
+        "Agora"
+    ],
+    "2026 Address::state()": [
+        "Aiolis",
+        "Sikelia"
+    ],
+    "2026 Address::stateCode()": [
+        "AI",
+        "SI"
+    ],
+    "2026 Address::stateData()": [
+        {
+            "code": "AI",
+            "name": "Aiolis"
+        },
+        {
+            "code": "SI",
+            "name": "Sikelia"
+        }
+    ],
+    "2026 Address::streetAddress()": [
+        "Stoa tou Dios ρλϛʹ",
+        "Skambonidai κθʹ"
+    ],
+    "2026 Address::postcode()": [
+        "488 22",
+        "453 15"
+    ],
+    "2026 Address::address()": [
+        "Stoa tou Dios ρλϛʹ, Melos",
+        "Hodos Hiera αʹ, Orchomenos"
+    ],
+    "2026 Address::addressData()": [
+        {
+            "street": "Stoa tou Dios ρλϛʹ",
+            "city": "Thorikos",
+            "state": "Attike",
+            "stateCode": "AT",
+            "county": "phyle Pandionis",
+            "postcode": "245 31",
+            "latitude": 37.738699,
+            "longitude": 24.048262,
+            "address": "Stoa tou Dios ρλϛʹ, Thorikos"
+        },
+        {
+            "street": "Kollytos ναʹ",
+            "city": "Halikarnassos",
+            "state": "Karia",
+            "stateCode": "KA",
+            "county": "phyle Hippothontis",
+            "postcode": "498 40",
+            "latitude": 37.039071,
+            "longitude": 27.424205,
+            "address": "Kollytos ναʹ, Halikarnassos"
+        }
+    ],
+    "2026 Address::country()": [
+        "Estonia",
+        "Belarus"
+    ],
+    "2026 Address::countryCode()": [
+        "EE",
+        "BY"
+    ],
+    "2026 Address::countryCodeAlpha3()": [
+        "EST",
+        "BLR"
+    ],
+    "2026 Address::countryData()": [
+        {
+            "alpha2": "EE",
+            "alpha3": "EST",
+            "name": "Estonia"
+        },
+        {
+            "alpha2": "BY",
+            "alpha3": "BLR",
+            "name": "Belarus"
+        }
+    ],
+    "2026 Address::latitude()": [
+        -0.121337,
+        1.401902
+    ],
+    "2026 Address::longitude()": [
+        -20.542136,
+        130.263131
+    ],
+    "2026 Address::coordinates()": [
+        {
+            "latitude": -0.121337,
+            "longitude": 130.263131
+        },
+        {
+            "latitude": 78.723224,
+            "longitude": -2.89545
+        }
+    ],
+    "2026 DateTime::monthName()": [
+        "Pyanepsion",
+        "Elaphebolion"
+    ],
+    "2026 DateTime::longDate()": [
+        "κδʹ Pyanepsionos, Ol. χϟδʹ, etos δʹ",
+        "ιεʹ Elaphebolionos, Ol. χϟʹ, etos γʹ"
+    ],
+    "2026 DateTime::dateTime()": [
+        "2000-10-23T13:29:33.000000+00:00",
+        "1984-03-18T21:22:07.000000+00:00"
+    ],
+    "2026 DateTime::dateTimeBetween()": [
+        "2020-10-23T13:29:33.000000+00:00",
+        "2024-03-18T21:22:07.000000+00:00"
+    ],
+    "2026 DateTime::dateTimeRange()": [
+        [
+            "2020-10-23T13:29:33.000000+00:00",
+            "2024-03-18T21:22:07.000000+00:00"
+        ],
+        [
+            "2007-09-20T12:38:00.000000+00:00",
+            "2019-10-30T19:16:16.000000+00:00"
+        ]
+    ],
+    "2026 DateTime::dateTimePast()": [
+        "2026-01-03T13:24:32.000000+00:00",
+        "2025-12-24T21:10:20.000000+00:00"
+    ],
+    "2026 DateTime::dateTimeFuture()": [
+        "2026-02-02T13:24:32.000000+00:00",
+        "2026-01-23T21:10:20.000000+00:00"
+    ],
+    "2026 DateTime::dateOfBirth()": [
+        "1969-10-25T00:00:00.000000+00:00",
+        "2003-03-21T00:00:00.000000+00:00"
+    ],
+    "2026 DateTime::date()": [
+        "2000-10-23",
+        "1984-03-18"
+    ],
+    "2026 DateTime::time()": [
+        "13:29:33",
+        "21:22:07"
+    ],
+    "2026 DateTime::unixTime()": [
+        972307773,
+        448492927
+    ],
+    "2026 DateTime::dayOfWeek()": [
+        "hemera Selenes",
+        "hemera Heliou"
+    ],
+    "2026 DateTime::localDate()": [
+        "23/10/2000",
+        "18/03/1984"
+    ],
+    "2026 DateTime::localDateTime()": [
+        "23/10/2000 13:29",
+        "18/03/1984 21:22"
+    ],
+    "2026 DateTime::century()": [
+        "IV",
+        "III"
+    ],
+    "2026 DateTime::timezone()": [
+        "Europe/Athens",
+        "Europe/Athens"
+    ],
+    "2026 Company::company()": [
+        "Ergasterion Perikleous",
+        "Platon kai Hypereides"
+    ],
+    "2026 Company::companySuffix()": [
+        "kai Hyioi",
+        "kai Adelphoi"
+    ],
+    "2026 Company::jobTitle()": [
+        "Trapezites",
+        "Chalkeus"
+    ],
+    "2026 Company::industry()": [
+        "Polemike",
+        "Philosophia"
+    ],
+    "2026 Company::catchPhrase()": [
+        "E tan e epi tas",
+        "Chalepa ta kala"
+    ],
+    "2026 Address::cityData(\"SI\")": [
+        {
+            "city": "Selinous",
+            "state": "Sikelia",
+            "stateCode": "SI",
+            "county": "phyle Aiantis",
+            "postcode": "122 84",
+            "latitude": 37.586899,
+            "longitude": 12.827028
+        },
+        {
+            "city": "Akragas",
+            "state": "Sikelia",
+            "stateCode": "SI",
+            "county": "phyle Akamantis",
+            "postcode": "889 39",
+            "latitude": 37.309792,
+            "longitude": 13.577155
+        }
+    ],
+    "2026 DateTime::dateTimesBetween(3, \"-1 year\")": [
+        [
+            "2025-04-03T21:21:10.000000+00:00",
+            "2025-10-30T13:29:09.000000+00:00",
+            "2025-11-21T19:14:55.000000+00:00"
+        ],
+        [
+            "2025-09-03T16:46:36.000000+00:00",
+            "2025-10-09T12:36:51.000000+00:00",
+            "2025-10-15T06:47:40.000000+00:00"
+        ]
+    ]
+}

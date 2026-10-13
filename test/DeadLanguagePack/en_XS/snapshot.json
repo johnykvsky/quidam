@@ -1,0 +1,1256 @@
+{
+    "1 Person::insult()": [
+        "Away, you starvelling, you elf-skin, you dried neat's-tongue!",
+        "You Banbury cheese!"
+    ],
+    "1 Person::name()": [
+        "Hero Froth",
+        "Susanna Slender"
+    ],
+    "1 Person::firstName()": [
+        "Hero",
+        "Andrew"
+    ],
+    "1 Person::middleName()": [
+        "Hero",
+        "Andrew"
+    ],
+    "1 Person::age()": [
+        76,
+        42
+    ],
+    "1 Person::initials()": [
+        "HF",
+        "SS"
+    ],
+    "1 Person::suffix()": [
+        "the younger",
+        "Gent."
+    ],
+    "1 Person::lastName()": [
+        "Kemp",
+        "Elbow"
+    ],
+    "1 Person::title()": [
+        "Lady",
+        "Sir"
+    ],
+    "1 Person::gender()": [
+        "Quidam\\Definitions\\Enum\\Gender::Female",
+        "Quidam\\Definitions\\Enum\\Gender::Female"
+    ],
+    "1 Address::city()": [
+        "Prague",
+        "Athens"
+    ],
+    "1 Address::streetName()": [
+        "Shoreditch",
+        "Blackfriars"
+    ],
+    "1 Address::buildingNumber()": [
+        "Green Dragon",
+        "Bear"
+    ],
+    "1 Address::secondaryAddress()": [
+        "garret",
+        "cellar"
+    ],
+    "1 Address::county()": [
+        "the parish of St. Mary-le-Bow",
+        "the parish of St. Olave's"
+    ],
+    "1 Address::cityData()": [
+        {
+            "city": "Prague",
+            "state": "Bohemia",
+            "stateCode": "BO",
+            "county": "the parish of St. Olave's",
+            "postcode": "13027",
+            "latitude": 50.08978,
+            "longitude": 14.419321
+        },
+        {
+            "city": "Prague",
+            "state": "Bohemia",
+            "stateCode": "BO",
+            "county": "the parish of St. Giles, Cripplegate",
+            "postcode": "1171",
+            "latitude": 50.090121,
+            "longitude": 14.422439
+        }
+    ],
+    "1 Address::cityPrefix()": [
+        "West",
+        "South"
+    ],
+    "1 Address::citySuffix()": [
+        "chester",
+        "field"
+    ],
+    "1 Address::streetSuffix()": [
+        "Lane",
+        "Street"
+    ],
+    "1 Address::state()": [
+        "Greece",
+        "Cyprus"
+    ],
+    "1 Address::stateCode()": [
+        "GR",
+        "CY"
+    ],
+    "1 Address::stateData()": [
+        {
+            "code": "GR",
+            "name": "Greece"
+        },
+        {
+            "code": "CY",
+            "name": "Cyprus"
+        }
+    ],
+    "1 Address::streetAddress()": [
+        "Shoreditch, at the sign of the Bear",
+        "Blackfriars, at the sign of the Star"
+    ],
+    "1 Address::postcode()": [
+        "0413",
+        "27987"
+    ],
+    "1 Address::address()": [
+        "Shoreditch, at the sign of the Bear, Syracuse",
+        "Eastcheap, at the sign of the Cardinal's Hat, Coventry"
+    ],
+    "1 Address::addressData()": [
+        {
+            "street": "Shoreditch, at the sign of the Bear",
+            "city": "Ephesus",
+            "state": "Asia Minor",
+            "stateCode": "AM",
+            "county": "the parish of St. Bride's",
+            "postcode": "0279",
+            "latitude": 37.939321,
+            "longitude": 27.34142,
+            "address": "Shoreditch, at the sign of the Bear, Ephesus"
+        },
+        {
+            "street": "Maid Lane, at the sign of the Spread Eagle",
+            "city": "Elsinore",
+            "state": "Denmark",
+            "stateCode": "DK",
+            "county": "the parish of St. Bride's",
+            "postcode": "1743",
+            "latitude": 56.035158,
+            "longitude": 12.61021,
+            "address": "Maid Lane, at the sign of the Spread Eagle, Elsinore"
+        }
+    ],
+    "1 Address::country()": [
+        "Bosnia and Herzegovina",
+        "Lebanon"
+    ],
+    "1 Address::countryCode()": [
+        "BA",
+        "LB"
+    ],
+    "1 Address::countryCodeAlpha3()": [
+        "BIH",
+        "LBN"
+    ],
+    "1 Address::countryData()": [
+        {
+            "alpha2": "BA",
+            "alpha3": "BIH",
+            "name": "Bosnia and Herzegovina"
+        },
+        {
+            "alpha2": "LB",
+            "alpha3": "LBN",
+            "name": "Lebanon"
+        }
+    ],
+    "1 Address::latitude()": [
+        -35.726328,
+        -58.671206
+    ],
+    "1 Address::longitude()": [
+        -73.482063,
+        -158.674595
+    ],
+    "1 Address::coordinates()": [
+        {
+            "latitude": -35.726328,
+            "longitude": -158.674595
+        },
+        {
+            "latitude": -50.21702,
+            "longitude": -148.890107
+        }
+    ],
+    "1 DateTime::monthName()": [
+        "May",
+        "November"
+    ],
+    "1 DateTime::longDate()": [
+        "the three and twentieth day of May, in the year of our Lord 1984",
+        "the eleventh day of November, in the year of our Lord 2013"
+    ],
+    "1 DateTime::dateTime()": [
+        "1984-06-05T03:26:37.000000+00:00",
+        "2013-11-24T10:59:30.000000+00:00"
+    ],
+    "1 DateTime::dateTimeBetween()": [
+        "2004-06-05T03:26:37.000000+00:00",
+        "2003-11-24T10:59:29.000000+00:00"
+    ],
+    "1 DateTime::dateTimeRange()": [
+        [
+            "2003-11-24T10:59:29.000000+00:00",
+            "2004-06-05T03:26:37.000000+00:00"
+        ],
+        [
+            "2000-05-18T22:42:04.000000+00:00",
+            "2009-05-21T08:31:08.000000+00:00"
+        ]
+    ],
+    "1 DateTime::dateTimePast()": [
+        "2025-12-20T03:24:55.000000+00:00",
+        "2026-01-13T10:51:50.000000+00:00"
+    ],
+    "1 DateTime::dateTimeFuture()": [
+        "2026-01-19T03:24:55.000000+00:00",
+        "2026-02-12T10:51:50.000000+00:00"
+    ],
+    "1 DateTime::dateOfBirth()": [
+        "1953-06-06T00:00:00.000000+00:00",
+        "1982-11-26T00:00:00.000000+00:00"
+    ],
+    "1 DateTime::date()": [
+        "1984-06-05",
+        "2013-11-24"
+    ],
+    "1 DateTime::time()": [
+        "03:26:37",
+        "10:59:30"
+    ],
+    "1 DateTime::unixTime()": [
+        455253997,
+        1385290770
+    ],
+    "1 DateTime::dayOfWeek()": [
+        "Tuesday",
+        "Sunday"
+    ],
+    "1 DateTime::localDate()": [
+        "05/06/1984",
+        "24/11/2013"
+    ],
+    "1 DateTime::localDateTime()": [
+        "05/06/1984 03:26",
+        "24/11/2013 10:59"
+    ],
+    "1 DateTime::century()": [
+        "XVII",
+        "IV"
+    ],
+    "1 DateTime::timezone()": [
+        "Europe/London",
+        "Europe/London"
+    ],
+    "1 Company::company()": [
+        "The Lord Kemp's Players",
+        "Quiney & Slender"
+    ],
+    "1 Company::companySuffix()": [
+        "'s Players",
+        "'s Men"
+    ],
+    "1 Company::jobTitle()": [
+        "Herald",
+        "Joiner"
+    ],
+    "1 Company::industry()": [
+        "Brewing",
+        "Bear-baiting"
+    ],
+    "1 Company::catchPhrase()": [
+        "All's well that ends well",
+        "We know what we are, but know not what we may be"
+    ],
+    "1 Payment::creditCardType()": [
+        "Visa",
+        "MasterCard"
+    ],
+    "1 Payment::creditCardNumber()": [
+        "4130279874111714",
+        "3565317864741177"
+    ],
+    "1 Payment::maskedCreditCardNumber()": [
+        "**** **** **** 1714",
+        "**** **** **** 1177"
+    ],
+    "1 Payment::creditCardExpirationDate()": [
+        "05/26",
+        "10/28"
+    ],
+    "1 Payment::creditCardCvv()": [
+        "704",
+        "130"
+    ],
+    "1 Payment::creditCardDetails()": [
+        {
+            "type": "Visa",
+            "number": "4130279874111714",
+            "name": "Robert Quince",
+            "expirationDate": "02/27",
+            "cvv": "178"
+        },
+        {
+            "type": "MasterCard",
+            "number": "5341174914468590",
+            "name": "Laertes Belch",
+            "expirationDate": "06/28",
+            "cvv": "574"
+        }
+    ],
+    "1 Payment::iban()": [
+        "GB43FKUH30279874111717",
+        "GB16APRZ78647411749144"
+    ],
+    "1 Payment::swiftBicNumber()": [
+        "FKUHBYCQ",
+        "BQRGGTVX"
+    ],
+    "1 Payment::currencyCode()": [
+        "KGS",
+        "ERN"
+    ],
+    "1 Payment::currencyName()": [
+        "Som",
+        "Nakfa"
+    ],
+    "1 Payment::currencySymbol()": [
+        "$",
+        "NZ$"
+    ],
+    "1 Payment::currencyData()": [
+        {
+            "code": "KGS",
+            "name": "Som",
+            "symbol": "KGS"
+        },
+        {
+            "code": "ERN",
+            "name": "Nakfa",
+            "symbol": "ERN"
+        }
+    ],
+    "1 Payment::price()": [
+        15.5,
+        290.23
+    ],
+    "1 Payment::priceInMinorUnits()": [
+        1550,
+        29023
+    ],
+    "1 Payment::localCurrency()": [
+        {
+            "code": "GBP",
+            "name": "Pound Sterling",
+            "symbol": "£"
+        },
+        {
+            "code": "GBP",
+            "name": "Pound Sterling",
+            "symbol": "£"
+        }
+    ],
+    "1 Payment::localPrice()": [
+        "£15 10s.",
+        "£290 4s. 7d."
+    ],
+    "1 Payment::bankAccountNumber()": [
+        "7041302798",
+        "7411171743"
+    ],
+    "1 Payment::transactionType()": [
+        "invoice",
+        "payment"
+    ],
+    "1 Payment::bitcoinAddress()": [
+        "3P3sLjge3sbag4zPFD9jYVQKWUobyLG3jw",
+        "34rG9DNf66WJNej9wKsSf1YjujUcrSHzrx"
+    ],
+    "1 Payment::ethereumAddress()": [
+        "0xc510C70f6Daff2B3ea4c364796553B8514452A08",
+        "0xA7A366c27b1C2E647336239ae2487AB222A7Fd6f"
+    ],
+    "1 Address::cityData(\"IT\")": [
+        {
+            "city": "Venice",
+            "state": "Italy",
+            "stateCode": "IT",
+            "county": "the parish of St. Olave's",
+            "postcode": "13027",
+            "latitude": 45.43578,
+            "longitude": 12.337321
+        },
+        {
+            "city": "Venice",
+            "state": "Italy",
+            "stateCode": "IT",
+            "county": "the parish of St. Giles, Cripplegate",
+            "postcode": "1171",
+            "latitude": 45.436121,
+            "longitude": 12.340439
+        }
+    ],
+    "1 DateTime::dateTimesBetween(3, \"-1 year\")": [
+        [
+            "2025-05-20T22:42:00.000000+00:00",
+            "2025-06-08T03:26:29.000000+00:00",
+            "2025-12-04T10:58:53.000000+00:00"
+        ],
+        [
+            "2025-01-15T23:31:21.000000+00:00",
+            "2025-06-18T08:29:28.000000+00:00",
+            "2025-08-14T21:35:11.000000+00:00"
+        ]
+    ],
+    "42 Person::insult()": [
+        "You Banbury cheese!",
+        "Thou art a boil, a plague-sore, an embossed carbuncle."
+    ],
+    "42 Person::name()": [
+        "Robert Bottom",
+        "Philip Dekker"
+    ],
+    "42 Person::firstName()": [
+        "Robert",
+        "Andrew"
+    ],
+    "42 Person::middleName()": [
+        "Robert",
+        "Andrew"
+    ],
+    "42 Person::age()": [
+        72,
+        64
+    ],
+    "42 Person::initials()": [
+        "RB",
+        "PD"
+    ],
+    "42 Person::suffix()": [
+        "Gent.",
+        "Gent."
+    ],
+    "42 Person::lastName()": [
+        "Hathaway",
+        "Slender"
+    ],
+    "42 Person::title()": [
+        "Master",
+        "Lord"
+    ],
+    "42 Person::gender()": [
+        "Quidam\\Definitions\\Enum\\Gender::Male",
+        "Quidam\\Definitions\\Enum\\Gender::Male"
+    ],
+    "42 Address::city()": [
+        "Padua",
+        "Windsor"
+    ],
+    "42 Address::streetName()": [
+        "Maid Lane",
+        "Bread Street"
+    ],
+    "42 Address::buildingNumber()": [
+        "Rose",
+        "Bell"
+    ],
+    "42 Address::secondaryAddress()": [
+        "cellar",
+        "cellar"
+    ],
+    "42 Address::county()": [
+        "the parish of St. Giles, Cripplegate",
+        "the parish of St. Giles, Cripplegate"
+    ],
+    "42 Address::cityData()": [
+        {
+            "city": "Padua",
+            "state": "Italy",
+            "stateCode": "IT",
+            "county": "the parish of St. Giles, Cripplegate",
+            "postcode": "9600",
+            "latitude": 45.406932,
+            "longitude": 11.879005
+        },
+        {
+            "city": "Venice",
+            "state": "Italy",
+            "stateCode": "IT",
+            "county": "the parish of St. Helen's, Bishopsgate",
+            "postcode": "4436",
+            "latitude": 45.434908,
+            "longitude": 12.339879
+        }
+    ],
+    "42 Address::cityPrefix()": [
+        "Lake",
+        "New"
+    ],
+    "42 Address::citySuffix()": [
+        "borough",
+        "bridge"
+    ],
+    "42 Address::streetSuffix()": [
+        "Street",
+        "Lane"
+    ],
+    "42 Address::state()": [
+        "Navarre",
+        "Kent"
+    ],
+    "42 Address::stateCode()": [
+        "NA",
+        "KE"
+    ],
+    "42 Address::stateData()": [
+        {
+            "code": "NA",
+            "name": "Navarre"
+        },
+        {
+            "code": "KE",
+            "name": "Kent"
+        }
+    ],
+    "42 Address::streetAddress()": [
+        "Maid Lane, at the sign of the Bell",
+        "Silver Street, at the sign of the Star"
+    ],
+    "42 Address::postcode()": [
+        "09960",
+        "52333"
+    ],
+    "42 Address::address()": [
+        "Maid Lane, at the sign of the Bell, Stratford-upon-Avon",
+        "Bankside, at the sign of the Bell, Famagusta"
+    ],
+    "42 Address::addressData()": [
+        {
+            "street": "Maid Lane, at the sign of the Bell",
+            "city": "Ephesus",
+            "state": "Asia Minor",
+            "stateCode": "AM",
+            "county": "the parish of St. Helen's, Bishopsgate",
+            "postcode": "00523",
+            "latitude": 37.937377,
+            "longitude": 27.340578,
+            "address": "Maid Lane, at the sign of the Bell, Ephesus"
+        },
+        {
+            "street": "Maid Lane, at the sign of the Rose",
+            "city": "Venice",
+            "state": "Italy",
+            "stateCode": "IT",
+            "county": "the parish of St. Olave's",
+            "postcode": "2943",
+            "latitude": 45.432818,
+            "longitude": 12.337429,
+            "address": "Maid Lane, at the sign of the Rose, Venice"
+        }
+    ],
+    "42 Address::country()": [
+        "Eritrea",
+        "Malaysia"
+    ],
+    "42 Address::countryCode()": [
+        "ER",
+        "MY"
+    ],
+    "42 Address::countryCodeAlpha3()": [
+        "ERI",
+        "MYS"
+    ],
+    "42 Address::countryData()": [
+        {
+            "alpha2": "ER",
+            "alpha3": "ERI",
+            "name": "Eritrea"
+        },
+        {
+            "alpha2": "MY",
+            "alpha3": "MYS",
+            "name": "Malaysia"
+        }
+    ],
+    "42 Address::latitude()": [
+        -48.708734,
+        58.043118
+    ],
+    "42 Address::longitude()": [
+        131.650629,
+        -154.797659
+    ],
+    "42 Address::coordinates()": [
+        {
+            "latitude": -48.708734,
+            "longitude": -154.797659
+        },
+        {
+            "latitude": 15.729389,
+            "longitude": -65.414919
+        }
+    ],
+    "42 DateTime::monthName()": [
+        "June",
+        "December"
+    ],
+    "42 DateTime::longDate()": [
+        "the five and twentieth day of June, in the year of our Lord 1982",
+        "the seven and twentieth day of December, in the year of our Lord 1983"
+    ],
+    "42 DateTime::dateTime()": [
+        "1982-07-08T02:06:54.000000+00:00",
+        "1984-01-09T04:57:09.000000+00:00"
+    ],
+    "42 DateTime::dateTimeBetween()": [
+        "2002-07-08T02:06:54.000000+00:00",
+        "2024-01-09T04:57:09.000000+00:00"
+    ],
+    "42 DateTime::dateTimeRange()": [
+        [
+            "2002-07-08T02:06:54.000000+00:00",
+            "2024-01-09T04:57:09.000000+00:00"
+        ],
+        [
+            "1996-10-25T03:17:28.000000+00:00",
+            "1998-01-03T00:58:49.000000+00:00"
+        ]
+    ],
+    "42 DateTime::dateTimePast()": [
+        "2026-01-11T02:05:36.000000+00:00",
+        "2026-01-14T04:45:25.000000+00:00"
+    ],
+    "42 DateTime::dateTimeFuture()": [
+        "2026-02-10T02:05:36.000000+00:00",
+        "2026-02-13T04:45:25.000000+00:00"
+    ],
+    "42 DateTime::dateOfBirth()": [
+        "1951-07-09T00:00:00.000000+00:00",
+        "2003-01-10T00:00:00.000000+00:00"
+    ],
+    "42 DateTime::date()": [
+        "1982-07-08",
+        "1984-01-09"
+    ],
+    "42 DateTime::time()": [
+        "02:06:54",
+        "04:57:09"
+    ],
+    "42 DateTime::unixTime()": [
+        394942014,
+        442472229
+    ],
+    "42 DateTime::dayOfWeek()": [
+        "Thursday",
+        "Monday"
+    ],
+    "42 DateTime::localDate()": [
+        "08/07/1982",
+        "09/01/1984"
+    ],
+    "42 DateTime::localDateTime()": [
+        "08/07/1982 02:06",
+        "09/01/1984 04:57"
+    ],
+    "42 DateTime::century()": [
+        "XIII",
+        "V"
+    ],
+    "42 DateTime::timezone()": [
+        "Europe/London",
+        "Europe/London"
+    ],
+    "42 Company::company()": [
+        "Hathaway & Bottom",
+        "The Mermaid Tavern"
+    ],
+    "42 Company::companySuffix()": [
+        "'s Men",
+        "'s Players"
+    ],
+    "42 Company::jobTitle()": [
+        "Fool",
+        "Joiner"
+    ],
+    "42 Company::industry()": [
+        "Navigation",
+        "Navigation"
+    ],
+    "42 Company::catchPhrase()": [
+        "All the world's a stage",
+        "To thine own self be true"
+    ],
+    "42 Payment::creditCardType()": [
+        "Visa",
+        "MasterCard"
+    ],
+    "42 Payment::creditCardNumber()": [
+        "4960052333443670",
+        "4315126204254200"
+    ],
+    "42 Payment::maskedCreditCardNumber()": [
+        "**** **** **** 3670",
+        "**** **** **** 4200"
+    ],
+    "42 Payment::creditCardExpirationDate()": [
+        "03/26",
+        "10/27"
+    ],
+    "42 Payment::creditCardCvv()": [
+        "409",
+        "960"
+    ],
+    "42 Payment::creditCardDetails()": [
+        {
+            "type": "Visa",
+            "number": "4960052333443670",
+            "name": "Francis Quince",
+            "expirationDate": "12/27",
+            "cvv": "151"
+        },
+        {
+            "type": "Discover",
+            "number": "6504254208653833",
+            "name": "Francis Quince",
+            "expirationDate": "10/29",
+            "cvv": "936"
+        }
+    ],
+    "42 Payment::iban()": [
+        "GB79WRBB60052333443672",
+        "GB56XPZL51262042542086"
+    ],
+    "42 Payment::swiftBicNumber()": [
+        "WRBBLIY4Y55",
+        "RFWCCYXV"
+    ],
+    "42 Payment::currencyCode()": [
+        "CLP",
+        "LBP"
+    ],
+    "42 Payment::currencyName()": [
+        "Chilean Peso",
+        "Lebanese Pound"
+    ],
+    "42 Payment::currencySymbol()": [
+        "₫",
+        "Kč"
+    ],
+    "42 Payment::currencyData()": [
+        {
+            "code": "CLP",
+            "name": "Chilean Peso",
+            "symbol": "$"
+        },
+        {
+            "code": "LBP",
+            "name": "Lebanese Pound",
+            "symbol": "LBP"
+        }
+    ],
+    "42 Payment::price()": [
+        901.71,
+        273.32
+    ],
+    "42 Payment::priceInMinorUnits()": [
+        90171,
+        27332
+    ],
+    "42 Payment::localCurrency()": [
+        {
+            "code": "GBP",
+            "name": "Pound Sterling",
+            "symbol": "£"
+        },
+        {
+            "code": "GBP",
+            "name": "Pound Sterling",
+            "symbol": "£"
+        }
+    ],
+    "42 Payment::localPrice()": [
+        "£901 14s. 2d.",
+        "£273 6s. 5d."
+    ],
+    "42 Payment::bankAccountNumber()": [
+        "4099600523",
+        "3344367294"
+    ],
+    "42 Payment::transactionType()": [
+        "fee",
+        "fee"
+    ],
+    "42 Payment::bitcoinAddress()": [
+        "1CWRhp4WnRPZJW8HQXtawpu7g6NnhxG5Qz",
+        "bc1q8pf8jqf355xutvkav4dg24pphzrspehtf9c85l"
+    ],
+    "42 Payment::ethereumAddress()": [
+        "0x16C72E0c2E0B78157E3A116D86D90461a199e439",
+        "0xA160B30347AdB8Ec645eeCe27fDcE6Fd38527901"
+    ],
+    "42 Address::cityData(\"IT\")": [
+        {
+            "city": "Verona",
+            "state": "Italy",
+            "stateCode": "IT",
+            "county": "the parish of St. Giles, Cripplegate",
+            "postcode": "9600",
+            "latitude": 45.438932,
+            "longitude": 10.994005
+        },
+        {
+            "city": "Venice",
+            "state": "Italy",
+            "stateCode": "IT",
+            "county": "the parish of St. Helen's, Bishopsgate",
+            "postcode": "4436",
+            "latitude": 45.434908,
+            "longitude": 12.339879
+        }
+    ],
+    "42 DateTime::dateTimesBetween(3, \"-1 year\")": [
+        [
+            "2025-01-24T04:56:12.000000+00:00",
+            "2025-07-10T02:06:48.000000+00:00",
+            "2025-11-03T03:16:59.000000+00:00"
+        ],
+        [
+            "2025-10-06T13:45:56.000000+00:00",
+            "2025-10-28T15:25:20.000000+00:00",
+            "2026-01-04T00:58:48.000000+00:00"
+        ]
+    ],
+    "2026 Person::insult()": [
+        "Methink'st thou art a general offence, and every man should beat thee.",
+        "Out of my sight! Thou dost infect mine eyes."
+    ],
+    "2026 Person::name()": [
+        "Beatrice Elbow",
+        "Olivia Fletcher"
+    ],
+    "2026 Person::firstName()": [
+        "Beatrice",
+        "Viola"
+    ],
+    "2026 Person::middleName()": [
+        "Beatrice",
+        "Viola"
+    ],
+    "2026 Person::age()": [
+        63,
+        41
+    ],
+    "2026 Person::initials()": [
+        "BE",
+        "OF"
+    ],
+    "2026 Person::suffix()": [
+        "the younger",
+        "the elder"
+    ],
+    "2026 Person::lastName()": [
+        "Henslowe",
+        "Dogberry"
+    ],
+    "2026 Person::title()": [
+        "Mistress",
+        "Lady"
+    ],
+    "2026 Person::gender()": [
+        "Quidam\\Definitions\\Enum\\Gender::Female",
+        "Quidam\\Definitions\\Enum\\Gender::Male"
+    ],
+    "2026 Address::city()": [
+        "Pamplona",
+        "London"
+    ],
+    "2026 Address::streetName()": [
+        "Fleet Street",
+        "Eastcheap"
+    ],
+    "2026 Address::buildingNumber()": [
+        "Green Dragon",
+        "Cardinal's Hat"
+    ],
+    "2026 Address::secondaryAddress()": [
+        "garret",
+        "shop"
+    ],
+    "2026 Address::county()": [
+        "the parish of St. Mary-le-Bow",
+        "the parish of St. Saviour's"
+    ],
+    "2026 Address::cityData()": [
+        {
+            "city": "Pamplona",
+            "state": "Navarre",
+            "stateCode": "NA",
+            "county": "the parish of St. Saviour's",
+            "postcode": "22845",
+            "latitude": 42.814899,
+            "longitude": -1.642972
+        },
+        {
+            "city": "Stratford-upon-Avon",
+            "state": "Warwickshire",
+            "stateCode": "WA",
+            "county": "the parish of St. Saviour's",
+            "postcode": "89397",
+            "latitude": 52.190792,
+            "longitude": -1.706845
+        }
+    ],
+    "2026 Address::cityPrefix()": [
+        "South",
+        "West"
+    ],
+    "2026 Address::citySuffix()": [
+        "dale",
+        "view"
+    ],
+    "2026 Address::streetSuffix()": [
+        "Street",
+        "Churchyard"
+    ],
+    "2026 Address::state()": [
+        "Berkshire",
+        "Surrey"
+    ],
+    "2026 Address::stateCode()": [
+        "BK",
+        "SY"
+    ],
+    "2026 Address::stateData()": [
+        {
+            "code": "BK",
+            "name": "Berkshire"
+        },
+        {
+            "code": "SY",
+            "name": "Surrey"
+        }
+    ],
+    "2026 Address::streetAddress()": [
+        "Fleet Street, at the sign of the Cardinal's Hat",
+        "Bankside, at the sign of the Bear"
+    ],
+    "2026 Address::postcode()": [
+        "8822",
+        "45315"
+    ],
+    "2026 Address::address()": [
+        "Fleet Street, at the sign of the Cardinal's Hat, Pamplona",
+        "Fleet Street, at the sign of the Spread Eagle, Canterbury"
+    ],
+    "2026 Address::addressData()": [
+        {
+            "street": "Fleet Street, at the sign of the Cardinal's Hat",
+            "city": "London",
+            "state": "Middlesex",
+            "stateCode": "MX",
+            "county": "the parish of St. Olave's",
+            "postcode": "84531",
+            "latitude": 51.509299,
+            "longitude": -0.089301,
+            "address": "Fleet Street, at the sign of the Cardinal's Hat, London"
+        },
+        {
+            "street": "Eastcheap, at the sign of the Angel",
+            "city": "Dunsinane",
+            "state": "Scotland",
+            "stateCode": "SC",
+            "county": "the parish of St. Bride's",
+            "postcode": "7198",
+            "latitude": 56.48355,
+            "longitude": -3.266952,
+            "address": "Eastcheap, at the sign of the Angel, Dunsinane"
+        }
+    ],
+    "2026 Address::country()": [
+        "Estonia",
+        "Belarus"
+    ],
+    "2026 Address::countryCode()": [
+        "EE",
+        "BY"
+    ],
+    "2026 Address::countryCodeAlpha3()": [
+        "EST",
+        "BLR"
+    ],
+    "2026 Address::countryData()": [
+        {
+            "alpha2": "EE",
+            "alpha3": "EST",
+            "name": "Estonia"
+        },
+        {
+            "alpha2": "BY",
+            "alpha3": "BLR",
+            "name": "Belarus"
+        }
+    ],
+    "2026 Address::latitude()": [
+        -0.121337,
+        1.401902
+    ],
+    "2026 Address::longitude()": [
+        -20.542136,
+        130.263131
+    ],
+    "2026 Address::coordinates()": [
+        {
+            "latitude": -0.121337,
+            "longitude": 130.263131
+        },
+        {
+            "latitude": 78.723224,
+            "longitude": -2.89545
+        }
+    ],
+    "2026 DateTime::monthName()": [
+        "October",
+        "March"
+    ],
+    "2026 DateTime::longDate()": [
+        "the tenth day of October, in the year of our Lord 2000",
+        "the fifth day of March, in the year of our Lord 1983/4"
+    ],
+    "2026 DateTime::dateTime()": [
+        "2000-10-23T13:29:33.000000+00:00",
+        "1984-03-18T21:22:07.000000+00:00"
+    ],
+    "2026 DateTime::dateTimeBetween()": [
+        "2020-10-23T13:29:33.000000+00:00",
+        "2024-03-18T21:22:07.000000+00:00"
+    ],
+    "2026 DateTime::dateTimeRange()": [
+        [
+            "2020-10-23T13:29:33.000000+00:00",
+            "2024-03-18T21:22:07.000000+00:00"
+        ],
+        [
+            "2007-09-20T12:38:00.000000+00:00",
+            "2019-10-30T19:16:16.000000+00:00"
+        ]
+    ],
+    "2026 DateTime::dateTimePast()": [
+        "2026-01-03T13:24:32.000000+00:00",
+        "2025-12-24T21:10:20.000000+00:00"
+    ],
+    "2026 DateTime::dateTimeFuture()": [
+        "2026-02-02T13:24:32.000000+00:00",
+        "2026-01-23T21:10:20.000000+00:00"
+    ],
+    "2026 DateTime::dateOfBirth()": [
+        "1969-10-25T00:00:00.000000+00:00",
+        "2003-03-21T00:00:00.000000+00:00"
+    ],
+    "2026 DateTime::date()": [
+        "2000-10-23",
+        "1984-03-18"
+    ],
+    "2026 DateTime::time()": [
+        "13:29:33",
+        "21:22:07"
+    ],
+    "2026 DateTime::unixTime()": [
+        972307773,
+        448492927
+    ],
+    "2026 DateTime::dayOfWeek()": [
+        "Monday",
+        "Sunday"
+    ],
+    "2026 DateTime::localDate()": [
+        "23/10/2000",
+        "18/03/1984"
+    ],
+    "2026 DateTime::localDateTime()": [
+        "23/10/2000 13:29",
+        "18/03/1984 21:22"
+    ],
+    "2026 DateTime::century()": [
+        "IV",
+        "III"
+    ],
+    "2026 DateTime::timezone()": [
+        "Europe/London",
+        "Europe/London"
+    ],
+    "2026 Company::company()": [
+        "The Garter Tavern",
+        "Montague & Fletcher"
+    ],
+    "2026 Company::companySuffix()": [
+        "'s Men",
+        "'s Servants"
+    ],
+    "2026 Company::jobTitle()": [
+        "Constable",
+        "Weaver"
+    ],
+    "2026 Company::industry()": [
+        "Brewing",
+        "The Theatre"
+    ],
+    "2026 Company::catchPhrase()": [
+        "Once more unto the breach",
+        "Lord, what fools these mortals be!"
+    ],
+    "2026 Payment::creditCardType()": [
+        "Diners Club",
+        "Visa"
+    ],
+    "2026 Payment::creditCardNumber()": [
+        "38228453154083",
+        "4719840620174873"
+    ],
+    "2026 Payment::maskedCreditCardNumber()": [
+        "**** ****** 4083",
+        "**** **** **** 4873"
+    ],
+    "2026 Payment::creditCardExpirationDate()": [
+        "06/28",
+        "08/27"
+    ],
+    "2026 Payment::creditCardCvv()": [
+        "388",
+        "228"
+    ],
+    "2026 Payment::creditCardDetails()": [
+        {
+            "type": "Diners Club",
+            "number": "38228453154083",
+            "name": "Peter Bottom",
+            "expirationDate": "03/27",
+            "cvv": "198"
+        },
+        {
+            "type": "Discover",
+            "number": "6011201748724638",
+            "name": "Sebastian Elbow",
+            "expirationDate": "09/27",
+            "cvv": "196"
+        }
+    ],
+    "2026 Payment::iban()": [
+        "GB63VYHC28453154089397",
+        "GB44TKQQ06201748724631"
+    ],
+    "2026 Payment::swiftBicNumber()": [
+        "VYHCADI27VO",
+        "JIIOUAP8859"
+    ],
+    "2026 Payment::currencyCode()": [
+        "LAK",
+        "VND"
+    ],
+    "2026 Payment::currencyName()": [
+        "Lao Kip",
+        "Dong"
+    ],
+    "2026 Payment::currencySymbol()": [
+        "kr",
+        "₩"
+    ],
+    "2026 Payment::currencyData()": [
+        {
+            "code": "LAK",
+            "name": "Lao Kip",
+            "symbol": "LAK"
+        },
+        {
+            "code": "VND",
+            "name": "Dong",
+            "symbol": "₫"
+        }
+    ],
+    "2026 Payment::price()": [
+        501.56,
+        479.7
+    ],
+    "2026 Payment::priceInMinorUnits()": [
+        50156,
+        47970
+    ],
+    "2026 Payment::localCurrency()": [
+        {
+            "code": "GBP",
+            "name": "Pound Sterling",
+            "symbol": "£"
+        },
+        {
+            "code": "GBP",
+            "name": "Pound Sterling",
+            "symbol": "£"
+        }
+    ],
+    "2026 Payment::localPrice()": [
+        "£501 11s. 2d.",
+        "£479 14s."
+    ],
+    "2026 Payment::bankAccountNumber()": [
+        "3882284531",
+        "5408939719"
+    ],
+    "2026 Payment::transactionType()": [
+        "invoice",
+        "deposit"
+    ],
+    "2026 Payment::bitcoinAddress()": [
+        "1LhcDghvoqxjEa3RFVqMkuWNhmravK1Yg8",
+        "38J4KSS9Fsq3CoRJ3FVMDtym72HEsjvnMy"
+    ],
+    "2026 Payment::ethereumAddress()": [
+        "0x15AE982e5911e092d8186D6d94379F48DADe9c9D",
+        "0x0267d586a7DCC7E4ca3a22c1798be1CF48714ff9"
+    ],
+    "2026 Address::cityData(\"IT\")": [
+        {
+            "city": "Mantua",
+            "state": "Italy",
+            "stateCode": "IT",
+            "county": "the parish of St. Saviour's",
+            "postcode": "22845",
+            "latitude": 45.158899,
+            "longitude": 10.793028
+        },
+        {
+            "city": "Venice",
+            "state": "Italy",
+            "stateCode": "IT",
+            "county": "the parish of St. Saviour's",
+            "postcode": "89397",
+            "latitude": 45.432792,
+            "longitude": 12.338155
+        }
+    ],
+    "2026 DateTime::dateTimesBetween(3, \"-1 year\")": [
+        [
+            "2025-04-03T21:21:10.000000+00:00",
+            "2025-10-30T13:29:09.000000+00:00",
+            "2025-11-21T19:14:55.000000+00:00"
+        ],
+        [
+            "2025-09-03T16:46:36.000000+00:00",
+            "2025-10-09T12:36:51.000000+00:00",
+            "2025-10-15T06:47:40.000000+00:00"
+        ]
+    ]
+}

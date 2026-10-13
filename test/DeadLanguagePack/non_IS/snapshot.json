@@ -1,0 +1,944 @@
+{
+    "1 Person::lastName()": [
+        "Skarpheðinsdóttir",
+        "Ásmundardóttir"
+    ],
+    "1 Person::byname()": [
+        "in djúpúðga",
+        "hárfagra"
+    ],
+    "1 Person::runes()": [
+        "ᛁᚢᚱᚢᚾ᛫ᛅᛋᛘᚢᚾᛏᛅᚱᛏᚢᛏᛁᚱ",
+        "ᚼᛁᛚᚴᛅ᛫ᚢᛋᛒᛅᚴᛋᛏᚢᛏᛁᚱ"
+    ],
+    "1 Person::name()": [
+        "Jórunn Ásmundardóttir",
+        "Helga Óspaksdóttir"
+    ],
+    "1 Person::firstName()": [
+        "Jórunn",
+        "Hrólfr"
+    ],
+    "1 Person::middleName()": [
+        "Jórunn",
+        "Hrólfr"
+    ],
+    "1 Person::age()": [
+        76,
+        42
+    ],
+    "1 Person::initials()": [
+        "JÁ",
+        "HÓ"
+    ],
+    "1 Person::suffix()": [
+        "inn ungi",
+        "inn gamli"
+    ],
+    "1 Person::title()": [
+        "vǫlva",
+        "bóndi"
+    ],
+    "1 Person::gender()": [
+        "Quidam\\Definitions\\Enum\\Gender::Female",
+        "Quidam\\Definitions\\Enum\\Gender::Female"
+    ],
+    "1 Address::city()": [
+        "Jalangr",
+        "Bjǫrgvin"
+    ],
+    "1 Address::streetName()": [
+        "Bryggja",
+        "Smiðjugata"
+    ],
+    "1 Address::county()": [
+        "Vaðlaþing",
+        "Gulaþing"
+    ],
+    "1 Address::cityData()": [
+        {
+            "city": "Jalangr",
+            "state": "Danmǫrk",
+            "stateCode": "DK",
+            "county": "Gulaþing",
+            "postcode": "213",
+            "latitude": 55.754638,
+            "longitude": 9.421524
+        },
+        {
+            "city": "Jalangr",
+            "state": "Danmǫrk",
+            "stateCode": "DK",
+            "county": "Gutnalþing",
+            "postcode": "441",
+            "latitude": 55.753533,
+            "longitude": 9.420662
+        }
+    ],
+    "1 Address::cityPrefix()": [
+        "Suðr",
+        "Norðr"
+    ],
+    "1 Address::citySuffix()": [
+        "fjǫrðr",
+        "vík"
+    ],
+    "1 Address::streetSuffix()": [
+        "stræti",
+        "gata"
+    ],
+    "1 Address::secondaryAddress()": [
+        "naust 7",
+        "naust 9"
+    ],
+    "1 Address::state()": [
+        "Nóregr",
+        "Orkneyjar"
+    ],
+    "1 Address::stateCode()": [
+        "NO",
+        "OR"
+    ],
+    "1 Address::stateData()": [
+        {
+            "code": "NO",
+            "name": "Nóregr"
+        },
+        {
+            "code": "OR",
+            "name": "Orkneyjar"
+        }
+    ],
+    "1 Address::buildingNumber()": [
+        "7",
+        "9"
+    ],
+    "1 Address::streetAddress()": [
+        "Bryggja 5",
+        "Skjaldaragata 2"
+    ],
+    "1 Address::postcode()": [
+        "904",
+        "202"
+    ],
+    "1 Address::address()": [
+        "Bryggja 5, Þingvellir",
+        "Fiskigata 57, Vísby"
+    ],
+    "1 Address::addressData()": [
+        {
+            "street": "Bryggja 5",
+            "city": "Miklagarðr",
+            "state": "Miklagarðr",
+            "stateCode": "MI",
+            "county": "Borgarþing",
+            "postcode": "527",
+            "latitude": 41.007321,
+            "longitude": 28.97842,
+            "address": "Bryggja 5, Miklagarðr"
+        },
+        {
+            "street": "Skjaldaragata 4",
+            "city": "Ósló",
+            "state": "Nóregr",
+            "stateCode": "NO",
+            "county": "Vaðlaþing",
+            "postcode": "474",
+            "latitude": 59.912158,
+            "longitude": 10.74921,
+            "address": "Skjaldaragata 4, Ósló"
+        }
+    ],
+    "1 Address::country()": [
+        "Bosnia and Herzegovina",
+        "Lebanon"
+    ],
+    "1 Address::countryCode()": [
+        "BA",
+        "LB"
+    ],
+    "1 Address::countryCodeAlpha3()": [
+        "BIH",
+        "LBN"
+    ],
+    "1 Address::countryData()": [
+        {
+            "alpha2": "BA",
+            "alpha3": "BIH",
+            "name": "Bosnia and Herzegovina"
+        },
+        {
+            "alpha2": "LB",
+            "alpha3": "LBN",
+            "name": "Lebanon"
+        }
+    ],
+    "1 Address::latitude()": [
+        -35.726328,
+        -58.671206
+    ],
+    "1 Address::longitude()": [
+        -73.482063,
+        -158.674595
+    ],
+    "1 Address::coordinates()": [
+        {
+            "latitude": -35.726328,
+            "longitude": -158.674595
+        },
+        {
+            "latitude": -50.21702,
+            "longitude": -148.890107
+        }
+    ],
+    "1 DateTime::monthName()": [
+        "Skerpla",
+        "Gormánuðr"
+    ],
+    "1 DateTime::longDate()": [
+        "18. Skerplu 1984",
+        "30. Gormánaðar 2013"
+    ],
+    "1 DateTime::dateTime()": [
+        "1984-06-05T03:26:37.000000+00:00",
+        "2013-11-24T10:59:30.000000+00:00"
+    ],
+    "1 DateTime::dateTimeBetween()": [
+        "2004-06-05T03:26:37.000000+00:00",
+        "2003-11-24T10:59:29.000000+00:00"
+    ],
+    "1 DateTime::dateTimeRange()": [
+        [
+            "2003-11-24T10:59:29.000000+00:00",
+            "2004-06-05T03:26:37.000000+00:00"
+        ],
+        [
+            "2000-05-18T22:42:04.000000+00:00",
+            "2009-05-21T08:31:08.000000+00:00"
+        ]
+    ],
+    "1 DateTime::dateTimePast()": [
+        "2025-12-20T03:24:55.000000+00:00",
+        "2026-01-13T10:51:50.000000+00:00"
+    ],
+    "1 DateTime::dateTimeFuture()": [
+        "2026-01-19T03:24:55.000000+00:00",
+        "2026-02-12T10:51:50.000000+00:00"
+    ],
+    "1 DateTime::dateOfBirth()": [
+        "1953-06-06T00:00:00.000000+00:00",
+        "1982-11-26T00:00:00.000000+00:00"
+    ],
+    "1 DateTime::date()": [
+        "1984-06-05",
+        "2013-11-24"
+    ],
+    "1 DateTime::time()": [
+        "03:26:37",
+        "10:59:30"
+    ],
+    "1 DateTime::unixTime()": [
+        455253997,
+        1385290770
+    ],
+    "1 DateTime::dayOfWeek()": [
+        "týsdagr",
+        "sunnudagr"
+    ],
+    "1 DateTime::localDate()": [
+        "05.06.1984",
+        "24.11.2013"
+    ],
+    "1 DateTime::localDateTime()": [
+        "05.06.1984 03:26",
+        "24.11.2013 10:59"
+    ],
+    "1 DateTime::century()": [
+        "XVII",
+        "IV"
+    ],
+    "1 DateTime::timezone()": [
+        "Atlantic/Reykjavik",
+        "Atlantic/Reykjavik"
+    ],
+    "1 Company::company()": [
+        "Skarpheðinn ok félagar",
+        "Hrólfr ok Óspakr"
+    ],
+    "1 Company::companySuffix()": [
+        "ok félagar",
+        "ok synir"
+    ],
+    "1 Company::jobTitle()": [
+        "stýrimaðr",
+        "kaupmaðr"
+    ],
+    "1 Company::industry()": [
+        "Skipasmíð",
+        "Kaupskapr"
+    ],
+    "1 Company::catchPhrase()": [
+        "Gáttir allar áðr gangi fram",
+        "Með lǫgum skal land byggja"
+    ],
+    "1 Address::cityData(\"IR\")": [
+        {
+            "city": "Veðrafjǫrðr",
+            "state": "Írland",
+            "stateCode": "IR",
+            "county": "Gulaþing",
+            "postcode": "213",
+            "latitude": 52.257638,
+            "longitude": -7.108476
+        },
+        {
+            "city": "Veðrafjǫrðr",
+            "state": "Írland",
+            "stateCode": "IR",
+            "county": "Gutnalþing",
+            "postcode": "441",
+            "latitude": 52.256533,
+            "longitude": -7.109338
+        }
+    ],
+    "1 DateTime::dateTimesBetween(3, \"-1 year\")": [
+        [
+            "2025-05-20T22:42:00.000000+00:00",
+            "2025-06-08T03:26:29.000000+00:00",
+            "2025-12-04T10:58:53.000000+00:00"
+        ],
+        [
+            "2025-01-15T23:31:21.000000+00:00",
+            "2025-06-18T08:29:28.000000+00:00",
+            "2025-08-14T21:35:11.000000+00:00"
+        ]
+    ],
+    "42 Person::lastName()": [
+        "Bollason",
+        "Hálfdanarson"
+    ],
+    "42 Person::byname()": [
+        "loðbrók",
+        "inn ungi"
+    ],
+    "42 Person::runes()": [
+        "ᚦᚢᚱᚠᛅᛚᛏᚱ᛫ᚼᛅᛚᚠᛏᛅᚾᛅᚱᛋᚢᚾ",
+        "ᚼᛅᚱᛅᛚᛏᚱ᛫ᛁᚱᛁᚴᛋᚢᚾ"
+    ],
+    "42 Person::name()": [
+        "Þorvaldr Hálfdanarson",
+        "Haraldr Eiríksson"
+    ],
+    "42 Person::firstName()": [
+        "Þorvaldr",
+        "Arnbjǫrn"
+    ],
+    "42 Person::middleName()": [
+        "Þorvaldr",
+        "Arnbjǫrn"
+    ],
+    "42 Person::age()": [
+        72,
+        64
+    ],
+    "42 Person::initials()": [
+        "ÞH",
+        "HE"
+    ],
+    "42 Person::suffix()": [
+        "inn gamli",
+        "inn gamli"
+    ],
+    "42 Person::title()": [
+        "lǫgsǫgumaðr",
+        "hersir"
+    ],
+    "42 Person::gender()": [
+        "Quidam\\Definitions\\Enum\\Gender::Male",
+        "Quidam\\Definitions\\Enum\\Gender::Male"
+    ],
+    "42 Address::city()": [
+        "Sigtúnir",
+        "Heiðabýr"
+    ],
+    "42 Address::streetName()": [
+        "Strandgata",
+        "Hafnarstræti"
+    ],
+    "42 Address::county()": [
+        "Þórsnessþing",
+        "Gulaþing"
+    ],
+    "42 Address::cityData()": [
+        {
+            "city": "Sigtúnir",
+            "state": "Svíþjóð",
+            "stateCode": "SE",
+            "county": "Gulaþing",
+            "postcode": "996",
+            "latitude": 59.619931,
+            "longitude": 17.723932
+        },
+        {
+            "city": "Heiðabýr",
+            "state": "Danmǫrk",
+            "stateCode": "DK",
+            "county": "Borgarþing",
+            "postcode": "934",
+            "latitude": 54.4928,
+            "longitude": 9.565862
+        }
+    ],
+    "42 Address::cityPrefix()": [
+        "Norðr",
+        "Mikli"
+    ],
+    "42 Address::citySuffix()": [
+        "vík",
+        "holt"
+    ],
+    "42 Address::streetSuffix()": [
+        "gata",
+        "stræti"
+    ],
+    "42 Address::secondaryAddress()": [
+        "skáli 2",
+        "búð 69"
+    ],
+    "42 Address::state()": [
+        "Orkneyjar",
+        "Garðaríki"
+    ],
+    "42 Address::stateCode()": [
+        "OR",
+        "GA"
+    ],
+    "42 Address::stateData()": [
+        {
+            "code": "OR",
+            "name": "Orkneyjar"
+        },
+        {
+            "code": "GA",
+            "name": "Garðaríki"
+        }
+    ],
+    "42 Address::buildingNumber()": [
+        "2",
+        "69"
+    ],
+    "42 Address::streetAddress()": [
+        "Strandgata 6",
+        "Kirkjustræti 60"
+    ],
+    "42 Address::postcode()": [
+        "209",
+        "100"
+    ],
+    "42 Address::address()": [
+        "Strandgata 6, Jórvík",
+        "Skjaldaragata 7, Árósar"
+    ],
+    "42 Address::addressData()": [
+        {
+            "street": "Strandgata 6",
+            "city": "Þingvellir",
+            "state": "Ísland",
+            "stateCode": "IS",
+            "county": "Þverárþing",
+            "postcode": "205",
+            "latitude": 64.254206,
+            "longitude": -21.132623,
+            "address": "Strandgata 6, Þingvellir"
+        },
+        {
+            "street": "Mikla gata 74",
+            "city": "Árósar",
+            "state": "Danmǫrk",
+            "stateCode": "DK",
+            "county": "Vaðlaþing",
+            "postcode": "694",
+            "latitude": 56.155818,
+            "longitude": 10.210429,
+            "address": "Mikla gata 74, Árósar"
+        }
+    ],
+    "42 Address::country()": [
+        "Eritrea",
+        "Malaysia"
+    ],
+    "42 Address::countryCode()": [
+        "ER",
+        "MY"
+    ],
+    "42 Address::countryCodeAlpha3()": [
+        "ERI",
+        "MYS"
+    ],
+    "42 Address::countryData()": [
+        {
+            "alpha2": "ER",
+            "alpha3": "ERI",
+            "name": "Eritrea"
+        },
+        {
+            "alpha2": "MY",
+            "alpha3": "MYS",
+            "name": "Malaysia"
+        }
+    ],
+    "42 Address::latitude()": [
+        -48.708734,
+        58.043118
+    ],
+    "42 Address::longitude()": [
+        131.650629,
+        -154.797659
+    ],
+    "42 Address::coordinates()": [
+        {
+            "latitude": -48.708734,
+            "longitude": -154.797659
+        },
+        {
+            "latitude": 15.729389,
+            "longitude": -65.414919
+        }
+    ],
+    "42 DateTime::monthName()": [
+        "Sólmánuðr",
+        "Mǫrsugr"
+    ],
+    "42 DateTime::longDate()": [
+        "18. Sólmánaðar 1982",
+        "20. Mǫrsugs 1984"
+    ],
+    "42 DateTime::dateTime()": [
+        "1982-07-08T02:06:54.000000+00:00",
+        "1984-01-09T04:57:09.000000+00:00"
+    ],
+    "42 DateTime::dateTimeBetween()": [
+        "2002-07-08T02:06:54.000000+00:00",
+        "2024-01-09T04:57:09.000000+00:00"
+    ],
+    "42 DateTime::dateTimeRange()": [
+        [
+            "2002-07-08T02:06:54.000000+00:00",
+            "2024-01-09T04:57:09.000000+00:00"
+        ],
+        [
+            "1996-10-25T03:17:28.000000+00:00",
+            "1998-01-03T00:58:49.000000+00:00"
+        ]
+    ],
+    "42 DateTime::dateTimePast()": [
+        "2026-01-11T02:05:36.000000+00:00",
+        "2026-01-14T04:45:25.000000+00:00"
+    ],
+    "42 DateTime::dateTimeFuture()": [
+        "2026-02-10T02:05:36.000000+00:00",
+        "2026-02-13T04:45:25.000000+00:00"
+    ],
+    "42 DateTime::dateOfBirth()": [
+        "1951-07-09T00:00:00.000000+00:00",
+        "2003-01-10T00:00:00.000000+00:00"
+    ],
+    "42 DateTime::date()": [
+        "1982-07-08",
+        "1984-01-09"
+    ],
+    "42 DateTime::time()": [
+        "02:06:54",
+        "04:57:09"
+    ],
+    "42 DateTime::unixTime()": [
+        394942014,
+        442472229
+    ],
+    "42 DateTime::dayOfWeek()": [
+        "þórsdagr",
+        "mánadagr"
+    ],
+    "42 DateTime::localDate()": [
+        "08.07.1982",
+        "09.01.1984"
+    ],
+    "42 DateTime::localDateTime()": [
+        "08.07.1982 02:06",
+        "09.01.1984 04:57"
+    ],
+    "42 DateTime::century()": [
+        "XIII",
+        "V"
+    ],
+    "42 DateTime::timezone()": [
+        "Atlantic/Reykjavik",
+        "Atlantic/Reykjavik"
+    ],
+    "42 Company::company()": [
+        "Bolli ok Hálfdan",
+        "Naust Arnbjarnar"
+    ],
+    "42 Company::companySuffix()": [
+        "ok synir",
+        "ok félagar"
+    ],
+    "42 Company::jobTitle()": [
+        "berserkr",
+        "skáld"
+    ],
+    "42 Company::industry()": [
+        "Vefnaðr",
+        "Vefnaðr"
+    ],
+    "42 Company::catchPhrase()": [
+        "Sá einn veit er víða ratar",
+        "Orðstírr deyr aldregi"
+    ],
+    "42 Address::cityData(\"IR\")": [
+        {
+            "city": "Dyflinn",
+            "state": "Írland",
+            "stateCode": "IR",
+            "county": "Gulaþing",
+            "postcode": "996",
+            "latitude": 53.346931,
+            "longitude": -6.266068
+        },
+        {
+            "city": "Veðrafjǫrðr",
+            "state": "Írland",
+            "stateCode": "IR",
+            "county": "Borgarþing",
+            "postcode": "934",
+            "latitude": 52.2608,
+            "longitude": -7.109138
+        }
+    ],
+    "42 DateTime::dateTimesBetween(3, \"-1 year\")": [
+        [
+            "2025-01-24T04:56:12.000000+00:00",
+            "2025-07-10T02:06:48.000000+00:00",
+            "2025-11-03T03:16:59.000000+00:00"
+        ],
+        [
+            "2025-10-06T13:45:56.000000+00:00",
+            "2025-10-28T15:25:20.000000+00:00",
+            "2026-01-04T00:58:48.000000+00:00"
+        ]
+    ],
+    "2026 Person::lastName()": [
+        "Hǫskuldsson",
+        "Þorgeirsdóttir"
+    ],
+    "2026 Person::byname()": [
+        "inn sterki",
+        "in rauða"
+    ],
+    "2026 Person::runes()": [
+        "ᚠᚱᛁᚢᛏᛁᛋ᛫ᚦᚢᚱᚴᛁᚱᛋᛏᚢᛏᛁᚱ",
+        "ᛋᛁᚴᚱᛁᚦᚱ᛫ᛁᚾᚴᚢᛚᚠᛋᛏᚢᛏᛁᚱ"
+    ],
+    "2026 Person::name()": [
+        "Freydís Þorgeirsdóttir",
+        "Sigríðr Ingólfsdóttir"
+    ],
+    "2026 Person::firstName()": [
+        "Freydís",
+        "Ingunn"
+    ],
+    "2026 Person::middleName()": [
+        "Freydís",
+        "Ingunn"
+    ],
+    "2026 Person::age()": [
+        63,
+        41
+    ],
+    "2026 Person::initials()": [
+        "FÞ",
+        "SI"
+    ],
+    "2026 Person::suffix()": [
+        "inn ungi",
+        "inn gamli"
+    ],
+    "2026 Person::title()": [
+        "dróttning",
+        "vǫlva"
+    ],
+    "2026 Person::gender()": [
+        "Quidam\\Definitions\\Enum\\Gender::Female",
+        "Quidam\\Definitions\\Enum\\Gender::Male"
+    ],
+    "2026 Address::city()": [
+        "Stafangr",
+        "Hólmgarðr"
+    ],
+    "2026 Address::streetName()": [
+        "Kirkjustræti",
+        "Bryggja"
+    ],
+    "2026 Address::county()": [
+        "Borgarþing",
+        "Gutnalþing"
+    ],
+    "2026 Address::cityData()": [
+        {
+            "city": "Stafangr",
+            "state": "Nóregr",
+            "stateCode": "NO",
+            "county": "Gutnalþing",
+            "postcode": "422",
+            "latitude": 58.969297,
+            "longitude": 5.734884
+        },
+        {
+            "city": "Ripar",
+            "state": "Danmǫrk",
+            "stateCode": "DK",
+            "county": "Frostaþing",
+            "postcode": "440",
+            "latitude": 55.330535,
+            "longitude": 8.759336
+        }
+    ],
+    "2026 Address::cityPrefix()": [
+        "Vestr",
+        "Austr"
+    ],
+    "2026 Address::citySuffix()": [
+        "nes",
+        "staðir"
+    ],
+    "2026 Address::streetSuffix()": [
+        "gata",
+        "torg"
+    ],
+    "2026 Address::secondaryAddress()": [
+        "skáli 6",
+        "skáli 6"
+    ],
+    "2026 Address::state()": [
+        "Írland",
+        "England"
+    ],
+    "2026 Address::stateCode()": [
+        "IR",
+        "EN"
+    ],
+    "2026 Address::stateData()": [
+        {
+            "code": "IR",
+            "name": "Írland"
+        },
+        {
+            "code": "EN",
+            "name": "England"
+        }
+    ],
+    "2026 Address::buildingNumber()": [
+        "6",
+        "6"
+    ],
+    "2026 Address::streetAddress()": [
+        "Kirkjustræti 68",
+        "Hafnarstræti 6"
+    ],
+    "2026 Address::postcode()": [
+        "688",
+        "184"
+    ],
+    "2026 Address::address()": [
+        "Kirkjustræti 68, Ripar",
+        "Kirkjustræti 4, Birka"
+    ],
+    "2026 Address::addressData()": [
+        {
+            "street": "Kirkjustræti 68",
+            "city": "Heiðabýr",
+            "state": "Danmǫrk",
+            "stateCode": "DK",
+            "county": "Gutnalþing",
+            "postcode": "853",
+            "latitude": 54.488299,
+            "longitude": 9.566699,
+            "address": "Kirkjustræti 68, Heiðabýr"
+        },
+        {
+            "street": "Smiðjugata 3",
+            "city": "Hlymrekr",
+            "state": "Írland",
+            "stateCode": "IR",
+            "county": "Þingvǫllr",
+            "postcode": "519",
+            "latitude": 52.66155,
+            "longitude": -8.625952,
+            "address": "Smiðjugata 3, Hlymrekr"
+        }
+    ],
+    "2026 Address::country()": [
+        "Estonia",
+        "Belarus"
+    ],
+    "2026 Address::countryCode()": [
+        "EE",
+        "BY"
+    ],
+    "2026 Address::countryCodeAlpha3()": [
+        "EST",
+        "BLR"
+    ],
+    "2026 Address::countryData()": [
+        {
+            "alpha2": "EE",
+            "alpha3": "EST",
+            "name": "Estonia"
+        },
+        {
+            "alpha2": "BY",
+            "alpha3": "BLR",
+            "name": "Belarus"
+        }
+    ],
+    "2026 Address::latitude()": [
+        -0.121337,
+        1.401902
+    ],
+    "2026 Address::longitude()": [
+        -20.542136,
+        130.263131
+    ],
+    "2026 Address::coordinates()": [
+        {
+            "latitude": -0.121337,
+            "longitude": 130.263131
+        },
+        {
+            "latitude": 78.723224,
+            "longitude": -2.89545
+        }
+    ],
+    "2026 DateTime::monthName()": [
+        "Gormánuðr",
+        "Gói"
+    ],
+    "2026 DateTime::longDate()": [
+        "3. Gormánaðar 2000",
+        "29. Góu 1984"
+    ],
+    "2026 DateTime::dateTime()": [
+        "2000-10-23T13:29:33.000000+00:00",
+        "1984-03-18T21:22:07.000000+00:00"
+    ],
+    "2026 DateTime::dateTimeBetween()": [
+        "2020-10-23T13:29:33.000000+00:00",
+        "2024-03-18T21:22:07.000000+00:00"
+    ],
+    "2026 DateTime::dateTimeRange()": [
+        [
+            "2020-10-23T13:29:33.000000+00:00",
+            "2024-03-18T21:22:07.000000+00:00"
+        ],
+        [
+            "2007-09-20T12:38:00.000000+00:00",
+            "2019-10-30T19:16:16.000000+00:00"
+        ]
+    ],
+    "2026 DateTime::dateTimePast()": [
+        "2026-01-03T13:24:32.000000+00:00",
+        "2025-12-24T21:10:20.000000+00:00"
+    ],
+    "2026 DateTime::dateTimeFuture()": [
+        "2026-02-02T13:24:32.000000+00:00",
+        "2026-01-23T21:10:20.000000+00:00"
+    ],
+    "2026 DateTime::dateOfBirth()": [
+        "1969-10-25T00:00:00.000000+00:00",
+        "2003-03-21T00:00:00.000000+00:00"
+    ],
+    "2026 DateTime::date()": [
+        "2000-10-23",
+        "1984-03-18"
+    ],
+    "2026 DateTime::time()": [
+        "13:29:33",
+        "21:22:07"
+    ],
+    "2026 DateTime::unixTime()": [
+        972307773,
+        448492927
+    ],
+    "2026 DateTime::dayOfWeek()": [
+        "mánadagr",
+        "sunnudagr"
+    ],
+    "2026 DateTime::localDate()": [
+        "23.10.2000",
+        "18.03.1984"
+    ],
+    "2026 DateTime::localDateTime()": [
+        "23.10.2000 13:29",
+        "18.03.1984 21:22"
+    ],
+    "2026 DateTime::century()": [
+        "IV",
+        "III"
+    ],
+    "2026 DateTime::timezone()": [
+        "Atlantic/Reykjavik",
+        "Atlantic/Reykjavik"
+    ],
+    "2026 Company::company()": [
+        "Bú Hǫskulds",
+        "Arnórr ok Ingólfr"
+    ],
+    "2026 Company::companySuffix()": [
+        "ok synir",
+        "ok brœðr"
+    ],
+    "2026 Company::jobTitle()": [
+        "rúnameistari",
+        "vefari"
+    ],
+    "2026 Company::industry()": [
+        "Skipasmíð",
+        "Fiskveiðar"
+    ],
+    "2026 Company::catchPhrase()": [
+        "Með lǫgum skal land byggja",
+        "Gáttir allar áðr gangi fram"
+    ],
+    "2026 Address::cityData(\"IR\")": [
+        {
+            "city": "Dyflinn",
+            "state": "Írland",
+            "stateCode": "IR",
+            "county": "Gutnalþing",
+            "postcode": "422",
+            "latitude": 53.343297,
+            "longitude": -6.265116
+        },
+        {
+            "city": "Hlymrekr",
+            "state": "Írland",
+            "stateCode": "IR",
+            "county": "Frostaþing",
+            "postcode": "440",
+            "latitude": 52.666535,
+            "longitude": -8.629664
+        }
+    ],
+    "2026 DateTime::dateTimesBetween(3, \"-1 year\")": [
+        [
+            "2025-04-03T21:21:10.000000+00:00",
+            "2025-10-30T13:29:09.000000+00:00",
+            "2025-11-21T19:14:55.000000+00:00"
+        ],
+        [
+            "2025-09-03T16:46:36.000000+00:00",
+            "2025-10-09T12:36:51.000000+00:00",
+            "2025-10-15T06:47:40.000000+00:00"
+        ]
+    ]
+}

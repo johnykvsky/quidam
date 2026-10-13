@@ -25,6 +25,8 @@ final class TransliteratorTest extends TestCase
         yield 'polish' => ['Łukasz Żółć', 'Lukasz Zolc'];
         yield 'german' => ['Straße Müller', 'Strasse Muller'];
         yield 'nordic' => ['Øresund Ærø Þór', 'Oresund AEro THor'];
+        yield 'old english' => ['Æþelflǣd Ǣlfrīc ƿine', 'AEthelflaed AElfric wine'];
+        yield 'gothic' => ['Þiudareiks ƕas', 'THiudareiks hwas'];
         yield 'slovak' => ['Ľubomír Ĺ', 'Lubomir L'];
         yield 'vietnamese' => ['Đắk Lắk Nguyễn', 'Dak Lak Nguyen'];
         yield 'russian' => ['Щука Юлия Ёлкин Жуков', 'Shchuka Yuliya Yolkin Zhukov'];

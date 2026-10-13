@@ -34,6 +34,9 @@ final class Application
 
     private const array FORMATS = ['text', 'json', 'csv'];
 
+    /** @var list<string> namespaces (and directories under src/) of language packs - living, then dead */
+    private const array PACK_DIRECTORIES = ['LanguagePack', 'DeadLanguagePack'];
+
     private const string USAGE = <<<'TEXT'
         Usage:
           quidam <alias.method[(arguments)]> [options]
@@ -165,16 +168,24 @@ final class Application
     }
 
     /**
-     * Provider pack class of --language: a code of a pack in Quidam\LanguagePack (pl_PL -> LanguagePack\pl_PL\PlPlProviderPack)
-     * or a class name
+     * Provider pack class of --language: a code of a pack in Quidam\LanguagePack or Quidam\DeadLanguagePack
+     * (pl_PL -> LanguagePack\pl_PL\PlPlProviderPack, la_VA -> DeadLanguagePack\la_VA\LaVaProviderPack) or a class name
      *
      * @return class-string<ProviderPackInterface>
      */
     private function providerPack(string $language): string
     {
-        $class = preg_match('/^([a-z]{2,3})_([A-Z]{2})$/', $language, $match) === 1
-            ? sprintf('Quidam\\LanguagePack\\%s\\%s%sProviderPack', $language, ucfirst($match[1]), ucfirst(strtolower($match[2])))
-            : ltrim($language, '\\');
+        $class = ltrim($language, '\\');
+
+        if (preg_match('/^([a-z]{2,3})_([A-Z]{2})$/', $language, $match) === 1) {
+            foreach (self::PACK_DIRECTORIES as $directory) {
+                $class = sprintf('Quidam\\%s\\%s\\%s%sProviderPack', $directory, $language, ucfirst($match[1]), ucfirst(strtolower($match[2])));
+
+                if (class_exists($class)) {
+                    break;
+                }
+            }
+        }
 
         if (!class_exists($class) || !is_subclass_of($class, ProviderPackInterface::class)) {
             throw new InvalidArgumentException(sprintf(
@@ -189,15 +200,21 @@ final class Application
     }
 
     /**
-     * Codes of packs in Quidam\LanguagePack
+     * Codes of packs in Quidam\LanguagePack and Quidam\DeadLanguagePack
      *
      * @return list<string>
      */
     private static function languages(): array
     {
-        $directories = glob(dirname(__DIR__) . '/LanguagePack/*', GLOB_ONLYDIR);
+        $directories = [];
+        foreach (self::PACK_DIRECTORIES as $directory) {
+            $directories = [...$directories, ...(glob(dirname(__DIR__) . '/' . $directory . '/*', GLOB_ONLYDIR) ?: [])];
+        }
 
-        return array_values(array_filter(array_map(basename(...), $directories === false ? [] : $directories), static fn (string $code): bool => preg_match('/^[a-z]{2,3}_[A-Z]{2}$/', $code) === 1));
+        $codes = array_filter(array_map(basename(...), $directories), static fn (string $code): bool => preg_match('/^[a-z]{2,3}_[A-Z]{2}$/', $code) === 1);
+        sort($codes);
+
+        return $codes;
     }
 
     private function date(string $date, DateTimeZone $timezone): DateTimeImmutable

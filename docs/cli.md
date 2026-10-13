@@ -69,7 +69,7 @@ quidam 'payment.iban(countryCode: "PL", formatted: true)'
 | `-f`, `--format <format>` | `text` (default), `json` or `csv` |
 | `--now <date>` | frozen "now" - for relative dates, birth dates, `uuid7` / `ulid` / `snowflake` |
 | `--timezone <tz>` | timezone of generated dates, default PHP's default timezone |
-| `-l`, `--language <pack>` | language pack - a code of a pack in `Quidam\Language` (`pl_PL`) or a `ProviderPackInterface` class name (needs a constructor without arguments) |
+| `-l`, `--language <pack>` | language pack - a code of a pack in `Quidam\LanguagePack` or `Quidam\DeadLanguagePack` (`pl_PL`, `la_VA`) or a `ProviderPackInterface` class name (needs a constructor without arguments) |
 | `-c`, `--config <file>` | PHP file returning a factory of the generator - see [Config file](#config-file); without it the default `Quidam::create()` is used |
 | `--list [alias]` | list aliases, or methods of one alias with their parameters - with `-l` / `-c`, of the classes actually used |
 | `-h`, `--help` | usage |

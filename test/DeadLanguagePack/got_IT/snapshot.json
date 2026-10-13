@@ -1,0 +1,686 @@
+{
+    "1 Person::lastName()": [
+        "so Tejins",
+        "sa Ataulfis"
+    ],
+    "1 Person::gothic()": [
+        "𐌱𐌰𐌳𐌳𐍉 𐍃𐍉 𐍅𐌰𐌻𐌰𐌼𐌴𐍂𐌹𐍃",
+        "𐌰𐌼𐌰𐌻𐌰𐍃𐍅𐌹𐌽𐌸𐌰 𐍃𐍉 𐍄𐌴𐌾𐌹𐌽𐍃"
+    ],
+    "1 Person::name()": [
+        "Baddo so Walameris",
+        "Amalaswinþa so Tejins"
+    ],
+    "1 Person::firstName()": [
+        "Baddo",
+        "Ataulfs"
+    ],
+    "1 Person::middleName()": [
+        "Baddo",
+        "Ataulfs"
+    ],
+    "1 Person::age()": [
+        76,
+        42
+    ],
+    "1 Person::initials()": [
+        "BSW",
+        "AST"
+    ],
+    "1 Person::suffix()": [
+        "us Balþam",
+        "us Amalam"
+    ],
+    "1 Person::title()": [
+        "qens",
+        "bokareis"
+    ],
+    "1 Person::gender()": [
+        "Quidam\\Definitions\\Enum\\Gender::Female",
+        "Quidam\\Definitions\\Enum\\Gender::Female"
+    ],
+    "1 Address::city()": [
+        "Novae",
+        "Toletum"
+    ],
+    "1 Address::streetName()": [
+        "Gatwo Weinis",
+        "Gatwo Fiskjane"
+    ],
+    "1 Address::buildingNumber()": [
+        "·𐌻𐌷·",
+        "·𐌻𐌰·"
+    ],
+    "1 Address::county()": [
+        "gawi Amalareikis",
+        "gawi Tejins"
+    ],
+    "1 Address::cityData()": [
+        {
+            "city": "Novae",
+            "state": "Moesia",
+            "stateCode": "MO",
+            "county": "gawi Tejins",
+            "postcode": "13027",
+            "latitude": 43.61778,
+            "longitude": 25.382321
+        },
+        {
+            "city": "Novae",
+            "state": "Moesia",
+            "stateCode": "MO",
+            "county": "gawi Widimeris",
+            "postcode": "11717",
+            "latitude": 43.618439,
+            "longitude": 25.385805
+        }
+    ],
+    "1 Address::cityPrefix()": [
+        "Niuja",
+        "Mikila"
+    ],
+    "1 Address::citySuffix()": [
+        "haims",
+        "gards"
+    ],
+    "1 Address::streetSuffix()": [
+        "plapja",
+        "gatwo"
+    ],
+    "1 Address::secondaryAddress()": [
+        "kelikn",
+        "razn"
+    ],
+    "1 Address::state()": [
+        "Spania",
+        "Italia"
+    ],
+    "1 Address::stateCode()": [
+        "SP",
+        "IT"
+    ],
+    "1 Address::stateData()": [
+        {
+            "code": "SP",
+            "name": "Spania"
+        },
+        {
+            "code": "IT",
+            "name": "Italia"
+        }
+    ],
+    "1 Address::streetAddress()": [
+        "Gatwo Weinis ·𐌻𐌰·",
+        "Gatwo Kaurnis ·𐌹𐌱·"
+    ],
+    "1 Address::postcode()": [
+        "04130",
+        "79874"
+    ],
+    "1 Address::address()": [
+        "Gatwo Weinis ·𐌻𐌰·, Carcaso",
+        "Gatwo Þiudanis ·𐌻𐌷·, Burdigala"
+    ],
+    "1 Address::addressData()": [
+        {
+            "street": "Gatwo Weinis ·𐌻𐌰·",
+            "city": "Mediolanum",
+            "state": "Italia",
+            "stateCode": "IT",
+            "county": "gawi Ataulfis",
+            "postcode": "02798",
+            "latitude": 45.46442,
+            "longitude": 9.191255,
+            "address": "Gatwo Weinis ·𐌻𐌰·, Mediolanum"
+        },
+        {
+            "street": "Gatwo Aipiskaupaus ·𐌺𐌱·",
+            "city": "Barcino",
+            "state": "Spania",
+            "stateCode": "SP",
+            "county": "gawi Tejins",
+            "postcode": "74331",
+            "latitude": 41.383663,
+            "longitude": 2.177869,
+            "address": "Gatwo Aipiskaupaus ·𐌺𐌱·, Barcino"
+        }
+    ],
+    "1 Address::country()": [
+        "Bosnia and Herzegovina",
+        "Lebanon"
+    ],
+    "1 Address::countryCode()": [
+        "BA",
+        "LB"
+    ],
+    "1 Address::countryCodeAlpha3()": [
+        "BIH",
+        "LBN"
+    ],
+    "1 Address::countryData()": [
+        {
+            "alpha2": "BA",
+            "alpha3": "BIH",
+            "name": "Bosnia and Herzegovina"
+        },
+        {
+            "alpha2": "LB",
+            "alpha3": "LBN",
+            "name": "Lebanon"
+        }
+    ],
+    "1 Address::latitude()": [
+        -35.726328,
+        -58.671206
+    ],
+    "1 Address::longitude()": [
+        -73.482063,
+        -158.674595
+    ],
+    "1 Address::coordinates()": [
+        {
+            "latitude": -35.726328,
+            "longitude": -158.674595
+        },
+        {
+            "latitude": -50.21702,
+            "longitude": -148.890107
+        }
+    ],
+    "1 Company::company()": [
+        "Amalareiks jah broþrjus is",
+        "Ataulfs jah Teja"
+    ],
+    "1 Company::companySuffix()": [
+        "jah broþrjus is",
+        "jah sunjus is"
+    ],
+    "1 Company::jobTitle()": [
+        "smiþa",
+        "kasja"
+    ],
+    "1 Company::industry()": [
+        "Gulþ",
+        "Waurstw"
+    ],
+    "1 Company::catchPhrase()": [
+        "Jah ni briggais uns in fraistubnjai",
+        "Qimai þiudinassus þeins"
+    ],
+    "1 Address::cityData(\"SP\")": [
+        {
+            "city": "Emerita Augusta",
+            "state": "Spania",
+            "stateCode": "SP",
+            "county": "gawi Tejins",
+            "postcode": "13027",
+            "latitude": 38.91778,
+            "longitude": -6.344679
+        },
+        {
+            "city": "Emerita Augusta",
+            "state": "Spania",
+            "stateCode": "SP",
+            "county": "gawi Widimeris",
+            "postcode": "11717",
+            "latitude": 38.918439,
+            "longitude": -6.341195
+        }
+    ],
+    "42 Person::lastName()": [
+        "sa Tulgins",
+        "sa Alareikis"
+    ],
+    "42 Person::gothic()": [
+        "𐍄𐌿𐌻𐌲𐌰 𐍃𐌰 𐌰𐌻𐌰𐍂𐌴𐌹𐌺𐌹𐍃",
+        "𐍆𐍂𐌹𐍄𐌹𐌲𐌰𐌹𐍂𐌽𐍃 𐍃𐌰 𐍄𐌿𐌻𐌲𐌹𐌽𐍃"
+    ],
+    "42 Person::name()": [
+        "Tulga sa Alareikis",
+        "Fritigairns sa Tulgins"
+    ],
+    "42 Person::firstName()": [
+        "Tulga",
+        "Alareiks"
+    ],
+    "42 Person::middleName()": [
+        "Tulga",
+        "Alareiks"
+    ],
+    "42 Person::age()": [
+        72,
+        64
+    ],
+    "42 Person::initials()": [
+        "TSA",
+        "FST"
+    ],
+    "42 Person::suffix()": [
+        "us Amalam",
+        "us Amalam"
+    ],
+    "42 Person::title()": [
+        "gudja",
+        "aipiskaupus"
+    ],
+    "42 Person::gender()": [
+        "Quidam\\Definitions\\Enum\\Gender::Male",
+        "Quidam\\Definitions\\Enum\\Gender::Male"
+    ],
+    "42 Address::city()": [
+        "Reccopolis",
+        "Toletum"
+    ],
+    "42 Address::streetName()": [
+        "Gatwo Hlaibis",
+        "Gatwo Hlaibis"
+    ],
+    "42 Address::buildingNumber()": [
+        "·𐌽𐌴·",
+        "·𐌹𐌰·"
+    ],
+    "42 Address::county()": [
+        "gawi Airmanareikis",
+        "gawi Tulgins"
+    ],
+    "42 Address::cityData()": [
+        {
+            "city": "Reccopolis",
+            "state": "Spania",
+            "stateCode": "SP",
+            "county": "gawi Tulgins",
+            "postcode": "96005",
+            "latitude": 40.350005,
+            "longitude": -2.875794
+        },
+        {
+            "city": "Hispalis",
+            "state": "Spania",
+            "stateCode": "SP",
+            "county": "gawi Wambins",
+            "postcode": "43672",
+            "latitude": 37.389676,
+            "longitude": -5.985634
+        }
+    ],
+    "42 Address::cityPrefix()": [
+        "Mikila",
+        "Mikila"
+    ],
+    "42 Address::citySuffix()": [
+        "gards",
+        "haims"
+    ],
+    "42 Address::streetSuffix()": [
+        "gatwo",
+        "gatwo"
+    ],
+    "42 Address::secondaryAddress()": [
+        "razn",
+        "kelikn"
+    ],
+    "42 Address::state()": [
+        "Gutþiuda",
+        "Italia"
+    ],
+    "42 Address::stateCode()": [
+        "GU",
+        "IT"
+    ],
+    "42 Address::stateData()": [
+        {
+            "code": "GU",
+            "name": "Gutþiuda"
+        },
+        {
+            "code": "IT",
+            "name": "Italia"
+        }
+    ],
+    "42 Address::streetAddress()": [
+        "Gatwo Hlaibis ·𐌹𐌰·",
+        "Gatwo Aipiskaupaus ·𐌽·"
+    ],
+    "42 Address::postcode()": [
+        "09960",
+        "52333"
+    ],
+    "42 Address::address()": [
+        "Gatwo Hlaibis ·𐌹𐌰·, Ticinum",
+        "Gatwo Weinis ·𐌻𐌳·, Emerita Augusta"
+    ],
+    "42 Address::addressData()": [
+        {
+            "street": "Gatwo Hlaibis ·𐌹𐌰·",
+            "city": "Carcaso",
+            "state": "Gallia",
+            "stateCode": "GA",
+            "county": "gawi Alareikis",
+            "postcode": "00523",
+            "latitude": 43.209377,
+            "longitude": 2.352578,
+            "address": "Gatwo Hlaibis ·𐌹𐌰·, Carcaso"
+        },
+        {
+            "street": "Gatwo Hlaibis ·𐌹𐌴·",
+            "city": "Hispalis",
+            "state": "Spania",
+            "stateCode": "SP",
+            "county": "gawi Sigisreikis",
+            "postcode": "29431",
+            "latitude": 37.388429,
+            "longitude": -5.985117,
+            "address": "Gatwo Hlaibis ·𐌹𐌴·, Hispalis"
+        }
+    ],
+    "42 Address::country()": [
+        "Eritrea",
+        "Malaysia"
+    ],
+    "42 Address::countryCode()": [
+        "ER",
+        "MY"
+    ],
+    "42 Address::countryCodeAlpha3()": [
+        "ERI",
+        "MYS"
+    ],
+    "42 Address::countryData()": [
+        {
+            "alpha2": "ER",
+            "alpha3": "ERI",
+            "name": "Eritrea"
+        },
+        {
+            "alpha2": "MY",
+            "alpha3": "MYS",
+            "name": "Malaysia"
+        }
+    ],
+    "42 Address::latitude()": [
+        -48.708734,
+        58.043118
+    ],
+    "42 Address::longitude()": [
+        131.650629,
+        -154.797659
+    ],
+    "42 Address::coordinates()": [
+        {
+            "latitude": -48.708734,
+            "longitude": -154.797659
+        },
+        {
+            "latitude": 15.729389,
+            "longitude": -65.414919
+        }
+    ],
+    "42 Company::company()": [
+        "Airmanareiks jah Alareiks",
+        "Gards Alareikis"
+    ],
+    "42 Company::companySuffix()": [
+        "jah sunjus is",
+        "jah broþrjus is"
+    ],
+    "42 Company::jobTitle()": [
+        "aipiskaupus",
+        "motareis"
+    ],
+    "42 Company::industry()": [
+        "Kaurn",
+        "Waurstw"
+    ],
+    "42 Company::catchPhrase()": [
+        "Unte þeina ist þiudangardi jah mahts jah wulþus in aiwins",
+        "Unte þeina ist þiudangardi jah mahts jah wulþus in aiwins"
+    ],
+    "42 Address::cityData(\"SP\")": [
+        {
+            "city": "Reccopolis",
+            "state": "Spania",
+            "stateCode": "SP",
+            "county": "gawi Tulgins",
+            "postcode": "96005",
+            "latitude": 40.350005,
+            "longitude": -2.875794
+        },
+        {
+            "city": "Hispalis",
+            "state": "Spania",
+            "stateCode": "SP",
+            "county": "gawi Wambins",
+            "postcode": "43672",
+            "latitude": 37.389676,
+            "longitude": -5.985634
+        }
+    ],
+    "2026 Person::lastName()": [
+        "so Amalareikis",
+        "so Ataulfis"
+    ],
+    "2026 Person::gothic()": [
+        "𐌰𐌼𐌰𐌻𐌰𐍃𐍅𐌹𐌽𐌸𐌰 𐍃𐍉 𐍅𐌹𐌳𐌹𐌼𐌴𐍂𐌹𐍃",
+        "𐌰𐌼𐌰𐌻𐌰𐍃𐍅𐌹𐌽𐌸𐌰 𐍃𐍉 𐌰𐌻𐌰𐍂𐌴𐌹𐌺𐌹𐍃"
+    ],
+    "2026 Person::name()": [
+        "Amalaswinþa so Widimeris",
+        "Amalaswinþa so Alareikis"
+    ],
+    "2026 Person::firstName()": [
+        "Amalaswinþa",
+        "Amalafriþa"
+    ],
+    "2026 Person::middleName()": [
+        "Amalaswinþa",
+        "Amalafriþa"
+    ],
+    "2026 Person::age()": [
+        63,
+        41
+    ],
+    "2026 Person::initials()": [
+        "ASW",
+        "ASA"
+    ],
+    "2026 Person::suffix()": [
+        "us Balþam",
+        "us Amalam"
+    ],
+    "2026 Person::title()": [
+        "widuwo",
+        "widuwo"
+    ],
+    "2026 Person::gender()": [
+        "Quidam\\Definitions\\Enum\\Gender::Female",
+        "Quidam\\Definitions\\Enum\\Gender::Male"
+    ],
+    "2026 Address::city()": [
+        "Hispalis",
+        "Narbo"
+    ],
+    "2026 Address::streetName()": [
+        "Gatwo Weinis",
+        "Gatwo Þiudanis"
+    ],
+    "2026 Address::buildingNumber()": [
+        "·𐌻𐌳·",
+        "·𐌸·"
+    ],
+    "2026 Address::county()": [
+        "gawi Alareikis",
+        "gawi Amalareikis"
+    ],
+    "2026 Address::cityData()": [
+        {
+            "city": "Hispalis",
+            "state": "Spania",
+            "stateCode": "SP",
+            "county": "gawi Amalareikis",
+            "postcode": "22845",
+            "latitude": 37.391899,
+            "longitude": -5.981972
+        },
+        {
+            "city": "Nicopolis ad Istrum",
+            "state": "Moesia",
+            "stateCode": "MO",
+            "county": "gawi Hunimundis",
+            "postcode": "89397",
+            "latitude": 43.216792,
+            "longitude": 25.611155
+        }
+    ],
+    "2026 Address::cityPrefix()": [
+        "Niuja",
+        "Mikila"
+    ],
+    "2026 Address::citySuffix()": [
+        "gards",
+        "baurgs"
+    ],
+    "2026 Address::streetSuffix()": [
+        "plapja",
+        "gatwo"
+    ],
+    "2026 Address::secondaryAddress()": [
+        "razn",
+        "hrot"
+    ],
+    "2026 Address::state()": [
+        "Moesia",
+        "Moesia"
+    ],
+    "2026 Address::stateCode()": [
+        "MO",
+        "MO"
+    ],
+    "2026 Address::stateData()": [
+        {
+            "code": "MO",
+            "name": "Moesia"
+        },
+        {
+            "code": "MO",
+            "name": "Moesia"
+        }
+    ],
+    "2026 Address::streetAddress()": [
+        "Gatwo Weinis ·𐌸·",
+        "Gatwo Fiskjane ·𐌲·"
+    ],
+    "2026 Address::postcode()": [
+        "88228",
+        "53154"
+    ],
+    "2026 Address::address()": [
+        "Gatwo Weinis ·𐌸·, Roma",
+        "Gatwo Weinis ·𐌽𐌵·, Burdigala"
+    ],
+    "2026 Address::addressData()": [
+        {
+            "street": "Gatwo Weinis ·𐌸·",
+            "city": "Doros",
+            "state": "Gutþiuda",
+            "stateCode": "GU",
+            "county": "gawi Ataulfis",
+            "postcode": "84531",
+            "latitude": 44.590299,
+            "longitude": 33.809699,
+            "address": "Gatwo Weinis ·𐌸·, Doros"
+        },
+        {
+            "street": "Gatwo Þiudanis ·𐌹𐌸·",
+            "city": "Carcaso",
+            "state": "Gallia",
+            "stateCode": "GA",
+            "county": "gawi Þiudameris",
+            "postcode": "71984",
+            "latitude": 43.213048,
+            "longitude": 2.351166,
+            "address": "Gatwo Þiudanis ·𐌹𐌸·, Carcaso"
+        }
+    ],
+    "2026 Address::country()": [
+        "Estonia",
+        "Belarus"
+    ],
+    "2026 Address::countryCode()": [
+        "EE",
+        "BY"
+    ],
+    "2026 Address::countryCodeAlpha3()": [
+        "EST",
+        "BLR"
+    ],
+    "2026 Address::countryData()": [
+        {
+            "alpha2": "EE",
+            "alpha3": "EST",
+            "name": "Estonia"
+        },
+        {
+            "alpha2": "BY",
+            "alpha3": "BLR",
+            "name": "Belarus"
+        }
+    ],
+    "2026 Address::latitude()": [
+        -0.121337,
+        1.401902
+    ],
+    "2026 Address::longitude()": [
+        -20.542136,
+        130.263131
+    ],
+    "2026 Address::coordinates()": [
+        {
+            "latitude": -0.121337,
+            "longitude": 130.263131
+        },
+        {
+            "latitude": 78.723224,
+            "longitude": -2.89545
+        }
+    ],
+    "2026 Company::company()": [
+        "Haims Alareikis",
+        "Ataulfs jah Alareiks"
+    ],
+    "2026 Company::companySuffix()": [
+        "jah sunjus is",
+        "jah gasinþans is"
+    ],
+    "2026 Company::jobTitle()": [
+        "lekeis",
+        "timrja"
+    ],
+    "2026 Company::industry()": [
+        "Fiskos",
+        "Silubr"
+    ],
+    "2026 Company::catchPhrase()": [
+        "Jah ni briggais uns in fraistubnjai",
+        "Atta unsar þu in himinam"
+    ],
+    "2026 Address::cityData(\"SP\")": [
+        {
+            "city": "Hispalis",
+            "state": "Spania",
+            "stateCode": "SP",
+            "county": "gawi Amalareikis",
+            "postcode": "22845",
+            "latitude": 37.391899,
+            "longitude": -5.981972
+        },
+        {
+            "city": "Toletum",
+            "state": "Spania",
+            "stateCode": "SP",
+            "county": "gawi Hunimundis",
+            "postcode": "89397",
+            "latitude": 39.855792,
+            "longitude": -4.023845
+        }
+    ]
+}

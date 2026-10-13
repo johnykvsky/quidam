@@ -1,0 +1,1256 @@
+{
+    "1 Person::lastName()": [
+        "mārat Apil-Sîn",
+        "mār Marduk-nāṣir"
+    ],
+    "1 Person::cuneiform()": [
+        "𒅖𒋫𒅈𒆷𒈠𒊍𒋛 𒈠𒊏𒀜 𒂗𒆠𒁺",
+        "𒁁𒇷𒄑𒋢𒉡 𒈠𒊏𒀜 𒅋𒋗𒅁𒉌"
+    ],
+    "1 Person::name()": [
+        "Ištar-lamassī mārat Enkidu",
+        "Bēlessunu mārat Ilšu-ibni"
+    ],
+    "1 Person::firstName()": [
+        "Ištar-lamassī",
+        "Marduk-nāṣir"
+    ],
+    "1 Person::middleName()": [
+        "Ištar-lamassī",
+        "Marduk-nāṣir"
+    ],
+    "1 Person::age()": [
+        76,
+        42
+    ],
+    "1 Person::initials()": [
+        "ILME",
+        "BMII"
+    ],
+    "1 Person::suffix()": [
+        "ṣeḫrum",
+        "rabûm"
+    ],
+    "1 Person::title()": [
+        "nadītum",
+        "āšipum"
+    ],
+    "1 Person::gender()": [
+        "Quidam\\Definitions\\Enum\\Gender::Female",
+        "Quidam\\Definitions\\Enum\\Gender::Female"
+    ],
+    "1 Address::city()": [
+        "Lagaš",
+        "Aššur"
+    ],
+    "1 Address::streetName()": [
+        "sūqum rapšum",
+        "Ay-ibūr-šābû"
+    ],
+    "1 Address::buildingNumber()": [
+        "bīt Ḫammurabi",
+        "bīt Apil-Sîn"
+    ],
+    "1 Address::secondaryAddress()": [
+        "tarbaṣum",
+        "ūrum"
+    ],
+    "1 Address::county()": [
+        "Emeslam",
+        "Esagil"
+    ],
+    "1 Address::cityData()": [
+        {
+            "city": "Lagaš",
+            "state": "Šumerum",
+            "stateCode": "SU",
+            "county": "Esagil",
+            "postcode": "13027",
+            "latitude": 31.41478,
+            "longitude": 46.398321
+        },
+        {
+            "city": "Ninua",
+            "state": "Aššur",
+            "stateCode": "AS",
+            "county": "Ebabbar",
+            "postcode": "11717",
+            "latitude": 36.361439,
+            "longitude": 43.155805
+        }
+    ],
+    "1 Address::cityPrefix()": [
+        "Kār",
+        "Dūr"
+    ],
+    "1 Address::citySuffix()": [
+        "-Sîn",
+        "-Marduk"
+    ],
+    "1 Address::streetSuffix()": [
+        "sulûm",
+        "sūqum"
+    ],
+    "1 Address::state()": [
+        "Akkadum",
+        "Šumerum"
+    ],
+    "1 Address::stateCode()": [
+        "AK",
+        "SU"
+    ],
+    "1 Address::stateData()": [
+        {
+            "code": "AK",
+            "name": "Akkadum"
+        },
+        {
+            "code": "SU",
+            "name": "Šumerum"
+        }
+    ],
+    "1 Address::streetAddress()": [
+        "sūqum rapšum, bīt Apil-Sîn",
+        "sūq Adad, bīt Marduk-nāṣir"
+    ],
+    "1 Address::postcode()": [
+        "04130",
+        "79874"
+    ],
+    "1 Address::address()": [
+        "sūqum rapšum, bīt Apil-Sîn, Ebla",
+        "sūq tamkārī, bīt Ḫammurabi, Bābilim"
+    ],
+    "1 Address::addressData()": [
+        {
+            "street": "sūqum rapšum, bīt Apil-Sîn",
+            "city": "Ebla",
+            "state": "Mari",
+            "stateCode": "MA",
+            "county": "Ezida",
+            "postcode": "02798",
+            "latitude": 35.79842,
+            "longitude": 36.799255,
+            "address": "sūqum rapšum, bīt Apil-Sîn, Ebla"
+        },
+        {
+            "street": "sūq Marduk, bīt Šamaš-nāṣir",
+            "city": "Nippur",
+            "state": "Šumerum",
+            "stateCode": "SU",
+            "county": "Emeslam",
+            "postcode": "74331",
+            "latitude": 32.127663,
+            "longitude": 45.231869,
+            "address": "sūq Marduk, bīt Šamaš-nāṣir, Nippur"
+        }
+    ],
+    "1 Address::country()": [
+        "Bosnia and Herzegovina",
+        "Lebanon"
+    ],
+    "1 Address::countryCode()": [
+        "BA",
+        "LB"
+    ],
+    "1 Address::countryCodeAlpha3()": [
+        "BIH",
+        "LBN"
+    ],
+    "1 Address::countryData()": [
+        {
+            "alpha2": "BA",
+            "alpha3": "BIH",
+            "name": "Bosnia and Herzegovina"
+        },
+        {
+            "alpha2": "LB",
+            "alpha3": "LBN",
+            "name": "Lebanon"
+        }
+    ],
+    "1 Address::latitude()": [
+        -35.726328,
+        -58.671206
+    ],
+    "1 Address::longitude()": [
+        -73.482063,
+        -158.674595
+    ],
+    "1 Address::coordinates()": [
+        {
+            "latitude": -35.726328,
+            "longitude": -158.674595
+        },
+        {
+            "latitude": -50.21702,
+            "longitude": -148.890107
+        }
+    ],
+    "1 DateTime::monthName()": [
+        "Simānu",
+        "Araḫsamnu"
+    ],
+    "1 DateTime::longDate()": [
+        "ūmum 6 ša Simāni, šanat 2295",
+        "ūmum 21 ša Araḫsamni, šanat 2324"
+    ],
+    "1 DateTime::dateTime()": [
+        "1984-06-05T03:26:37.000000+00:00",
+        "2013-11-24T10:59:30.000000+00:00"
+    ],
+    "1 DateTime::dateTimeBetween()": [
+        "2004-06-05T03:26:37.000000+00:00",
+        "2003-11-24T10:59:29.000000+00:00"
+    ],
+    "1 DateTime::dateTimeRange()": [
+        [
+            "2003-11-24T10:59:29.000000+00:00",
+            "2004-06-05T03:26:37.000000+00:00"
+        ],
+        [
+            "2000-05-18T22:42:04.000000+00:00",
+            "2009-05-21T08:31:08.000000+00:00"
+        ]
+    ],
+    "1 DateTime::dateTimePast()": [
+        "2025-12-20T03:24:55.000000+00:00",
+        "2026-01-13T10:51:50.000000+00:00"
+    ],
+    "1 DateTime::dateTimeFuture()": [
+        "2026-01-19T03:24:55.000000+00:00",
+        "2026-02-12T10:51:50.000000+00:00"
+    ],
+    "1 DateTime::dateOfBirth()": [
+        "1953-06-06T00:00:00.000000+00:00",
+        "1982-11-26T00:00:00.000000+00:00"
+    ],
+    "1 DateTime::date()": [
+        "1984-06-05",
+        "2013-11-24"
+    ],
+    "1 DateTime::time()": [
+        "03:26:37",
+        "10:59:30"
+    ],
+    "1 DateTime::unixTime()": [
+        455253997,
+        1385290770
+    ],
+    "1 DateTime::dayOfWeek()": [
+        "ūm Nergal",
+        "ūm Šamaš"
+    ],
+    "1 DateTime::localDate()": [
+        "05/06/1984",
+        "24/11/2013"
+    ],
+    "1 DateTime::localDateTime()": [
+        "05/06/1984 03:26",
+        "24/11/2013 10:59"
+    ],
+    "1 DateTime::century()": [
+        "XVII",
+        "IV"
+    ],
+    "1 DateTime::timezone()": [
+        "Asia/Baghdad",
+        "Asia/Baghdad"
+    ],
+    "1 Company::company()": [
+        "Ḫammurabi u tappûšu",
+        "Marduk-nāṣir u Ilšu-ibni"
+    ],
+    "1 Company::companySuffix()": [
+        "u tappûšu",
+        "u mārūšu"
+    ],
+    "1 Company::jobTitle()": [
+        "kalûm",
+        "šāpirum"
+    ],
+    "1 Company::industry()": [
+        "Šikarum",
+        "Erûm"
+    ],
+    "1 Company::catchPhrase()": [
+        "Šūtur eli šarrī",
+        "Dannum enšam ana lā ḫabālim"
+    ],
+    "1 Payment::creditCardType()": [
+        "Visa",
+        "MasterCard"
+    ],
+    "1 Payment::creditCardNumber()": [
+        "4130279874111714",
+        "3565317864741177"
+    ],
+    "1 Payment::maskedCreditCardNumber()": [
+        "**** **** **** 1714",
+        "**** **** **** 1177"
+    ],
+    "1 Payment::creditCardExpirationDate()": [
+        "05/26",
+        "10/28"
+    ],
+    "1 Payment::creditCardCvv()": [
+        "704",
+        "130"
+    ],
+    "1 Payment::creditCardDetails()": [
+        {
+            "type": "Visa",
+            "number": "4130279874111714",
+            "name": "Narām-Sîn mār Ea-nāṣir",
+            "expirationDate": "02/27",
+            "cvv": "178"
+        },
+        {
+            "type": "MasterCard",
+            "number": "5341174914468590",
+            "name": "Rīm-Sîn mār Šamšī-Adad",
+            "expirationDate": "06/28",
+            "cvv": "574"
+        }
+    ],
+    "1 Payment::iban()": [
+        "IQ97FKUH302798741117174",
+        "IQ05PRZB864741174914468"
+    ],
+    "1 Payment::swiftBicNumber()": [
+        "FKUHBYCQ",
+        "BQRGGTVX"
+    ],
+    "1 Payment::currencyCode()": [
+        "KGS",
+        "ERN"
+    ],
+    "1 Payment::currencyName()": [
+        "Som",
+        "Nakfa"
+    ],
+    "1 Payment::currencySymbol()": [
+        "$",
+        "NZ$"
+    ],
+    "1 Payment::currencyData()": [
+        {
+            "code": "KGS",
+            "name": "Som",
+            "symbol": "KGS"
+        },
+        {
+            "code": "ERN",
+            "name": "Nakfa",
+            "symbol": "ERN"
+        }
+    ],
+    "1 Payment::price()": [
+        15.5,
+        290.23
+    ],
+    "1 Payment::priceInMinorUnits()": [
+        703933,
+        739776
+    ],
+    "1 Payment::localCurrency()": [
+        {
+            "code": "IQD",
+            "name": "Iraqi Dinar",
+            "symbol": "IQD"
+        },
+        {
+            "code": "IQD",
+            "name": "Iraqi Dinar",
+            "symbol": "IQD"
+        }
+    ],
+    "1 Payment::localPrice()": [
+        "1 mana 10 šiqil 71 uṭṭet kaspim",
+        "1 mana 13 šiqil 176 uṭṭet kaspim"
+    ],
+    "1 Payment::bankAccountNumber()": [
+        "7041302798",
+        "7411171743"
+    ],
+    "1 Payment::transactionType()": [
+        "invoice",
+        "payment"
+    ],
+    "1 Payment::bitcoinAddress()": [
+        "3P3sLjge3sbag4zPFD9jYVQKWUobyLG3jw",
+        "34rG9DNf66WJNej9wKsSf1YjujUcrSHzrx"
+    ],
+    "1 Payment::ethereumAddress()": [
+        "0xc510C70f6Daff2B3ea4c364796553B8514452A08",
+        "0xA7A366c27b1C2E647336239ae2487AB222A7Fd6f"
+    ],
+    "1 Address::cityData(\"AS\")": [
+        {
+            "city": "Kalḫu",
+            "state": "Aššur",
+            "stateCode": "AS",
+            "county": "Esagil",
+            "postcode": "13027",
+            "latitude": 36.09978,
+            "longitude": 43.328321
+        },
+        {
+            "city": "Kalḫu",
+            "state": "Aššur",
+            "stateCode": "AS",
+            "county": "Ebabbar",
+            "postcode": "11717",
+            "latitude": 36.100439,
+            "longitude": 43.331805
+        }
+    ],
+    "1 DateTime::dateTimesBetween(3, \"-1 year\")": [
+        [
+            "2025-05-20T22:42:00.000000+00:00",
+            "2025-06-08T03:26:29.000000+00:00",
+            "2025-12-04T10:58:53.000000+00:00"
+        ],
+        [
+            "2025-01-15T23:31:21.000000+00:00",
+            "2025-06-18T08:29:28.000000+00:00",
+            "2025-08-14T21:35:11.000000+00:00"
+        ]
+    ],
+    "42 Person::lastName()": [
+        "mār Ilšu-ibni",
+        "mār Sîn-leqi-unninni"
+    ],
+    "42 Person::cuneiform()": [
+        "𒅋𒋗𒅁𒉌 𒈠𒅈 𒍣𒅎𒊑𒇷𒅎",
+        "𒌨𒈾𒄠𒈬 𒈠𒅈 𒋛𒅔𒈬𒁀𒀠𒇷𒀉"
+    ],
+    "42 Person::name()": [
+        "Ilšu-ibni mār Zimri-Līm",
+        "Ur-Nammu mār Sîn-muballiṭ"
+    ],
+    "42 Person::firstName()": [
+        "Ilšu-ibni",
+        "Sîn-leqi-unninni"
+    ],
+    "42 Person::middleName()": [
+        "Ilšu-ibni",
+        "Sîn-leqi-unninni"
+    ],
+    "42 Person::age()": [
+        72,
+        64
+    ],
+    "42 Person::initials()": [
+        "IIMZL",
+        "UNMSM"
+    ],
+    "42 Person::suffix()": [
+        "rabûm",
+        "rabûm"
+    ],
+    "42 Person::title()": [
+        "bārûm",
+        "šakkanakkum"
+    ],
+    "42 Person::gender()": [
+        "Quidam\\Definitions\\Enum\\Gender::Male",
+        "Quidam\\Definitions\\Enum\\Gender::Male"
+    ],
+    "42 Address::city()": [
+        "Ur",
+        "Sippar"
+    ],
+    "42 Address::streetName()": [
+        "sūq Adad",
+        "Ay-ibūr-šābû"
+    ],
+    "42 Address::buildingNumber()": [
+        "bīt Šulgi",
+        "bīt Ilšu-ibni"
+    ],
+    "42 Address::secondaryAddress()": [
+        "ūrum",
+        "tarbaṣum"
+    ],
+    "42 Address::county()": [
+        "Ebabbar",
+        "Esagil"
+    ],
+    "42 Address::cityData()": [
+        {
+            "city": "Ur",
+            "state": "Šumerum",
+            "stateCode": "SU",
+            "county": "Esagil",
+            "postcode": "96005",
+            "latitude": 30.964005,
+            "longitude": 46.101206
+        },
+        {
+            "city": "Umma",
+            "state": "Šumerum",
+            "stateCode": "SU",
+            "county": "Eanna",
+            "postcode": "43672",
+            "latitude": 31.664676,
+            "longitude": 45.886366
+        }
+    ],
+    "42 Address::cityPrefix()": [
+        "Dūr",
+        "Kār"
+    ],
+    "42 Address::citySuffix()": [
+        "-Marduk",
+        "-Marduk"
+    ],
+    "42 Address::streetSuffix()": [
+        "sūqum",
+        "sūqum"
+    ],
+    "42 Address::state()": [
+        "Šumerum",
+        "Ḫatti"
+    ],
+    "42 Address::stateCode()": [
+        "SU",
+        "HA"
+    ],
+    "42 Address::stateData()": [
+        {
+            "code": "SU",
+            "name": "Šumerum"
+        },
+        {
+            "code": "HA",
+            "name": "Ḫatti"
+        }
+    ],
+    "42 Address::streetAddress()": [
+        "sūq Adad, bīt Ilšu-ibni",
+        "kārum, bīt Sîn-leqi-unninni"
+    ],
+    "42 Address::postcode()": [
+        "09960",
+        "52333"
+    ],
+    "42 Address::address()": [
+        "sūq Adad, bīt Ilšu-ibni, Arbail",
+        "sūq Šamaš, bīt Ea-nāṣir, Ešnunna"
+    ],
+    "42 Address::addressData()": [
+        {
+            "street": "sūq Adad, bīt Ilšu-ibni",
+            "city": "Kaneš",
+            "state": "Ḫatti",
+            "stateCode": "HA",
+            "county": "Egalmaḫ",
+            "postcode": "00523",
+            "latitude": 38.847377,
+            "longitude": 35.634578,
+            "address": "sūq Adad, bīt Ilšu-ibni, Kaneš"
+        },
+        {
+            "street": "sūq Adad, bīt Narām-Sîn",
+            "city": "Umma",
+            "state": "Šumerum",
+            "stateCode": "SU",
+            "county": "Eninnu",
+            "postcode": "29431",
+            "latitude": 31.663429,
+            "longitude": 45.886883,
+            "address": "sūq Adad, bīt Narām-Sîn, Umma"
+        }
+    ],
+    "42 Address::country()": [
+        "Eritrea",
+        "Malaysia"
+    ],
+    "42 Address::countryCode()": [
+        "ER",
+        "MY"
+    ],
+    "42 Address::countryCodeAlpha3()": [
+        "ERI",
+        "MYS"
+    ],
+    "42 Address::countryData()": [
+        {
+            "alpha2": "ER",
+            "alpha3": "ERI",
+            "name": "Eritrea"
+        },
+        {
+            "alpha2": "MY",
+            "alpha3": "MYS",
+            "name": "Malaysia"
+        }
+    ],
+    "42 Address::latitude()": [
+        -48.708734,
+        58.043118
+    ],
+    "42 Address::longitude()": [
+        131.650629,
+        -154.797659
+    ],
+    "42 Address::coordinates()": [
+        {
+            "latitude": -48.708734,
+            "longitude": -154.797659
+        },
+        {
+            "latitude": 15.729389,
+            "longitude": -65.414919
+        }
+    ],
+    "42 DateTime::monthName()": [
+        "Duʾūzu",
+        "Ṭebētu"
+    ],
+    "42 DateTime::longDate()": [
+        "ūmum 17 ša Duʾūzi, šanat 2293",
+        "ūmum 6 ša Ṭebēti, šanat 2294"
+    ],
+    "42 DateTime::dateTime()": [
+        "1982-07-08T02:06:54.000000+00:00",
+        "1984-01-09T04:57:09.000000+00:00"
+    ],
+    "42 DateTime::dateTimeBetween()": [
+        "2002-07-08T02:06:54.000000+00:00",
+        "2024-01-09T04:57:09.000000+00:00"
+    ],
+    "42 DateTime::dateTimeRange()": [
+        [
+            "2002-07-08T02:06:54.000000+00:00",
+            "2024-01-09T04:57:09.000000+00:00"
+        ],
+        [
+            "1996-10-25T03:17:28.000000+00:00",
+            "1998-01-03T00:58:49.000000+00:00"
+        ]
+    ],
+    "42 DateTime::dateTimePast()": [
+        "2026-01-11T02:05:36.000000+00:00",
+        "2026-01-14T04:45:25.000000+00:00"
+    ],
+    "42 DateTime::dateTimeFuture()": [
+        "2026-02-10T02:05:36.000000+00:00",
+        "2026-02-13T04:45:25.000000+00:00"
+    ],
+    "42 DateTime::dateOfBirth()": [
+        "1951-07-09T00:00:00.000000+00:00",
+        "2003-01-10T00:00:00.000000+00:00"
+    ],
+    "42 DateTime::date()": [
+        "1982-07-08",
+        "1984-01-09"
+    ],
+    "42 DateTime::time()": [
+        "02:06:54",
+        "04:57:09"
+    ],
+    "42 DateTime::unixTime()": [
+        394942014,
+        442472229
+    ],
+    "42 DateTime::dayOfWeek()": [
+        "ūm Marduk",
+        "ūm Sîn"
+    ],
+    "42 DateTime::localDate()": [
+        "08/07/1982",
+        "09/01/1984"
+    ],
+    "42 DateTime::localDateTime()": [
+        "08/07/1982 02:06",
+        "09/01/1984 04:57"
+    ],
+    "42 DateTime::century()": [
+        "XIII",
+        "V"
+    ],
+    "42 DateTime::timezone()": [
+        "Asia/Baghdad",
+        "Asia/Baghdad"
+    ],
+    "42 Company::company()": [
+        "Šulgi u Zimri-Līm",
+        "bīt Sîn-leqi-unninni"
+    ],
+    "42 Company::companySuffix()": [
+        "u mārūšu",
+        "u tappûšu"
+    ],
+    "42 Company::jobTitle()": [
+        "ummiānum",
+        "rabiānum"
+    ],
+    "42 Company::industry()": [
+        "Kaspum",
+        "Annakum"
+    ],
+    "42 Company::catchPhrase()": [
+        "Ana Ea-nāṣir qibīma, umma Nanni-ma",
+        "Dannum enšam ana lā ḫabālim"
+    ],
+    "42 Payment::creditCardType()": [
+        "Visa",
+        "MasterCard"
+    ],
+    "42 Payment::creditCardNumber()": [
+        "4960052333443670",
+        "4315126204254200"
+    ],
+    "42 Payment::maskedCreditCardNumber()": [
+        "**** **** **** 3670",
+        "**** **** **** 4200"
+    ],
+    "42 Payment::creditCardExpirationDate()": [
+        "03/26",
+        "10/27"
+    ],
+    "42 Payment::creditCardCvv()": [
+        "409",
+        "960"
+    ],
+    "42 Payment::creditCardDetails()": [
+        {
+            "type": "Visa",
+            "number": "4960052333443670",
+            "name": "Zimri-Līm mār Šulgi",
+            "expirationDate": "12/27",
+            "cvv": "151"
+        },
+        {
+            "type": "Discover",
+            "number": "6504254208653833",
+            "name": "Rīm-Sîn mār Pūšu-kēn",
+            "expirationDate": "10/29",
+            "cvv": "936"
+        }
+    ],
+    "42 Payment::iban()": [
+        "IQ31WRBB600523334436729",
+        "IQ06PZLJ126204254208653"
+    ],
+    "42 Payment::swiftBicNumber()": [
+        "WRBBLIY4Y55",
+        "RFWCCYXV"
+    ],
+    "42 Payment::currencyCode()": [
+        "CLP",
+        "LBP"
+    ],
+    "42 Payment::currencyName()": [
+        "Chilean Peso",
+        "Lebanese Pound"
+    ],
+    "42 Payment::currencySymbol()": [
+        "₫",
+        "Kč"
+    ],
+    "42 Payment::currencyData()": [
+        {
+            "code": "CLP",
+            "name": "Chilean Peso",
+            "symbol": "$"
+        },
+        {
+            "code": "LBP",
+            "name": "Lebanese Pound",
+            "symbol": "LBP"
+        }
+    ],
+    "42 Payment::price()": [
+        901.71,
+        273.32
+    ],
+    "42 Payment::priceInMinorUnits()": [
+        392010,
+        843801
+    ],
+    "42 Payment::localCurrency()": [
+        {
+            "code": "IQD",
+            "name": "Iraqi Dinar",
+            "symbol": "IQD"
+        },
+        {
+            "code": "IQD",
+            "name": "Iraqi Dinar",
+            "symbol": "IQD"
+        }
+    ],
+    "42 Payment::localPrice()": [
+        "39 šiqil 36 uṭṭet kaspim",
+        "1 mana 24 šiqil 68 uṭṭet kaspim"
+    ],
+    "42 Payment::bankAccountNumber()": [
+        "4099600523",
+        "3344367294"
+    ],
+    "42 Payment::transactionType()": [
+        "fee",
+        "fee"
+    ],
+    "42 Payment::bitcoinAddress()": [
+        "1CWRhp4WnRPZJW8HQXtawpu7g6NnhxG5Qz",
+        "bc1q8pf8jqf355xutvkav4dg24pphzrspehtf9c85l"
+    ],
+    "42 Payment::ethereumAddress()": [
+        "0x16C72E0c2E0B78157E3A116D86D90461a199e439",
+        "0xA160B30347AdB8Ec645eeCe27fDcE6Fd38527901"
+    ],
+    "42 Address::cityData(\"AS\")": [
+        {
+            "city": "Arbail",
+            "state": "Aššur",
+            "stateCode": "AS",
+            "county": "Esagil",
+            "postcode": "96005",
+            "latitude": 36.193005,
+            "longitude": 44.007206
+        },
+        {
+            "city": "Dūr-Šarrukīn",
+            "state": "Aššur",
+            "stateCode": "AS",
+            "county": "Eanna",
+            "postcode": "43672",
+            "latitude": 36.509676,
+            "longitude": 43.227366
+        }
+    ],
+    "42 DateTime::dateTimesBetween(3, \"-1 year\")": [
+        [
+            "2025-01-24T04:56:12.000000+00:00",
+            "2025-07-10T02:06:48.000000+00:00",
+            "2025-11-03T03:16:59.000000+00:00"
+        ],
+        [
+            "2025-10-06T13:45:56.000000+00:00",
+            "2025-10-28T15:25:20.000000+00:00",
+            "2026-01-04T00:58:48.000000+00:00"
+        ]
+    ],
+    "2026 Person::lastName()": [
+        "mārat Iddin-Marduk",
+        "mārat Awīl-Marduk"
+    ],
+    "2026 Person::cuneiform()": [
+        "𒅆𒅁𒌅 𒈠𒊏𒀜 𒋛𒉌𒀉𒁲𒈾𒄠",
+        "𒂊𒊑𒅖𒋾𒀀𒅀 𒈠𒊏𒀜 𒋛𒉌𒀉𒁲𒈾𒄠"
+    ],
+    "2026 Person::name()": [
+        "Šibtu mārat Sîn-iddinam",
+        "Erišti-Aya mārat Sîn-iddinam"
+    ],
+    "2026 Person::firstName()": [
+        "Šibtu",
+        "Ummī-ṭābat"
+    ],
+    "2026 Person::middleName()": [
+        "Šibtu",
+        "Ummī-ṭābat"
+    ],
+    "2026 Person::age()": [
+        63,
+        41
+    ],
+    "2026 Person::initials()": [
+        "ŠMSI",
+        "EAMSI"
+    ],
+    "2026 Person::suffix()": [
+        "ṣeḫrum",
+        "rabûm"
+    ],
+    "2026 Person::title()": [
+        "šarratum",
+        "nadītum"
+    ],
+    "2026 Person::gender()": [
+        "Quidam\\Definitions\\Enum\\Gender::Female",
+        "Quidam\\Definitions\\Enum\\Gender::Male"
+    ],
+    "2026 Address::city()": [
+        "Ur",
+        "Girsu"
+    ],
+    "2026 Address::streetName()": [
+        "sūq Šamaš",
+        "sūq tamkārī"
+    ],
+    "2026 Address::buildingNumber()": [
+        "bīt Ea-nāṣir",
+        "bīt Iddin-Marduk"
+    ],
+    "2026 Address::secondaryAddress()": [
+        "ūrum",
+        "kummum"
+    ],
+    "2026 Address::county()": [
+        "Eanna",
+        "Ešarra"
+    ],
+    "2026 Address::cityData()": [
+        {
+            "city": "Ur",
+            "state": "Šumerum",
+            "stateCode": "SU",
+            "county": "Ešarra",
+            "postcode": "22845",
+            "latitude": 30.964899,
+            "longitude": 46.105028
+        },
+        {
+            "city": "Uruk",
+            "state": "Šumerum",
+            "stateCode": "SU",
+            "county": "Ebabbar",
+            "postcode": "89397",
+            "latitude": 31.320792,
+            "longitude": 45.636155
+        }
+    ],
+    "2026 Address::cityPrefix()": [
+        "Dūr",
+        "Āl"
+    ],
+    "2026 Address::citySuffix()": [
+        "-Sîn",
+        "-Šamaš"
+    ],
+    "2026 Address::streetSuffix()": [
+        "sulûm",
+        "sūqum"
+    ],
+    "2026 Address::state()": [
+        "Mari",
+        "Aššur"
+    ],
+    "2026 Address::stateCode()": [
+        "MA",
+        "AS"
+    ],
+    "2026 Address::stateData()": [
+        {
+            "code": "MA",
+            "name": "Mari"
+        },
+        {
+            "code": "AS",
+            "name": "Aššur"
+        }
+    ],
+    "2026 Address::streetAddress()": [
+        "sūq Šamaš, bīt Iddin-Marduk",
+        "sūq tamkārī, bīt Awīl-Marduk"
+    ],
+    "2026 Address::postcode()": [
+        "88228",
+        "53154"
+    ],
+    "2026 Address::address()": [
+        "sūq Šamaš, bīt Iddin-Marduk, Mari",
+        "sūq Marduk, bīt Šū-ilīšu, Šušan"
+    ],
+    "2026 Address::addressData()": [
+        {
+            "street": "sūq Šamaš, bīt Iddin-Marduk",
+            "city": "Aššur",
+            "state": "Aššur",
+            "stateCode": "AS",
+            "county": "Ekur",
+            "postcode": "84531",
+            "latitude": 35.453299,
+            "longitude": 43.263699,
+            "address": "sūq Šamaš, bīt Iddin-Marduk, Aššur"
+        },
+        {
+            "street": "Ay-ibūr-šābû, bīt Sîn-iddinam",
+            "city": "Kiš",
+            "state": "Akkadum",
+            "stateCode": "AK",
+            "county": "Eanna",
+            "postcode": "71984",
+            "latitude": 32.541048,
+            "longitude": 44.603166,
+            "address": "Ay-ibūr-šābû, bīt Sîn-iddinam, Kiš"
+        }
+    ],
+    "2026 Address::country()": [
+        "Estonia",
+        "Belarus"
+    ],
+    "2026 Address::countryCode()": [
+        "EE",
+        "BY"
+    ],
+    "2026 Address::countryCodeAlpha3()": [
+        "EST",
+        "BLR"
+    ],
+    "2026 Address::countryData()": [
+        {
+            "alpha2": "EE",
+            "alpha3": "EST",
+            "name": "Estonia"
+        },
+        {
+            "alpha2": "BY",
+            "alpha3": "BLR",
+            "name": "Belarus"
+        }
+    ],
+    "2026 Address::latitude()": [
+        -0.121337,
+        1.401902
+    ],
+    "2026 Address::longitude()": [
+        -20.542136,
+        130.263131
+    ],
+    "2026 Address::coordinates()": [
+        {
+            "latitude": -0.121337,
+            "longitude": 130.263131
+        },
+        {
+            "latitude": 78.723224,
+            "longitude": -2.89545
+        }
+    ],
+    "2026 DateTime::monthName()": [
+        "Tašrītu",
+        "Addaru"
+    ],
+    "2026 DateTime::longDate()": [
+        "ūmum 25 ša Tašrīti, šanat 2311",
+        "ūmum 16 ša Addari, šanat 2294"
+    ],
+    "2026 DateTime::dateTime()": [
+        "2000-10-23T13:29:33.000000+00:00",
+        "1984-03-18T21:22:07.000000+00:00"
+    ],
+    "2026 DateTime::dateTimeBetween()": [
+        "2020-10-23T13:29:33.000000+00:00",
+        "2024-03-18T21:22:07.000000+00:00"
+    ],
+    "2026 DateTime::dateTimeRange()": [
+        [
+            "2020-10-23T13:29:33.000000+00:00",
+            "2024-03-18T21:22:07.000000+00:00"
+        ],
+        [
+            "2007-09-20T12:38:00.000000+00:00",
+            "2019-10-30T19:16:16.000000+00:00"
+        ]
+    ],
+    "2026 DateTime::dateTimePast()": [
+        "2026-01-03T13:24:32.000000+00:00",
+        "2025-12-24T21:10:20.000000+00:00"
+    ],
+    "2026 DateTime::dateTimeFuture()": [
+        "2026-02-02T13:24:32.000000+00:00",
+        "2026-01-23T21:10:20.000000+00:00"
+    ],
+    "2026 DateTime::dateOfBirth()": [
+        "1969-10-25T00:00:00.000000+00:00",
+        "2003-03-21T00:00:00.000000+00:00"
+    ],
+    "2026 DateTime::date()": [
+        "2000-10-23",
+        "1984-03-18"
+    ],
+    "2026 DateTime::time()": [
+        "13:29:33",
+        "21:22:07"
+    ],
+    "2026 DateTime::unixTime()": [
+        972307773,
+        448492927
+    ],
+    "2026 DateTime::dayOfWeek()": [
+        "ūm Sîn",
+        "ūm Šamaš"
+    ],
+    "2026 DateTime::localDate()": [
+        "23/10/2000",
+        "18/03/1984"
+    ],
+    "2026 DateTime::localDateTime()": [
+        "23/10/2000 13:29",
+        "18/03/1984 21:22"
+    ],
+    "2026 DateTime::century()": [
+        "IV",
+        "III"
+    ],
+    "2026 DateTime::timezone()": [
+        "Asia/Baghdad",
+        "Asia/Baghdad"
+    ],
+    "2026 Company::company()": [
+        "bīt Ea-nāṣir",
+        "bīt Sîn-iddinam"
+    ],
+    "2026 Company::companySuffix()": [
+        "u mārūšu",
+        "u aḫḫūšu"
+    ],
+    "2026 Company::jobTitle()": [
+        "malāḫum",
+        "ikkarum"
+    ],
+    "2026 Company::industry()": [
+        "Kaspum",
+        "Eqlum"
+    ],
+    "2026 Company::catchPhrase()": [
+        "Šumma awīlum īn mār awīlim uḫtappid, īnšu uḫappadū",
+        "Šumma awīlum īn mār awīlim uḫtappid, īnšu uḫappadū"
+    ],
+    "2026 Payment::creditCardType()": [
+        "Diners Club",
+        "Visa"
+    ],
+    "2026 Payment::creditCardNumber()": [
+        "38228453154083",
+        "4719840620174873"
+    ],
+    "2026 Payment::maskedCreditCardNumber()": [
+        "**** ****** 4083",
+        "**** **** **** 4873"
+    ],
+    "2026 Payment::creditCardExpirationDate()": [
+        "06/28",
+        "08/27"
+    ],
+    "2026 Payment::creditCardCvv()": [
+        "388",
+        "228"
+    ],
+    "2026 Payment::creditCardDetails()": [
+        {
+            "type": "Diners Club",
+            "number": "38228453154083",
+            "name": "Nanni mār Zimri-Līm",
+            "expirationDate": "03/27",
+            "cvv": "198"
+        },
+        {
+            "type": "Discover",
+            "number": "6011201748724638",
+            "name": "Sîn-iddinam mār Šamaš-nāṣir",
+            "expirationDate": "09/27",
+            "cvv": "196"
+        }
+    ],
+    "2026 Payment::iban()": [
+        "IQ87VYHC284531540893971",
+        "IQ36KQQI620174872463181"
+    ],
+    "2026 Payment::swiftBicNumber()": [
+        "VYHCADI27VO",
+        "JIIOUAP8859"
+    ],
+    "2026 Payment::currencyCode()": [
+        "LAK",
+        "VND"
+    ],
+    "2026 Payment::currencyName()": [
+        "Lao Kip",
+        "Dong"
+    ],
+    "2026 Payment::currencySymbol()": [
+        "kr",
+        "₩"
+    ],
+    "2026 Payment::currencyData()": [
+        {
+            "code": "LAK",
+            "name": "Lao Kip",
+            "symbol": "LAK"
+        },
+        {
+            "code": "VND",
+            "name": "Dong",
+            "symbol": "₫"
+        }
+    ],
+    "2026 Payment::price()": [
+        501.56,
+        479.7
+    ],
+    "2026 Payment::priceInMinorUnits()": [
+        757192,
+        864493
+    ],
+    "2026 Payment::localCurrency()": [
+        {
+            "code": "IQD",
+            "name": "Iraqi Dinar",
+            "symbol": "IQD"
+        },
+        {
+            "code": "IQD",
+            "name": "Iraqi Dinar",
+            "symbol": "IQD"
+        }
+    ],
+    "2026 Payment::localPrice()": [
+        "1 mana 15 šiqil 129 uṭṭet kaspim",
+        "1 mana 26 šiqil 81 uṭṭet kaspim"
+    ],
+    "2026 Payment::bankAccountNumber()": [
+        "3882284531",
+        "5408939719"
+    ],
+    "2026 Payment::transactionType()": [
+        "invoice",
+        "deposit"
+    ],
+    "2026 Payment::bitcoinAddress()": [
+        "1LhcDghvoqxjEa3RFVqMkuWNhmravK1Yg8",
+        "38J4KSS9Fsq3CoRJ3FVMDtym72HEsjvnMy"
+    ],
+    "2026 Payment::ethereumAddress()": [
+        "0x15AE982e5911e092d8186D6d94379F48DADe9c9D",
+        "0x0267d586a7DCC7E4ca3a22c1798be1CF48714ff9"
+    ],
+    "2026 Address::cityData(\"AS\")": [
+        {
+            "city": "Dūr-Šarrukīn",
+            "state": "Aššur",
+            "stateCode": "AS",
+            "county": "Ešarra",
+            "postcode": "22845",
+            "latitude": 36.511899,
+            "longitude": 43.231028
+        },
+        {
+            "city": "Aššur",
+            "state": "Aššur",
+            "stateCode": "AS",
+            "county": "Ebabbar",
+            "postcode": "89397",
+            "latitude": 35.454792,
+            "longitude": 43.262155
+        }
+    ],
+    "2026 DateTime::dateTimesBetween(3, \"-1 year\")": [
+        [
+            "2025-04-03T21:21:10.000000+00:00",
+            "2025-10-30T13:29:09.000000+00:00",
+            "2025-11-21T19:14:55.000000+00:00"
+        ],
+        [
+            "2025-09-03T16:46:36.000000+00:00",
+            "2025-10-09T12:36:51.000000+00:00",
+            "2025-10-15T06:47:40.000000+00:00"
+        ]
+    ]
+}

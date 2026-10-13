@@ -12,6 +12,7 @@ use Quidam\Container\ContainerFactoryInterface;
 use Quidam\Container\QuidamContainerInterface;
 use Quidam\Container\SimpleContainerFactory;
 use Quidam\Core\Randomizer\Seed;
+use Quidam\DeadLanguagePack\AncientLanguages;
 use Quidam\DefinitionPack\DefinitionPack;
 use Quidam\DefinitionPack\DefinitionPackInterface;
 use Quidam\Definitions\Randomizer\RandomizerInterface;
@@ -110,6 +111,22 @@ readonly class Quidam implements GeneratorInterface
             RandomizerInterface::class,
             static fn (SecureRandomizerInterface $randomizer): SecureRandomizerInterface => $randomizer,
         );
+    }
+
+    /**
+     * This instance speaking a random ancient language - one of the historical packs of AncientLanguages::PACKS
+     * (Akkadian, Latin, Old Norse...), picked with this instance's randomizer, so the same seed picks the same one:
+     *
+     *   $generator->ancient()->person()->name();   // 'Quintus Tullius Scipio', 'Leifr Eiríksson'...
+     *
+     * For a given language, Klingon or any other pack use withProvider().
+     */
+    public function ancient(): static
+    {
+        /** @var class-string<ProviderPackInterface> $providerPack */
+        $providerPack = $this->random()->randomElement(AncientLanguages::PACKS);
+
+        return $this->withProvider(new $providerPack());
     }
 
     public function withDefinition(string $id, mixed $definition): static

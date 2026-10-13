@@ -1,0 +1,1244 @@
+{
+    "1 Person::name()": [
+        "Margarete Broun",
+        "Emme Robynson"
+    ],
+    "1 Person::firstName()": [
+        "Margarete",
+        "Geffrey"
+    ],
+    "1 Person::middleName()": [
+        "Margarete",
+        "Geffrey"
+    ],
+    "1 Person::age()": [
+        76,
+        42
+    ],
+    "1 Person::initials()": [
+        "MB",
+        "ER"
+    ],
+    "1 Person::suffix()": [
+        "the yonger",
+        "the elder"
+    ],
+    "1 Person::lastName()": [
+        "atte Grene",
+        "Whyte"
+    ],
+    "1 Person::title()": [
+        "Dame",
+        "Daun"
+    ],
+    "1 Person::gender()": [
+        "Quidam\\Definitions\\Enum\\Gender::Female",
+        "Quidam\\Definitions\\Enum\\Gender::Female"
+    ],
+    "1 Address::city()": [
+        "Grenewych",
+        "Norwiche"
+    ],
+    "1 Address::streetName()": [
+        "Candelwykstrete",
+        "Aldrichegate"
+    ],
+    "1 Address::buildingNumber()": [
+        "Lamb",
+        "Cheker"
+    ],
+    "1 Address::secondaryAddress()": [
+        "solere",
+        "shoppe"
+    ],
+    "1 Address::county()": [
+        "the parisshe of Seint Martyn",
+        "the parisshe of Seint Laurence"
+    ],
+    "1 Address::cityData()": [
+        {
+            "city": "Grenewych",
+            "state": "Kent",
+            "stateCode": "KE",
+            "county": "the parisshe of Seint Laurence",
+            "postcode": "13027",
+            "latitude": 51.48378,
+            "longitude": -0.009679
+        },
+        {
+            "city": "Lenne",
+            "state": "Norfolk",
+            "stateCode": "NF",
+            "county": "the parisshe of Seint Elene",
+            "postcode": "1171",
+            "latitude": 52.756121,
+            "longitude": 0.398439
+        }
+    ],
+    "1 Address::cityPrefix()": [
+        "Southe",
+        "Northe"
+    ],
+    "1 Address::citySuffix()": [
+        "bury",
+        "tone"
+    ],
+    "1 Address::streetSuffix()": [
+        "lane",
+        "strete"
+    ],
+    "1 Address::state()": [
+        "Hertfordshire",
+        "Notynghamshire"
+    ],
+    "1 Address::stateCode()": [
+        "HE",
+        "NT"
+    ],
+    "1 Address::stateData()": [
+        {
+            "code": "HE",
+            "name": "Hertfordshire"
+        },
+        {
+            "code": "NT",
+            "name": "Notynghamshire"
+        }
+    ],
+    "1 Address::streetAddress()": [
+        "Candelwykstrete, atte signe of the Cheker",
+        "Watlyngstrete, atte signe of the Whyte Hart"
+    ],
+    "1 Address::postcode()": [
+        "0413",
+        "27987"
+    ],
+    "1 Address::address()": [
+        "Candelwykstrete, atte signe of the Cheker, Excestre",
+        "Chepe, atte signe of the Cok, Everwik"
+    ],
+    "1 Address::addressData()": [
+        {
+            "street": "Candelwykstrete, atte signe of the Cheker",
+            "city": "Excestre",
+            "state": "Devenshire",
+            "stateCode": "DE",
+            "county": "the parisshe of Seint Dunstan",
+            "postcode": "0279",
+            "latitude": 50.721321,
+            "longitude": -3.53058,
+            "address": "Candelwykstrete, atte signe of the Cheker, Excestre"
+        },
+        {
+            "street": "Gracechirchestrete, atte signe of the Crowne",
+            "city": "Rouchestre",
+            "state": "Kent",
+            "stateCode": "KE",
+            "county": "the parisshe of Seint Petre",
+            "postcode": "1743",
+            "latitude": 51.387158,
+            "longitude": 0.50421,
+            "address": "Gracechirchestrete, atte signe of the Crowne, Rouchestre"
+        }
+    ],
+    "1 Address::country()": [
+        "Bosnia and Herzegovina",
+        "Lebanon"
+    ],
+    "1 Address::countryCode()": [
+        "BA",
+        "LB"
+    ],
+    "1 Address::countryCodeAlpha3()": [
+        "BIH",
+        "LBN"
+    ],
+    "1 Address::countryData()": [
+        {
+            "alpha2": "BA",
+            "alpha3": "BIH",
+            "name": "Bosnia and Herzegovina"
+        },
+        {
+            "alpha2": "LB",
+            "alpha3": "LBN",
+            "name": "Lebanon"
+        }
+    ],
+    "1 Address::latitude()": [
+        -35.726328,
+        -58.671206
+    ],
+    "1 Address::longitude()": [
+        -73.482063,
+        -158.674595
+    ],
+    "1 Address::coordinates()": [
+        {
+            "latitude": -35.726328,
+            "longitude": -158.674595
+        },
+        {
+            "latitude": -50.21702,
+            "longitude": -148.890107
+        }
+    ],
+    "1 DateTime::longDate()": [
+        "the v day of Juyn, the xxxiij yeer of Quene Elizabeth the Seconde",
+        "the xxiiij day of Novembre, the lxij yeer of Quene Elizabeth the Seconde"
+    ],
+    "1 DateTime::dateTime()": [
+        "1984-06-05T03:26:37.000000+00:00",
+        "2013-11-24T10:59:30.000000+00:00"
+    ],
+    "1 DateTime::dateTimeBetween()": [
+        "2004-06-05T03:26:37.000000+00:00",
+        "2003-11-24T10:59:29.000000+00:00"
+    ],
+    "1 DateTime::dateTimeRange()": [
+        [
+            "2003-11-24T10:59:29.000000+00:00",
+            "2004-06-05T03:26:37.000000+00:00"
+        ],
+        [
+            "2000-05-18T22:42:04.000000+00:00",
+            "2009-05-21T08:31:08.000000+00:00"
+        ]
+    ],
+    "1 DateTime::dateTimePast()": [
+        "2025-12-20T03:24:55.000000+00:00",
+        "2026-01-13T10:51:50.000000+00:00"
+    ],
+    "1 DateTime::dateTimeFuture()": [
+        "2026-01-19T03:24:55.000000+00:00",
+        "2026-02-12T10:51:50.000000+00:00"
+    ],
+    "1 DateTime::dateOfBirth()": [
+        "1953-06-06T00:00:00.000000+00:00",
+        "1982-11-26T00:00:00.000000+00:00"
+    ],
+    "1 DateTime::date()": [
+        "1984-06-05",
+        "2013-11-24"
+    ],
+    "1 DateTime::time()": [
+        "03:26:37",
+        "10:59:30"
+    ],
+    "1 DateTime::unixTime()": [
+        455253997,
+        1385290770
+    ],
+    "1 DateTime::monthName()": [
+        "Juyn",
+        "Novembre"
+    ],
+    "1 DateTime::dayOfWeek()": [
+        "Tewesday",
+        "Sonday"
+    ],
+    "1 DateTime::localDate()": [
+        "05/06/1984",
+        "24/11/2013"
+    ],
+    "1 DateTime::localDateTime()": [
+        "05/06/1984 03:26",
+        "24/11/2013 10:59"
+    ],
+    "1 DateTime::century()": [
+        "XVII",
+        "IV"
+    ],
+    "1 DateTime::timezone()": [
+        "Europe/London",
+        "Europe/London"
+    ],
+    "1 Company::company()": [
+        "the Mistere of Drapers",
+        "Rose of Bathe and Emme le Chapman"
+    ],
+    "1 Company::companySuffix()": [
+        "and his sones",
+        "and his felawes"
+    ],
+    "1 Company::jobTitle()": [
+        "Monk",
+        "Cook"
+    ],
+    "1 Company::industry()": [
+        "Lawe",
+        "Pilgrymage"
+    ],
+    "1 Company::catchPhrase()": [
+        "Gladly wolde he lerne and gladly teche",
+        "Mordre wol out"
+    ],
+    "1 Payment::creditCardType()": [
+        "Visa",
+        "MasterCard"
+    ],
+    "1 Payment::creditCardNumber()": [
+        "4130279874111714",
+        "3565317864741177"
+    ],
+    "1 Payment::maskedCreditCardNumber()": [
+        "**** **** **** 1714",
+        "**** **** **** 1177"
+    ],
+    "1 Payment::creditCardExpirationDate()": [
+        "05/26",
+        "10/28"
+    ],
+    "1 Payment::creditCardCvv()": [
+        "704",
+        "130"
+    ],
+    "1 Payment::creditCardDetails()": [
+        {
+            "type": "Visa",
+            "number": "4130279874111714",
+            "name": "Stevene Shakespere",
+            "expirationDate": "02/27",
+            "cvv": "178"
+        },
+        {
+            "type": "MasterCard",
+            "number": "5341174914468590",
+            "name": "Alayn de Ware",
+            "expirationDate": "06/28",
+            "cvv": "574"
+        }
+    ],
+    "1 Payment::iban()": [
+        "GB43FKUH30279874111717",
+        "GB16APRZ78647411749144"
+    ],
+    "1 Payment::swiftBicNumber()": [
+        "FKUHBYCQ",
+        "BQRGGTVX"
+    ],
+    "1 Payment::currencyCode()": [
+        "KGS",
+        "ERN"
+    ],
+    "1 Payment::currencyName()": [
+        "Som",
+        "Nakfa"
+    ],
+    "1 Payment::currencySymbol()": [
+        "$",
+        "NZ$"
+    ],
+    "1 Payment::currencyData()": [
+        {
+            "code": "KGS",
+            "name": "Som",
+            "symbol": "KGS"
+        },
+        {
+            "code": "ERN",
+            "name": "Nakfa",
+            "symbol": "ERN"
+        }
+    ],
+    "1 Payment::price()": [
+        15.5,
+        290.23
+    ],
+    "1 Payment::priceInMinorUnits()": [
+        1550,
+        29023
+    ],
+    "1 Payment::localCurrency()": [
+        {
+            "code": "GBP",
+            "name": "Pound Sterling",
+            "symbol": "£"
+        },
+        {
+            "code": "GBP",
+            "name": "Pound Sterling",
+            "symbol": "£"
+        }
+    ],
+    "1 Payment::localPrice()": [
+        "xv li. x s.",
+        "ccxc li. iiij s. vij d."
+    ],
+    "1 Payment::bankAccountNumber()": [
+        "7041302798",
+        "7411171743"
+    ],
+    "1 Payment::transactionType()": [
+        "invoice",
+        "payment"
+    ],
+    "1 Payment::bitcoinAddress()": [
+        "3P3sLjge3sbag4zPFD9jYVQKWUobyLG3jw",
+        "34rG9DNf66WJNej9wKsSf1YjujUcrSHzrx"
+    ],
+    "1 Payment::ethereumAddress()": [
+        "0xc510C70f6Daff2B3ea4c364796553B8514452A08",
+        "0xA7A366c27b1C2E647336239ae2487AB222A7Fd6f"
+    ],
+    "1 Address::cityData(\"KE\")": [
+        {
+            "city": "Rouchestre",
+            "state": "Kent",
+            "stateCode": "KE",
+            "county": "the parisshe of Seint Laurence",
+            "postcode": "13027",
+            "latitude": 51.38978,
+            "longitude": 0.506321
+        },
+        {
+            "city": "Rouchestre",
+            "state": "Kent",
+            "stateCode": "KE",
+            "county": "the parisshe of Seint Elene",
+            "postcode": "1171",
+            "latitude": 51.390121,
+            "longitude": 0.509439
+        }
+    ],
+    "1 DateTime::dateTimesBetween(3, \"-1 year\")": [
+        [
+            "2025-05-20T22:42:00.000000+00:00",
+            "2025-06-08T03:26:29.000000+00:00",
+            "2025-12-04T10:58:53.000000+00:00"
+        ],
+        [
+            "2025-01-15T23:31:21.000000+00:00",
+            "2025-06-18T08:29:28.000000+00:00",
+            "2025-08-14T21:35:11.000000+00:00"
+        ]
+    ],
+    "42 Person::name()": [
+        "Johan le Taverner",
+        "Henri Fitz Water"
+    ],
+    "42 Person::firstName()": [
+        "Johan",
+        "Hugh"
+    ],
+    "42 Person::middleName()": [
+        "Johan",
+        "Hugh"
+    ],
+    "42 Person::age()": [
+        72,
+        64
+    ],
+    "42 Person::initials()": [
+        "JLT",
+        "HFW"
+    ],
+    "42 Person::suffix()": [
+        "the elder",
+        "the elder"
+    ],
+    "42 Person::lastName()": [
+        "atte Style",
+        "de Dertemouthe"
+    ],
+    "42 Person::title()": [
+        "Frere",
+        "Maister"
+    ],
+    "42 Person::gender()": [
+        "Quidam\\Definitions\\Enum\\Gender::Male",
+        "Quidam\\Definitions\\Enum\\Gender::Male"
+    ],
+    "42 Address::city()": [
+        "Londoun",
+        "Bathe"
+    ],
+    "42 Address::streetName()": [
+        "Gracechirchestrete",
+        "Hony lane"
+    ],
+    "42 Address::buildingNumber()": [
+        "Thre Cranes",
+        "Keye"
+    ],
+    "42 Address::secondaryAddress()": [
+        "shoppe",
+        "solere"
+    ],
+    "42 Address::county()": [
+        "the parisshe of Seint Laurence",
+        "the parisshe of Seint Elene"
+    ],
+    "42 Address::cityData()": [
+        {
+            "city": "Londoun",
+            "state": "Middelsex",
+            "stateCode": "MX",
+            "county": "the parisshe of Seint Elene",
+            "postcode": "9600",
+            "latitude": 51.512932,
+            "longitude": -0.088995
+        },
+        {
+            "city": "Notyngham",
+            "state": "Notynghamshire",
+            "stateCode": "NT",
+            "county": "the parisshe of Seint Margarete",
+            "postcode": "4436",
+            "latitude": 52.954908,
+            "longitude": -1.148121
+        }
+    ],
+    "42 Address::cityPrefix()": [
+        "Northe",
+        "Newe"
+    ],
+    "42 Address::citySuffix()": [
+        "tone",
+        "chestre"
+    ],
+    "42 Address::streetSuffix()": [
+        "strete",
+        "lane"
+    ],
+    "42 Address::state()": [
+        "Warwykshire",
+        "Notynghamshire"
+    ],
+    "42 Address::stateCode()": [
+        "WA",
+        "NT"
+    ],
+    "42 Address::stateData()": [
+        {
+            "code": "WA",
+            "name": "Warwykshire"
+        },
+        {
+            "code": "NT",
+            "name": "Notynghamshire"
+        }
+    ],
+    "42 Address::streetAddress()": [
+        "Gracechirchestrete, atte signe of the Keye",
+        "Bredstrete, atte signe of the Sterre"
+    ],
+    "42 Address::postcode()": [
+        "09960",
+        "52333"
+    ],
+    "42 Address::address()": [
+        "Gracechirchestrete, atte signe of the Keye, Glowcestre",
+        "Hony lane, atte signe of the Belle, Lyncolne"
+    ],
+    "42 Address::addressData()": [
+        {
+            "street": "Gracechirchestrete, atte signe of the Keye",
+            "city": "Dertemouthe",
+            "state": "Devenshire",
+            "stateCode": "DE",
+            "county": "the parisshe of Seint Martyn",
+            "postcode": "00523",
+            "latitude": 50.348377,
+            "longitude": -3.579422,
+            "address": "Gracechirchestrete, atte signe of the Keye, Dertemouthe"
+        },
+        {
+            "street": "Gracechirchestrete, atte signe of the Keye",
+            "city": "Oxenford",
+            "state": "Oxenfordshire",
+            "stateCode": "OX",
+            "county": "the parisshe of Seint Botulf",
+            "postcode": "2943",
+            "latitude": 51.750818,
+            "longitude": -1.258571,
+            "address": "Gracechirchestrete, atte signe of the Keye, Oxenford"
+        }
+    ],
+    "42 Address::country()": [
+        "Eritrea",
+        "Malaysia"
+    ],
+    "42 Address::countryCode()": [
+        "ER",
+        "MY"
+    ],
+    "42 Address::countryCodeAlpha3()": [
+        "ERI",
+        "MYS"
+    ],
+    "42 Address::countryData()": [
+        {
+            "alpha2": "ER",
+            "alpha3": "ERI",
+            "name": "Eritrea"
+        },
+        {
+            "alpha2": "MY",
+            "alpha3": "MYS",
+            "name": "Malaysia"
+        }
+    ],
+    "42 Address::latitude()": [
+        -48.708734,
+        58.043118
+    ],
+    "42 Address::longitude()": [
+        131.650629,
+        -154.797659
+    ],
+    "42 Address::coordinates()": [
+        {
+            "latitude": -48.708734,
+            "longitude": -154.797659
+        },
+        {
+            "latitude": 15.729389,
+            "longitude": -65.414919
+        }
+    ],
+    "42 DateTime::longDate()": [
+        "the viij day of Juyl, the xxxj yeer of Quene Elizabeth the Seconde",
+        "the ix day of Januarie, the xxxij yeer of Quene Elizabeth the Seconde"
+    ],
+    "42 DateTime::dateTime()": [
+        "1982-07-08T02:06:54.000000+00:00",
+        "1984-01-09T04:57:09.000000+00:00"
+    ],
+    "42 DateTime::dateTimeBetween()": [
+        "2002-07-08T02:06:54.000000+00:00",
+        "2024-01-09T04:57:09.000000+00:00"
+    ],
+    "42 DateTime::dateTimeRange()": [
+        [
+            "2002-07-08T02:06:54.000000+00:00",
+            "2024-01-09T04:57:09.000000+00:00"
+        ],
+        [
+            "1996-10-25T03:17:28.000000+00:00",
+            "1998-01-03T00:58:49.000000+00:00"
+        ]
+    ],
+    "42 DateTime::dateTimePast()": [
+        "2026-01-11T02:05:36.000000+00:00",
+        "2026-01-14T04:45:25.000000+00:00"
+    ],
+    "42 DateTime::dateTimeFuture()": [
+        "2026-02-10T02:05:36.000000+00:00",
+        "2026-02-13T04:45:25.000000+00:00"
+    ],
+    "42 DateTime::dateOfBirth()": [
+        "1951-07-09T00:00:00.000000+00:00",
+        "2003-01-10T00:00:00.000000+00:00"
+    ],
+    "42 DateTime::date()": [
+        "1982-07-08",
+        "1984-01-09"
+    ],
+    "42 DateTime::time()": [
+        "02:06:54",
+        "04:57:09"
+    ],
+    "42 DateTime::unixTime()": [
+        394942014,
+        442472229
+    ],
+    "42 DateTime::monthName()": [
+        "Juyl",
+        "Januarie"
+    ],
+    "42 DateTime::dayOfWeek()": [
+        "Thursday",
+        "Monenday"
+    ],
+    "42 DateTime::localDate()": [
+        "08/07/1982",
+        "09/01/1984"
+    ],
+    "42 DateTime::localDateTime()": [
+        "08/07/1982 02:06",
+        "09/01/1984 04:57"
+    ],
+    "42 DateTime::century()": [
+        "XIII",
+        "V"
+    ],
+    "42 DateTime::timezone()": [
+        "Europe/London",
+        "Europe/London"
+    ],
+    "42 Company::company()": [
+        "Johan le Taverner and Isabel atte Brigge",
+        "Lettice of Bathe and his felawes"
+    ],
+    "42 Company::companySuffix()": [
+        "and his felawes",
+        "and his sones"
+    ],
+    "42 Company::jobTitle()": [
+        "Knyght",
+        "Haberdasshere"
+    ],
+    "42 Company::industry()": [
+        "Wolle",
+        "Clooth"
+    ],
+    "42 Company::catchPhrase()": [
+        "Hit is nat al gold that glareth",
+        "Hit is nat al gold that glareth"
+    ],
+    "42 Payment::creditCardType()": [
+        "Visa",
+        "MasterCard"
+    ],
+    "42 Payment::creditCardNumber()": [
+        "4960052333443670",
+        "4315126204254200"
+    ],
+    "42 Payment::maskedCreditCardNumber()": [
+        "**** **** **** 3670",
+        "**** **** **** 4200"
+    ],
+    "42 Payment::creditCardExpirationDate()": [
+        "03/26",
+        "10/27"
+    ],
+    "42 Payment::creditCardCvv()": [
+        "409",
+        "960"
+    ],
+    "42 Payment::creditCardDetails()": [
+        {
+            "type": "Visa",
+            "number": "4960052333443670",
+            "name": "Hamond le Bakere",
+            "expirationDate": "12/27",
+            "cvv": "151"
+        },
+        {
+            "type": "Discover",
+            "number": "6504254208653833",
+            "name": "Piers le Hunte",
+            "expirationDate": "10/29",
+            "cvv": "936"
+        }
+    ],
+    "42 Payment::iban()": [
+        "GB79WRBB60052333443672",
+        "GB56XPZL51262042542086"
+    ],
+    "42 Payment::swiftBicNumber()": [
+        "WRBBLIY4Y55",
+        "RFWCCYXV"
+    ],
+    "42 Payment::currencyCode()": [
+        "CLP",
+        "LBP"
+    ],
+    "42 Payment::currencyName()": [
+        "Chilean Peso",
+        "Lebanese Pound"
+    ],
+    "42 Payment::currencySymbol()": [
+        "₫",
+        "Kč"
+    ],
+    "42 Payment::currencyData()": [
+        {
+            "code": "CLP",
+            "name": "Chilean Peso",
+            "symbol": "$"
+        },
+        {
+            "code": "LBP",
+            "name": "Lebanese Pound",
+            "symbol": "LBP"
+        }
+    ],
+    "42 Payment::price()": [
+        901.71,
+        273.32
+    ],
+    "42 Payment::priceInMinorUnits()": [
+        90171,
+        27332
+    ],
+    "42 Payment::localCurrency()": [
+        {
+            "code": "GBP",
+            "name": "Pound Sterling",
+            "symbol": "£"
+        },
+        {
+            "code": "GBP",
+            "name": "Pound Sterling",
+            "symbol": "£"
+        }
+    ],
+    "42 Payment::localPrice()": [
+        "cmj li. xiiij s. ij d.",
+        "cclxxiij li. vj s. v d."
+    ],
+    "42 Payment::bankAccountNumber()": [
+        "4099600523",
+        "3344367294"
+    ],
+    "42 Payment::transactionType()": [
+        "fee",
+        "fee"
+    ],
+    "42 Payment::bitcoinAddress()": [
+        "1CWRhp4WnRPZJW8HQXtawpu7g6NnhxG5Qz",
+        "bc1q8pf8jqf355xutvkav4dg24pphzrspehtf9c85l"
+    ],
+    "42 Payment::ethereumAddress()": [
+        "0x16C72E0c2E0B78157E3A116D86D90461a199e439",
+        "0xA160B30347AdB8Ec645eeCe27fDcE6Fd38527901"
+    ],
+    "42 Address::cityData(\"KE\")": [
+        {
+            "city": "Caunterbury",
+            "state": "Kent",
+            "stateCode": "KE",
+            "county": "the parisshe of Seint Elene",
+            "postcode": "9600",
+            "latitude": 51.280932,
+            "longitude": 1.081005
+        },
+        {
+            "city": "Rouchestre",
+            "state": "Kent",
+            "stateCode": "KE",
+            "county": "the parisshe of Seint Margarete",
+            "postcode": "4436",
+            "latitude": 51.388908,
+            "longitude": 0.508879
+        }
+    ],
+    "42 DateTime::dateTimesBetween(3, \"-1 year\")": [
+        [
+            "2025-01-24T04:56:12.000000+00:00",
+            "2025-07-10T02:06:48.000000+00:00",
+            "2025-11-03T03:16:59.000000+00:00"
+        ],
+        [
+            "2025-10-06T13:45:56.000000+00:00",
+            "2025-10-28T15:25:20.000000+00:00",
+            "2026-01-04T00:58:48.000000+00:00"
+        ]
+    ],
+    "2026 Person::name()": [
+        "Isabel atte Style",
+        "Edith atte Hulle"
+    ],
+    "2026 Person::firstName()": [
+        "Isabel",
+        "Margarete"
+    ],
+    "2026 Person::middleName()": [
+        "Isabel",
+        "Margarete"
+    ],
+    "2026 Person::age()": [
+        63,
+        41
+    ],
+    "2026 Person::initials()": [
+        "IAS",
+        "EAH"
+    ],
+    "2026 Person::suffix()": [
+        "the yonger",
+        "the elder"
+    ],
+    "2026 Person::lastName()": [
+        "of Bathe",
+        "Fitz Water"
+    ],
+    "2026 Person::title()": [
+        "Prioresse",
+        "Prioresse"
+    ],
+    "2026 Person::gender()": [
+        "Quidam\\Definitions\\Enum\\Gender::Female",
+        "Quidam\\Definitions\\Enum\\Gender::Male"
+    ],
+    "2026 Address::city()": [
+        "Londoun",
+        "Wyndesore"
+    ],
+    "2026 Address::streetName()": [
+        "Candelwykstrete",
+        "Tamysestrete"
+    ],
+    "2026 Address::buildingNumber()": [
+        "Bore",
+        "Cok"
+    ],
+    "2026 Address::secondaryAddress()": [
+        "shoppe",
+        "seler"
+    ],
+    "2026 Address::county()": [
+        "the parisshe of Seint Margarete",
+        "the parisshe of Seint Nicholas"
+    ],
+    "2026 Address::cityData()": [
+        {
+            "city": "Londoun",
+            "state": "Middelsex",
+            "stateCode": "MX",
+            "county": "the parisshe of Seint Nicholas",
+            "postcode": "22845",
+            "latitude": 51.514899,
+            "longitude": -0.088972
+        },
+        {
+            "city": "Southwerk",
+            "state": "Surreye",
+            "stateCode": "SY",
+            "county": "the parisshe of Seint Marie atte Bowe",
+            "postcode": "89397",
+            "latitude": 51.501792,
+            "longitude": -0.091845
+        }
+    ],
+    "2026 Address::cityPrefix()": [
+        "West",
+        "Est"
+    ],
+    "2026 Address::citySuffix()": [
+        "wyk",
+        "ham"
+    ],
+    "2026 Address::streetSuffix()": [
+        "strete",
+        "gate"
+    ],
+    "2026 Address::state()": [
+        "Gloucestreshire",
+        "Hamtshire"
+    ],
+    "2026 Address::stateCode()": [
+        "GL",
+        "HA"
+    ],
+    "2026 Address::stateData()": [
+        {
+            "code": "GL",
+            "name": "Gloucestreshire"
+        },
+        {
+            "code": "HA",
+            "name": "Hamtshire"
+        }
+    ],
+    "2026 Address::streetAddress()": [
+        "Candelwykstrete, atte signe of the Cok",
+        "Aldrichegate, atte signe of the Whyte Hart"
+    ],
+    "2026 Address::postcode()": [
+        "8822",
+        "45315"
+    ],
+    "2026 Address::address()": [
+        "Candelwykstrete, atte signe of the Cok, Couentre",
+        "Candelwykstrete, atte signe of the Cok, Herforde"
+    ],
+    "2026 Address::addressData()": [
+        {
+            "street": "Candelwykstrete, atte signe of the Cok",
+            "city": "Norwiche",
+            "state": "Norfolk",
+            "stateCode": "NF",
+            "county": "the parisshe of Seint Botulf",
+            "postcode": "84531",
+            "latitude": 52.627299,
+            "longitude": 1.298699,
+            "address": "Candelwykstrete, atte signe of the Cok, Norwiche"
+        },
+        {
+            "street": "Tamysestrete, atte signe of the Belle",
+            "city": "Wynchestre",
+            "state": "Hamtshire",
+            "stateCode": "HA",
+            "county": "the parisshe of Seint Petre",
+            "postcode": "7198",
+            "latitude": 51.06055,
+            "longitude": -1.315952,
+            "address": "Tamysestrete, atte signe of the Belle, Wynchestre"
+        }
+    ],
+    "2026 Address::country()": [
+        "Estonia",
+        "Belarus"
+    ],
+    "2026 Address::countryCode()": [
+        "EE",
+        "BY"
+    ],
+    "2026 Address::countryCodeAlpha3()": [
+        "EST",
+        "BLR"
+    ],
+    "2026 Address::countryData()": [
+        {
+            "alpha2": "EE",
+            "alpha3": "EST",
+            "name": "Estonia"
+        },
+        {
+            "alpha2": "BY",
+            "alpha3": "BLR",
+            "name": "Belarus"
+        }
+    ],
+    "2026 Address::latitude()": [
+        -0.121337,
+        1.401902
+    ],
+    "2026 Address::longitude()": [
+        -20.542136,
+        130.263131
+    ],
+    "2026 Address::coordinates()": [
+        {
+            "latitude": -0.121337,
+            "longitude": 130.263131
+        },
+        {
+            "latitude": 78.723224,
+            "longitude": -2.89545
+        }
+    ],
+    "2026 DateTime::longDate()": [
+        "the xxiij day of Octobre, the xlix yeer of Quene Elizabeth the Seconde",
+        "the xviij day of March, the xxxiij yeer of Quene Elizabeth the Seconde"
+    ],
+    "2026 DateTime::dateTime()": [
+        "2000-10-23T13:29:33.000000+00:00",
+        "1984-03-18T21:22:07.000000+00:00"
+    ],
+    "2026 DateTime::dateTimeBetween()": [
+        "2020-10-23T13:29:33.000000+00:00",
+        "2024-03-18T21:22:07.000000+00:00"
+    ],
+    "2026 DateTime::dateTimeRange()": [
+        [
+            "2020-10-23T13:29:33.000000+00:00",
+            "2024-03-18T21:22:07.000000+00:00"
+        ],
+        [
+            "2007-09-20T12:38:00.000000+00:00",
+            "2019-10-30T19:16:16.000000+00:00"
+        ]
+    ],
+    "2026 DateTime::dateTimePast()": [
+        "2026-01-03T13:24:32.000000+00:00",
+        "2025-12-24T21:10:20.000000+00:00"
+    ],
+    "2026 DateTime::dateTimeFuture()": [
+        "2026-02-02T13:24:32.000000+00:00",
+        "2026-01-23T21:10:20.000000+00:00"
+    ],
+    "2026 DateTime::dateOfBirth()": [
+        "1969-10-25T00:00:00.000000+00:00",
+        "2003-03-21T00:00:00.000000+00:00"
+    ],
+    "2026 DateTime::date()": [
+        "2000-10-23",
+        "1984-03-18"
+    ],
+    "2026 DateTime::time()": [
+        "13:29:33",
+        "21:22:07"
+    ],
+    "2026 DateTime::unixTime()": [
+        972307773,
+        448492927
+    ],
+    "2026 DateTime::monthName()": [
+        "Octobre",
+        "March"
+    ],
+    "2026 DateTime::dayOfWeek()": [
+        "Monenday",
+        "Sonday"
+    ],
+    "2026 DateTime::localDate()": [
+        "23/10/2000",
+        "18/03/1984"
+    ],
+    "2026 DateTime::localDateTime()": [
+        "23/10/2000 13:29",
+        "18/03/1984 21:22"
+    ],
+    "2026 DateTime::century()": [
+        "IV",
+        "III"
+    ],
+    "2026 DateTime::timezone()": [
+        "Europe/London",
+        "Europe/London"
+    ],
+    "2026 Company::company()": [
+        "the Mistere of Skynners",
+        "the Mistere of Mercers"
+    ],
+    "2026 Company::companySuffix()": [
+        "and his felawes",
+        "and Compaignye"
+    ],
+    "2026 Company::jobTitle()": [
+        "Knyght",
+        "Frere"
+    ],
+    "2026 Company::industry()": [
+        "Wolle",
+        "Phisik"
+    ],
+    "2026 Company::catchPhrase()": [
+        "Gladly wolde he lerne and gladly teche",
+        "Whan that Aprill with his shoures soote"
+    ],
+    "2026 Payment::creditCardType()": [
+        "Diners Club",
+        "Visa"
+    ],
+    "2026 Payment::creditCardNumber()": [
+        "38228453154083",
+        "4719840620174873"
+    ],
+    "2026 Payment::maskedCreditCardNumber()": [
+        "**** ****** 4083",
+        "**** **** **** 4873"
+    ],
+    "2026 Payment::creditCardExpirationDate()": [
+        "06/28",
+        "08/27"
+    ],
+    "2026 Payment::creditCardCvv()": [
+        "388",
+        "228"
+    ],
+    "2026 Payment::creditCardDetails()": [
+        {
+            "type": "Diners Club",
+            "number": "38228453154083",
+            "name": "Hamond le Bowyere",
+            "expirationDate": "03/27",
+            "cvv": "198"
+        },
+        {
+            "type": "Discover",
+            "number": "6011201748724638",
+            "name": "Rauf Wilkynson",
+            "expirationDate": "09/27",
+            "cvv": "196"
+        }
+    ],
+    "2026 Payment::iban()": [
+        "GB63VYHC28453154089397",
+        "GB44TKQQ06201748724631"
+    ],
+    "2026 Payment::swiftBicNumber()": [
+        "VYHCADI27VO",
+        "JIIOUAP8859"
+    ],
+    "2026 Payment::currencyCode()": [
+        "LAK",
+        "VND"
+    ],
+    "2026 Payment::currencyName()": [
+        "Lao Kip",
+        "Dong"
+    ],
+    "2026 Payment::currencySymbol()": [
+        "kr",
+        "₩"
+    ],
+    "2026 Payment::currencyData()": [
+        {
+            "code": "LAK",
+            "name": "Lao Kip",
+            "symbol": "LAK"
+        },
+        {
+            "code": "VND",
+            "name": "Dong",
+            "symbol": "₫"
+        }
+    ],
+    "2026 Payment::price()": [
+        501.56,
+        479.7
+    ],
+    "2026 Payment::priceInMinorUnits()": [
+        50156,
+        47970
+    ],
+    "2026 Payment::localCurrency()": [
+        {
+            "code": "GBP",
+            "name": "Pound Sterling",
+            "symbol": "£"
+        },
+        {
+            "code": "GBP",
+            "name": "Pound Sterling",
+            "symbol": "£"
+        }
+    ],
+    "2026 Payment::localPrice()": [
+        "dj li. xj s. ij d.",
+        "cdlxxix li. xiiij s."
+    ],
+    "2026 Payment::bankAccountNumber()": [
+        "3882284531",
+        "5408939719"
+    ],
+    "2026 Payment::transactionType()": [
+        "invoice",
+        "deposit"
+    ],
+    "2026 Payment::bitcoinAddress()": [
+        "1LhcDghvoqxjEa3RFVqMkuWNhmravK1Yg8",
+        "38J4KSS9Fsq3CoRJ3FVMDtym72HEsjvnMy"
+    ],
+    "2026 Payment::ethereumAddress()": [
+        "0x15AE982e5911e092d8186D6d94379F48DADe9c9D",
+        "0x0267d586a7DCC7E4ca3a22c1798be1CF48714ff9"
+    ],
+    "2026 Address::cityData(\"KE\")": [
+        {
+            "city": "Caunterbury",
+            "state": "Kent",
+            "stateCode": "KE",
+            "county": "the parisshe of Seint Nicholas",
+            "postcode": "22845",
+            "latitude": 51.282899,
+            "longitude": 1.081028
+        },
+        {
+            "city": "Rouchestre",
+            "state": "Kent",
+            "stateCode": "KE",
+            "county": "the parisshe of Seint Marie atte Bowe",
+            "postcode": "89397",
+            "latitude": 51.386792,
+            "longitude": 0.507155
+        }
+    ],
+    "2026 DateTime::dateTimesBetween(3, \"-1 year\")": [
+        [
+            "2025-04-03T21:21:10.000000+00:00",
+            "2025-10-30T13:29:09.000000+00:00",
+            "2025-11-21T19:14:55.000000+00:00"
+        ],
+        [
+            "2025-09-03T16:46:36.000000+00:00",
+            "2025-10-09T12:36:51.000000+00:00",
+            "2025-10-15T06:47:40.000000+00:00"
+        ]
+    ]
+}

@@ -70,7 +70,7 @@ final class GeneratorSweepTest extends TestCase
     public static function generatorMethods(): iterable
     {
         $src = dirname(__DIR__, 2) . '/src/';
-        $files = [...(array) glob($src . 'Core/*.php'), ...(array) glob($src . 'Addon/*.php'), ...(array) glob($src . 'LanguagePack/*/*.php')];
+        $files = [...(array) glob($src . 'Core/*.php'), ...(array) glob($src . 'Addon/*.php'), ...(array) glob($src . 'LanguagePack/*/*.php'), ...(array) glob($src . 'DeadLanguagePack/*/*.php')];
 
         foreach ($files as $file) {
             $class = 'Quidam\\' . str_replace(['/', '.php'], ['\\', ''], substr((string) $file, strlen($src)));
@@ -80,7 +80,7 @@ final class GeneratorSweepTest extends TestCase
             }
 
             $reflection = new ReflectionClass($class);
-            $pack = preg_match('/\\\\LanguagePack\\\\(\w+)\\\\/', $class, $match) === 1 ? $match[1] : null;
+            $pack = preg_match('/\\\\(?:Dead)?LanguagePack\\\\(\w+)\\\\/', $class, $match) === 1 ? $match[1] : null;
 
             if (!$reflection->isInstantiable() || str_ends_with($class, 'Generator') || str_ends_with($class, 'ProviderPack')) {
                 continue;
@@ -128,11 +128,12 @@ final class GeneratorSweepTest extends TestCase
         }
     }
 
-    /** Provider pack of a pack code - the CLI's naming convention, la_VA -> LanguagePack\la_VA\LaVaProviderPack */
+    /** Provider pack of a pack code - the CLI's naming convention, la_VA -> DeadLanguagePack\la_VA\LaVaProviderPack */
     private static function providerPack(string $pack): ProviderPackInterface
     {
         [$language, $country] = explode('_', $pack);
-        $class = sprintf('Quidam\\LanguagePack\\%s\\%s%sProviderPack', $pack, ucfirst($language), ucfirst(strtolower($country)));
+        $directory = is_dir(dirname(__DIR__, 2) . '/src/DeadLanguagePack/' . $pack) ? 'DeadLanguagePack' : 'LanguagePack';
+        $class = sprintf('Quidam\\%s\\%s\\%s%sProviderPack', $directory, $pack, ucfirst($language), ucfirst(strtolower($country)));
         $provider = new $class();
         self::assertInstanceOf(ProviderPackInterface::class, $provider);
 

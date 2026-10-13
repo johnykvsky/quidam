@@ -1,0 +1,920 @@
+{
+    "1 Person::firstName()": [
+        "Ōsgifu",
+        "Ōshild"
+    ],
+    "1 Person::lastName()": [
+        "Ōsgāring",
+        "Lēofwulfes dohtor"
+    ],
+    "1 Person::name()": [
+        "Ōsgifu Lēofwulfes dohtor",
+        "Ēadþrȳþ Beorhtgāres dohtor"
+    ],
+    "1 Person::middleName()": [
+        "Ōsgifu",
+        "Ōshild"
+    ],
+    "1 Person::age()": [
+        76,
+        42
+    ],
+    "1 Person::initials()": [
+        "ŌLD",
+        "ĒBD"
+    ],
+    "1 Person::suffix()": [
+        "se geonga",
+        "se ealda"
+    ],
+    "1 Person::title()": [
+        "cwēn",
+        "scop"
+    ],
+    "1 Person::gender()": [
+        "Quidam\\Definitions\\Enum\\Gender::Female",
+        "Quidam\\Definitions\\Enum\\Gender::Female"
+    ],
+    "1 Address::city()": [
+        "Exanceaster",
+        "Glēawceaster"
+    ],
+    "1 Address::streetName()": [
+        "Cyricstīg",
+        "Wæclinga strǣt"
+    ],
+    "1 Address::buildingNumber()": [
+        "twā",
+        "seofon"
+    ],
+    "1 Address::secondaryAddress()": [
+        "būr",
+        "heall"
+    ],
+    "1 Address::county()": [
+        "Defenascīr",
+        "Glēawceasterscīr"
+    ],
+    "1 Address::cityData()": [
+        {
+            "city": "Exanceaster",
+            "state": "Westseaxe",
+            "stateCode": "WS",
+            "county": "Defenascīr",
+            "postcode": "41302",
+            "latitude": 50.723524,
+            "longitude": -3.52922
+        },
+        {
+            "city": "Seolesīg",
+            "state": "Sūþseaxe",
+            "stateCode": "SS",
+            "county": "Sūþseaxe",
+            "postcode": "4111",
+            "latitude": 50.733662,
+            "longitude": -0.788648
+        }
+    ],
+    "1 Address::cityPrefix()": [
+        "Sūþ",
+        "Norþ"
+    ],
+    "1 Address::citySuffix()": [
+        "burh",
+        "tūn"
+    ],
+    "1 Address::streetSuffix()": [
+        "weg",
+        "strǣt"
+    ],
+    "1 Address::state()": [
+        "Norþhymbre",
+        "Ēastengle"
+    ],
+    "1 Address::stateCode()": [
+        "NH",
+        "EA"
+    ],
+    "1 Address::stateData()": [
+        {
+            "code": "NH",
+            "name": "Norþhymbre"
+        },
+        {
+            "code": "EA",
+            "name": "Ēastengle"
+        }
+    ],
+    "1 Address::streetAddress()": [
+        "Cyricstīg seofon",
+        "Hēahstrǣt twelf"
+    ],
+    "1 Address::postcode()": [
+        "0413",
+        "27987"
+    ],
+    "1 Address::address()": [
+        "Cyricstīg seofon, Hæstingas",
+        "Mylenweg twā, Hæstingas"
+    ],
+    "1 Address::addressData()": [
+        {
+            "street": "Cyricstīg seofon",
+            "city": "Glēawceaster",
+            "state": "Mierce",
+            "stateCode": "ME",
+            "county": "Glēawceasterscīr",
+            "postcode": "3027",
+            "latitude": 51.86578,
+            "longitude": -2.244679,
+            "address": "Cyricstīg seofon, Glēawceaster"
+        },
+        {
+            "street": "Cyricstīg endleofan",
+            "city": "Mældūn",
+            "state": "Ēastseaxe",
+            "stateCode": "ES",
+            "county": "Ēastseaxe",
+            "postcode": "1717",
+            "latitude": 51.733439,
+            "longitude": 0.679805,
+            "address": "Cyricstīg endleofan, Mældūn"
+        }
+    ],
+    "1 Address::country()": [
+        "Bosnia and Herzegovina",
+        "Lebanon"
+    ],
+    "1 Address::countryCode()": [
+        "BA",
+        "LB"
+    ],
+    "1 Address::countryCodeAlpha3()": [
+        "BIH",
+        "LBN"
+    ],
+    "1 Address::countryData()": [
+        {
+            "alpha2": "BA",
+            "alpha3": "BIH",
+            "name": "Bosnia and Herzegovina"
+        },
+        {
+            "alpha2": "LB",
+            "alpha3": "LBN",
+            "name": "Lebanon"
+        }
+    ],
+    "1 Address::latitude()": [
+        -35.726328,
+        -58.671206
+    ],
+    "1 Address::longitude()": [
+        -73.482063,
+        -158.674595
+    ],
+    "1 Address::coordinates()": [
+        {
+            "latitude": -35.726328,
+            "longitude": -158.674595
+        },
+        {
+            "latitude": -50.21702,
+            "longitude": -148.890107
+        }
+    ],
+    "1 DateTime::longDate()": [
+        "5 Ǣrra Līþa, anno mcmlxxxiv",
+        "24 Blōtmōnaþ, anno mmxiii"
+    ],
+    "1 DateTime::dateTime()": [
+        "1984-06-05T03:26:37.000000+00:00",
+        "2013-11-24T10:59:30.000000+00:00"
+    ],
+    "1 DateTime::dateTimeBetween()": [
+        "2004-06-05T03:26:37.000000+00:00",
+        "2003-11-24T10:59:29.000000+00:00"
+    ],
+    "1 DateTime::dateTimeRange()": [
+        [
+            "2003-11-24T10:59:29.000000+00:00",
+            "2004-06-05T03:26:37.000000+00:00"
+        ],
+        [
+            "2000-05-18T22:42:04.000000+00:00",
+            "2009-05-21T08:31:08.000000+00:00"
+        ]
+    ],
+    "1 DateTime::dateTimePast()": [
+        "2025-12-20T03:24:55.000000+00:00",
+        "2026-01-13T10:51:50.000000+00:00"
+    ],
+    "1 DateTime::dateTimeFuture()": [
+        "2026-01-19T03:24:55.000000+00:00",
+        "2026-02-12T10:51:50.000000+00:00"
+    ],
+    "1 DateTime::dateOfBirth()": [
+        "1953-06-06T00:00:00.000000+00:00",
+        "1982-11-26T00:00:00.000000+00:00"
+    ],
+    "1 DateTime::date()": [
+        "1984-06-05",
+        "2013-11-24"
+    ],
+    "1 DateTime::time()": [
+        "03:26:37",
+        "10:59:30"
+    ],
+    "1 DateTime::unixTime()": [
+        455253997,
+        1385290770
+    ],
+    "1 DateTime::monthName()": [
+        "Ǣrra Līþa",
+        "Blōtmōnaþ"
+    ],
+    "1 DateTime::dayOfWeek()": [
+        "Tīwesdæg",
+        "Sunnandæg"
+    ],
+    "1 DateTime::localDate()": [
+        "05/06/1984",
+        "24/11/2013"
+    ],
+    "1 DateTime::localDateTime()": [
+        "05/06/1984 03:26",
+        "24/11/2013 10:59"
+    ],
+    "1 DateTime::century()": [
+        "XVII",
+        "IV"
+    ],
+    "1 DateTime::timezone()": [
+        "Europe/London",
+        "Europe/London"
+    ],
+    "1 Company::company()": [
+        "Ōsgār and Lēofwulf",
+        "Herewine and Beorhtgār"
+    ],
+    "1 Company::companySuffix()": [
+        "and his gefēran",
+        "and his suna"
+    ],
+    "1 Company::jobTitle()": [
+        "gerēfa",
+        "sǣmann"
+    ],
+    "1 Company::industry()": [
+        "Eorþtilþ",
+        "Fiscoþ"
+    ],
+    "1 Company::catchPhrase()": [
+        "Gǣð ā wyrd swā hīo scel",
+        "Swā sceal man dōn"
+    ],
+    "1 Address::cityData(\"ME\")": [
+        {
+            "city": "Snotingahām",
+            "state": "Mierce",
+            "stateCode": "ME",
+            "county": "Snotingahāmscīr",
+            "postcode": "41302",
+            "latitude": 52.955524,
+            "longitude": -1.14822
+        },
+        {
+            "city": "Dēoraby",
+            "state": "Mierce",
+            "stateCode": "ME",
+            "county": "Dēorabyscīr",
+            "postcode": "4111",
+            "latitude": 52.922662,
+            "longitude": -1.474648
+        }
+    ],
+    "1 DateTime::dateTimesBetween(3, \"-1 year\")": [
+        [
+            "2025-05-20T22:42:00.000000+00:00",
+            "2025-06-08T03:26:29.000000+00:00",
+            "2025-12-04T10:58:53.000000+00:00"
+        ],
+        [
+            "2025-01-15T23:31:21.000000+00:00",
+            "2025-06-18T08:29:28.000000+00:00",
+            "2025-08-14T21:35:11.000000+00:00"
+        ]
+    ],
+    "42 Person::firstName()": [
+        "Ēadwine",
+        "Cūþweald"
+    ],
+    "42 Person::lastName()": [
+        "Cūþrīcing",
+        "Wīggāring"
+    ],
+    "42 Person::name()": [
+        "Ēadwine Wīggāring",
+        "Sigehelm Lēofwining"
+    ],
+    "42 Person::middleName()": [
+        "Ēadwine",
+        "Cūþweald"
+    ],
+    "42 Person::age()": [
+        72,
+        64
+    ],
+    "42 Person::initials()": [
+        "ĒW",
+        "SL"
+    ],
+    "42 Person::suffix()": [
+        "se ealda",
+        "se ealda"
+    ],
+    "42 Person::title()": [
+        "bisceop",
+        "gerēfa"
+    ],
+    "42 Person::gender()": [
+        "Quidam\\Definitions\\Enum\\Gender::Male",
+        "Quidam\\Definitions\\Enum\\Gender::Male"
+    ],
+    "42 Address::city()": [
+        "Tamworþig",
+        "Ligeraceaster"
+    ],
+    "42 Address::streetName()": [
+        "Hēahstrǣt",
+        "Wæclinga strǣt"
+    ],
+    "42 Address::buildingNumber()": [
+        "seofon",
+        "endleofan"
+    ],
+    "42 Address::secondaryAddress()": [
+        "heall",
+        "būr"
+    ],
+    "42 Address::county()": [
+        "Stæfordscīr",
+        "Ligeraceasterscīr"
+    ],
+    "42 Address::cityData()": [
+        {
+            "city": "Tamworþig",
+            "state": "Mierce",
+            "stateCode": "ME",
+            "county": "Stæfordscīr",
+            "postcode": "99600",
+            "latitude": 52.633932,
+            "longitude": -1.692995
+        },
+        {
+            "city": "Hamwīc",
+            "state": "Westseaxe",
+            "stateCode": "WS",
+            "county": "Hamtūnscīr",
+            "postcode": "3443",
+            "latitude": 50.904862,
+            "longitude": -1.403092
+        }
+    ],
+    "42 Address::cityPrefix()": [
+        "Norþ",
+        "Niwe"
+    ],
+    "42 Address::citySuffix()": [
+        "tūn",
+        "ceaster"
+    ],
+    "42 Address::streetSuffix()": [
+        "strǣt",
+        "weg"
+    ],
+    "42 Address::state()": [
+        "Ēastseaxe",
+        "Cent"
+    ],
+    "42 Address::stateCode()": [
+        "ES",
+        "KE"
+    ],
+    "42 Address::stateData()": [
+        {
+            "code": "ES",
+            "name": "Ēastseaxe"
+        },
+        {
+            "code": "KE",
+            "name": "Cent"
+        }
+    ],
+    "42 Address::streetAddress()": [
+        "Hēahstrǣt endleofan",
+        "Brycgstrǣt twā"
+    ],
+    "42 Address::postcode()": [
+        "09960",
+        "52333"
+    ],
+    "42 Address::address()": [
+        "Hēahstrǣt endleofan, Eoforwīc",
+        "Fōsweg twā, Mældūn"
+    ],
+    "42 Address::addressData()": [
+        {
+            "street": "Hēahstrǣt endleofan",
+            "city": "Dofras",
+            "state": "Cent",
+            "stateCode": "KE",
+            "county": "Cent",
+            "postcode": "6005",
+            "latitude": 51.128005,
+            "longitude": 1.311206,
+            "address": "Hēahstrǣt endleofan, Dofras"
+        },
+        {
+            "street": "Icenhilde weg tīen",
+            "city": "Oxenaford",
+            "state": "Westseaxe",
+            "stateCode": "WS",
+            "county": "Oxenafordscīr",
+            "postcode": "36729",
+            "latitude": 51.750366,
+            "longitude": -1.259881,
+            "address": "Icenhilde weg tīen, Oxenaford"
+        }
+    ],
+    "42 Address::country()": [
+        "Eritrea",
+        "Malaysia"
+    ],
+    "42 Address::countryCode()": [
+        "ER",
+        "MY"
+    ],
+    "42 Address::countryCodeAlpha3()": [
+        "ERI",
+        "MYS"
+    ],
+    "42 Address::countryData()": [
+        {
+            "alpha2": "ER",
+            "alpha3": "ERI",
+            "name": "Eritrea"
+        },
+        {
+            "alpha2": "MY",
+            "alpha3": "MYS",
+            "name": "Malaysia"
+        }
+    ],
+    "42 Address::latitude()": [
+        -48.708734,
+        58.043118
+    ],
+    "42 Address::longitude()": [
+        131.650629,
+        -154.797659
+    ],
+    "42 Address::coordinates()": [
+        {
+            "latitude": -48.708734,
+            "longitude": -154.797659
+        },
+        {
+            "latitude": 15.729389,
+            "longitude": -65.414919
+        }
+    ],
+    "42 DateTime::longDate()": [
+        "8 Æfterra Līþa, anno mcmlxxxii",
+        "9 Æfterra Gēola, anno mcmlxxxiv"
+    ],
+    "42 DateTime::dateTime()": [
+        "1982-07-08T02:06:54.000000+00:00",
+        "1984-01-09T04:57:09.000000+00:00"
+    ],
+    "42 DateTime::dateTimeBetween()": [
+        "2002-07-08T02:06:54.000000+00:00",
+        "2024-01-09T04:57:09.000000+00:00"
+    ],
+    "42 DateTime::dateTimeRange()": [
+        [
+            "2002-07-08T02:06:54.000000+00:00",
+            "2024-01-09T04:57:09.000000+00:00"
+        ],
+        [
+            "1996-10-25T03:17:28.000000+00:00",
+            "1998-01-03T00:58:49.000000+00:00"
+        ]
+    ],
+    "42 DateTime::dateTimePast()": [
+        "2026-01-11T02:05:36.000000+00:00",
+        "2026-01-14T04:45:25.000000+00:00"
+    ],
+    "42 DateTime::dateTimeFuture()": [
+        "2026-02-10T02:05:36.000000+00:00",
+        "2026-02-13T04:45:25.000000+00:00"
+    ],
+    "42 DateTime::dateOfBirth()": [
+        "1951-07-09T00:00:00.000000+00:00",
+        "2003-01-10T00:00:00.000000+00:00"
+    ],
+    "42 DateTime::date()": [
+        "1982-07-08",
+        "1984-01-09"
+    ],
+    "42 DateTime::time()": [
+        "02:06:54",
+        "04:57:09"
+    ],
+    "42 DateTime::unixTime()": [
+        394942014,
+        442472229
+    ],
+    "42 DateTime::monthName()": [
+        "Æfterra Līþa",
+        "Æfterra Gēola"
+    ],
+    "42 DateTime::dayOfWeek()": [
+        "Þunresdæg",
+        "Mōnandæg"
+    ],
+    "42 DateTime::localDate()": [
+        "08/07/1982",
+        "09/01/1984"
+    ],
+    "42 DateTime::localDateTime()": [
+        "08/07/1982 02:06",
+        "09/01/1984 04:57"
+    ],
+    "42 DateTime::century()": [
+        "XIII",
+        "V"
+    ],
+    "42 DateTime::timezone()": [
+        "Europe/London",
+        "Europe/London"
+    ],
+    "42 Company::company()": [
+        "Smiþþe Cūþrīces",
+        "Cēapstōw Cūþwealdes"
+    ],
+    "42 Company::companySuffix()": [
+        "and his suna",
+        "and his gefēran"
+    ],
+    "42 Company::jobTitle()": [
+        "hunta",
+        "þegn"
+    ],
+    "42 Company::industry()": [
+        "Smiþcræft",
+        "Lǣcecræft"
+    ],
+    "42 Company::catchPhrase()": [
+        "Hige sceal þē heardra, heorte þē cēnre",
+        "Þæs ofereode, þisses swā mæg"
+    ],
+    "42 Address::cityData(\"ME\")": [
+        {
+            "city": "Lundenwīc",
+            "state": "Mierce",
+            "stateCode": "ME",
+            "county": "Middelseaxe",
+            "postcode": "99600",
+            "latitude": 51.512932,
+            "longitude": -0.088995
+        },
+        {
+            "city": "Snotingahām",
+            "state": "Mierce",
+            "stateCode": "ME",
+            "county": "Snotingahāmscīr",
+            "postcode": "3443",
+            "latitude": 52.954862,
+            "longitude": -1.149092
+        }
+    ],
+    "42 DateTime::dateTimesBetween(3, \"-1 year\")": [
+        [
+            "2025-01-24T04:56:12.000000+00:00",
+            "2025-07-10T02:06:48.000000+00:00",
+            "2025-11-03T03:16:59.000000+00:00"
+        ],
+        [
+            "2025-10-06T13:45:56.000000+00:00",
+            "2025-10-28T15:25:20.000000+00:00",
+            "2026-01-04T00:58:48.000000+00:00"
+        ]
+    ],
+    "2026 Person::firstName()": [
+        "Ælfburh",
+        "Ælfgifu"
+    ],
+    "2026 Person::lastName()": [
+        "Beorhtweardes dohtor",
+        "Beorhthelming"
+    ],
+    "2026 Person::name()": [
+        "Ælfburh Beorhthelmes dohtor",
+        "Sigeweald Cynewulfing"
+    ],
+    "2026 Person::middleName()": [
+        "Ælfburh",
+        "Ælfgifu"
+    ],
+    "2026 Person::age()": [
+        63,
+        41
+    ],
+    "2026 Person::initials()": [
+        "ÆBD",
+        "SC"
+    ],
+    "2026 Person::suffix()": [
+        "se geonga",
+        "se ealda"
+    ],
+    "2026 Person::title()": [
+        "abbudisse",
+        "abbudisse"
+    ],
+    "2026 Person::gender()": [
+        "Quidam\\Definitions\\Enum\\Gender::Female",
+        "Quidam\\Definitions\\Enum\\Gender::Male"
+    ],
+    "2026 Address::city()": [
+        "Oxenaford",
+        "Scrobbesbyrig"
+    ],
+    "2026 Address::streetName()": [
+        "Icenhilde weg",
+        "Mylenweg"
+    ],
+    "2026 Address::buildingNumber()": [
+        "tīen",
+        "nigon"
+    ],
+    "2026 Address::secondaryAddress()": [
+        "heall",
+        "cyte"
+    ],
+    "2026 Address::county()": [
+        "Oxenafordscīr",
+        "Scrobbesbyrigscīr"
+    ],
+    "2026 Address::cityData()": [
+        {
+            "city": "Oxenaford",
+            "state": "Westseaxe",
+            "stateCode": "WS",
+            "county": "Oxenafordscīr",
+            "postcode": "82284",
+            "latitude": 51.753884,
+            "longitude": -1.255101
+        },
+        {
+            "city": "Cantwaraburh",
+            "state": "Cent",
+            "stateCode": "KE",
+            "county": "Cent",
+            "postcode": "4089",
+            "latitude": 51.277336,
+            "longitude": 1.079575
+        }
+    ],
+    "2026 Address::cityPrefix()": [
+        "West",
+        "Ēast"
+    ],
+    "2026 Address::citySuffix()": [
+        "wīc",
+        "hām"
+    ],
+    "2026 Address::streetSuffix()": [
+        "strǣt",
+        "stīg"
+    ],
+    "2026 Address::state()": [
+        "Ēastengle",
+        "Norþhymbre"
+    ],
+    "2026 Address::stateCode()": [
+        "EA",
+        "NH"
+    ],
+    "2026 Address::stateData()": [
+        {
+            "code": "EA",
+            "name": "Ēastengle"
+        },
+        {
+            "code": "NH",
+            "name": "Norþhymbre"
+        }
+    ],
+    "2026 Address::streetAddress()": [
+        "Icenhilde weg nigon",
+        "Mylenweg þrēo"
+    ],
+    "2026 Address::postcode()": [
+        "8822",
+        "45315"
+    ],
+    "2026 Address::address()": [
+        "Icenhilde weg nigon, Lindcylene",
+        "Earninga strǣt eahta, Wigoraceaster"
+    ],
+    "2026 Address::addressData()": [
+        {
+            "street": "Icenhilde weg nigon",
+            "city": "Lindcylene",
+            "state": "Mierce",
+            "stateCode": "ME",
+            "county": "Lindesīg",
+            "postcode": "28453",
+            "latitude": 53.236028,
+            "longitude": -0.540701,
+            "address": "Icenhilde weg nigon, Lindcylene"
+        },
+        {
+            "street": "Hēahstrǣt ān",
+            "city": "Glēawceaster",
+            "state": "Mierce",
+            "stateCode": "ME",
+            "county": "Glēawceasterscīr",
+            "postcode": "3971",
+            "latitude": 51.864155,
+            "longitude": -2.245123,
+            "address": "Hēahstrǣt ān, Glēawceaster"
+        }
+    ],
+    "2026 Address::country()": [
+        "Estonia",
+        "Belarus"
+    ],
+    "2026 Address::countryCode()": [
+        "EE",
+        "BY"
+    ],
+    "2026 Address::countryCodeAlpha3()": [
+        "EST",
+        "BLR"
+    ],
+    "2026 Address::countryData()": [
+        {
+            "alpha2": "EE",
+            "alpha3": "EST",
+            "name": "Estonia"
+        },
+        {
+            "alpha2": "BY",
+            "alpha3": "BLR",
+            "name": "Belarus"
+        }
+    ],
+    "2026 Address::latitude()": [
+        -0.121337,
+        1.401902
+    ],
+    "2026 Address::longitude()": [
+        -20.542136,
+        130.263131
+    ],
+    "2026 Address::coordinates()": [
+        {
+            "latitude": -0.121337,
+            "longitude": 130.263131
+        },
+        {
+            "latitude": 78.723224,
+            "longitude": -2.89545
+        }
+    ],
+    "2026 DateTime::longDate()": [
+        "23 Winterfylleþ, anno mm",
+        "18 Hrēþmōnaþ, anno mcmlxxxiv"
+    ],
+    "2026 DateTime::dateTime()": [
+        "2000-10-23T13:29:33.000000+00:00",
+        "1984-03-18T21:22:07.000000+00:00"
+    ],
+    "2026 DateTime::dateTimeBetween()": [
+        "2020-10-23T13:29:33.000000+00:00",
+        "2024-03-18T21:22:07.000000+00:00"
+    ],
+    "2026 DateTime::dateTimeRange()": [
+        [
+            "2020-10-23T13:29:33.000000+00:00",
+            "2024-03-18T21:22:07.000000+00:00"
+        ],
+        [
+            "2007-09-20T12:38:00.000000+00:00",
+            "2019-10-30T19:16:16.000000+00:00"
+        ]
+    ],
+    "2026 DateTime::dateTimePast()": [
+        "2026-01-03T13:24:32.000000+00:00",
+        "2025-12-24T21:10:20.000000+00:00"
+    ],
+    "2026 DateTime::dateTimeFuture()": [
+        "2026-02-02T13:24:32.000000+00:00",
+        "2026-01-23T21:10:20.000000+00:00"
+    ],
+    "2026 DateTime::dateOfBirth()": [
+        "1969-10-25T00:00:00.000000+00:00",
+        "2003-03-21T00:00:00.000000+00:00"
+    ],
+    "2026 DateTime::date()": [
+        "2000-10-23",
+        "1984-03-18"
+    ],
+    "2026 DateTime::time()": [
+        "13:29:33",
+        "21:22:07"
+    ],
+    "2026 DateTime::unixTime()": [
+        972307773,
+        448492927
+    ],
+    "2026 DateTime::monthName()": [
+        "Winterfylleþ",
+        "Hrēþmōnaþ"
+    ],
+    "2026 DateTime::dayOfWeek()": [
+        "Mōnandæg",
+        "Sunnandæg"
+    ],
+    "2026 DateTime::localDate()": [
+        "23/10/2000",
+        "18/03/1984"
+    ],
+    "2026 DateTime::localDateTime()": [
+        "23/10/2000 13:29",
+        "18/03/1984 21:22"
+    ],
+    "2026 DateTime::century()": [
+        "IV",
+        "III"
+    ],
+    "2026 DateTime::timezone()": [
+        "Europe/London",
+        "Europe/London"
+    ],
+    "2026 Company::company()": [
+        "Beorhtweard and his brōþru",
+        "Cēapstōw Ælfwines"
+    ],
+    "2026 Company::companySuffix()": [
+        "and his suna",
+        "and his brōþru"
+    ],
+    "2026 Company::jobTitle()": [
+        "gerēfa",
+        "lǣce"
+    ],
+    "2026 Company::industry()": [
+        "Fiscoþ",
+        "Eorþtilþ"
+    ],
+    "2026 Company::catchPhrase()": [
+        "Swā sceal man dōn",
+        "Gǣð ā wyrd swā hīo scel"
+    ],
+    "2026 Address::cityData(\"ME\")": [
+        {
+            "city": "Lundenwīc",
+            "state": "Mierce",
+            "stateCode": "ME",
+            "county": "Middelseaxe",
+            "postcode": "82284",
+            "latitude": 51.513884,
+            "longitude": -0.088101
+        },
+        {
+            "city": "Lindcylene",
+            "state": "Mierce",
+            "stateCode": "ME",
+            "county": "Lindesīg",
+            "postcode": "4089",
+            "latitude": 53.231336,
+            "longitude": -0.537425
+        }
+    ],
+    "2026 DateTime::dateTimesBetween(3, \"-1 year\")": [
+        [
+            "2025-04-03T21:21:10.000000+00:00",
+            "2025-10-30T13:29:09.000000+00:00",
+            "2025-11-21T19:14:55.000000+00:00"
+        ],
+        [
+            "2025-09-03T16:46:36.000000+00:00",
+            "2025-10-09T12:36:51.000000+00:00",
+            "2025-10-15T06:47:40.000000+00:00"
+        ]
+    ]
+}

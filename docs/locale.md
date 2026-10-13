@@ -1,6 +1,6 @@
 # Locale
 
-The core has no locale - its defaults are neutral, and languages come as packs. One complete pack is included as an example: [pl_PL](../src/LanguagePack/pl_PL/README.md). A small one for fun as well: [la_VA](../src/LanguagePack/la_VA/README.md), classical Latin. Data is split in two:
+The core has no locale - its defaults are neutral, and languages come as packs. One complete pack is included as an example: [pl_PL](../src/LanguagePack/pl_PL/README.md). Small ones for fun as well: [akk_IQ](../src/DeadLanguagePack/akk_IQ/README.md) (Akkadian), [la_VA](../src/DeadLanguagePack/la_VA/README.md) (classical Latin), [grc_GR](../src/DeadLanguagePack/grc_GR/README.md) (Ancient Greek), [non_IS](../src/DeadLanguagePack/non_IS/README.md) (Old Norse), [got_IT](../src/DeadLanguagePack/got_IT/README.md) (Gothic), [gmh_DE](../src/DeadLanguagePack/gmh_DE/README.md) (Middle High German), [fro_FR](../src/DeadLanguagePack/fro_FR/README.md) (Old French), [ang_GB](../src/DeadLanguagePack/ang_GB/README.md) (Old English), [enm_GB](../src/DeadLanguagePack/enm_GB/README.md) (Middle English), [en_XS](../src/DeadLanguagePack/en_XS/README.md) (Shakespearean English) and [tlh_QO](../src/DeadLanguagePack/tlh_QO/README.md) (Klingon) - see [Dead languages](dead-languages.md). Data is split in two:
 
 | | What | Where | Default |
 |---|---|---|---|

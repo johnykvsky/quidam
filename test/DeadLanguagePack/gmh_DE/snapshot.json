@@ -1,0 +1,920 @@
+{
+    "1 Person::lastName()": [
+        "diu Mülnerinne",
+        "diu Küene"
+    ],
+    "1 Person::name()": [
+        "Irmengart an dem Bache",
+        "Irmengart von Eschenbach"
+    ],
+    "1 Person::firstName()": [
+        "Irmengart",
+        "Êrec"
+    ],
+    "1 Person::middleName()": [
+        "Irmengart",
+        "Êrec"
+    ],
+    "1 Person::age()": [
+        76,
+        42
+    ],
+    "1 Person::initials()": [
+        "IADB",
+        "IVE"
+    ],
+    "1 Person::suffix()": [
+        "der junge",
+        "der alte"
+    ],
+    "1 Person::title()": [
+        "vrouwe",
+        "künec"
+    ],
+    "1 Person::gender()": [
+        "Quidam\\Definitions\\Enum\\Gender::Female",
+        "Quidam\\Definitions\\Enum\\Gender::Female"
+    ],
+    "1 Address::city()": [
+        "Strâzburc",
+        "Wormez"
+    ],
+    "1 Address::streetName()": [
+        "Wîngazze",
+        "Kirchgazze"
+    ],
+    "1 Address::buildingNumber()": [
+        "zem guldînen Swerte",
+        "zer Sunnen"
+    ],
+    "1 Address::secondaryAddress()": [
+        "sölre",
+        "turn"
+    ],
+    "1 Address::county()": [
+        "bistuom ze Regensburc",
+        "bistuom ze Pazzouwe"
+    ],
+    "1 Address::cityData()": [
+        {
+            "city": "Strâzburc",
+            "state": "Elsaz",
+            "stateCode": "EL",
+            "county": "bistuom ze Pazzouwe",
+            "postcode": "13027",
+            "latitude": 48.58378,
+            "longitude": 7.750321
+        },
+        {
+            "city": "Strâzburc",
+            "state": "Elsaz",
+            "stateCode": "EL",
+            "county": "bistuom ze Wirzeburc",
+            "postcode": "11717",
+            "latitude": 48.584439,
+            "longitude": 7.753805
+        }
+    ],
+    "1 Address::cityPrefix()": [
+        "Ober",
+        "Niuwen"
+    ],
+    "1 Address::citySuffix()": [
+        "berc",
+        "burc"
+    ],
+    "1 Address::streetSuffix()": [
+        "strâze",
+        "gazze"
+    ],
+    "1 Address::state()": [
+        "Ôsterrîche",
+        "Vranken"
+    ],
+    "1 Address::stateCode()": [
+        "OS",
+        "VR"
+    ],
+    "1 Address::stateData()": [
+        {
+            "code": "OS",
+            "name": "Ôsterrîche"
+        },
+        {
+            "code": "VR",
+            "name": "Vranken"
+        }
+    ],
+    "1 Address::streetAddress()": [
+        "Wîngazze, hûs zer Sunnen",
+        "Hôhe strâze, hûs zer Linden"
+    ],
+    "1 Address::postcode()": [
+        "04130",
+        "79874"
+    ],
+    "1 Address::address()": [
+        "Wîngazze, hûs zer Sunnen, Babenberc",
+        "Burcgazze, hûs zem Rade, Medelicke"
+    ],
+    "1 Address::addressData()": [
+        {
+            "street": "Wîngazze, hûs zer Sunnen",
+            "city": "Ache",
+            "state": "Rînlant",
+            "stateCode": "RI",
+            "county": "bistuom ze Babenberc",
+            "postcode": "02798",
+            "latitude": 50.77542,
+            "longitude": 6.085255,
+            "address": "Wîngazze, hûs zer Sunnen, Ache"
+        },
+        {
+            "street": "Kirchgazze, hûs zem Rade",
+            "city": "Megenze",
+            "state": "Rînlant",
+            "stateCode": "RI",
+            "county": "bistuom ze Wormez",
+            "postcode": "74331",
+            "latitude": 49.999663,
+            "longitude": 8.273869,
+            "address": "Kirchgazze, hûs zem Rade, Megenze"
+        }
+    ],
+    "1 Address::country()": [
+        "Bosnia and Herzegovina",
+        "Lebanon"
+    ],
+    "1 Address::countryCode()": [
+        "BA",
+        "LB"
+    ],
+    "1 Address::countryCodeAlpha3()": [
+        "BIH",
+        "LBN"
+    ],
+    "1 Address::countryData()": [
+        {
+            "alpha2": "BA",
+            "alpha3": "BIH",
+            "name": "Bosnia and Herzegovina"
+        },
+        {
+            "alpha2": "LB",
+            "alpha3": "LBN",
+            "name": "Lebanon"
+        }
+    ],
+    "1 Address::latitude()": [
+        -35.726328,
+        -58.671206
+    ],
+    "1 Address::longitude()": [
+        -73.482063,
+        -158.674595
+    ],
+    "1 Address::coordinates()": [
+        {
+            "latitude": -35.726328,
+            "longitude": -158.674595
+        },
+        {
+            "latitude": -50.21702,
+            "longitude": -148.890107
+        }
+    ],
+    "1 DateTime::longDate()": [
+        "an dem 5. tage des Brâchmânôdes, dô man zalte von gotes gebürte tûsent niun hundert vier und ahzic jâr",
+        "an dem 24. tage des Wintermânôdes, dô man zalte von gotes gebürte zwei tûsent drîzehen jâr"
+    ],
+    "1 DateTime::dateTime()": [
+        "1984-06-05T03:26:37.000000+00:00",
+        "2013-11-24T10:59:30.000000+00:00"
+    ],
+    "1 DateTime::dateTimeBetween()": [
+        "2004-06-05T03:26:37.000000+00:00",
+        "2003-11-24T10:59:29.000000+00:00"
+    ],
+    "1 DateTime::dateTimeRange()": [
+        [
+            "2003-11-24T10:59:29.000000+00:00",
+            "2004-06-05T03:26:37.000000+00:00"
+        ],
+        [
+            "2000-05-18T22:42:04.000000+00:00",
+            "2009-05-21T08:31:08.000000+00:00"
+        ]
+    ],
+    "1 DateTime::dateTimePast()": [
+        "2025-12-20T03:24:55.000000+00:00",
+        "2026-01-13T10:51:50.000000+00:00"
+    ],
+    "1 DateTime::dateTimeFuture()": [
+        "2026-01-19T03:24:55.000000+00:00",
+        "2026-02-12T10:51:50.000000+00:00"
+    ],
+    "1 DateTime::dateOfBirth()": [
+        "1953-06-06T00:00:00.000000+00:00",
+        "1982-11-26T00:00:00.000000+00:00"
+    ],
+    "1 DateTime::date()": [
+        "1984-06-05",
+        "2013-11-24"
+    ],
+    "1 DateTime::time()": [
+        "03:26:37",
+        "10:59:30"
+    ],
+    "1 DateTime::unixTime()": [
+        455253997,
+        1385290770
+    ],
+    "1 DateTime::monthName()": [
+        "Brâchmânôt",
+        "Wintermânôt"
+    ],
+    "1 DateTime::dayOfWeek()": [
+        "zîstac",
+        "sunnentac"
+    ],
+    "1 DateTime::localDate()": [
+        "05.06.1984",
+        "24.11.2013"
+    ],
+    "1 DateTime::localDateTime()": [
+        "05.06.1984 03:26",
+        "24.11.2013 10:59"
+    ],
+    "1 DateTime::century()": [
+        "XVII",
+        "IV"
+    ],
+    "1 DateTime::timezone()": [
+        "Europe/Busingen",
+        "Europe/Berlin"
+    ],
+    "1 Company::company()": [
+        "Gêrlint diu Lange unde Elsebêt diu Beckinne",
+        "diu zunft der Wollensleher"
+    ],
+    "1 Company::companySuffix()": [
+        "und sîne gesellen",
+        "und sîne süne"
+    ],
+    "1 Company::jobTitle()": [
+        "pfaffe",
+        "smit"
+    ],
+    "1 Company::industry()": [
+        "Koufmanschaft",
+        "Tuoch"
+    ],
+    "1 Company::catchPhrase()": [
+        "Ich saz ûf eime steine",
+        "Uns ist in alten mæren wunders vil geseit"
+    ],
+    "1 Address::cityData(\"OS\")": [
+        {
+            "city": "Medelicke",
+            "state": "Ôsterrîche",
+            "stateCode": "OS",
+            "county": "bistuom ze Pazzouwe",
+            "postcode": "13027",
+            "latitude": 48.22978,
+            "longitude": 15.331321
+        },
+        {
+            "city": "Medelicke",
+            "state": "Ôsterrîche",
+            "stateCode": "OS",
+            "county": "bistuom ze Wirzeburc",
+            "postcode": "11717",
+            "latitude": 48.230439,
+            "longitude": 15.334805
+        }
+    ],
+    "1 DateTime::dateTimesBetween(3, \"-1 year\")": [
+        [
+            "2025-05-20T22:42:00.000000+00:00",
+            "2025-06-08T03:26:29.000000+00:00",
+            "2025-12-04T10:58:53.000000+00:00"
+        ],
+        [
+            "2025-01-15T23:31:21.000000+00:00",
+            "2025-06-18T08:29:28.000000+00:00",
+            "2025-08-14T21:35:11.000000+00:00"
+        ]
+    ],
+    "42 Person::lastName()": [
+        "von Tronege",
+        "der Junge"
+    ],
+    "42 Person::name()": [
+        "Gunther von Eschenbach",
+        "Adelheit von Strâzburc"
+    ],
+    "42 Person::firstName()": [
+        "Gunther",
+        "Dancwart"
+    ],
+    "42 Person::middleName()": [
+        "Gunther",
+        "Dancwart"
+    ],
+    "42 Person::age()": [
+        72,
+        64
+    ],
+    "42 Person::initials()": [
+        "GVE",
+        "AVS"
+    ],
+    "42 Person::suffix()": [
+        "der alte",
+        "der alte"
+    ],
+    "42 Person::title()": [
+        "herzoge",
+        "meister"
+    ],
+    "42 Person::gender()": [
+        "Quidam\\Definitions\\Enum\\Gender::Male",
+        "Quidam\\Definitions\\Enum\\Gender::Male"
+    ],
+    "42 Address::city()": [
+        "Goslâr",
+        "Zürich"
+    ],
+    "42 Address::streetName()": [
+        "Brôtgazze",
+        "Rîngazze"
+    ],
+    "42 Address::buildingNumber()": [
+        "zer Rôsen",
+        "zem Adelar"
+    ],
+    "42 Address::secondaryAddress()": [
+        "turn",
+        "turn"
+    ],
+    "42 Address::county()": [
+        "bistuom ze Wirzeburc",
+        "bistuom ze Spîre"
+    ],
+    "42 Address::cityData()": [
+        {
+            "city": "Goslâr",
+            "state": "Sahsen",
+            "stateCode": "SA",
+            "county": "bistuom ze Spîre",
+            "postcode": "96005",
+            "latitude": 51.908005,
+            "longitude": 10.427206
+        },
+        {
+            "city": "Kölne",
+            "state": "Rînlant",
+            "stateCode": "RI",
+            "county": "bistuom ze Kölne",
+            "postcode": "43672",
+            "latitude": 50.938676,
+            "longitude": 6.955366
+        }
+    ],
+    "42 Address::cityPrefix()": [
+        "Niuwen",
+        "Niuwen"
+    ],
+    "42 Address::citySuffix()": [
+        "burc",
+        "stat"
+    ],
+    "42 Address::streetSuffix()": [
+        "gazze",
+        "strâze"
+    ],
+    "42 Address::state()": [
+        "Elsaz",
+        "Elsaz"
+    ],
+    "42 Address::stateCode()": [
+        "EL",
+        "EL"
+    ],
+    "42 Address::stateData()": [
+        {
+            "code": "EL",
+            "name": "Elsaz"
+        },
+        {
+            "code": "EL",
+            "name": "Elsaz"
+        }
+    ],
+    "42 Address::streetAddress()": [
+        "Brôtgazze, hûs zem Adelar",
+        "Mülngazze, hûs zem Bern"
+    ],
+    "42 Address::postcode()": [
+        "09960",
+        "52333"
+    ],
+    "42 Address::address()": [
+        "Brôtgazze, hûs zem Adelar, Erfurt",
+        "Hôhe strâze, hûs zem Rade, Spîre"
+    ],
+    "42 Address::addressData()": [
+        {
+            "street": "Brôtgazze, hûs zem Adelar",
+            "city": "Wiene",
+            "state": "Ôsterrîche",
+            "stateCode": "OS",
+            "county": "bistuom ze Wormez",
+            "postcode": "00523",
+            "latitude": 48.205377,
+            "longitude": 16.372578,
+            "address": "Brôtgazze, hûs zem Adelar, Wiene"
+        },
+        {
+            "street": "Smidegazze, hûs zem Adelar",
+            "city": "Kölne",
+            "state": "Rînlant",
+            "stateCode": "RI",
+            "county": "bistuom ze Triere",
+            "postcode": "29431",
+            "latitude": 50.937429,
+            "longitude": 6.955883,
+            "address": "Smidegazze, hûs zem Adelar, Kölne"
+        }
+    ],
+    "42 Address::country()": [
+        "Eritrea",
+        "Malaysia"
+    ],
+    "42 Address::countryCode()": [
+        "ER",
+        "MY"
+    ],
+    "42 Address::countryCodeAlpha3()": [
+        "ERI",
+        "MYS"
+    ],
+    "42 Address::countryData()": [
+        {
+            "alpha2": "ER",
+            "alpha3": "ERI",
+            "name": "Eritrea"
+        },
+        {
+            "alpha2": "MY",
+            "alpha3": "MYS",
+            "name": "Malaysia"
+        }
+    ],
+    "42 Address::latitude()": [
+        -48.708734,
+        58.043118
+    ],
+    "42 Address::longitude()": [
+        131.650629,
+        -154.797659
+    ],
+    "42 Address::coordinates()": [
+        {
+            "latitude": -48.708734,
+            "longitude": -154.797659
+        },
+        {
+            "latitude": 15.729389,
+            "longitude": -65.414919
+        }
+    ],
+    "42 DateTime::longDate()": [
+        "an dem 8. tage des Höumânôdes, dô man zalte von gotes gebürte tûsent niun hundert zwei und ahzic jâr",
+        "an dem 9. tage des Hartmânôdes, dô man zalte von gotes gebürte tûsent niun hundert vier und ahzic jâr"
+    ],
+    "42 DateTime::dateTime()": [
+        "1982-07-08T02:06:54.000000+00:00",
+        "1984-01-09T04:57:09.000000+00:00"
+    ],
+    "42 DateTime::dateTimeBetween()": [
+        "2002-07-08T02:06:54.000000+00:00",
+        "2024-01-09T04:57:09.000000+00:00"
+    ],
+    "42 DateTime::dateTimeRange()": [
+        [
+            "2002-07-08T02:06:54.000000+00:00",
+            "2024-01-09T04:57:09.000000+00:00"
+        ],
+        [
+            "1996-10-25T03:17:28.000000+00:00",
+            "1998-01-03T00:58:49.000000+00:00"
+        ]
+    ],
+    "42 DateTime::dateTimePast()": [
+        "2026-01-11T02:05:36.000000+00:00",
+        "2026-01-14T04:45:25.000000+00:00"
+    ],
+    "42 DateTime::dateTimeFuture()": [
+        "2026-02-10T02:05:36.000000+00:00",
+        "2026-02-13T04:45:25.000000+00:00"
+    ],
+    "42 DateTime::dateOfBirth()": [
+        "1951-07-09T00:00:00.000000+00:00",
+        "2003-01-10T00:00:00.000000+00:00"
+    ],
+    "42 DateTime::date()": [
+        "1982-07-08",
+        "1984-01-09"
+    ],
+    "42 DateTime::time()": [
+        "02:06:54",
+        "04:57:09"
+    ],
+    "42 DateTime::unixTime()": [
+        394942014,
+        442472229
+    ],
+    "42 DateTime::monthName()": [
+        "Höumânôt",
+        "Hartmânôt"
+    ],
+    "42 DateTime::dayOfWeek()": [
+        "donerstac",
+        "mântac"
+    ],
+    "42 DateTime::localDate()": [
+        "08.07.1982",
+        "09.01.1984"
+    ],
+    "42 DateTime::localDateTime()": [
+        "08.07.1982 02:06",
+        "09.01.1984 04:57"
+    ],
+    "42 DateTime::century()": [
+        "XIII",
+        "V"
+    ],
+    "42 DateTime::timezone()": [
+        "Europe/Berlin",
+        "Europe/Berlin"
+    ],
+    "42 Company::company()": [
+        "Gunther von Eschenbach und sîne bruoder",
+        "diu zunft der Goltsmide"
+    ],
+    "42 Company::companySuffix()": [
+        "und sîne süne",
+        "und sîne gesellen"
+    ],
+    "42 Company::jobTitle()": [
+        "mülner",
+        "smit"
+    ],
+    "42 Company::industry()": [
+        "Minnesanc",
+        "Minnesanc"
+    ],
+    "42 Company::catchPhrase()": [
+        "Uns ist in alten mæren wunders vil geseit",
+        "Dû bist mîn, ich bin dîn"
+    ],
+    "42 Address::cityData(\"OS\")": [
+        {
+            "city": "Tulne",
+            "state": "Ôsterrîche",
+            "stateCode": "OS",
+            "county": "bistuom ze Spîre",
+            "postcode": "96005",
+            "latitude": 48.333005,
+            "longitude": 16.054206
+        },
+        {
+            "city": "Medelicke",
+            "state": "Ôsterrîche",
+            "stateCode": "OS",
+            "county": "bistuom ze Kölne",
+            "postcode": "43672",
+            "latitude": 48.228676,
+            "longitude": 15.330366
+        }
+    ],
+    "42 DateTime::dateTimesBetween(3, \"-1 year\")": [
+        [
+            "2025-01-24T04:56:12.000000+00:00",
+            "2025-07-10T02:06:48.000000+00:00",
+            "2025-11-03T03:16:59.000000+00:00"
+        ],
+        [
+            "2025-10-06T13:45:56.000000+00:00",
+            "2025-10-28T15:25:20.000000+00:00",
+            "2026-01-04T00:58:48.000000+00:00"
+        ]
+    ],
+    "2026 Person::lastName()": [
+        "von Bechelâren",
+        "diu Smidinne"
+    ],
+    "2026 Person::name()": [
+        "Herzeloyde diu Schrîberinne",
+        "Herzeloyde von Strâzburc"
+    ],
+    "2026 Person::firstName()": [
+        "Herzeloyde",
+        "Elsebêt"
+    ],
+    "2026 Person::middleName()": [
+        "Herzeloyde",
+        "Elsebêt"
+    ],
+    "2026 Person::age()": [
+        63,
+        41
+    ],
+    "2026 Person::initials()": [
+        "HDS",
+        "HVS"
+    ],
+    "2026 Person::suffix()": [
+        "der junge",
+        "der alte"
+    ],
+    "2026 Person::title()": [
+        "eppetissinne",
+        "swester"
+    ],
+    "2026 Person::gender()": [
+        "Quidam\\Definitions\\Enum\\Gender::Female",
+        "Quidam\\Definitions\\Enum\\Gender::Male"
+    ],
+    "2026 Address::city()": [
+        "Kölne",
+        "Hagenouwe"
+    ],
+    "2026 Address::streetName()": [
+        "Hôhe strâze",
+        "Wîngazze"
+    ],
+    "2026 Address::buildingNumber()": [
+        "zem Bern",
+        "zem Lewen"
+    ],
+    "2026 Address::secondaryAddress()": [
+        "sölre",
+        "keller"
+    ],
+    "2026 Address::county()": [
+        "bistuom ze Wormez",
+        "bistuom ze Triere"
+    ],
+    "2026 Address::cityData()": [
+        {
+            "city": "Kölne",
+            "state": "Rînlant",
+            "stateCode": "RI",
+            "county": "bistuom ze Triere",
+            "postcode": "22845",
+            "latitude": 50.940899,
+            "longitude": 6.959028
+        },
+        {
+            "city": "Brûneswîc",
+            "state": "Sahsen",
+            "stateCode": "SA",
+            "county": "bistuom ze Spîre",
+            "postcode": "89397",
+            "latitude": 52.262792,
+            "longitude": 10.524155
+        }
+    ],
+    "2026 Address::cityPrefix()": [
+        "Ober",
+        "Nider"
+    ],
+    "2026 Address::citySuffix()": [
+        "heim",
+        "dorf"
+    ],
+    "2026 Address::streetSuffix()": [
+        "gazze",
+        "market"
+    ],
+    "2026 Address::state()": [
+        "Ôsterrîche",
+        "Beiern"
+    ],
+    "2026 Address::stateCode()": [
+        "OS",
+        "BA"
+    ],
+    "2026 Address::stateData()": [
+        {
+            "code": "OS",
+            "name": "Ôsterrîche"
+        },
+        {
+            "code": "BA",
+            "name": "Beiern"
+        }
+    ],
+    "2026 Address::streetAddress()": [
+        "Hôhe strâze, hûs zem Lewen",
+        "Brôtgazze, hûs zem Slüzzel"
+    ],
+    "2026 Address::postcode()": [
+        "88228",
+        "53154"
+    ],
+    "2026 Address::address()": [
+        "Hôhe strâze, hûs zem Lewen, Magdeburc",
+        "Hôhe strâze, hûs zer Linden, Strâzburc"
+    ],
+    "2026 Address::addressData()": [
+        {
+            "street": "Hôhe strâze, hûs zem Lewen",
+            "city": "Wirzeburc",
+            "state": "Vranken",
+            "stateCode": "VR",
+            "county": "bistuom ze Ougesburc",
+            "postcode": "84531",
+            "latitude": 49.789299,
+            "longitude": 9.933699,
+            "address": "Hôhe strâze, hûs zem Lewen, Wirzeburc"
+        },
+        {
+            "street": "Kirchgazze, hûs zem Slüzzel",
+            "city": "Wiene",
+            "state": "Ôsterrîche",
+            "stateCode": "OS",
+            "county": "bistuom ze Babenberc",
+            "postcode": "71984",
+            "latitude": 48.209048,
+            "longitude": 16.371166,
+            "address": "Kirchgazze, hûs zem Slüzzel, Wiene"
+        }
+    ],
+    "2026 Address::country()": [
+        "Estonia",
+        "Belarus"
+    ],
+    "2026 Address::countryCode()": [
+        "EE",
+        "BY"
+    ],
+    "2026 Address::countryCodeAlpha3()": [
+        "EST",
+        "BLR"
+    ],
+    "2026 Address::countryData()": [
+        {
+            "alpha2": "EE",
+            "alpha3": "EST",
+            "name": "Estonia"
+        },
+        {
+            "alpha2": "BY",
+            "alpha3": "BLR",
+            "name": "Belarus"
+        }
+    ],
+    "2026 Address::latitude()": [
+        -0.121337,
+        1.401902
+    ],
+    "2026 Address::longitude()": [
+        -20.542136,
+        130.263131
+    ],
+    "2026 Address::coordinates()": [
+        {
+            "latitude": -0.121337,
+            "longitude": 130.263131
+        },
+        {
+            "latitude": 78.723224,
+            "longitude": -2.89545
+        }
+    ],
+    "2026 DateTime::longDate()": [
+        "an dem 23. tage des Wînmânôdes, dô man zalte von gotes gebürte zwei tûsent jâr",
+        "an dem 18. tage des Lenzemânôdes, dô man zalte von gotes gebürte tûsent niun hundert vier und ahzic jâr"
+    ],
+    "2026 DateTime::dateTime()": [
+        "2000-10-23T13:29:33.000000+00:00",
+        "1984-03-18T21:22:07.000000+00:00"
+    ],
+    "2026 DateTime::dateTimeBetween()": [
+        "2020-10-23T13:29:33.000000+00:00",
+        "2024-03-18T21:22:07.000000+00:00"
+    ],
+    "2026 DateTime::dateTimeRange()": [
+        [
+            "2020-10-23T13:29:33.000000+00:00",
+            "2024-03-18T21:22:07.000000+00:00"
+        ],
+        [
+            "2007-09-20T12:38:00.000000+00:00",
+            "2019-10-30T19:16:16.000000+00:00"
+        ]
+    ],
+    "2026 DateTime::dateTimePast()": [
+        "2026-01-03T13:24:32.000000+00:00",
+        "2025-12-24T21:10:20.000000+00:00"
+    ],
+    "2026 DateTime::dateTimeFuture()": [
+        "2026-02-02T13:24:32.000000+00:00",
+        "2026-01-23T21:10:20.000000+00:00"
+    ],
+    "2026 DateTime::dateOfBirth()": [
+        "1969-10-25T00:00:00.000000+00:00",
+        "2003-03-21T00:00:00.000000+00:00"
+    ],
+    "2026 DateTime::date()": [
+        "2000-10-23",
+        "1984-03-18"
+    ],
+    "2026 DateTime::time()": [
+        "13:29:33",
+        "21:22:07"
+    ],
+    "2026 DateTime::unixTime()": [
+        972307773,
+        448492927
+    ],
+    "2026 DateTime::monthName()": [
+        "Wînmânôt",
+        "Lenzemânôt"
+    ],
+    "2026 DateTime::dayOfWeek()": [
+        "mântac",
+        "sunnentac"
+    ],
+    "2026 DateTime::localDate()": [
+        "23.10.2000",
+        "18.03.1984"
+    ],
+    "2026 DateTime::localDateTime()": [
+        "23.10.2000 13:29",
+        "18.03.1984 21:22"
+    ],
+    "2026 DateTime::century()": [
+        "IV",
+        "III"
+    ],
+    "2026 DateTime::timezone()": [
+        "Europe/Busingen",
+        "Europe/Berlin"
+    ],
+    "2026 Company::company()": [
+        "Hartman der Schrîber und sîne gesellen",
+        "Otte der Wîse und sîne gesellen"
+    ],
+    "2026 Company::companySuffix()": [
+        "und sîne süne",
+        "und sîne bruoder"
+    ],
+    "2026 Company::jobTitle()": [
+        "vischer",
+        "vogt"
+    ],
+    "2026 Company::industry()": [
+        "Koufmanschaft",
+        "Wîn"
+    ],
+    "2026 Company::catchPhrase()": [
+        "Owê war sint verswunden alliu mîniu jâr",
+        "Under der linden an der heide"
+    ],
+    "2026 Address::cityData(\"OS\")": [
+        {
+            "city": "Medelicke",
+            "state": "Ôsterrîche",
+            "stateCode": "OS",
+            "county": "bistuom ze Triere",
+            "postcode": "22845",
+            "latitude": 48.230899,
+            "longitude": 15.334028
+        },
+        {
+            "city": "Wiene",
+            "state": "Ôsterrîche",
+            "stateCode": "OS",
+            "county": "bistuom ze Spîre",
+            "postcode": "89397",
+            "latitude": 48.206792,
+            "longitude": 16.373155
+        }
+    ],
+    "2026 DateTime::dateTimesBetween(3, \"-1 year\")": [
+        [
+            "2025-04-03T21:21:10.000000+00:00",
+            "2025-10-30T13:29:09.000000+00:00",
+            "2025-11-21T19:14:55.000000+00:00"
+        ],
+        [
+            "2025-09-03T16:46:36.000000+00:00",
+            "2025-10-09T12:36:51.000000+00:00",
+            "2025-10-15T06:47:40.000000+00:00"
+        ]
+    ]
+}

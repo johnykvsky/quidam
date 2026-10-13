@@ -23,6 +23,7 @@ Example values in this documentation show formats - your values will differ. Val
 * [Data quality](data-quality.md) - generators improved over FakerPHP, measured: text, names, passwords, emails, IPs, MAC addresses, `regexify()`, floats, UUIDs, BICs, cards, barcodes, IMEIs, countries and languages, colors, files, user agents, rich text; why there's no `Biased`
 * [Extending](extending.md) - language packs: overriding data, provider and definition packs, calculators, own replaceable extensions
 * [Polish language pack](../src/LanguagePack/pl_PL/README.md) - pl_PL included with Quidam: real places, banks, identifiers (PESEL, NIP...) - and a template for other languages
+* [Dead languages](dead-languages.md) - packs for fun: Akkadian, Ancient Greek, Latin, Gothic, Old English, Old Norse, Old French, Middle High German, Middle English, Shakespearean English - and Klingon; their scripts, calendars and money
 * [Strategies](strategies.md) - unique, valid and optional values, mixing them, generator-wide strategies, own strategies
 * [Containers](containers.md) - the built-in container, writing an adapter (PHP-DI example)
 * [Add-ons](#add-ons) - Template, Filler, Text, RichText, EdgeCases; [command line](cli.md)
